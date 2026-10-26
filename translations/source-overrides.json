@@ -941,5 +941,240 @@
         "tatoeba_id": 117903
       }
     ]
+  },
+  "N3:vocab:27db6f596b": {
+    "meanings": [
+      "picture frame",
+      "framed picture",
+      "amount of money"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N3:vocab:f6d4ab33ef": {
+    "meanings": [
+      "to hold in the arms",
+      "to have a problem or responsibility"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N3:vocab:382bde5adf": {
+    "meanings": [
+      "to limit",
+      "to confine",
+      "not necessarily (with to wa kagiranai)",
+      "best choice (with ni kagiru)"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N3:vocab:7582c1d86e": {
+    "meanings": [
+      "shadow",
+      "reflection",
+      "silhouette"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N3:vocab:20fbba9af9": {
+    "meanings": [
+      "shade",
+      "a concealed or sheltered place",
+      "behind the scenes"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N3:vocab:b5afc90a96": {
+    "meanings": [
+      "to be lacking",
+      "to chip or break off",
+      "to be incomplete"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations.",
+    "examples": [
+      {
+        "ja": "メアリーは思いやりに欠けている。",
+        "furigana": "メアリーは{思|おも}いやりに{欠|か}けている。",
+        "en": "Mary lacks consideration for others.",
+        "tatoeba_id": 194593
+      },
+      {
+        "ja": "奥歯が欠けました。",
+        "furigana": "{奥歯|おくば}が{欠|か}けました。",
+        "en": "My back tooth has chipped.",
+        "tatoeba_id": 188549
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "メアリーは思いやりに欠けている。",
+        "furigana": "メアリーは{思|おも}いやりに{欠|か}けている。",
+        "en": "Mary is lacking in delicacy.",
+        "tatoeba_id": 194593
+      },
+      {
+        "ja": "奥歯が欠けました。",
+        "furigana": "{奥歯|おくば}が{欠|か}けました。",
+        "en": "My back tooth has chipped.",
+        "tatoeba_id": 188549
+      }
+    ]
+  },
+  "N3:vocab:04e1e7a756": {
+    "meanings": [
+      "degree or condition",
+      "state of health",
+      "adjustment",
+      "addition and subtraction"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N2:vocab:7f59e7581c": {
+    "meanings": [
+      "expansion",
+      "extension",
+      "enlargement"
+    ],
+    "review_note": "Clarified lexical senses for the Japanese spelling and supplied examples; removed inherited conflations."
+  },
+  "N2:vocab:49cdd6ad6a": {
+    "examples": [
+      {
+        "ja": "ロブスターは海洋動物の一種に属します。",
+        "en": "Lobsters belong to a class of marine animals.",
+        "tatoeba_id": 192166
+      },
+      {
+        "ja": "海洋の環境を守ることは大切です。",
+        "en": "It is important to protect the marine environment.",
+        "source": "Authored replacement: Replaced inherited ocean-count statement with a neutral example."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "ロブスターは海洋動物の一種に属します。",
+        "en": "Lobsters belong to a class of marine animals.",
+        "tatoeba_id": 192166
+      },
+      {
+        "ja": "世界には四つの海洋がある。",
+        "furigana": "{世界|せかい}には{四|よっ}つの{海洋|かいよう}がある。",
+        "en": "There are four oceans in the world.",
+        "tatoeba_id": 143446
+      }
+    ]
+  },
+  "N2:vocab:8355396ec5": {
+    "examples": [
+      {
+        "ja": "この仕事は別の人に代えてもらいます。",
+        "en": "I will have someone else take over this work.",
+        "source": "Authored replacement: Replaced an inherited example using 替える with an example of 代える."
+      },
+      {
+        "ja": "真の友情は千金にも代え難い。",
+        "en": "True friendship is priceless.",
+        "tatoeba_id": 144995
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "お花の水を替えましょう。",
+        "furigana": "お{花|はな}の{水|みず}を{替|か}えましょう。",
+        "en": "Shall I change the water for the flowers?",
+        "tatoeba_id": 227392
+      },
+      {
+        "ja": "真の友情は千金にも代え難い。",
+        "en": "True friendship is priceless.",
+        "tatoeba_id": 144995
+      }
+    ]
+  },
+  "N3:vocab:a0748eb71f": {
+    "examples": [
+      {
+        "ja": "彼は非常に学がある。",
+        "furigana": "{彼|かれ}は{非常|ひじょう}に{学|がく}がある。",
+        "en": "He is very learned.",
+        "tatoeba_id": 100723
+      },
+      {
+        "ja": "少年老い易く学成り難し。",
+        "en": "Youth passes quickly, while learning is hard to master.",
+        "tatoeba_id": 146487
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼は非常に学がある。",
+        "furigana": "{彼|かれ}は{非常|ひじょう}に{学|がく}がある。",
+        "en": "He is very learned.",
+        "tatoeba_id": 100723
+      },
+      {
+        "ja": "少年老い易く学成り難し。",
+        "en": "Art is long, time is fleeting.",
+        "tatoeba_id": 146487
+      }
+    ]
+  },
+  "N2:vocab:8d3e656e69": {
+    "examples": [
+      {
+        "ja": "高望みをするとかえって損をする。",
+        "furigana": "{高望|たかのぞ}みをするとかえって{損|そん}をする。",
+        "en": "If you aim too high, you will suffer a loss instead.",
+        "tatoeba_id": 173181
+      },
+      {
+        "ja": "彼はいないのでかえって目立った。",
+        "furigana": "{彼|かれ}はいないのでかえって{目立|めだ}った。",
+        "en": "He was conspicuous by his absence.",
+        "tatoeba_id": 114420
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "高望みをするとかえって損をする。",
+        "furigana": "{高望|たかのぞ}みをするとかえって{損|そん}をする。",
+        "en": "You may go farther and fare worse.",
+        "tatoeba_id": 173181
+      },
+      {
+        "ja": "彼はいないのでかえって目立った。",
+        "furigana": "{彼|かれ}はいないのでかえって{目立|めだ}った。",
+        "en": "He was conspicuous by his absence.",
+        "tatoeba_id": 114420
+      }
+    ]
+  },
+  "N2:vocab:833372d072": {
+    "examples": [
+      {
+        "ja": "学部の選択で迷った。",
+        "furigana": "{学部|がくぶ}の{選択|せんたく}で{迷|まよ}った。",
+        "en": "The choice of faculty was difficult.",
+        "tatoeba_id": 184188
+      },
+      {
+        "ja": "私たちの大学は８つの学部から成っている。",
+        "furigana": "{私|わたし}たちの{大学|だいがく}は８つの{学部|がくぶ}から{成|な}っている。",
+        "en": "Our university consists of eight departments.",
+        "tatoeba_id": 166870
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "学部の選択で迷った。",
+        "furigana": "{学部|がくぶ}の{選択|せんたく}で{迷|まよ}った。",
+        "en": "He was at a loss as to which faculty to choose.",
+        "tatoeba_id": 184188
+      },
+      {
+        "ja": "私たちの大学は８つの学部から成っている。",
+        "furigana": "{私|わたし}たちの{大学|だいがく}は８つの{学部|がくぶ}から{成|な}っている。",
+        "en": "Our university consists of eight departments.",
+        "tatoeba_id": 166870
+      }
+    ]
   }
 }
