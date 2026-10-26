@@ -1,12 +1,12 @@
 {
   "status": "in-progress",
   "total_bengali_fields": 39589,
-  "ai_semantic_checked_fields": 5454,
-  "pending_fields": 34135,
+  "ai_semantic_checked_fields": 5484,
+  "pending_fields": 34105,
   "stale_evidence_fields": 0,
   "checked_by_level": {
     "N5": 1293,
-    "N3": 2131,
+    "N3": 2161,
     "N2": 2030
   },
   "native_speaker_review": "not performed",
