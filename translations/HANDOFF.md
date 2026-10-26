@@ -1,5 +1,14 @@
 # Nihongo Path Books handoff — 26 October 2026
 
+## Adsterra display integration
+
+Base commit: `8b4b1154cf44b2339237a93cd0a3e0f27aea94c9`. Owner-authorized Adsterra publisher setup registered host mr04nazmul.github.io, Books category, adult ads disabled. Website ID6151421 was approved; 300x250 unit31927578 and 320x50 unit31927579 were active. Their public code was copied from the signed-in GET CODE panels.
+
+One viewport-selected display banner is inserted below main content. The provider’s supplied classic snippet is unmodified inside a same-origin banner document so loading it does not block the learning app. There is no periodic refresh, Popunder, Social Bar, Smartlink, or book navigation gate in the Adsterra integration. Existing AdSense config and ads.txt are unchanged. Privacy disclosure includes Adsterra.
+
+The requested five-second book-opening Skip placement is NOT enabled: available official documentation describes Interstitials but does not establish permission to repurpose a display banner into a forced five-second gate. No approved interstitial-only book-open code has been obtained. Keep bookOpen.enabled=false until that exact setup is authorized by Adsterra. Never fabricate an ad, count a loading timer as an impression, or delay reading when no approved ad is available. No third-party support message was sent. Local checks:7 Python and16 JavaScript tests pass. Live banner verification follows publication.
+
+
 ## Open-book reader revision
 
 Base commit: `d47fa3cc42efc5e32a0fa3b296248a886d402b95`. Six physically separate books now replace the mixed N1/Extra collection. N5–N1 vocabulary counts: 697, 637, 1,722, 1,793, 3,179 (8,028 total); Extra has 4,109. The immutable pre-split corpus inventory and rebuild audit prove all 12,137 vocabulary entries plus all grammar/kanji identities survive with zero missing, duplicate, unexpected or misplaced entries. Canonical Extra IDs and N1 bookmark identities are retained. All included primary/reference source inventory records are also tested. This proves retention of the existing source collection, not an official exhaustive JLPT word list.

@@ -2,7 +2,7 @@
 import concurrent.futures,hashlib,json,pathlib,sys,urllib.request
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 base=sys.argv[1] if len(sys.argv)>1 else 'https://mr04nazmul.github.io/nihongo-path-books/'
-paths=[f'data/n{n}.json' for n in range(1,6)]+['data/extra.json','data/book-inventory.json','data/book-audit.json',*[f'n{n}.html' for n in range(1,6)],'extra.html']+['data/review-status.json','data/review-progress.json','data/index.json','app.js','styles.css','speech.js','ads-config.js','audio/manifest.json']
+paths=[f'data/n{n}.json' for n in range(1,6)]+['data/extra.json','data/book-inventory.json','data/book-audit.json',*[f'n{n}.html' for n in range(1,6)],'extra.html']+['data/review-status.json','data/review-progress.json','data/index.json','app.js','styles.css','speech.js','ads-config.js','audio/manifest.json','adsterra.js','adsterra-config.js','adsterra-banner-desktop.html','adsterra-banner-mobile.html']
 def check(path):
  with urllib.request.urlopen(base+path,timeout=45) as r:data=r.read();status=r.status
  local=(ROOT/'dist'/path).read_bytes();assert data==local,path

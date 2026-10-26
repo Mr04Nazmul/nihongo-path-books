@@ -11,3 +11,5 @@
 .paper-page:focus-visible{outline:2px solid var(--accent);outline-offset:-5px}
 
 .jump-button{border:1px solid var(--line);border-radius:3px;background:var(--panel);color:var(--ink);padding:7px 9px;font:11px var(--sans);cursor:pointer}.jump-button:hover{background:var(--soft)}
+
+.adsterra-panel{margin-inline:0;padding:18px 0;overflow-x:auto}.adsterra-slot{margin:12px auto;max-width:100%}
