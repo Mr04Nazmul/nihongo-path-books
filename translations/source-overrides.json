@@ -54,5 +54,265 @@
       "lifespan"
     ],
     "review_note": "The supplied reading is いのち; command/decree belong to other readings and are not the meaning of either supplied example."
+  },
+  "N3:vocab:215cb207d4": {
+    "meanings": [
+      "to shoot",
+      "to fire a gun"
+    ],
+    "review_note": "Corrected the lexical senses for the supplied Japanese headword and reading."
+  },
+  "N3:vocab:207f712b62": {
+    "meanings": [
+      "before long",
+      "someday"
+    ],
+    "review_note": "Corrected the lexical senses for the supplied Japanese headword and reading."
+  },
+  "N2:vocab:5ba9e0b071": {
+    "meanings": [
+      "to tell fortunes",
+      "to divine the future"
+    ],
+    "review_note": "Corrected the lexical senses for the supplied Japanese headword and reading."
+  },
+  "N3:vocab:15d4ea5f82": {
+    "examples": [
+      {
+        "ja": "いや、当初の考えはそうでした。",
+        "furigana": "いや、{当初|とうしょ}の{考|かんが}えはそうでした。",
+        "en": "No, that was the original idea.",
+        "tatoeba_id": 228496
+      },
+      {
+        "ja": "いや、今は持ってない。",
+        "furigana": "いや、{今|いま}は{持|も}ってない。",
+        "en": "No, I don't have it with me.",
+        "tatoeba_id": 228504
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "いや、当初の考えはそうでした。",
+        "furigana": "いや、{当初|とうしょ}の{考|かんが}えはそうでした。",
+        "en": "Or that was the idea.",
+        "tatoeba_id": 228496
+      },
+      {
+        "ja": "いや、今は持ってない。",
+        "furigana": "いや、{今|いま}は{持|も}ってない。",
+        "en": "No, I don't have it with me.",
+        "tatoeba_id": 228504
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N3:vocab:474dad1005": {
+    "examples": [
+      {
+        "ja": "私は彼の卒業祝いに電報を打った。",
+        "en": "I sent him a congratulatory telegram on his graduation.",
+        "tatoeba_id": 153832
+      },
+      {
+        "ja": "父は誕生日の祝いに時計をくれた。",
+        "furigana": "{父|ちち}は{誕生日|たんじょうび}の{祝|いわ}いに{時計|とけい}をくれた。",
+        "en": "My father gave me a watch for my birthday.",
+        "tatoeba_id": 84420
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私は彼の卒業祝いに電報を打った。",
+        "en": "I wired him a message of congratulation on his graduation.",
+        "tatoeba_id": 153832
+      },
+      {
+        "ja": "父は誕生日の祝いに時計をくれた。",
+        "furigana": "{父|ちち}は{誕生日|たんじょうび}の{祝|いわ}いに{時計|とけい}をくれた。",
+        "en": "My father gave me a watch for my birthday.",
+        "tatoeba_id": 84420
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N3:vocab:5514dc4a90": {
+    "examples": [
+      {
+        "ja": "彼は商売をたたんで引退した。",
+        "furigana": "{彼|かれ}は{商売|しょうばい}をたたんで{引退|いんたい}した。",
+        "en": "He closed his business and retired.",
+        "tatoeba_id": 104185
+      },
+      {
+        "ja": "私は引退しようと決心しています。",
+        "furigana": "{私|わたし}は{引退|いんたい}しようと{決心|けっしん}しています。",
+        "en": "I have decided to retire.",
+        "tatoeba_id": 158408
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼は商売をたたんで引退した。",
+        "furigana": "{彼|かれ}は{商売|しょうばい}をたたんで{引退|いんたい}した。",
+        "en": "He sold his business and retired.",
+        "tatoeba_id": 104185
+      },
+      {
+        "ja": "私は引退しようと決心しています。",
+        "furigana": "{私|わたし}は{引退|いんたい}しようと{決心|けっしん}しています。",
+        "en": "I have decided to retire.",
+        "tatoeba_id": 158408
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N3:vocab:b73c4e0e07": {
+    "examples": [
+      {
+        "ja": "帰ったら、うがいをしてください。",
+        "en": "Please gargle when you get home.",
+        "source": "Authored replacement: inherited examples were unrelated to うがい."
+      },
+      {
+        "ja": "私は水でうがいをしました。",
+        "en": "I gargled with water.",
+        "source": "Authored replacement: inherited examples were unrelated to うがい."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "熱があるので家にいたほうがいい。",
+        "furigana": "{熱|ねつ}があるので{家|いえ}にいたほうがいい。",
+        "en": "As you have a fever, you'd better stay home.",
+        "tatoeba_id": 121904
+      },
+      {
+        "ja": "今は彼女と会わないほうがいいよ。",
+        "furigana": "{今|いま}は{彼女|かのじょ}と{会|あ}わないほうがいいよ。",
+        "en": "You'd better not see her now.",
+        "tatoeba_id": 177297
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N2:vocab:503bf9a13e": {
+    "examples": [
+      {
+        "ja": "お受け取りくださって幸いに存じます。",
+        "en": "It was gracious of you to accept.",
+        "tatoeba_id": 227031
+      },
+      {
+        "ja": "招待状お受け取りをお知らせください。",
+        "furigana": "{招待状|しょうたいじょう}お{受|う}け{取|と}りをお{知|し}らせください。",
+        "en": "Please let us know that you received the invitation.",
+        "tatoeba_id": 146442
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "お受け取りくださって幸いに存じます。",
+        "en": "It was gracious of you to accept.",
+        "tatoeba_id": 227031
+      },
+      {
+        "ja": "招待状お受け取りをお知らせください。",
+        "furigana": "{招待状|しょうたいじょう}お{受|う}け{取|と}りをお{知|し}らせください。",
+        "en": "Please respond at your earliest convenience.",
+        "tatoeba_id": 146442
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N2:vocab:8d45108aac": {
+    "examples": [
+      {
+        "ja": "うまく写っているといいですが。",
+        "furigana": "うまく{写|うつ}っているといいですが。",
+        "en": "I hope it'll come out good.",
+        "tatoeba_id": 228093
+      },
+      {
+        "ja": "この写真には家族全員が写っています。",
+        "en": "All family members are in this photograph.",
+        "source": "Authored replacement: the inherited mirror sentence used the wrong homophone."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "うまく写っているといいですが。",
+        "furigana": "うまく{写|うつ}っているといいですが。",
+        "en": "I hope it'll come out good.",
+        "tatoeba_id": 228093
+      },
+      {
+        "ja": "私は鏡に写っている自分を見つめているのです。",
+        "furigana": "{私|わたし}は{鏡|かがみ}に{写|うつ}っている{自分|じぶん}を{見|み}つめているのです。",
+        "en": "I'm staring at myself in a mirror.",
+        "tatoeba_id": 157585
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N2:vocab:d95334bf4d": {
+    "examples": [
+      {
+        "ja": "私は、年上の人を敬うように教えられた。",
+        "furigana": "{私|わたし}は、{年上|としうえ}の{人|ひと}を{敬|うやま}うように{教|おし}えられた。",
+        "en": "I was taught to respect my elders.",
+        "tatoeba_id": 162200
+      },
+      {
+        "ja": "私たちは祖先をうやまうべきだ。",
+        "furigana": "{私|わたし}たちは{祖先|そせん}をうやまうべきだ。",
+        "en": "We should respect our ancestors.",
+        "tatoeba_id": 165506
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私は、年上の人を敬うように教えられた。",
+        "furigana": "{私|わたし}は、{年上|としうえ}の{人|ひと}を{敬|うやま}うように{教|おし}えられた。",
+        "en": "I was taught to respect my elders.",
+        "tatoeba_id": 162200
+      },
+      {
+        "ja": "私たちは祖先をうやまうべきだ。",
+        "furigana": "{私|わたし}たちは{祖先|そせん}をうやまうべきだ。",
+        "en": "We should worship our ancestors.",
+        "tatoeba_id": 165506
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N2:vocab:159326fcca": {
+    "examples": [
+      {
+        "ja": "今日一日当ても無くうろうろした。",
+        "furigana": "{今日|きょう}{一日|いちにち}{当|あ}ても{無|な}くうろうろした。",
+        "en": "I wandered about aimlessly all day.",
+        "tatoeba_id": 124113
+      },
+      {
+        "ja": "繁華街を当てもなくウロウロした。",
+        "en": "I wandered aimlessly around the busy shopping district.",
+        "tatoeba_id": 121193
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "今日一日当ても無くうろうろした。",
+        "furigana": "{今日|きょう}{一日|いちにち}{当|あ}ても{無|な}くうろうろした。",
+        "en": "I wandered about aimlessly all day.",
+        "tatoeba_id": 124113
+      },
+      {
+        "ja": "繁華街を当てもなくウロウロした。",
+        "en": "We wandered aimlessly around the shopping district.",
+        "tatoeba_id": 121193
+      }
+    ],
+    "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
   }
 }

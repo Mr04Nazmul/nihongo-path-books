@@ -17,3 +17,7 @@ At the owner’s request, N3/N2 now display existing Bengali drafts alongside En
 ## Meaning and grammar review checkpoint
 
 A further 158 N3/N2 vocabulary meanings were compared against the Japanese and supplied English, including the counterexamples around cousin, latitude, a well, room vacancies, negation and different readings of 命. The first eight grammar entries of each level now have rewritten meanings, formations, usage guidance and all 47 Japanese examples translated into Bengali. Exact hashes in the ledger record 253 inspected fields: N3 128; N2 125. There are 13,901 N3/N2 fields in total, so the full requested review is not complete. No uninspected field was stamped as reviewed.
+
+## Vocabulary 100–129 checkpoint
+
+Reviewed 60 further N3/N2 meanings and all 107 associated example translations. Corrected the English source where it disagreed with Japanese and replaced unrelated うがい and homophone-confused 写る examples with explicitly authored sentences, retaining original examples in source overrides. This adds 167 checked fields; cumulative N3/N2 review coverage is 420 of 13,901 fields. The remaining 13,481 fields are not claimed as checked.
