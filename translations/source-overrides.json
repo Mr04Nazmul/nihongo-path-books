@@ -47,5 +47,12 @@
       "soap"
     ],
     "review_note": "せっけん (石鹸) is soap; economy is an erroneous English gloss. Both existing Japanese examples concern soap."
+  },
+  "N3:vocab:c84ab5b83d": {
+    "meanings": [
+      "life",
+      "lifespan"
+    ],
+    "review_note": "The supplied reading is いのち; command/decree belong to other readings and are not the meaning of either supplied example."
   }
 }
