@@ -1,0 +1,81 @@
+{
+  "resource_count": 14,
+  "duplicate_urls": 0,
+  "new_vocab_entries": 0,
+  "new_grammar_entries": 0,
+  "existing_meanings_corrected": [
+    {
+      "level": "N2",
+      "id": "5e124cf29c",
+      "word": "たちまち",
+      "reading": "たちまち",
+      "before": "একসময়; এক মুহূর্তে; হঠাৎ; সব একই সময়ে",
+      "after": "সঙ্গে সঙ্গে; মুহূর্তের মধ্যে; হঠাৎ; একযোগে",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "061df73f89",
+      "word": "趣",
+      "reading": "おもむき",
+      "before": "অর্থ; টেনর; জার্নাল; প্রভাব; চেহারা; স্বাদ; গরু; চমৎকার; রিফিকেশন",
+      "after": "মর্ম; মূল ভাব; তাৎপর্য; চেহারা বা পরিবেশের বৈশিষ্ট্য; রুচি; সৌন্দর্য ও আকর্ষণ; পরিশীলন",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "f5d1e73974",
+      "word": "宿命",
+      "reading": "しゅくめい",
+      "before": "ভাগ্য; ভাগ্যবান; পূর্বনির্দেশনা",
+      "after": "নিয়তি; অদৃষ্ট; পূর্বনির্ধারিত ভাগ্য",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "735b7a1731",
+      "word": "取材",
+      "reading": "しゅざい",
+      "before": "বিষয় নির্বাচন; তথ্য সংগ্রহ",
+      "after": "সংবাদ বা লেখার জন্য তথ্য সংগ্রহ; সাক্ষাৎকার নেওয়া; আলোচনার বিষয় নির্বাচন",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "079f60c131",
+      "word": "促進",
+      "reading": "そくしん",
+      "before": "প্রচার; দ্রুততা; উৎসাহিত; সহজতর; জিজ্ঞাসা",
+      "after": "উন্নতি বা অগ্রগতি ত্বরান্বিত করা; উৎসাহ দেওয়া; এগিয়ে নিতে সহায়তা করা",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "10919d474c",
+      "word": "転換",
+      "reading": "てんかん",
+      "before": "রূপান্তর; মজা",
+      "after": "পরিবর্তন; রূপান্তর; দিক বা অবস্থান বদল",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "4e9975ebd2",
+      "word": "紛れる",
+      "reading": "まぎれる",
+      "before": "বিনোদন করা; ভেতরে ঢুকতে",
+      "after": "অন্য কিছুর মধ্যে মিশে আলাদা করে চেনা না যাওয়া; অগোচরে ঢুকে পড়া; অন্যদিকে মন যাওয়ায় দুঃখ বা উদ্বেগ কমে যাওয়া",
+      "reviewed": false
+    },
+    {
+      "level": "N1",
+      "id": "53a8f3fc5e",
+      "word": "要因",
+      "reading": "よういん",
+      "before": "প্রাথমিক কারণ; প্রধান কারণ",
+      "after": "প্রধান কারণ; কোনো ফলাফলের পেছনে থাকা গুরুত্বপূর্ণ উপাদান",
+      "reviewed": false
+    }
+  ],
+  "note": "Resource links only; premium and full third-party corpora not imported. Corrections are original Bengali wording, kept unreviewed. Exact word+reading identities preserved; 一見(いちげん) was not replaced using 一見(いっけん)."
+}
