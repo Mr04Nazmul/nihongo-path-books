@@ -50,3 +50,9 @@ Original source revisions, inclusion/exclusion audits and licenses remain in `di
 The new interface is independently implemented. Circle-reveal theme transition inspiration: [Skiper UI Theme Toggle #26](https://skiper-ui.com/v1/skiper26), a free documented interaction, with required attribution. No paid component or subscription was used.
 
 Google advertising scripts, publisher tags and empty ad slots have been removed at the owner’s request. Adsterra remains enabled, including the five-second book-entry dialog. Audio playback depends on browser support; physical iPhone testing is outstanding.
+
+## Reading studio and domain
+
+The custom domain `devnazu.online` is assigned in GitHub Pages settings (Actions-based publishing). Onamae DNS uses the four GitHub Pages apex A records and www CNAME to `mr04nazmul.github.io`. The prior Travel domain assignment was released; Travel remains a separate project.
+
+Settings offers Folio and Origami page turns, Calm mode, larger lesson text, an interactive animation preview and the owner-confirmed WhatsApp contact. Preferences are stored locally. Progress on the old github.io origin can be exported and imported using Progress when moving to the custom domain.
