@@ -13,3 +13,7 @@ Native-speaker or teacher review has not been performed. N4–N1 Bengali remains
 ## N3/N2 display change
 
 At the owner’s request, N3/N2 now display existing Bengali drafts alongside English. Unchecked fields use an explicit Bengali draft/pending-review badge; this does not count as checked or alter the ledger. Other levels retain the evidence gate. The first 20 vocabulary and kanji meanings per requested level, ten example translations and two detailed grammar guides were corrected in this change; full semantic review remains unfinished.
+
+## Meaning and grammar review checkpoint
+
+A further 158 N3/N2 vocabulary meanings were compared against the Japanese and supplied English, including the counterexamples around cousin, latitude, a well, room vacancies, negation and different readings of 命. The first eight grammar entries of each level now have rewritten meanings, formations, usage guidance and all 47 Japanese examples translated into Bengali. Exact hashes in the ledger record 253 inspected fields: N3 128; N2 125. There are 13,901 N3/N2 fields in total, so the full requested review is not complete. No uninspected field was stamped as reviewed.
