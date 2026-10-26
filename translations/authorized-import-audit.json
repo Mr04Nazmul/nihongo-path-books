@@ -1,0 +1,4362 @@
+{
+  "collected_n3_words": 1951,
+  "groups": 57,
+  "changed_existing_unreviewed_meanings": 621,
+  "preserved_reviewed_meanings": 560,
+  "ambiguous_skipped": [],
+  "pdf_available_pages": {
+    "N3": 11,
+    "N2": 11
+  },
+  "full_n1_available": false,
+  "authorization": "User reports direct telephone permission from both owners to reuse without public attribution.",
+  "changes": [
+    {
+      "id": "6312892cc5",
+      "word": "握手",
+      "reading": "あくしゅ",
+      "bn": "করমর্দন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "6bec104564",
+      "word": "悪魔",
+      "reading": "あくま",
+      "bn": "শয়তান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/31"
+    },
+    {
+      "id": "7d653ddf51",
+      "word": "汗",
+      "reading": "あせ",
+      "bn": "ঘাম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "2a534a4917",
+      "word": "書類",
+      "reading": "しょるい",
+      "bn": "কাগজপত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/23"
+    },
+    {
+      "id": "aff4676eed",
+      "word": "知らせ",
+      "reading": "しらせ",
+      "bn": "খবর / বিজ্ঞপ্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "55b77976ae",
+      "word": "尻",
+      "reading": "しり",
+      "bn": "নিতম্ব / পেছন দিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "365fe85edb",
+      "word": "印",
+      "reading": "しるし",
+      "bn": "চিহ্ন / নিদর্শন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "7624d1daae",
+      "word": "城",
+      "reading": "しろ",
+      "bn": "দুর্গ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/10"
+    },
+    {
+      "id": "4ee42f5330",
+      "word": "進学",
+      "reading": "しんがく",
+      "bn": "উচ্চশিক্ষায় ভর্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/20"
+    },
+    {
+      "id": "6366942bd5",
+      "word": "神経",
+      "reading": "しんけい",
+      "bn": "স্নায়ু; সংবেদনশীলতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "1ad3b41d6f",
+      "word": "信仰",
+      "reading": "しんこう",
+      "bn": "ধর্মবিশ্বাস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "3a6ac640fd",
+      "word": "診察",
+      "reading": "しんさつ",
+      "bn": "ডাক্তারি পরীক্ষা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "6847277390",
+      "word": "人種",
+      "reading": "じんしゅ",
+      "bn": "জাতি (মানুষের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "3793fa82cf",
+      "word": "人生",
+      "reading": "じんせい",
+      "bn": "জীবন (মানুষের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/4"
+    },
+    {
+      "id": "a8f91562fe",
+      "word": "親戚",
+      "reading": "しんせき",
+      "bn": "আত্মীয়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "a301b00431",
+      "word": "心臓",
+      "reading": "しんぞう",
+      "bn": "হৃৎপিণ্ড",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "d271a61e9b",
+      "word": "身体",
+      "reading": "しんたい",
+      "bn": "শরীর / দেহ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "ef1a073c8c",
+      "word": "身長",
+      "reading": "しんちょう",
+      "bn": "উচ্চতা (শরীরের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "f805c3046f",
+      "word": "審判",
+      "reading": "しんぱん",
+      "bn": "বিচারক / রেফারি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "fbaf566aaa",
+      "word": "人物",
+      "reading": "じんぶつ",
+      "bn": "ব্যক্তি / চরিত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "e7e0343eb0",
+      "word": "進歩",
+      "reading": "しんぽ",
+      "bn": "অগ্রগতি / উন্নতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "5f3091a6cb",
+      "word": "親友",
+      "reading": "しんゆう",
+      "bn": "অন্তরঙ্গ বন্ধু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "1978c546e2",
+      "word": "信用",
+      "reading": "しんよう",
+      "bn": "আস্থা / বিশ্বাস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "60594ade18",
+      "word": "信頼",
+      "reading": "しんらい",
+      "bn": "ভরসা / আস্থা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "27ccf826bb",
+      "word": "心理",
+      "reading": "しんり",
+      "bn": "মনস্তত্ত্ব / মনের অবস্থা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "9b428ad249",
+      "word": "人類",
+      "reading": "じんるい",
+      "bn": "মানবজাতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "4e53e93195",
+      "word": "図",
+      "reading": "ず",
+      "bn": "চিত্র / নকশা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/20"
+    },
+    {
+      "id": "a89f303db8",
+      "word": "水準",
+      "reading": "すいじゅん",
+      "bn": "মান / স্তর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "590eb476e5",
+      "word": "推薦",
+      "reading": "すいせん",
+      "bn": "সুপারিশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "51f103bc27",
+      "word": "睡眠",
+      "reading": "すいみん",
+      "bn": "ঘুম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "55c4301a2c",
+      "word": "数字",
+      "reading": "すうじ",
+      "bn": "অঙ্ক / সংখ্যা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/20"
+    },
+    {
+      "id": "22544f816e",
+      "word": "スープ",
+      "reading": "スープ",
+      "bn": "স্যুপ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/6"
+    },
+    {
+      "id": "4f0c39291a",
+      "word": "末",
+      "reading": "すえ",
+      "bn": "শেষ (মাস বা সময়ের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/13"
+    },
+    {
+      "id": "b250983bb5",
+      "word": "姿",
+      "reading": "すがた",
+      "bn": "চেহারা / আকৃতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "69257fa105",
+      "word": "スケート",
+      "reading": "スケート",
+      "bn": "স্কেটিং",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/4"
+    },
+    {
+      "id": "5569286656",
+      "word": "少しも",
+      "reading": "すこしも",
+      "bn": "একটুও না (না-⁠বাচকে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/53"
+    },
+    {
+      "id": "ef97fe9600",
+      "word": "筋",
+      "reading": "すじ",
+      "bn": "পেশি / শিরা; যুক্তি; রেখা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "7b89bdd9ec",
+      "word": "スター",
+      "reading": "スター",
+      "bn": "তারকা (তারকা ব্যক্তি)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "d6b975f68f",
+      "word": "スタイル",
+      "reading": "スタイル",
+      "bn": "স্টাইল / ধরন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "76b200a366",
+      "word": "スタンド",
+      "reading": "スタンド",
+      "bn": "স্ট্যান্ড / গ্যালারি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/7"
+    },
+    {
+      "id": "e28c9da90d",
+      "word": "頭痛",
+      "reading": "ずつう",
+      "bn": "মাথাব্যথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "aa2fbac408",
+      "word": "既に",
+      "reading": "すでに",
+      "bn": "ইতিমধ্যে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/53"
+    },
+    {
+      "id": "4c256eea03",
+      "word": "すなわち",
+      "reading": "すなわち",
+      "bn": "অর্থাৎ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "1dbd5b263b",
+      "word": "全て",
+      "reading": "すべて",
+      "bn": "সব / সবকিছু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "5ddec3e77f",
+      "word": "鋭い",
+      "reading": "するどい",
+      "bn": "ধারালো / তীক্ষ্ণい-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/49"
+    },
+    {
+      "id": "cde24ec2dd",
+      "word": "性",
+      "reading": "せい",
+      "bn": "লিঙ্গ; স্বভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "735842741b",
+      "word": "正",
+      "reading": "せい",
+      "bn": "সঠিক; ধনাত্মক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "6f583de9e0",
+      "word": "税",
+      "reading": "ぜい",
+      "bn": "কর / ট্যাক্স",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "9544a3940b",
+      "word": "性格",
+      "reading": "せいかく",
+      "bn": "চরিত্র / স্বভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "8e592c506e",
+      "word": "世紀",
+      "reading": "せいき",
+      "bn": "শতাব্দী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/13"
+    },
+    {
+      "id": "0196b60080",
+      "word": "請求",
+      "reading": "せいきゅう",
+      "bn": "দাবি / বিল পাঠানো",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "e9abf9d145",
+      "word": "税金",
+      "reading": "ぜいきん",
+      "bn": "কর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/23"
+    },
+    {
+      "id": "2bbee375a5",
+      "word": "制限",
+      "reading": "せいげん",
+      "bn": "সীমাবদ্ধতা / নিয়ন্ত্রণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "99906bc37f",
+      "word": "成功",
+      "reading": "せいこう",
+      "bn": "সাফল্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "61471e9d95",
+      "word": "精神",
+      "reading": "せいしん",
+      "bn": "মন / আত্মা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "c7d468b06d",
+      "word": "成人",
+      "reading": "せいじん",
+      "bn": "প্রাপ্তবয়স্ক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "df6d75a59e",
+      "word": "精々",
+      "reading": "せいぜい",
+      "bn": "বড়জোর / যতটা পারা যায়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/53"
+    },
+    {
+      "id": "be926ffe0c",
+      "word": "成績",
+      "reading": "せいせき",
+      "bn": "ফলাফল / নম্বর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "b79aa00dea",
+      "word": "製造",
+      "reading": "せいぞう",
+      "bn": "উৎপাদন (কারখানায়)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "ed4e8d935d",
+      "word": "成長",
+      "reading": "せいちょう",
+      "bn": "বেড়ে ওঠা / উন্নতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "579b318330",
+      "word": "制度",
+      "reading": "せいど",
+      "bn": "ব্যবস্থা / প্রথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "005faaf9cf",
+      "word": "青年",
+      "reading": "せいねん",
+      "bn": "তরুণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/1"
+    },
+    {
+      "id": "e2a52daf95",
+      "word": "政府",
+      "reading": "せいふ",
+      "bn": "সরকার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "87333c0d40",
+      "word": "生物",
+      "reading": "せいぶつ",
+      "bn": "জীবন্ত প্রাণী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/15"
+    },
+    {
+      "id": "766c710757",
+      "word": "生命",
+      "reading": "せいめい",
+      "bn": "প্রাণ / জীবন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "f5a8d92a63",
+      "word": "整理",
+      "reading": "せいり",
+      "bn": "গোছানো / সাজিয়ে রাখা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "8eae03ec6e",
+      "word": "咳",
+      "reading": "せき",
+      "bn": "কাশি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/18"
+    },
+    {
+      "id": "76b7811036",
+      "word": "石炭",
+      "reading": "せきたん",
+      "bn": "কয়লা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/15"
+    },
+    {
+      "id": "4c29ad3233",
+      "word": "責任",
+      "reading": "せきにん",
+      "bn": "দায়িত্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "0aedc1119d",
+      "word": "石油",
+      "reading": "せきゆ",
+      "bn": "তেল / পেট্রোলিয়াম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/15"
+    },
+    {
+      "id": "61ddee48f6",
+      "word": "世間",
+      "reading": "せけん",
+      "bn": "সমাজ / লোকজন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/25"
+    },
+    {
+      "id": "79891aefd2",
+      "word": "説",
+      "reading": "せつ",
+      "bn": "মতবাদ / তত্ত্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/30"
+    },
+    {
+      "id": "e394e09d00",
+      "word": "設計",
+      "reading": "せっけい",
+      "bn": "নকশা / ডিজাইন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "fe228bbe40",
+      "word": "絶対",
+      "reading": "ぜったい",
+      "bn": "অবশ্যই / একদম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/53"
+    },
+    {
+      "id": "65dfe9149d",
+      "word": "セット",
+      "reading": "セット",
+      "bn": "সেট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/7"
+    },
+    {
+      "id": "140ef1e848",
+      "word": "設備",
+      "reading": "せつび",
+      "bn": "সরঞ্জাম / সুযোগ-⁠সুবিধা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "2848d83eb7",
+      "word": "絶滅",
+      "reading": "ぜつめつ",
+      "bn": "বিলুপ্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "8c406cea71",
+      "word": "節約",
+      "reading": "せつやく",
+      "bn": "সাশ্রয়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "ff077d041a",
+      "word": "善",
+      "reading": "ぜん",
+      "bn": "ভালো / পুণ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "d2a6a01df9",
+      "word": "全",
+      "reading": "ぜん",
+      "bn": "সম্পূর্ণ / সব (全~⁠)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "9af40a4fd4",
+      "word": "全員",
+      "reading": "ぜんいん",
+      "bn": "সব সদস্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "5c723266c3",
+      "word": "専攻",
+      "reading": "せんこう",
+      "bn": "মেজর বিষয় (বিশ্ববিদ্যালয়ে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "cbe69abc51",
+      "word": "全国",
+      "reading": "ぜんこく",
+      "bn": "সারা দেশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/10"
+    },
+    {
+      "id": "0ab1c9e916",
+      "word": "先日",
+      "reading": "せんじつ",
+      "bn": "কিছুদিন আগে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "ec83c27906",
+      "word": "前者",
+      "reading": "ぜんしゃ",
+      "bn": "আগেরটি (দুটোর মধ্যে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "72f846250a",
+      "word": "選手",
+      "reading": "せんしゅ",
+      "bn": "খেলোয়াড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "c3426903e6",
+      "word": "前進",
+      "reading": "ぜんしん",
+      "bn": "অগ্রসর হওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "fee426e7d0",
+      "word": "センター",
+      "reading": "センター",
+      "bn": "কেন্দ্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "c0d834ed70",
+      "word": "全体",
+      "reading": "ぜんたい",
+      "bn": "সমগ্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "a17498ab62",
+      "word": "選択",
+      "reading": "せんたく",
+      "bn": "বেছে নেওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "3836c2c8bd",
+      "word": "象",
+      "reading": "ぞう",
+      "bn": "হাতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "f01cb21b79",
+      "word": "騒音",
+      "reading": "そうおん",
+      "bn": "শব্দদূষণ / আওয়াজ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "5b8ad938b3",
+      "word": "増加",
+      "reading": "ぞうか",
+      "bn": "বৃদ্ধি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "cb48e3fc15",
+      "word": "操作",
+      "reading": "そうさ",
+      "bn": "চালানো / পরিচালনা (যন্ত্র)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "8597a13b30",
+      "word": "想像",
+      "reading": "そうぞう",
+      "bn": "কল্পনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "e9efbc296d",
+      "word": "相続",
+      "reading": "そうぞく",
+      "bn": "উত্তরাধিকার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "6b23ed610d",
+      "word": "装置",
+      "reading": "そうち",
+      "bn": "যন্ত্রপাতি / ব্যবস্থা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "814b2c6fa4",
+      "word": "相当",
+      "reading": "そうとう",
+      "bn": "বেশ / উপযুক্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "30381aa09c",
+      "word": "速度",
+      "reading": "そくど",
+      "bn": "গতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "f0070e59ed",
+      "word": "そこで",
+      "reading": "そこで",
+      "bn": "তাই / তখন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "98a2034477",
+      "word": "組織",
+      "reading": "そしき",
+      "bn": "সংগঠন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "1bc27bd981",
+      "word": "そっくり",
+      "reading": "そっくり",
+      "bn": "হুবহু একই রকম; পুরোটা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "5cf06f835b",
+      "word": "そっと",
+      "reading": "そっと",
+      "bn": "আলতো করে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "02ebf395f2",
+      "word": "袖",
+      "reading": "そで",
+      "bn": "হাতা (জামার)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "5315a22cf3",
+      "word": "そのうち",
+      "reading": "そのうち",
+      "bn": "কিছুদিনের মধ্যে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "4f496dbfd2",
+      "word": "そのまま",
+      "reading": "そのまま",
+      "bn": "যেমন আছে তেমন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "20f327da61",
+      "word": "ソファー",
+      "reading": "ソファー",
+      "bn": "সোফা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "d8fb966498",
+      "word": "それぞれ",
+      "reading": "それぞれ",
+      "bn": "প্রত্যেকে আলাদাভাবে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "dd28831d22",
+      "word": "それでも",
+      "reading": "それでも",
+      "bn": "তবুও",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "d90edf318b",
+      "word": "それと",
+      "reading": "それと",
+      "bn": "আর / তাছাড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "b13a18ea0f",
+      "word": "それとも",
+      "reading": "それとも",
+      "bn": "নাকি / অথবা (প্রশ্নে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "84e820e672",
+      "word": "損",
+      "reading": "そん",
+      "bn": "ক্ষতি / লোকসান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/51"
+    },
+    {
+      "id": "d234fd8e97",
+      "word": "損害",
+      "reading": "そんがい",
+      "bn": "ক্ষয়ক্ষতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "953ee41aed",
+      "word": "尊敬",
+      "reading": "そんけい",
+      "bn": "শ্রদ্ধা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "b1170de661",
+      "word": "存在",
+      "reading": "そんざい",
+      "bn": "অস্তিত্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "9429f093fb",
+      "word": "尊重",
+      "reading": "そんちょう",
+      "bn": "সম্মান করা (মতামত ইত্যাদি)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "7adaa6336c",
+      "word": "他",
+      "reading": "た",
+      "bn": "অন্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "3fdcce9a17",
+      "word": "田",
+      "reading": "た",
+      "bn": "ধানক্ষেত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "1935a3f544",
+      "word": "対",
+      "reading": "たい",
+      "bn": "বিপরীতে / জোড়া (৩対১ = ৩-⁠১)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "4bf6db45d0",
+      "word": "大",
+      "reading": "だい",
+      "bn": "বড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "6cb86b20fc",
+      "word": "題",
+      "reading": "だい",
+      "bn": "শিরোনাম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "40dcc96658",
+      "word": "体育",
+      "reading": "たいいく",
+      "bn": "শারীরিক শিক্ষা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "ca1f1bf9f2",
+      "word": "体温",
+      "reading": "たいおん",
+      "bn": "শরীরের তাপমাত্রা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "48385111dd",
+      "word": "大会",
+      "reading": "たいかい",
+      "bn": "বড় সভা / টুর্নামেন্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "7eb56880eb",
+      "word": "大気",
+      "reading": "たいき",
+      "bn": "বায়ুমণ্ডল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "caac295eb2",
+      "word": "代金",
+      "reading": "だいきん",
+      "bn": "দাম / মূল্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "1c0621ee0d",
+      "word": "滞在",
+      "reading": "たいざい",
+      "bn": "অবস্থান / থাকা (কিছুদিন)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "38bf87fc8a",
+      "word": "大使",
+      "reading": "たいし",
+      "bn": "রাষ্ট্রদূত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "9f6e77d1fe",
+      "word": "大した",
+      "reading": "たいした",
+      "bn": "বিরাট / উল্লেখযোগ্য (না-⁠বাচকে: তেমন কিছু নয়)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/51"
+    },
+    {
+      "id": "5171ce1b55",
+      "word": "対象",
+      "reading": "たいしょう",
+      "bn": "লক্ষ্য / উদ্দিষ্ট (যার জন্য)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "999ca0b1df",
+      "word": "大臣",
+      "reading": "だいじん",
+      "bn": "মন্ত্রী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "59a9224bb4",
+      "word": "大戦",
+      "reading": "たいせん",
+      "bn": "মহাযুদ্ধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "88273999d5",
+      "word": "態度",
+      "reading": "たいど",
+      "bn": "মনোভাব / আচরণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "52049336a2",
+      "word": "大半",
+      "reading": "たいはん",
+      "bn": "বেশিরভাগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/35"
+    },
+    {
+      "id": "20d012baaf",
+      "word": "代表",
+      "reading": "だいひょう",
+      "bn": "প্রতিনিধি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "637071aa35",
+      "word": "大部分",
+      "reading": "だいぶぶん",
+      "bn": "বেশিরভাগ অংশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "e13f41237b",
+      "word": "タイプライター",
+      "reading": "タイプライター",
+      "bn": "টাইপরাইটার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "421097f58e",
+      "word": "逮捕",
+      "reading": "たいほ",
+      "bn": "গ্রেপ্তার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "771ae04338",
+      "word": "ダイヤ",
+      "reading": "ダイヤ",
+      "bn": "সময়সূচি (ট্রেনের); হীরা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "a7bc912ad3",
+      "word": "太陽",
+      "reading": "たいよう",
+      "bn": "সূর্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "f5cb9d932e",
+      "word": "代理",
+      "reading": "だいり",
+      "bn": "প্রতিনিধি / বদলি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "de0215662e",
+      "word": "大陸",
+      "reading": "たいりく",
+      "bn": "মহাদেশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "4fbf3d9b7a",
+      "word": "タオル",
+      "reading": "タオル",
+      "bn": "তোয়ালে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "a3c0999c5c",
+      "word": "だが",
+      "reading": "だが",
+      "bn": "কিন্তু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "c1ec09619d",
+      "word": "互い",
+      "reading": "たがい",
+      "bn": "পরস্পর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "3cffc75454",
+      "word": "宝",
+      "reading": "たから",
+      "bn": "রত্ন / ধন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "585f7c3b7f",
+      "word": "だけど",
+      "reading": "だけど",
+      "bn": "কিন্তু (কথ্য)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "63e2832ca0",
+      "word": "多少",
+      "reading": "たしょう",
+      "bn": "কিছুটা / অল্পবিস্তর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "3e80832e23",
+      "word": "ただ",
+      "reading": "ただ",
+      "bn": "বিনামূল্যে; শুধু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "900eaa8fd0",
+      "word": "戦い",
+      "reading": "たたかい",
+      "bn": "যুদ্ধ / লড়াই",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "60eed96a97",
+      "word": "直ちに",
+      "reading": "ただちに",
+      "bn": "অবিলম্বে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "a10dbb12a8",
+      "word": "立場",
+      "reading": "たちば",
+      "bn": "অবস্থান / দৃষ্টিকোণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "01558111d1",
+      "word": "だって",
+      "reading": "だって",
+      "bn": "কারণ... / কিন্তু (কথ্য)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "05f3c84284",
+      "word": "たっぷり",
+      "reading": "たっぷり",
+      "bn": "প্রচুর / যথেষ্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "f1ff353185",
+      "word": "たとえ",
+      "reading": "たとえ",
+      "bn": "যদিও / এমনকি যদি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "c8170be9cc",
+      "word": "谷",
+      "reading": "たに",
+      "bn": "উপত্যকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "b3c2007820",
+      "word": "他人",
+      "reading": "たにん",
+      "bn": "অপরিচিত মানুষ / অন্য লোক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "0167b18f74",
+      "word": "種",
+      "reading": "たね",
+      "bn": "বীজ; কারণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "a7ca4ae607",
+      "word": "束",
+      "reading": "たば",
+      "bn": "গোছা / আঁটি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "07757ea0b3",
+      "word": "旅",
+      "reading": "たび",
+      "bn": "ভ্রমণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "192b09d71f",
+      "word": "たびたび",
+      "reading": "たびたび",
+      "bn": "বারবার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "5ac33a4880",
+      "word": "玉",
+      "reading": "たま",
+      "bn": "বল / গোলক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "42fbc7ed06",
+      "word": "弾",
+      "reading": "たま",
+      "bn": "গুলি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "2b5e5351b0",
+      "word": "たまらない",
+      "reading": "たまらない",
+      "bn": "সহ্য করা যায় নাい-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "a913d4b1f6",
+      "word": "試し",
+      "reading": "ためし",
+      "bn": "পরীক্ষা / চেষ্টা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "a733c62080",
+      "word": "便り",
+      "reading": "たより",
+      "bn": "খবর / চিঠি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "a22c0d6a0e",
+      "word": "段",
+      "reading": "だん",
+      "bn": "ধাপ / সিঁড়ি; স্তর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "938fc7e369",
+      "word": "単位",
+      "reading": "たんい",
+      "bn": "একক; ক্রেডিট (কোর্সের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "b91001d17a",
+      "word": "単語",
+      "reading": "たんご",
+      "bn": "শব্দ (ভাষার)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "16c16727fb",
+      "word": "男子",
+      "reading": "だんし",
+      "bn": "ছেলে / পুরুষ (তরুণ)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "d09ecbe5b0",
+      "word": "誕生",
+      "reading": "たんじょう",
+      "bn": "জন্ম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "ce509fd4c7",
+      "word": "団体",
+      "reading": "だんたい",
+      "bn": "সংগঠন / দল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "e587e8c18a",
+      "word": "担当",
+      "reading": "たんとう",
+      "bn": "দায়িত্বে থাকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "c7e318382a",
+      "word": "単なる",
+      "reading": "たんなる",
+      "bn": "নিছক / শুধুই",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "28e78ea570",
+      "word": "単に",
+      "reading": "たんに",
+      "bn": "শুধু / কেবল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "20bef3d13c",
+      "word": "地",
+      "reading": "ち",
+      "bn": "মাটি / ভূমি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "a4766630c6",
+      "word": "地位",
+      "reading": "ちい",
+      "bn": "পদমর্যাদা / অবস্থান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "d74252cb1f",
+      "word": "地域",
+      "reading": "ちいき",
+      "bn": "অঞ্চল / এলাকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "ed560b721e",
+      "word": "チーズ",
+      "reading": "チーズ",
+      "bn": "পনির",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/6"
+    },
+    {
+      "id": "7864a376ed",
+      "word": "チーム",
+      "reading": "チーム",
+      "bn": "দল / টিম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "4dc1084ef7",
+      "word": "知恵",
+      "reading": "ちえ",
+      "bn": "বুদ্ধি / প্রজ্ঞা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "c6bc56d6df",
+      "word": "違い",
+      "reading": "ちがい",
+      "bn": "পার্থক্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "ce7946728d",
+      "word": "違いない",
+      "reading": "ちがいない",
+      "bn": "নিশ্চিত / নিঃসন্দেহে (~⁠に違いない)い-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "7d4f4be7f4",
+      "word": "近頃",
+      "reading": "ちかごろ",
+      "bn": "আজকাল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "88fa4babd2",
+      "word": "地球",
+      "reading": "ちきゅう",
+      "bn": "পৃথিবী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "cdb26b7f16",
+      "word": "地区",
+      "reading": "ちく",
+      "bn": "এলাকা / জেলা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "f86edd9d41",
+      "word": "知事",
+      "reading": "ちじ",
+      "bn": "প্রিফেকচারের গভর্নর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "ae8e7129b1",
+      "word": "知識",
+      "reading": "ちしき",
+      "bn": "জ্ঞান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "3f98b61203",
+      "word": "父親",
+      "reading": "ちちおや",
+      "bn": "বাবা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "e0d0db3ebf",
+      "word": "知能",
+      "reading": "ちのう",
+      "bn": "বুদ্ধিমত্তা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "4aa59e0065",
+      "word": "地平線",
+      "reading": "ちへいせん",
+      "bn": "দিগন্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "fbeac8c220",
+      "word": "地方",
+      "reading": "ちほう",
+      "bn": "অঞ্চল / মফস্বল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "5c3831a496",
+      "word": "ちゃんと",
+      "reading": "ちゃんと",
+      "bn": "ঠিকঠাক / সুন্দরভাবে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "ee972bb89d",
+      "word": "注",
+      "reading": "ちゅう",
+      "bn": "টীকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "0f75eb5711",
+      "word": "中央",
+      "reading": "ちゅうおう",
+      "bn": "কেন্দ্র / মধ্যস্থল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "510004b9a1",
+      "word": "中学",
+      "reading": "ちゅうがく",
+      "bn": "জুনিয়র হাই স্কুল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "ebe5867327",
+      "word": "中古",
+      "reading": "ちゅうこ",
+      "bn": "পুরোনো / সেকেন্ড-⁠হ্যান্ড",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "1c25234049",
+      "word": "中止",
+      "reading": "ちゅうし",
+      "bn": "বাতিল / স্থগিত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "545580a613",
+      "word": "駐車",
+      "reading": "ちゅうしゃ",
+      "bn": "গাড়ি পার্ক করা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "80c8c02c83",
+      "word": "昼食",
+      "reading": "ちゅうしょく",
+      "bn": "দুপুরের খাবার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/6"
+    },
+    {
+      "id": "47dad745df",
+      "word": "中心",
+      "reading": "ちゅうしん",
+      "bn": "কেন্দ্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "2d7d2562d4",
+      "word": "注目",
+      "reading": "ちゅうもく",
+      "bn": "মনোযোগ / দৃষ্টি আকর্ষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "842b23c9fd",
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "bn": "অর্ডার / ফরমাশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "bcbf5309e2",
+      "word": "長期",
+      "reading": "ちょうき",
+      "bn": "দীর্ঘমেয়াদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "4dc252fa39",
+      "word": "調査",
+      "reading": "ちょうさ",
+      "bn": "জরিপ / তদন্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "d19e1e7cb4",
+      "word": "頂上",
+      "reading": "ちょうじょう",
+      "bn": "চূড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "3ce84453e7",
+      "word": "ちょうだい",
+      "reading": "ちょうだい",
+      "bn": "দাও (কথ্য) / পাওয়া (বিনয়ী)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "2e1e017ee0",
+      "word": "貯金",
+      "reading": "ちょきん",
+      "bn": "সঞ্চয় (টাকা)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "d6e26a0b9f",
+      "word": "直接",
+      "reading": "ちょくせつ",
+      "bn": "সরাসরি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "5441f9df9d",
+      "word": "著者",
+      "reading": "ちょしゃ",
+      "bn": "লেখক (বইয়ের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "2e1b2d5c37",
+      "word": "遂に",
+      "reading": "ついに",
+      "bn": "অবশেষে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "a1d4ed495c",
+      "word": "通過",
+      "reading": "つうか",
+      "bn": "পেরিয়ে যাওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "6082d893b1",
+      "word": "通学",
+      "reading": "つうがく",
+      "bn": "স্কুলে যাতায়াত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "048a8dade7",
+      "word": "通行",
+      "reading": "つうこう",
+      "bn": "চলাচল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "f144cdb49c",
+      "word": "通信",
+      "reading": "つうしん",
+      "bn": "যোগাযোগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "e6e567643f",
+      "word": "疲れ",
+      "reading": "つかれ",
+      "bn": "ক্লান্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "7044f13335",
+      "word": "付き合い",
+      "reading": "つきあい",
+      "bn": "মেলামেশা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "9edfc06f0c",
+      "word": "次々",
+      "reading": "つぎつぎ",
+      "bn": "একের পর এক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "8d3ff79d95",
+      "word": "土",
+      "reading": "つち",
+      "bn": "মাটি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "a6ec708ec6",
+      "word": "続き",
+      "reading": "つづき",
+      "bn": "পরের অংশ / ধারাবাহিকতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "c327a33164",
+      "word": "包み",
+      "reading": "つつみ",
+      "bn": "মোড়ক / প্যাকেট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "b30b244443",
+      "word": "勤め",
+      "reading": "つとめ",
+      "bn": "চাকরি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "b30544a54e",
+      "word": "務め",
+      "reading": "つとめ",
+      "bn": "কর্তব্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "43f9074428",
+      "word": "常に",
+      "reading": "つねに",
+      "bn": "সবসময়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "526a0047ad",
+      "word": "翼",
+      "reading": "つばさ",
+      "bn": "ডানা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "9a7106c569",
+      "word": "つまり",
+      "reading": "つまり",
+      "bn": "অর্থাৎ / মোটকথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "fc43373a26",
+      "word": "罪",
+      "reading": "つみ",
+      "bn": "অপরাধ / পাপ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "33f0992c39",
+      "word": "梅雨",
+      "reading": "つゆ",
+      "bn": "বর্ষাকাল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "7433983c57",
+      "word": "連れ",
+      "reading": "つれ",
+      "bn": "সঙ্গী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "56092bf6de",
+      "word": "出会い",
+      "reading": "であい",
+      "bn": "সাক্ষাৎ / পরিচয় হওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "b8c0205de7",
+      "word": "提案",
+      "reading": "ていあん",
+      "bn": "প্রস্তাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "dad6329f85",
+      "word": "定期",
+      "reading": "ていき",
+      "bn": "নির্দিষ্ট মেয়াদি (定期券 = মাসিক পাস)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "964f36527f",
+      "word": "抵抗",
+      "reading": "ていこう",
+      "bn": "প্রতিরোধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "46cd2cf7a5",
+      "word": "提出",
+      "reading": "ていしゅつ",
+      "bn": "জমা দেওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/23"
+    },
+    {
+      "id": "dfb2d21193",
+      "word": "程度",
+      "reading": "ていど",
+      "bn": "মাত্রা / পরিমাণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "9a64047c66",
+      "word": "デート",
+      "reading": "デート",
+      "bn": "ডেট (প্রেমের সাক্ষাৎ)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "371f1b3f39",
+      "word": "敵",
+      "reading": "てき",
+      "bn": "শত্রু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "f1250de70c",
+      "word": "出来事",
+      "reading": "できごと",
+      "bn": "ঘটনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "27c52f37c2",
+      "word": "適用",
+      "reading": "てきよう",
+      "bn": "প্রয়োগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "df68a4c0c8",
+      "word": "できれば",
+      "reading": "できれば",
+      "bn": "সম্ভব হলে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "639bd22c8d",
+      "word": "手品",
+      "reading": "てじな",
+      "bn": "জাদু (হাতের কৌশল)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "61bb6561cb",
+      "word": "鉄",
+      "reading": "てつ",
+      "bn": "লোহা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "d7dd2c0312",
+      "word": "哲学",
+      "reading": "てつがく",
+      "bn": "দর্শনশাস্ত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "4b1cb88257",
+      "word": "手伝い",
+      "reading": "てつだい",
+      "bn": "সাহায্য / সহকারী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "9ed2c14da0",
+      "word": "徹底",
+      "reading": "てってい",
+      "bn": "পুরোপুরি / খুঁটিয়ে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "7eedda811b",
+      "word": "鉄道",
+      "reading": "てつどう",
+      "bn": "রেলপথ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "70e6480c13",
+      "word": "徹夜",
+      "reading": "てつや",
+      "bn": "সারারাত জেগে থাকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "feff56f582",
+      "word": "手間",
+      "reading": "てま",
+      "bn": "সময় ও পরিশ্রম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "b18b85729e",
+      "word": "デモ",
+      "reading": "デモ",
+      "bn": "বিক্ষোভ মিছিল; ডেমো",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "206cb49bde",
+      "word": "典型",
+      "reading": "てんけい",
+      "bn": "আদর্শ নমুনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "f0031b987d",
+      "word": "天候",
+      "reading": "てんこう",
+      "bn": "আবহাওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "626076af0e",
+      "word": "電子",
+      "reading": "でんし",
+      "bn": "ইলেকট্রন; ইলেকট্রনিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "8f4da6b41b",
+      "word": "テント",
+      "reading": "テント",
+      "bn": "তাঁবু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "29d4d2cb7d",
+      "word": "伝統",
+      "reading": "でんとう",
+      "bn": "ঐতিহ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "d8f0837321",
+      "word": "天然",
+      "reading": "てんねん",
+      "bn": "প্রাকৃতিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "e4c028044a",
+      "word": "問い",
+      "reading": "とい",
+      "bn": "প্রশ্ন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "6a86cad697",
+      "word": "党",
+      "reading": "とう",
+      "bn": "রাজনৈতিক দল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "8e02fa0ef4",
+      "word": "塔",
+      "reading": "とう",
+      "bn": "টাওয়ার / প্যাগোডা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "2bf06d30d9",
+      "word": "答案",
+      "reading": "とうあん",
+      "bn": "উত্তরপত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "ab3d3e2bd7",
+      "word": "同一",
+      "reading": "どういつ",
+      "bn": "অভিন্ন / একই",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "0197af118e",
+      "word": "当時",
+      "reading": "とうじ",
+      "bn": "তখন / সেই সময়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "271ffb6876",
+      "word": "動詞",
+      "reading": "どうし",
+      "bn": "ক্রিয়াপদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "4e4e228253",
+      "word": "同時",
+      "reading": "どうじ",
+      "bn": "একই সময়ে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "b9f82a4617",
+      "word": "どうしても",
+      "reading": "どうしても",
+      "bn": "যেভাবেই হোক / কিছুতেই (না-⁠বাচকে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "c85827d209",
+      "word": "到着",
+      "reading": "とうちゃく",
+      "bn": "পৌঁছানো / আগমন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "5c2b71ef11",
+      "word": "道徳",
+      "reading": "どうとく",
+      "bn": "নৈতিকতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "17dc7366d9",
+      "word": "投票",
+      "reading": "とうひょう",
+      "bn": "ভোট দেওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "b9d02a8165",
+      "word": "同様",
+      "reading": "どうよう",
+      "bn": "একইভাবে / সমান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "f6da4441b7",
+      "word": "道路",
+      "reading": "どうろ",
+      "bn": "রাস্তা / সড়ক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "bba3ad9899",
+      "word": "都会",
+      "reading": "とかい",
+      "bn": "শহর (বড়)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "9ed2e741fa",
+      "word": "毒",
+      "reading": "どく",
+      "bn": "বিষ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "d45a4669a3",
+      "word": "読書",
+      "reading": "どくしょ",
+      "bn": "বই পড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "9424213f90",
+      "word": "特徴",
+      "reading": "とくちょう",
+      "bn": "বৈশিষ্ট্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "0d9e1cfdac",
+      "word": "独立",
+      "reading": "どくりつ",
+      "bn": "স্বাধীনতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "4fa73fd5b1",
+      "word": "ところが",
+      "reading": "ところが",
+      "bn": "কিন্তু (অপ্রত্যাশিত)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "af617a11ed",
+      "word": "ところで",
+      "reading": "ところで",
+      "bn": "আচ্ছা, কথায় কথায় (প্রসঙ্গ বদল)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "adddc0dcc8",
+      "word": "登山",
+      "reading": "とざん",
+      "bn": "পর্বতারোহণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "142b45f619",
+      "word": "都市",
+      "reading": "とし",
+      "bn": "নগর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "54e840405e",
+      "word": "年月",
+      "reading": "としつき",
+      "bn": "বছর-⁠মাস / সময়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "c660f5b541",
+      "word": "図書",
+      "reading": "としょ",
+      "bn": "বই (গ্রন্থাগারের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "2af3aed135",
+      "word": "年寄",
+      "reading": "としより",
+      "bn": "বয়স্ক মানুষ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "5b36334b8a",
+      "word": "途端",
+      "reading": "とたん",
+      "bn": "ঠিক তখনই (~⁠た途端 = করামাত্র)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "30dc28fcf5",
+      "word": "土地",
+      "reading": "とち",
+      "bn": "জমি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "b0fe689407",
+      "word": "突然",
+      "reading": "とつぜん",
+      "bn": "হঠাৎ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "7ea8d83553",
+      "word": "トップ",
+      "reading": "トップ",
+      "bn": "শীর্ষ / প্রথম স্থান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "5f300646e4",
+      "word": "とにかく",
+      "reading": "とにかく",
+      "bn": "যাই হোক / মোটকথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "8b4138b415",
+      "word": "友",
+      "reading": "とも",
+      "bn": "বন্ধু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "89564cdaf0",
+      "word": "共に",
+      "reading": "ともに",
+      "bn": "একসাথে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "7feb0c183f",
+      "word": "虎",
+      "reading": "とら",
+      "bn": "বাঘ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "87d53d42f3",
+      "word": "ドライブ",
+      "reading": "ドライブ",
+      "bn": "গাড়ি নিয়ে ঘোরা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "42d999cbab",
+      "word": "トラック",
+      "reading": "トラック",
+      "bn": "ট্রাক; দৌড়ের ট্র্যাক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "bcadb9720d",
+      "word": "ドラマ",
+      "reading": "ドラマ",
+      "bn": "নাটক (টিভি)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "e4e30dab43",
+      "word": "トランプ",
+      "reading": "トランプ",
+      "bn": "তাস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "e8e0e10e57",
+      "word": "ドレス",
+      "reading": "ドレス",
+      "bn": "পোশাক (মেয়েদের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "145a15c354",
+      "word": "泥",
+      "reading": "どろ",
+      "bn": "কাদা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "6556dc10d1",
+      "word": "トン",
+      "reading": "トン",
+      "bn": "টন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "43bc725de0",
+      "word": "とんでもない",
+      "reading": "とんでもない",
+      "bn": "অবিশ্বাস্য / মোটেই না!い-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "954f0401d2",
+      "word": "どんなに",
+      "reading": "どんなに",
+      "bn": "যতই / কতই না",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "a6e18afc55",
+      "word": "トンネル",
+      "reading": "トンネル",
+      "bn": "সুড়ঙ্গ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "fcdc62db50",
+      "word": "名",
+      "reading": "な",
+      "bn": "নাম; সুনাম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "15bfdc638d",
+      "word": "内容",
+      "reading": "ないよう",
+      "bn": "বিষয়বস্তু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "cd33b27e9a",
+      "word": "仲",
+      "reading": "なか",
+      "bn": "সম্পর্ক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "5564da9929",
+      "word": "半ば",
+      "reading": "なかば",
+      "bn": "মাঝামাঝি / অর্ধেক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "124f4d078f",
+      "word": "仲間",
+      "reading": "なかま",
+      "bn": "সঙ্গী / সহকর্মী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "c3a05b3d90",
+      "word": "眺め",
+      "reading": "ながめ",
+      "bn": "দৃশ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "a588d2a3e0",
+      "word": "流れ",
+      "reading": "ながれ",
+      "bn": "স্রোত / প্রবাহ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "28631b73ea",
+      "word": "無し",
+      "reading": "なし",
+      "bn": "ছাড়া / নেই",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "de314c95de",
+      "word": "なぜなら",
+      "reading": "なぜなら",
+      "bn": "কারণ (কেননা)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "10b368ca88",
+      "word": "謎",
+      "reading": "なぞ",
+      "bn": "রহস্য / ধাঁধা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "8b63615acb",
+      "word": "納得",
+      "reading": "なっとく",
+      "bn": "মেনে নেওয়া / বুঝে সন্তুষ্ট হওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "5efa5daa2b",
+      "word": "なにも",
+      "reading": "なにも",
+      "bn": "কিছুই না (না-⁠বাচকে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "9ede43e44c",
+      "word": "鍋",
+      "reading": "なべ",
+      "bn": "হাঁড়ি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "cae492d243",
+      "word": "波",
+      "reading": "なみ",
+      "bn": "ঢেউ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "037925a6d6",
+      "word": "涙",
+      "reading": "なみだ",
+      "bn": "চোখের জল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "0989459c37",
+      "word": "縄",
+      "reading": "なわ",
+      "bn": "দড়ি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "2d389db4db",
+      "word": "何で",
+      "reading": "なんで",
+      "bn": "কেন (কথ্য)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "9ebc3edd19",
+      "word": "何でも",
+      "reading": "なんでも",
+      "bn": "যা কিছু / সব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "39dd361425",
+      "word": "何とか",
+      "reading": "なんとか",
+      "bn": "কোনোভাবে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "8906b928b2",
+      "word": "日常",
+      "reading": "にちじょう",
+      "bn": "দৈনন্দিন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "2128a2cade",
+      "word": "日光",
+      "reading": "にっこう",
+      "bn": "সূর্যের আলো",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "fca12641c2",
+      "word": "にっこり",
+      "reading": "にっこり",
+      "bn": "মিষ্টি হাসি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "5ae490b220",
+      "word": "日中",
+      "reading": "にっちゅう",
+      "bn": "দিনের বেলা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "9fafb3a7a8",
+      "word": "入場",
+      "reading": "にゅうじょう",
+      "bn": "প্রবেশ (অনুষ্ঠানে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "81d5a1e831",
+      "word": "人気",
+      "reading": "にんき",
+      "bn": "জনপ্রিয়তা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "7f4e93c10e",
+      "word": "人間",
+      "reading": "にんげん",
+      "bn": "মানুষ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "04380e6c35",
+      "word": "布",
+      "reading": "ぬの",
+      "bn": "কাপড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "e7a5df28c0",
+      "word": "根",
+      "reading": "ね",
+      "bn": "শিকড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "4d7cbebb57",
+      "word": "願い",
+      "reading": "ねがい",
+      "bn": "ইচ্ছা / প্রার্থনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "38191588bb",
+      "word": "鼠",
+      "reading": "ねずみ",
+      "bn": "ইঁদুর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "b27ee03550",
+      "word": "熱帯",
+      "reading": "ねったい",
+      "bn": "গ্রীষ্মমণ্ডল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "c03a75fe96",
+      "word": "熱中",
+      "reading": "ねっちゅう",
+      "bn": "মেতে থাকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "317aef42d7",
+      "word": "年間",
+      "reading": "ねんかん",
+      "bn": "বছরে / বছরব্যাপী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "182db962d0",
+      "word": "年中",
+      "reading": "ねんじゅう",
+      "bn": "সারা বছর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "df15c38d0a",
+      "word": "年代",
+      "reading": "ねんだい",
+      "bn": "দশক / যুগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "3acd232764",
+      "word": "年齢",
+      "reading": "ねんれい",
+      "bn": "বয়স",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "413bbde60b",
+      "word": "野",
+      "reading": "の",
+      "bn": "মাঠ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "8ae84a079b",
+      "word": "能",
+      "reading": "のう",
+      "bn": "দক্ষতা; নো নাট্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "1e1423597b",
+      "word": "農家",
+      "reading": "のうか",
+      "bn": "কৃষক পরিবার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "e0e16ed29e",
+      "word": "農業",
+      "reading": "のうぎょう",
+      "bn": "কৃষি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "01d17e5891",
+      "word": "農民",
+      "reading": "のうみん",
+      "bn": "কৃষক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "2cc68f1162",
+      "word": "能力",
+      "reading": "のうりょく",
+      "bn": "সামর্থ্য / দক্ষতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "05717efa73",
+      "word": "ノー",
+      "reading": "ノー",
+      "bn": "না",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "17409802d5",
+      "word": "残り",
+      "reading": "のこり",
+      "bn": "অবশিষ্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "8d2c6575c2",
+      "word": "望み",
+      "reading": "のぞみ",
+      "bn": "আশা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "4850008747",
+      "word": "ノック",
+      "reading": "ノック",
+      "bn": "দরজায় টোকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "2af9a4e3e2",
+      "word": "のんびり",
+      "reading": "のんびり",
+      "bn": "নিশ্চিন্তে / ধীরেসুস্থে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "ca4cbf878d",
+      "word": "場",
+      "reading": "ば",
+      "bn": "জায়গা / ক্ষেত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "08f58c3770",
+      "word": "はあ",
+      "reading": "はあ",
+      "bn": "হাহ্ (দীর্ঘশ্বাস); জি হ্যাঁ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "2add5a6bbc",
+      "word": "パーセント",
+      "reading": "パーセント",
+      "bn": "শতাংশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "f59cd43bb0",
+      "word": "バイオリン",
+      "reading": "バイオリン",
+      "bn": "বেহালা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "34eebaa289",
+      "word": "ハイキング",
+      "reading": "ハイキング",
+      "bn": "হাইকিং",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "c4a32b9e77",
+      "word": "配達",
+      "reading": "はいたつ",
+      "bn": "ডেলিভারি / পৌঁছে দেওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "f33e48aa94",
+      "word": "パイプ",
+      "reading": "パイプ",
+      "bn": "পাইপ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "66d7ecadb1",
+      "word": "俳優",
+      "reading": "はいゆう",
+      "bn": "অভিনেতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "b937b60491",
+      "word": "パイロット",
+      "reading": "パイロット",
+      "bn": "বিমানচালক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "2ebc49d99b",
+      "word": "墓",
+      "reading": "はか",
+      "bn": "কবর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "5b445da9d8",
+      "word": "博士",
+      "reading": "はかせ",
+      "bn": "ডক্টরেট / ডক্টর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "00612a587a",
+      "word": "拍手",
+      "reading": "はくしゅ",
+      "bn": "হাততালি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "30f0623cca",
+      "word": "爆発",
+      "reading": "ばくはつ",
+      "bn": "বিস্ফোরণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "24194e1918",
+      "word": "博物館",
+      "reading": "はくぶつかん",
+      "bn": "জাদুঘর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "049907be5e",
+      "word": "激しい",
+      "reading": "はげしい",
+      "bn": "তীব্র / প্রচণ্ডい-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "b3726f128a",
+      "word": "破産",
+      "reading": "はさん",
+      "bn": "দেউলিয়া হওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "65a7467d0d",
+      "word": "端",
+      "reading": "はし",
+      "bn": "কিনারা / প্রান্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "74d028f694",
+      "word": "始まり",
+      "reading": "はじまり",
+      "bn": "শুরু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "242a0bb0ea",
+      "word": "パス",
+      "reading": "パス",
+      "bn": "পাস (খেলায়) / পাস করা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "847b06de33",
+      "word": "旗",
+      "reading": "はた",
+      "bn": "পতাকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "05e4ce3a94",
+      "word": "肌",
+      "reading": "はだ",
+      "bn": "ত্বক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "e512ff0725",
+      "word": "裸",
+      "reading": "はだか",
+      "bn": "নগ্ন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "f4fd9f8f66",
+      "word": "畑",
+      "reading": "はたけ",
+      "bn": "ক্ষেত (শুকনো জমির)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "5d26933404",
+      "word": "働き",
+      "reading": "はたらき",
+      "bn": "কাজ / কার্যকারিতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "7a68fa62f5",
+      "word": "バッグ",
+      "reading": "バッグ",
+      "bn": "ব্যাগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "b9edd7963b",
+      "word": "発見",
+      "reading": "はっけん",
+      "bn": "আবিষ্কার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "7b2ac42cba",
+      "word": "発行",
+      "reading": "はっこう",
+      "bn": "প্রকাশ / জারি করা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "215a642747",
+      "word": "発車",
+      "reading": "はっしゃ",
+      "bn": "(যানবাহন) ছাড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "7bf9f0076e",
+      "word": "発達",
+      "reading": "はったつ",
+      "bn": "বিকাশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "1038a70c3e",
+      "word": "ばったり",
+      "reading": "ばったり",
+      "bn": "হঠাৎ (দেখা হয়ে যাওয়া)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "b5b2724a2f",
+      "word": "発展",
+      "reading": "はってん",
+      "bn": "উন্নয়ন / বিকাশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "738eff46a4",
+      "word": "発表",
+      "reading": "はっぴょう",
+      "bn": "ঘোষণা / উপস্থাপনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/22"
+    },
+    {
+      "id": "d9d15cf734",
+      "word": "発明",
+      "reading": "はつめい",
+      "bn": "উদ্ভাবন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "a101c852f4",
+      "word": "羽",
+      "reading": "はね",
+      "bn": "ডানা; পালক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "3fe84c43ef",
+      "word": "幅",
+      "reading": "はば",
+      "bn": "প্রস্থ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "0caca661c5",
+      "word": "母親",
+      "reading": "ははおや",
+      "bn": "মা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "f7a2ae495f",
+      "word": "場面",
+      "reading": "ばめん",
+      "bn": "দৃশ্য / পরিস্থিতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "3d1e878581",
+      "word": "原",
+      "reading": "はら",
+      "bn": "মাঠ / প্রান্তর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "3e3a15d22b",
+      "word": "針",
+      "reading": "はり",
+      "bn": "সুঁই; (ঘড়ির) কাঁটা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "01dda94e77",
+      "word": "範囲",
+      "reading": "はんい",
+      "bn": "পরিসর / সীমা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "8bc52096d2",
+      "word": "反抗",
+      "reading": "はんこう",
+      "bn": "বিরোধিতা / অবাধ্যতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "5c93fedd45",
+      "word": "犯罪",
+      "reading": "はんざい",
+      "bn": "অপরাধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "3b88931b34",
+      "word": "判断",
+      "reading": "はんだん",
+      "bn": "সিদ্ধান্ত / বিচার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "bd0d639908",
+      "word": "犯人",
+      "reading": "はんにん",
+      "bn": "অপরাধী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "f568334fa2",
+      "word": "販売",
+      "reading": "はんばい",
+      "bn": "বিক্রি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "de6ed799d8",
+      "word": "灯",
+      "reading": "ひ",
+      "bn": "আলো / বাতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "b2dc319b19",
+      "word": "被害",
+      "reading": "ひがい",
+      "bn": "ক্ষতি (দুর্যোগের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "34372f5e76",
+      "word": "比較",
+      "reading": "ひかく",
+      "bn": "তুলনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "f1f3f6775d",
+      "word": "ピクニック",
+      "reading": "ピクニック",
+      "bn": "পিকনিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "65f02872e4",
+      "word": "悲劇",
+      "reading": "ひげき",
+      "bn": "ট্র্যাজেডি / বিয়োগান্ত ঘটনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "c62c71907b",
+      "word": "飛行",
+      "reading": "ひこう",
+      "bn": "উড্ডয়ন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "908a7a4f49",
+      "word": "膝",
+      "reading": "ひざ",
+      "bn": "হাঁটু; কোল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "b0073ea226",
+      "word": "非常",
+      "reading": "ひじょう",
+      "bn": "জরুরি অবস্থা; অসাধারণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "1b93a0f3b9",
+      "word": "美人",
+      "reading": "びじん",
+      "bn": "সুন্দরী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "91d73df989",
+      "word": "日付",
+      "reading": "ひづけ",
+      "bn": "তারিখ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "1bd65d97c5",
+      "word": "ぴったり",
+      "reading": "ぴったり",
+      "bn": "একদম ঠিকঠাক / খাপে খাপে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "0422a82e00",
+      "word": "否定",
+      "reading": "ひてい",
+      "bn": "অস্বীকার / নেতিবাচক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "df6f68109a",
+      "word": "一言",
+      "reading": "ひとこと",
+      "bn": "এক কথা / সংক্ষেপে বলা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "5ac7d3cf22",
+      "word": "人込み",
+      "reading": "ひとごみ",
+      "bn": "ভিড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "71f52e4f3e",
+      "word": "等しい",
+      "reading": "ひとしい",
+      "bn": "সমানい-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "5cc54de84b",
+      "word": "独り",
+      "reading": "ひとり",
+      "bn": "একা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "f675c4ff49",
+      "word": "一人一人",
+      "reading": "ひとりひとり",
+      "bn": "প্রত্যেকে আলাদাভাবে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "d7032c88c5",
+      "word": "批判",
+      "reading": "ひはん",
+      "bn": "সমালোচনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "6997e916e3",
+      "word": "批評",
+      "reading": "ひひょう",
+      "bn": "পর্যালোচনা / রিভিউ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "c3d0c7fa43",
+      "word": "秘密",
+      "reading": "ひみつ",
+      "bn": "গোপন কথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "233a387b5d",
+      "word": "微妙",
+      "reading": "びみょう",
+      "bn": "সূক্ষ্ম; দ্বিধাময় (কথ্যে: \"ঠিক বোঝা যায় না\")",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "dee0d769c7",
+      "word": "紐",
+      "reading": "ひも",
+      "bn": "ফিতা / সুতলি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "d684a35bd1",
+      "word": "費用",
+      "reading": "ひよう",
+      "bn": "খরচ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "38664919d1",
+      "word": "秒",
+      "reading": "びょう",
+      "bn": "সেকেন্ড (সময়)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "e53de06680",
+      "word": "評価",
+      "reading": "ひょうか",
+      "bn": "মূল্যায়ন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "4ad9f1ce23",
+      "word": "表現",
+      "reading": "ひょうげん",
+      "bn": "প্রকাশভঙ্গি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "58e01c0b72",
+      "word": "表情",
+      "reading": "ひょうじょう",
+      "bn": "মুখের ভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "32b3f86071",
+      "word": "評判",
+      "reading": "ひょうばん",
+      "bn": "সুনাম / খ্যাতি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "82a95bb809",
+      "word": "表面",
+      "reading": "ひょうめん",
+      "bn": "উপরিভাগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "1ea7451e69",
+      "word": "瓶",
+      "reading": "びん",
+      "bn": "বোতল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "526233614e",
+      "word": "便",
+      "reading": "びん",
+      "bn": "ফ্লাইট / যানবাহন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "18ce3e646d",
+      "word": "ピン",
+      "reading": "ピン",
+      "bn": "পিন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "41e221bc4d",
+      "word": "不",
+      "reading": "ふ",
+      "bn": "অ- / না- (উপসর্গ)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "360b70b61d",
+      "word": "風景",
+      "reading": "ふうけい",
+      "bn": "প্রাকৃতিক দৃশ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "3146d2f2ac",
+      "word": "夫婦",
+      "reading": "ふうふ",
+      "bn": "স্বামী-⁠স্ত্রী",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "0dbafbe052",
+      "word": "笛",
+      "reading": "ふえ",
+      "bn": "বাঁশি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "089623da2c",
+      "word": "不可",
+      "reading": "ふか",
+      "bn": "অসম্ভব / অনুমোদিত নয়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "e4b01b085c",
+      "word": "武器",
+      "reading": "ぶき",
+      "bn": "অস্ত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "620d3a74b1",
+      "word": "服装",
+      "reading": "ふくそう",
+      "bn": "পোশাক-⁠আশাক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "b0b2986a8e",
+      "word": "袋",
+      "reading": "ふくろ",
+      "bn": "থলে / ব্যাগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "f898b4b8d2",
+      "word": "節",
+      "reading": "ふし",
+      "bn": "সুর; গাঁট (বাঁশের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "05eba33435",
+      "word": "夫人",
+      "reading": "ふじん",
+      "bn": "স্ত্রী (সম্মানে) / মিসেস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "d60c9a1ed3",
+      "word": "婦人",
+      "reading": "ふじん",
+      "bn": "মহিলা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "070cf68b21",
+      "word": "不足",
+      "reading": "ふそく",
+      "bn": "ঘাটতি / অভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "2e83a59cd5",
+      "word": "舞台",
+      "reading": "ぶたい",
+      "bn": "মঞ্চ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "3303a98af1",
+      "word": "双子",
+      "reading": "ふたご",
+      "bn": "যমজ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "02a74abcd0",
+      "word": "再び",
+      "reading": "ふたたび",
+      "bn": "আবার / পুনরায়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "38272461d1",
+      "word": "普段",
+      "reading": "ふだん",
+      "bn": "সাধারণত / রোজকার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "aee461222c",
+      "word": "物質",
+      "reading": "ぶっしつ",
+      "bn": "পদার্থ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "97ccdb5cad",
+      "word": "物理",
+      "reading": "ぶつり",
+      "bn": "পদার্থবিজ্ঞান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "68dbed6140",
+      "word": "筆",
+      "reading": "ふで",
+      "bn": "তুলি (লেখার)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "347f2ce155",
+      "word": "ふと",
+      "reading": "ふと",
+      "bn": "হঠাৎ (মনে পড়া)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "8e9d8bfa84",
+      "word": "部分",
+      "reading": "ぶぶん",
+      "bn": "অংশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "8f103ca6a0",
+      "word": "不平",
+      "reading": "ふへい",
+      "bn": "অভিযোগ / অসন্তোষ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "3fecda87cd",
+      "word": "プラス",
+      "reading": "プラス",
+      "bn": "যোগ / প্লাস; লাভ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "e351a6f3de",
+      "word": "プラン",
+      "reading": "プラン",
+      "bn": "পরিকল্পনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "24fa33d1a4",
+      "word": "ブレーキ",
+      "reading": "ブレーキ",
+      "bn": "ব্রেক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "9cb4c24f0c",
+      "word": "プロ",
+      "reading": "プロ",
+      "bn": "পেশাদার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "39b0ac16ca",
+      "word": "文",
+      "reading": "ぶん",
+      "bn": "বাক্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "a12218e8ea",
+      "word": "雰囲気",
+      "reading": "ふんいき",
+      "bn": "পরিবেশ / আবহ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "b393ad2814",
+      "word": "分析",
+      "reading": "ぶんせき",
+      "bn": "বিশ্লেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "56e2434245",
+      "word": "文明",
+      "reading": "ぶんめい",
+      "bn": "সভ্যতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "e3be9063f5",
+      "word": "分野",
+      "reading": "ぶんや",
+      "bn": "ক্ষেত্র (বিষয়ের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "5083117601",
+      "word": "塀",
+      "reading": "へい",
+      "bn": "প্রাচীর / বেড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "5874850a67",
+      "word": "平均",
+      "reading": "へいきん",
+      "bn": "গড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "91695e543a",
+      "word": "別に",
+      "reading": "べつに",
+      "bn": "বিশেষ কিছু না",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "44edce4345",
+      "word": "ベルト",
+      "reading": "ベルト",
+      "bn": "বেল্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "eac8dadcd3",
+      "word": "変化",
+      "reading": "へんか",
+      "bn": "পরিবর্তন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "525af6640e",
+      "word": "ペンキ",
+      "reading": "ペンキ",
+      "bn": "রং (দেয়ালের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "136adbc360",
+      "word": "変更",
+      "reading": "へんこう",
+      "bn": "পরিবর্তন / সংশোধন (পরিকল্পনার)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "b696809e2d",
+      "word": "ベンチ",
+      "reading": "ベンチ",
+      "bn": "বেঞ্চ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "e7344aa7e1",
+      "word": "法",
+      "reading": "ほう",
+      "bn": "আইন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/28"
+    },
+    {
+      "id": "b780931140",
+      "word": "棒",
+      "reading": "ぼう",
+      "bn": "লাঠি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "d6ee5e0b7d",
+      "word": "冒険",
+      "reading": "ぼうけん",
+      "bn": "অভিযান / দুঃসাহস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/37"
+    },
+    {
+      "id": "fcbac4861d",
+      "word": "方向",
+      "reading": "ほうこう",
+      "bn": "দিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "cd34099f98",
+      "word": "宝石",
+      "reading": "ほうせき",
+      "bn": "রত্ন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "9ae027f872",
+      "word": "訪問",
+      "reading": "ほうもん",
+      "bn": "পরিদর্শন / দেখা করতে যাওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "00b4506e25",
+      "word": "ボーイ",
+      "reading": "ボーイ",
+      "bn": "ওয়েটার; ছেলে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "b86c6df29f",
+      "word": "ボート",
+      "reading": "ボート",
+      "bn": "নৌকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "e11ef6d7e3",
+      "word": "ホーム",
+      "reading": "ホーム",
+      "bn": "প্ল্যাটফর্ম (স্টেশনের); বাড়ি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "38dd5eb4a0",
+      "word": "ボール",
+      "reading": "ボール",
+      "bn": "বল; বাটি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "02dfedfddc",
+      "word": "誇り",
+      "reading": "ほこり",
+      "bn": "গর্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "e8c040a956",
+      "word": "埃",
+      "reading": "ほこり",
+      "bn": "ধুলো",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "33602d086e",
+      "word": "保証",
+      "reading": "ほしょう",
+      "bn": "নিশ্চয়তা / ওয়ারেন্টি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "fc2460d6aa",
+      "word": "保存",
+      "reading": "ほぞん",
+      "bn": "সংরক্ষণ; সেভ করা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "2d670c3944",
+      "word": "歩道",
+      "reading": "ほどう",
+      "bn": "ফুটপাত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "b1358dbe27",
+      "word": "仏",
+      "reading": "ほとけ",
+      "bn": "বুদ্ধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "bd7dce62ae",
+      "word": "骨",
+      "reading": "ほね",
+      "bn": "হাড়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "2afa66abdb",
+      "word": "炎",
+      "reading": "ほのお",
+      "bn": "আগুনের শিখা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "867e9165fc",
+      "word": "頬",
+      "reading": "ほほ",
+      "bn": "গাল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "fa769c0e9b",
+      "word": "ほぼ",
+      "reading": "ほぼ",
+      "bn": "প্রায়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "3f544e7ada",
+      "word": "本人",
+      "reading": "ほんにん",
+      "bn": "স্বয়ং সেই ব্যক্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "3067b8986a",
+      "word": "本物",
+      "reading": "ほんもの",
+      "bn": "আসল জিনিস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "20410e72ff",
+      "word": "ぼんやり",
+      "reading": "ぼんやり",
+      "bn": "ঝাপসা; আনমনা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "440279fbf1",
+      "word": "まあ",
+      "reading": "まあ",
+      "bn": "আচ্ছা / মোটামুটি; ওমা!",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "ea7888aea6",
+      "word": "マーケット",
+      "reading": "マーケット",
+      "bn": "বাজার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "97ddf0dc45",
+      "word": "マイク",
+      "reading": "マイク",
+      "bn": "মাইক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/9"
+    },
+    {
+      "id": "6262822f7e",
+      "word": "迷子",
+      "reading": "まいご",
+      "bn": "হারিয়ে যাওয়া শিশু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "b08a90a19e",
+      "word": "幕",
+      "reading": "まく",
+      "bn": "পর্দা (মঞ্চের); অঙ্ক (নাটকের)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "190905e79b",
+      "word": "負け",
+      "reading": "まけ",
+      "bn": "হার / পরাজয়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "e008354e7b",
+      "word": "孫",
+      "reading": "まご",
+      "bn": "নাতি-⁠নাতনি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "524a699a99",
+      "word": "まさか",
+      "reading": "まさか",
+      "bn": "এমন হতেই পারে না!",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/57"
+    },
+    {
+      "id": "379f6158b5",
+      "word": "まさに",
+      "reading": "まさに",
+      "bn": "ঠিক / নিঃসন্দেহে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "b718c116a2",
+      "word": "貧しい",
+      "reading": "まずしい",
+      "bn": "গরিবい-⁠বিশেষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "363e985c77",
+      "word": "マスター",
+      "reading": "マスター",
+      "bn": "মালিক (দোকানের); দক্ষতা অর্জন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/3"
+    },
+    {
+      "id": "f1bbdd1149",
+      "word": "ますます",
+      "reading": "ますます",
+      "bn": "আরও বেশি করে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "f91eb72b15",
+      "word": "街",
+      "reading": "まち",
+      "bn": "শহর; রাস্তা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/11"
+    },
+    {
+      "id": "bcc0ebf62f",
+      "word": "間違い",
+      "reading": "まちがい",
+      "bn": "ভুল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "3f423a01da",
+      "word": "松",
+      "reading": "まつ",
+      "bn": "পাইন গাছ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/17"
+    },
+    {
+      "id": "2eb5b8f659",
+      "word": "全く",
+      "reading": "まったく",
+      "bn": "একেবারে / সত্যিই",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/55"
+    },
+    {
+      "id": "59b359ba79",
+      "word": "真似",
+      "reading": "まね",
+      "bn": "নকল / অনুকরণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "3efa32e22e",
+      "word": "ママ",
+      "reading": "ママ",
+      "bn": "মা (আদুরে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "4f949d1f9d",
+      "word": "豆",
+      "reading": "まめ",
+      "bn": "মটরশুঁটি / শিম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/6"
+    },
+    {
+      "id": "070c3ea238",
+      "word": "丸",
+      "reading": "まる",
+      "bn": "গোল / বৃত্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "b556900c26",
+      "word": "まるで",
+      "reading": "まるで",
+      "bn": "ঠিক যেন / পুরোপুরি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "abbd37156d",
+      "word": "万一",
+      "reading": "まんいち",
+      "bn": "যদি কোনোভাবে (দুর্ঘটনাক্রমে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/38"
+    },
+    {
+      "id": "a4f0b205a3",
+      "word": "満足",
+      "reading": "まんぞく",
+      "bn": "সন্তুষ্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/51"
+    },
+    {
+      "id": "ad70550f9b",
+      "word": "実",
+      "reading": "み",
+      "bn": "ফল / বীজ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "6ebe370c91",
+      "word": "身",
+      "reading": "み",
+      "bn": "শরীর / নিজে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "604e1446f4",
+      "word": "見送り",
+      "reading": "みおくり",
+      "bn": "বিদায় জানাতে যাওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "8e820edd3b",
+      "word": "味方",
+      "reading": "みかた",
+      "bn": "মিত্র / সমর্থক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "62682a6308",
+      "word": "ミス",
+      "reading": "ミス",
+      "bn": "ভুল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "246fc4acb8",
+      "word": "未来",
+      "reading": "みらい",
+      "bn": "ভবিষ্যৎ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "dcdfb791b5",
+      "word": "魅力",
+      "reading": "みりょく",
+      "bn": "আকর্ষণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "f3143300d0",
+      "word": "ミルク",
+      "reading": "ミルク",
+      "bn": "দুধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/6"
+    },
+    {
+      "id": "bd67aff522",
+      "word": "無",
+      "reading": "む",
+      "bn": "কিছুই না / শূন্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "ea28b7880a",
+      "word": "向かい",
+      "reading": "むかい",
+      "bn": "উল্টো দিক / সামনাসামনি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/10"
+    },
+    {
+      "id": "934da0daf8",
+      "word": "迎え",
+      "reading": "むかえ",
+      "bn": "অভ্যর্থনা / নিতে আসা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "e866d19dae",
+      "word": "無視",
+      "reading": "むし",
+      "bn": "উপেক্ষা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "be007a1109",
+      "word": "虫歯",
+      "reading": "むしば",
+      "bn": "দাঁতের পোকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "060e802c68",
+      "word": "寧ろ",
+      "reading": "むしろ",
+      "bn": "বরং",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "eb85283cf4",
+      "word": "胸",
+      "reading": "むね",
+      "bn": "বুক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "bd59d43a89",
+      "word": "無料",
+      "reading": "むりょう",
+      "bn": "বিনামূল্যে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "1357988d61",
+      "word": "芽",
+      "reading": "め",
+      "bn": "অঙ্কুর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "37126e35d7",
+      "word": "名人",
+      "reading": "めいじん",
+      "bn": "ওস্তাদ / বিশেষজ্ঞ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "f523e4118d",
+      "word": "命令",
+      "reading": "めいれい",
+      "bn": "আদেশ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "24e21e954d",
+      "word": "滅多に",
+      "reading": "めったに",
+      "bn": "কদাচিৎ (না-⁠বাচকে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "c13f4ea321",
+      "word": "メモ",
+      "reading": "メモ",
+      "bn": "নোট / টুকে রাখা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "c40902d092",
+      "word": "面",
+      "reading": "めん",
+      "bn": "মুখ; পৃষ্ঠ; দিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "6b165e8a57",
+      "word": "免許",
+      "reading": "めんきょ",
+      "bn": "লাইসেন্স",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "df62e316d7",
+      "word": "メンバー",
+      "reading": "メンバー",
+      "bn": "সদস্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "b687c34ed5",
+      "word": "申し訳",
+      "reading": "もうしわけ",
+      "bn": "দুঃখপ্রকাশ (申し訳ありません = খুবই দুঃখিত)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "b83a39027b",
+      "word": "毛布",
+      "reading": "もうふ",
+      "bn": "কম্বল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "0440a8bd4f",
+      "word": "目的",
+      "reading": "もくてき",
+      "bn": "উদ্দেশ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/29"
+    },
+    {
+      "id": "5a93587f3a",
+      "word": "目標",
+      "reading": "もくひょう",
+      "bn": "লক্ষ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "2ec7e341be",
+      "word": "文字",
+      "reading": "もじ",
+      "bn": "অক্ষর / লিপি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "6aa4147162",
+      "word": "もしも",
+      "reading": "もしも",
+      "bn": "যদি (জোর দিয়ে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "779c980843",
+      "word": "尤も",
+      "reading": "もっとも",
+      "bn": "ঠিকই / যুক্তিসঙ্গত; অবশ্য",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "0f4b2590f6",
+      "word": "基",
+      "reading": "もと",
+      "bn": "ভিত্তি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "f5b7534060",
+      "word": "元",
+      "reading": "もと",
+      "bn": "উৎস; আগের (元~ = প্রাক্তন)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "aa6e296421",
+      "word": "素",
+      "reading": "もと",
+      "bn": "উপাদান / মূল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "ae498d63bc",
+      "word": "者",
+      "reading": "もの",
+      "bn": "ব্যক্তি / লোক (বিনয়ী)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "013c3a92d2",
+      "word": "物音",
+      "reading": "ものおと",
+      "bn": "শব্দ (কিছু নড়ার)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "6b8002d0f8",
+      "word": "物語",
+      "reading": "ものがたり",
+      "bn": "গল্প / কাহিনি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "e810d0494c",
+      "word": "物事",
+      "reading": "ものごと",
+      "bn": "বিষয়-⁠আশয় / সবকিছু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "3cda3baabf",
+      "word": "模様",
+      "reading": "もよう",
+      "bn": "নকশা; অবস্থা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "0e7597cf73",
+      "word": "文句",
+      "reading": "もんく",
+      "bn": "অভিযোগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "eb2bf568d9",
+      "word": "やがて",
+      "reading": "やがて",
+      "bn": "একটু পরেই / অবশেষে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "396f83701d",
+      "word": "役",
+      "reading": "やく",
+      "bn": "ভূমিকা / পদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "abfa120074",
+      "word": "約",
+      "reading": "やく",
+      "bn": "প্রায় (সংখ্যার আগে)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "02424c2277",
+      "word": "役割",
+      "reading": "やくわり",
+      "bn": "ভূমিকা / দায়িত্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "35b2b01bf1",
+      "word": "宿",
+      "reading": "やど",
+      "bn": "থাকার জায়গা / সরাইখানা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/10"
+    },
+    {
+      "id": "edba3a49e1",
+      "word": "屋根",
+      "reading": "やね",
+      "bn": "ছাদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "586d4c294b",
+      "word": "やや",
+      "reading": "やや",
+      "bn": "কিছুটা / একটু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "ea7b6990d3",
+      "word": "唯一",
+      "reading": "ゆいいつ",
+      "bn": "একমাত্র",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "1b04830825",
+      "word": "勇気",
+      "reading": "ゆうき",
+      "bn": "সাহস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "03c4975c1c",
+      "word": "優勝",
+      "reading": "ゆうしょう",
+      "bn": "চ্যাম্পিয়ন হওয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "1192e07fed",
+      "word": "友情",
+      "reading": "ゆうじょう",
+      "bn": "বন্ধুত্ব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "95203a9427",
+      "word": "友人",
+      "reading": "ゆうじん",
+      "bn": "বন্ধু (আনুষ্ঠানিক)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "9a61747e5d",
+      "word": "郵便",
+      "reading": "ゆうびん",
+      "bn": "ডাক / পোস্ট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "5489cdb398",
+      "word": "床",
+      "reading": "ゆか",
+      "bn": "মেঝে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "b434efd06b",
+      "word": "夜明け",
+      "reading": "よあけ",
+      "bn": "ভোর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "7b812f29c4",
+      "word": "要求",
+      "reading": "ようきゅう",
+      "bn": "দাবি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "6693cfdf82",
+      "word": "用心",
+      "reading": "ようじん",
+      "bn": "সাবধানতা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "571736e080",
+      "word": "様子",
+      "reading": "ようす",
+      "bn": "অবস্থা / হাবভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "0910eee377",
+      "word": "要するに",
+      "reading": "ようするに",
+      "bn": "সংক্ষেপে বলতে গেলে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "b6f29d6b8e",
+      "word": "要素",
+      "reading": "ようそ",
+      "bn": "উপাদান",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "654dd204be",
+      "word": "要点",
+      "reading": "ようてん",
+      "bn": "মূল কথা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "8c36af4c9f",
+      "word": "予期",
+      "reading": "よき",
+      "bn": "প্রত্যাশা (আগাম)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "d7dea8a506",
+      "word": "予算",
+      "reading": "よさん",
+      "bn": "বাজেট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "908b44a04b",
+      "word": "予測",
+      "reading": "よそく",
+      "bn": "পূর্বাভাস",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "82611a8f51",
+      "word": "ヨット",
+      "reading": "ヨット",
+      "bn": "ইয়ট / পালতোলা নৌকা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "19a41952db",
+      "word": "夜中",
+      "reading": "よなか",
+      "bn": "মাঝরাত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/14"
+    },
+    {
+      "id": "6f514b9fe7",
+      "word": "世の中",
+      "reading": "よのなか",
+      "bn": "সমাজ / দুনিয়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "6315da87bc",
+      "word": "予報",
+      "reading": "よほう",
+      "bn": "পূর্বাভাস (আবহাওয়া)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "7e01f30eaa",
+      "word": "予防",
+      "reading": "よぼう",
+      "bn": "প্রতিরোধ (রোগ)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "aa98da380d",
+      "word": "読み",
+      "reading": "よみ",
+      "bn": "পড়া; পাঠ; আন্দাজ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "905e143f7a",
+      "word": "嫁",
+      "reading": "よめ",
+      "bn": "কনে / পুত্রবধূ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "8bdbbb4bf4",
+      "word": "余裕",
+      "reading": "よゆう",
+      "bn": "অবকাশ / হাতে সময়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "63d195fd9d",
+      "word": "喜び",
+      "reading": "よろこび",
+      "bn": "আনন্দ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "0294bdc5ab",
+      "word": "ライター",
+      "reading": "ライター",
+      "bn": "লাইটার; লেখক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "f998ef10bc",
+      "word": "ラケット",
+      "reading": "ラケット",
+      "bn": "র‍্যাকেট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "d75a953f22",
+      "word": "利益",
+      "reading": "りえき",
+      "bn": "লাভ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "400fee0ea3",
+      "word": "理解",
+      "reading": "りかい",
+      "bn": "বোঝা / উপলব্ধি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "b0fe98d49c",
+      "word": "陸",
+      "reading": "りく",
+      "bn": "স্থলভাগ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "5c0444713b",
+      "word": "離婚",
+      "reading": "りこん",
+      "bn": "বিবাহবিচ্ছেদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/5"
+    },
+    {
+      "id": "ed6d068863",
+      "word": "理想",
+      "reading": "りそう",
+      "bn": "আদর্শ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "50c0503d3d",
+      "word": "率",
+      "reading": "りつ",
+      "bn": "হার / অনুপাত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "52a1844352",
+      "word": "流行",
+      "reading": "りゅうこう",
+      "bn": "ফ্যাশন / প্রচলন; (রোগের) প্রাদুর্ভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "8fb3130c49",
+      "word": "量",
+      "reading": "りょう",
+      "bn": "পরিমাণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "38170a2835",
+      "word": "両替",
+      "reading": "りょうがえ",
+      "bn": "মুদ্রা বিনিময়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "7890b85fc7",
+      "word": "料金",
+      "reading": "りょうきん",
+      "bn": "ভাড়া / ফি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/27"
+    },
+    {
+      "id": "9768eacb27",
+      "word": "例",
+      "reading": "れい",
+      "bn": "উদাহরণ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "4caf52bf1b",
+      "word": "礼儀",
+      "reading": "れいぎ",
+      "bn": "শিষ্টাচার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "bf2843b87f",
+      "word": "列",
+      "reading": "れつ",
+      "bn": "সারি / লাইন",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "d06ebb646b",
+      "word": "列車",
+      "reading": "れっしゃ",
+      "bn": "রেলগাড়ি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "61c4f4686e",
+      "word": "連想",
+      "reading": "れんそう",
+      "bn": "অনুষঙ্গ / মনে পড়া",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "67153e2a31",
+      "word": "連続",
+      "reading": "れんぞく",
+      "bn": "ধারাবাহিক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "0c914e9a90",
+      "word": "老人",
+      "reading": "ろうじん",
+      "bn": "বৃদ্ধ মানুষ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "7e15214f9a",
+      "word": "労働",
+      "reading": "ろうどう",
+      "bn": "শ্রম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/24"
+    },
+    {
+      "id": "cd42c9314f",
+      "word": "ロケット",
+      "reading": "ロケット",
+      "bn": "রকেট",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/12"
+    },
+    {
+      "id": "3a7b01e5d4",
+      "word": "論争",
+      "reading": "ろんそう",
+      "bn": "বিতর্ক",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "60bb4e1af0",
+      "word": "論文",
+      "reading": "ろんぶん",
+      "bn": "গবেষণাপত্র / প্রবন্ধ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/21"
+    },
+    {
+      "id": "3f77054caf",
+      "word": "輪",
+      "reading": "わ",
+      "bn": "আংটা / বৃত্ত",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "31f9300fb0",
+      "word": "別れ",
+      "reading": "わかれ",
+      "bn": "বিদায় / বিচ্ছেদ",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/56"
+    },
+    {
+      "id": "037c2ecb86",
+      "word": "脇",
+      "reading": "わき",
+      "bn": "পাশ / বগল",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/19"
+    },
+    {
+      "id": "b778777901",
+      "word": "わざと",
+      "reading": "わざと",
+      "bn": "ইচ্ছে করে",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    },
+    {
+      "id": "e7eeb8eff1",
+      "word": "話題",
+      "reading": "わだい",
+      "bn": "আলোচনার বিষয়",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "40312166c1",
+      "word": "笑い",
+      "reading": "わらい",
+      "bn": "হাসি",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "b440e7ed66",
+      "word": "悪口",
+      "reading": "わるくち",
+      "bn": "কুৎসা / নিন্দা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/34"
+    },
+    {
+      "id": "3fc07b1856",
+      "word": "我々",
+      "reading": "われわれ",
+      "bn": "আমরা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/2"
+    },
+    {
+      "id": "ef9bb7868b",
+      "word": "湾",
+      "reading": "わん",
+      "bn": "উপসাগর",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/16"
+    },
+    {
+      "id": "extra-e2c3ec4d45",
+      "word": "柄",
+      "reading": "がら",
+      "bn": "নকশা; গড়ন; স্বভাব",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/32"
+    },
+    {
+      "id": "extra-8438b4fd41",
+      "word": "綿",
+      "reading": "わた",
+      "bn": "তুলা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/8"
+    },
+    {
+      "id": "dict-b3e61fa66545",
+      "word": "しばしば",
+      "reading": "しばしば",
+      "bn": "প্রায়ই / বারবার",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/53"
+    },
+    {
+      "id": "dict-e552e1f96d71",
+      "word": "生",
+      "reading": "せい",
+      "bn": "জীবন / জন্ম",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/4"
+    },
+    {
+      "id": "dict-e8158a1a6066",
+      "word": "ダイヤ",
+      "reading": "ダイヤ",
+      "bn": "সময়সূচি (ট্রেনের); হীরা",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/36"
+    },
+    {
+      "id": "dict-280a4bbeb68c",
+      "word": "本当",
+      "reading": "ほんと",
+      "bn": "সত্যি (কথ্য)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/52"
+    },
+    {
+      "id": "dict-9b30f04da4e0",
+      "word": "元",
+      "reading": "もと",
+      "bn": "উৎস; আগের (元~ = প্রাক্তন)",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/33"
+    },
+    {
+      "id": "dict-7432a001f477",
+      "word": "やや",
+      "reading": "やや",
+      "bn": "কিছুটা / একটু",
+      "source_url": "https://ippo-bd.vercel.app/vocab/level/n3/54"
+    }
+  ]
+}
