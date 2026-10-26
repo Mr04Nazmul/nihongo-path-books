@@ -1,3 +1,47 @@
+# Latest Bengali review checkpoint — 26 October 2026
+
+Only repository `Mr04Nazmul/nihongo-path-books` was changed. The separate
+`nihongo-path` repository was not touched. Advertising remains disabled.
+
+Base main: `25cb8e64c9e9edbd67616876f4c438c1a1fbcfd8`.
+Recounted initial N3/N2 scope: 13,901 fields, 1,841 checked, 12,060 pending.
+Current N3/N2 scope: **4,025 checked; 9,876 pending**. New checks: **2,184**.
+All 785 kanji meanings are now checked; vocabulary and grammar remain incomplete.
+The 5,000-field N3/N2 milestone is not reached. All-level totals include N5 and
+must not be substituted for N3/N2 coverage.
+
+## Exact resumption
+
+1. Read `translations/REVIEW.md`, the ledger, source overrides and build script.
+2. Run `python scripts/build_data.py` and `python scripts/audit_review.py --check`.
+3. Consume `translations/n3-n2-pending.jsonl`: every unfinished ID/field and its
+   source hash is included. Resolve current Japanese/English/Bengali from
+   `build_data.fields()` and the matching `dist/data/n3.json` / `n2.json` entry.
+4. Inspect each source and reading. Store corrections in the appropriate durable
+   override, then bind actual semantic evidence to final hashes. Never stamp MT.
+5. Run `python scripts/audit_review.py --write` after changes and rerun the tests.
+   Check `n3-n2-audit.json` for exact totals and for zero integrity errors.
+6. Preserve the immutable inventory and the prior checked-field hashes. Do not
+   modify the unrelated repository or enable advertising.
+
+Optional draft tool: `scripts/translation_drafts.py`, documented in
+`translations/TRANSLATION-TOOLS.md`. A working MyMemory result is cached as
+unreviewed; Google returned 429. No attached ZIP was accessible. Do not assume
+scratch scripts, a previous process, a downloaded model or a /tmp cache survives.
+
+## Remaining technical scope
+
+Semantic review is still incomplete at this interactive session's context
+boundary. No background semantic-review worker has been started, and no work
+continues after the response. The exact remaining 9,876 fields are durable in
+`n3-n2-pending.jsonl`: 1,997 vocabulary meanings, 4,994 vocabulary examples,
+463 grammar meanings, 463 formations, 463 guidance fields and 1,496 grammar
+examples. The remaining fields are not certified by tests or machine output.
+
+The sections below are historical and their older counts are superseded above.
+
+---
+
 # Nihongo Path Books handoff — 26 October 2026
 
 ## Adsterra display integration

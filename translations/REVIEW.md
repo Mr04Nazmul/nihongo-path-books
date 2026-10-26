@@ -41,3 +41,35 @@ Authored and checked 184 examples. Corrected negation, quantities, pronouns and 
 ## Vocabulary examples, positions 310–359, N3 and N2
 
 Authored and checked 182 examples. Fixed polarity, numbers, time and agency; corrected English source mismatches. Attributed replacement examples demonstrate the intended headwords, with originals preserved. Cumulative N3/N2 checked fields: 1,725 of 13,901; remaining: 12,176. The full semantic review and 5,000-field target remain incomplete.
+
+## Current N3/N2 checkpoint: 4,025 / 13,901 fields
+
+Starting from main `25cb8e64c9e9edbd67616876f4c438c1a1fbcfd8`, independently
+recounted 1,841 checked and 12,060 pending N3/N2 fields. Added 2,184 inspected
+fields: 800 vocabulary meanings (positions 380–779 in both books), 365 individual
+vocabulary examples (positions 380–479), 234 grammar fields (entries 8–27 in both
+books), and all 785 kanji meanings. These are field counts, not word counts.
+
+Current checked: N3 2,049; N2 1,976. Pending: 9,876. The 5,000-field N3/N2
+milestone and the full requested semantic review are NOT complete. The larger
+all-level review total includes N5 and must not be presented as that milestone.
+
+Corrections include polarity, tense, agent/patient roles, numeric comparisons,
+calendar times, younger/older siblings, and reading-sensitive glosses. For
+example ささえる is support, not the つかえる obstruction sense; じかに is
+directly; かねない remains an undesirable possibility, not inability. Formation
+and guidance were rewritten with attachment rules and relevant contrasts.
+Incorrect English was amended in durable source overrides. Three attributed
+replacement sentences replace mismatched readings/parts of speech; inherited
+originals remain in source-overrides.json. No existing checked field changed.
+
+`n3-n2-field-inventory.json` preserves the original 13,901 field identities and
+the hashes of the checkpoint's 1,841 checked fields. `audit_review.py` verifies
+missing/extra/duplicate fields, duplicate/stale evidence and protected fields.
+`n3-n2-pending.jsonl` lists EVERY remaining ID/field with its current source hash.
+This structural audit does not claim semantic completion. All advertising
+remains disabled.
+
+No attached translation ZIP was available in this session or found in Library;
+no old /tmp path or other Work process was assumed. See TRANSLATION-TOOLS.md for
+the actual GitHub tool checks, successful MyMemory smoke test and unchecked cache.

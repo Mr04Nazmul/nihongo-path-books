@@ -21,6 +21,7 @@ jobs:
       - name: Rebuild and test
         run: |
           python scripts/build_data.py
+          python scripts/audit_review.py --check
           python build-pages.py
           python -m unittest discover -s tests
           node --test tests/*.test.cjs

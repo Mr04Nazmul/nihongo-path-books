@@ -1,0 +1,27 @@
+{
+  "inventory_commit": "25cb8e64c9e9edbd67616876f4c438c1a1fbcfd8",
+  "structural_audit_passed": true,
+  "semantic_review_complete": false,
+  "total_fields": 13901,
+  "checked_fields": 4025,
+  "pending_fields": 9876,
+  "checked_by_level": {
+    "N3": 2049,
+    "N2": 1976
+  },
+  "pending_by_kind_and_field": {
+    "grammar:examples": 1496,
+    "grammar:formation": 463,
+    "grammar:guidance": 463,
+    "grammar:meaning": 463,
+    "vocab:examples": 4994,
+    "vocab:meaning": 1997
+  },
+  "missing_fields": [],
+  "unexpected_fields": [],
+  "duplicate_fields": [],
+  "duplicate_evidence": [],
+  "stale_evidence": [],
+  "changed_previously_checked_fields": [],
+  "native_speaker_review": "not performed"
+}

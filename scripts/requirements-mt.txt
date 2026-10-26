@@ -1,0 +1,2 @@
+# Optional review-time draft helper only; not needed to build the website.
+deep-translator==1.11.4

@@ -1768,5 +1768,1116 @@
       "to dress someone",
       "to put clothes on someone"
     ]
+  },
+  "N3:vocab:d207be5049": {
+    "original_meanings": [
+      "commonness",
+      "community"
+    ],
+    "meanings": [
+      "common",
+      "shared",
+      "in common"
+    ],
+    "review_note": "Japanese headword 共通 read きょうつう takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:c479f65e9c": {
+    "original_meanings": [
+      "present day"
+    ],
+    "meanings": [
+      "modern era",
+      "modern times"
+    ],
+    "review_note": "Japanese headword 近代 read きんだい takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:4f7398ac14": {
+    "original_meanings": [
+      "monetary circulation",
+      "credit situation"
+    ],
+    "meanings": [
+      "finance",
+      "financing",
+      "lending and borrowing money"
+    ],
+    "review_note": "Japanese headword 金融 read きんゆう takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:44bc159936": {
+    "original_meanings": [
+      "sentence"
+    ],
+    "meanings": [
+      "phrase",
+      "clause",
+      "verse"
+    ],
+    "review_note": "Japanese headword 句 read く takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:def0fe1435": {
+    "original_meanings": [
+      "odour",
+      "scent",
+      "smell",
+      "stench"
+    ],
+    "meanings": [
+      "smelly",
+      "foul-smelling",
+      "suspicious"
+    ],
+    "review_note": "Original examples retained. Corrected English against Japanese; for 臭い (くさい), replaced the におい noun example with an explicitly authored adjective example.",
+    "original_examples": [
+      {
+        "ja": "あいつが臭い。",
+        "furigana": "あいつが{臭|くさ}い。",
+        "en": "He looks suspicious.",
+        "tatoeba_id": 234678
+      },
+      {
+        "ja": "警察は犬にその臭いをかがせた。",
+        "furigana": "{警察|けいさつ}は{犬|いぬ}にその{臭|くさ}いをかがせた。",
+        "en": "The police set a dog on the scent.",
+        "tatoeba_id": 176191
+      }
+    ],
+    "examples": [
+      {
+        "ja": "あいつが臭い。",
+        "furigana": "あいつが{臭|くさ}い。",
+        "en": "He looks suspicious.",
+        "tatoeba_id": 234678
+      },
+      {
+        "ja": "その靴下は臭い。",
+        "en": "Those socks are smelly.",
+        "furigana": "その{靴下|くつした}は{臭|くさ}い。",
+        "source": "Authored example for the adjective くさい, AI semantic review 2026-10-26"
+      }
+    ]
+  },
+  "N3:vocab:23556d634a": {
+    "original_meanings": [
+      "glass",
+      "grass"
+    ],
+    "meanings": [
+      "drinking glass",
+      "glassware",
+      "glasses"
+    ],
+    "review_note": "Japanese headword グラス read グラス takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:d4388b09f6": {
+    "original_meanings": [
+      "allowance",
+      "grant",
+      "supply"
+    ],
+    "meanings": [
+      "salary",
+      "pay",
+      "provision of money or goods"
+    ],
+    "review_note": "Japanese headword 給与 read きゅうよ takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:ffd3c9c0d7": {
+    "original_meanings": [
+      "to behead",
+      "to murder"
+    ],
+    "meanings": [
+      "to cut or slash with a sword",
+      "to kill with a blade"
+    ],
+    "review_note": "Japanese headword 斬る read きる takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:5f2c3ba54c": {
+    "original_meanings": [
+      "labourer",
+      "worker"
+    ],
+    "meanings": [
+      "ingenuity",
+      "devising a way",
+      "creative effort"
+    ],
+    "review_note": "Japanese headword 工夫 read くふう takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:988eff8e12": {
+    "original_meanings": [
+      "country",
+      "district"
+    ],
+    "meanings": [
+      "county",
+      "administrative district"
+    ],
+    "review_note": "Japanese headword 郡 read ぐん takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:7fa5916da9": {
+    "original_meanings": [
+      "form",
+      "formality",
+      "format",
+      "math expression"
+    ],
+    "meanings": [
+      "form",
+      "format",
+      "formality"
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense.",
+    "original_examples": [
+      {
+        "ja": "彼はそれを小説の形式で表した。",
+        "furigana": "{彼|かれ}はそれを{小説|しょうせつ}の{形式|けいしき}で{表|あらわ}した。",
+        "en": "He expressed it in the form of fiction.",
+        "tatoeba_id": 112174
+      },
+      {
+        "ja": "朝食はバイキング形式だって。",
+        "en": "Breakfast is a smorgasbord.",
+        "tatoeba_id": 126198
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼はそれを小説の形式で表した。",
+        "furigana": "{彼|かれ}はそれを{小説|しょうせつ}の{形式|けいしき}で{表|あらわ}した。",
+        "en": "He expressed it in the form of fiction.",
+        "tatoeba_id": 112174
+      },
+      {
+        "ja": "朝食はバイキング形式だって。",
+        "en": "I hear breakfast is served buffet-style.",
+        "tatoeba_id": 126198
+      }
+    ]
+  },
+  "N2:vocab:130cd65eb3": {
+    "original_meanings": [
+      "system",
+      "family line",
+      "geological formation"
+    ],
+    "meanings": [
+      "system",
+      "lineage",
+      "line or network"
+    ],
+    "review_note": "Japanese headword 系統 read けいとう takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:d5ecec7c41": {
+    "original_meanings": [
+      "masterpiece",
+      "best work",
+      "boner",
+      "blunder"
+    ],
+    "meanings": [
+      "masterpiece",
+      "outstanding work",
+      "very funny or remarkable incident (colloquial)"
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense.",
+    "original_examples": [
+      {
+        "ja": "わははは！そりゃ傑作だ！",
+        "furigana": "わははは！そりゃ{傑作|けっさく}だ！",
+        "en": "A-ha-ha-ha! What a blunder!",
+        "tatoeba_id": 74142
+      },
+      {
+        "ja": "あの絵画は印象派美術の傑作である。",
+        "furigana": "あの{絵画|かいが}は{印象派美術|いんしょうはびじゅつ}の{傑作|けっさく}である。",
+        "en": "That painting is a masterpiece of impressionist art.",
+        "tatoeba_id": 231124
+      }
+    ],
+    "examples": [
+      {
+        "ja": "わははは！そりゃ傑作だ！",
+        "furigana": "わははは！そりゃ{傑作|けっさく}だ！",
+        "en": "Ha ha ha! That is hilarious!",
+        "tatoeba_id": 74142
+      },
+      {
+        "ja": "あの絵画は印象派美術の傑作である。",
+        "furigana": "あの{絵画|かいが}は{印象派美術|いんしょうはびじゅつ}の{傑作|けっさく}である。",
+        "en": "That painting is a masterpiece of impressionist art.",
+        "tatoeba_id": 231124
+      }
+    ]
+  },
+  "N2:vocab:c4db898159": {
+    "original_meanings": [
+      "indication",
+      "market trend",
+      "worry"
+    ],
+    "meanings": [
+      "sign",
+      "indication",
+      "sense of presence",
+      "indicative market quotation"
+    ],
+    "review_note": "Japanese headword 気配 read けはい takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:939f77d3f0": {
+    "original_examples": [
+      {
+        "ja": "教科書はどうしたらいいんでしょうか。",
+        "furigana": "{教科書|きょうかしょ}はどうしたらいいんでしょうか。",
+        "en": "Where do we get the textbooks?",
+        "tatoeba_id": 180312
+      },
+      {
+        "ja": "教科書の５０ページを開きなさい。",
+        "furigana": "{教科書|きょうかしょ}の５０ページを{開|ひら}きなさい。",
+        "en": "Open your texts to page 50.",
+        "tatoeba_id": 180314
+      }
+    ],
+    "examples": [
+      {
+        "ja": "教科書はどうしたらいいんでしょうか。",
+        "furigana": "{教科書|きょうかしょ}はどうしたらいいんでしょうか。",
+        "en": "What should we do about the textbooks?",
+        "tatoeba_id": 180312
+      },
+      {
+        "ja": "教科書の５０ページを開きなさい。",
+        "furigana": "{教科書|きょうかしょ}の５０ページを{開|ひら}きなさい。",
+        "en": "Open your texts to page 50.",
+        "tatoeba_id": 180314
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:ebafd320d0": {
+    "original_examples": [
+      {
+        "ja": "彼女は行儀が極めて上品である。",
+        "furigana": "{彼女|かのじょ}は{行儀|ぎょうぎ}が{極|きわ}めて{上品|じょうひん}である。",
+        "en": "She is quite decent in conduct.",
+        "tatoeba_id": 90104
+      },
+      {
+        "ja": "三人の中で、ビルが最も行儀が良い。",
+        "furigana": "{三人|さんにん}の{中|なか}で、ビルが{最|もっと}も{行儀|ぎょうぎ}が{良|よ}い。",
+        "en": "Of the three boys, Bill behaves most politely.",
+        "tatoeba_id": 169495
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼女は行儀が極めて上品である。",
+        "furigana": "{彼女|かのじょ}は{行儀|ぎょうぎ}が{極|きわ}めて{上品|じょうひん}である。",
+        "en": "She is quite decent in conduct.",
+        "tatoeba_id": 90104
+      },
+      {
+        "ja": "三人の中で、ビルが最も行儀が良い。",
+        "furigana": "{三人|さんにん}の{中|なか}で、ビルが{最|もっと}も{行儀|ぎょうぎ}が{良|よ}い。",
+        "en": "Of the three, Bill has the best manners.",
+        "tatoeba_id": 169495
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:9453cb20ca": {
+    "original_examples": [
+      {
+        "ja": "一人の教授がささやいた。",
+        "furigana": "{一人|ひとり}の{教授|きょうじゅ}がささやいた。",
+        "en": "One of his colleagues whispered.",
+        "tatoeba_id": 190473
+      },
+      {
+        "ja": "彼はリーズ大学の英語の教授です。",
+        "furigana": "{彼|かれ}はリーズ{大学|だいがく}の{英語|えいご}の{教授|きょうじゅ}です。",
+        "en": "He is a professor of English at Leeds.",
+        "tatoeba_id": 110344
+      }
+    ],
+    "examples": [
+      {
+        "ja": "一人の教授がささやいた。",
+        "furigana": "{一人|ひとり}の{教授|きょうじゅ}がささやいた。",
+        "en": "A professor whispered.",
+        "tatoeba_id": 190473
+      },
+      {
+        "ja": "彼はリーズ大学の英語の教授です。",
+        "furigana": "{彼|かれ}はリーズ{大学|だいがく}の{英語|えいご}の{教授|きょうじゅ}です。",
+        "en": "He is a professor of English at Leeds.",
+        "tatoeba_id": 110344
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:0791e13d7b": {
+    "original_examples": [
+      {
+        "ja": "私は恐怖で気も狂わんばかりだった。",
+        "furigana": "{私|わたし}は{恐怖|きょうふ}で{気|き}も{狂|くる}わんばかりだった。",
+        "en": "I almost went crazy with fear.",
+        "tatoeba_id": 157615
+      },
+      {
+        "ja": "その子は何の恐怖も示さなかった。",
+        "furigana": "その{子|こ}は{何|なん}の{恐怖|きょうふ}も{示|しめ}さなかった。",
+        "en": "That boy showed no fear.",
+        "tatoeba_id": 210237
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は恐怖で気も狂わんばかりだった。",
+        "furigana": "{私|わたし}は{恐怖|きょうふ}で{気|き}も{狂|くる}わんばかりだった。",
+        "en": "I almost went crazy with fear.",
+        "tatoeba_id": 157615
+      },
+      {
+        "ja": "その子は何の恐怖も示さなかった。",
+        "furigana": "その{子|こ}は{何|なん}の{恐怖|きょうふ}も{示|しめ}さなかった。",
+        "en": "The child showed no fear.",
+        "tatoeba_id": 210237
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:21b3678651": {
+    "original_examples": [
+      {
+        "ja": "日本の軍隊は非常に強力だった。",
+        "en": "Japan's army was very powerful.",
+        "tatoeba_id": 122629
+      },
+      {
+        "ja": "彼は強力な競争相手を打ち破った。",
+        "en": "He defeated his powerful antagonists.",
+        "tatoeba_id": 108370
+      }
+    ],
+    "examples": [
+      {
+        "ja": "日本の軍隊は非常に強力だった。",
+        "en": "Japan's army was very powerful.",
+        "tatoeba_id": 122629
+      },
+      {
+        "ja": "彼は強力な競争相手を打ち破った。",
+        "en": "He defeated his powerful opponent.",
+        "tatoeba_id": 108370
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:ab46c02abb": {
+    "original_examples": [
+      {
+        "ja": "この地区では三局受信できます。",
+        "en": "We can get three stations in this area.",
+        "tatoeba_id": 220593
+      },
+      {
+        "ja": "疫病管理局の報告では、罹患率は１０パーセントだった。",
+        "en": "The office for disease control reported a 10 percent spread.",
+        "tatoeba_id": 188962
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この地区では三局受信できます。",
+        "en": "We can get three stations in this area.",
+        "tatoeba_id": 220593
+      },
+      {
+        "ja": "疫病管理局の報告では、罹患率は１０パーセントだった。",
+        "en": "The disease control bureau reported an incidence rate of 10 percent.",
+        "tatoeba_id": 188962
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:db79e0b5b4": {
+    "original_examples": [
+      {
+        "ja": "巨大なタンカーがついに今し方出港した。",
+        "en": "The huge tanker has just left the dock.",
+        "tatoeba_id": 4585667
+      },
+      {
+        "ja": "あの飛行船はなんて巨大なんだろう。",
+        "furigana": "あの{飛行船|ひこうせん}はなんて{巨大|きょだい}なんだろう。",
+        "en": "How huge that airship is!",
+        "tatoeba_id": 230480
+      }
+    ],
+    "examples": [
+      {
+        "ja": "巨大なタンカーがついに今し方出港した。",
+        "en": "The huge tanker has finally just left port.",
+        "tatoeba_id": 4585667
+      },
+      {
+        "ja": "あの飛行船はなんて巨大なんだろう。",
+        "furigana": "あの{飛行船|ひこうせん}はなんて{巨大|きょだい}なんだろう。",
+        "en": "How huge that airship is!",
+        "tatoeba_id": 230480
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:6f97791279": {
+    "original_examples": [
+      {
+        "ja": "私は道で古い友人と偶然出会った。",
+        "furigana": "{私|わたし}は{道|みち}で{古|ふる}い{友人|ゆうじん}と{偶然|ぐうぜん}{出会|であ}った。",
+        "en": "I happened across an old friend in the street.",
+        "tatoeba_id": 154817
+      },
+      {
+        "ja": "偶然その単語にであったわけです。",
+        "furigana": "{偶然|ぐうぜん}その{単語|たんご}にであったわけです。",
+        "en": "I just came up with the word.",
+        "tatoeba_id": 179276
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は道で古い友人と偶然出会った。",
+        "furigana": "{私|わたし}は{道|みち}で{古|ふる}い{友人|ゆうじん}と{偶然|ぐうぜん}{出会|であ}った。",
+        "en": "I happened across an old friend in the street.",
+        "tatoeba_id": 154817
+      },
+      {
+        "ja": "偶然その単語にであったわけです。",
+        "furigana": "{偶然|ぐうぜん}その{単語|たんご}にであったわけです。",
+        "en": "I happened to come across that word.",
+        "tatoeba_id": 179276
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:208282da05": {
+    "original_examples": [
+      {
+        "ja": "私は彼女と妹を区別できなかった。",
+        "furigana": "{私|わたし}は{彼女|かのじょ}と{妹|いもうと}を{区別|くべつ}できなかった。",
+        "en": "I couldn't tell her from her sister.",
+        "tatoeba_id": 153421
+      },
+      {
+        "ja": "犬は色を区別することができない。",
+        "furigana": "{犬|いぬ}は{色|いろ}を{区別|くべつ}することができない。",
+        "en": "The dog cannot distinguish between colors.",
+        "tatoeba_id": 175258
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は彼女と妹を区別できなかった。",
+        "furigana": "{私|わたし}は{彼女|かのじょ}と{妹|いもうと}を{区別|くべつ}できなかった。",
+        "en": "I could not tell her and her younger sister apart.",
+        "tatoeba_id": 153421
+      },
+      {
+        "ja": "犬は色を区別することができない。",
+        "furigana": "{犬|いぬ}は{色|いろ}を{区別|くべつ}することができない。",
+        "en": "The dog cannot distinguish between colors.",
+        "tatoeba_id": 175258
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N2:vocab:1575a46d86": {
+    "original_examples": [
+      {
+        "ja": "彼女は左手の薬指にダイヤの指輪をはめていた。",
+        "furigana": "{彼女|かのじょ}は{左手|ひだりて}の{薬指|くすりゆび}にダイヤの{指輪|ゆびわ}をはめていた。",
+        "en": "She wore a diamond ring on her left third finger.",
+        "tatoeba_id": 89957
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼女は左手の薬指にダイヤの指輪をはめていた。",
+        "furigana": "{彼女|かのじょ}は{左手|ひだりて}の{薬指|くすりゆび}にダイヤの{指輪|ゆびわ}をはめていた。",
+        "en": "She wore a diamond ring on the ring finger of her left hand.",
+        "tatoeba_id": 89957
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N2:vocab:9b6426d781": {
+    "original_examples": [
+      {
+        "ja": "コップが地面に落ちて砕けた。",
+        "furigana": "コップが{地面|じめん}に{落|お}ちて{砕|くだ}けた。",
+        "en": "The glass crashed to the ground.",
+        "tatoeba_id": 224119
+      },
+      {
+        "ja": "重みで氷が砕けた。",
+        "furigana": "{重|おも}みで{氷|こおり}が{砕|くだ}けた。",
+        "en": "The ice cracked under the weight.",
+        "tatoeba_id": 147978
+      }
+    ],
+    "examples": [
+      {
+        "ja": "コップが地面に落ちて砕けた。",
+        "furigana": "コップが{地面|じめん}に{落|お}ちて{砕|くだ}けた。",
+        "en": "The glass fell to the ground and shattered.",
+        "tatoeba_id": 224119
+      },
+      {
+        "ja": "重みで氷が砕けた。",
+        "furigana": "{重|おも}みで{氷|こおり}が{砕|くだ}けた。",
+        "en": "The ice cracked under the weight.",
+        "tatoeba_id": 147978
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N2:vocab:349c1849f2": {
+    "original_examples": [
+      {
+        "ja": "サーカスで、商品としておもちゃを配っている。",
+        "furigana": "サーカスで、{商品|しょうひん}としておもちゃを{配|くば}っている。",
+        "en": "Circuses offer toys for prizes.",
+        "tatoeba_id": 216912
+      },
+      {
+        "ja": "男の子が雨の中を新聞を配っていた。",
+        "furigana": "{男|おとこ}の{子|こ}が{雨|あめ}の{中|なか}を{新聞|しんぶん}を{配|くば}っていた。",
+        "en": "A boy was giving out newspapers in the rain.",
+        "tatoeba_id": 127263
+      }
+    ],
+    "examples": [
+      {
+        "ja": "サーカスで、商品としておもちゃを配っている。",
+        "furigana": "サーカスで、{商品|しょうひん}としておもちゃを{配|くば}っている。",
+        "en": "At the circus, toys are being distributed as merchandise.",
+        "tatoeba_id": 216912
+      },
+      {
+        "ja": "男の子が雨の中を新聞を配っていた。",
+        "furigana": "{男|おとこ}の{子|こ}が{雨|あめ}の{中|なか}を{新聞|しんぶん}を{配|くば}っていた。",
+        "en": "A boy was giving out newspapers in the rain.",
+        "tatoeba_id": 127263
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N2:vocab:23d7da744e": {
+    "original_examples": [
+      {
+        "ja": "土地は８つに区分された。",
+        "furigana": "{土地|とち}は８つに{区分|くぶん}された。",
+        "en": "The land was divided into 8 lots.",
+        "tatoeba_id": 3232021
+      },
+      {
+        "ja": "我が家の大きな土地を子供たちのために公平に区分する。",
+        "furigana": "{我|わ}が{家|や}の{大|おお}きな{土地|とち}を{子供|こども}たちのために{公平|こうへい}に{区分|くぶん}する。",
+        "en": "We will divide the large area of family land equally between our children.",
+        "tatoeba_id": 1676867
+      }
+    ],
+    "examples": [
+      {
+        "ja": "土地は８つに区分された。",
+        "furigana": "{土地|とち}は８つに{区分|くぶん}された。",
+        "en": "The land was divided into 8 lots.",
+        "tatoeba_id": 3232021
+      },
+      {
+        "ja": "我が家の大きな土地を子供たちのために公平に区分する。",
+        "furigana": "{我|わ}が{家|や}の{大|おお}きな{土地|とち}を{子供|こども}たちのために{公平|こうへい}に{区分|くぶん}する。",
+        "en": "We will divide our large family property fairly for our children.",
+        "tatoeba_id": 1676867
+      }
+    ],
+    "review_note": "Original examples retained; English corrected to follow Japanese roles, numbers, lexical sense or grammatical meaning."
+  },
+  "N3:vocab:94d9c6d53a": {
+    "original_examples": [
+      {
+        "ja": "もっと良い暮らしができますように。",
+        "furigana": "もっと{良|よ}い{暮|く}らしができますように。",
+        "en": "May God show us a better life!",
+        "tatoeba_id": 193195
+      },
+      {
+        "ja": "彼らは貧しい暮らしをしている。",
+        "furigana": "{彼|かれ}らは{貧|まず}しい{暮|く}らしをしている。",
+        "en": "They live in poverty.",
+        "tatoeba_id": 96229
+      }
+    ],
+    "examples": [
+      {
+        "ja": "もっと良い暮らしができますように。",
+        "furigana": "もっと{良|よ}い{暮|く}らしができますように。",
+        "en": "May life become better.",
+        "tatoeba_id": 193195
+      },
+      {
+        "ja": "彼らは貧しい暮らしをしている。",
+        "furigana": "{彼|かれ}らは{貧|まず}しい{暮|く}らしをしている。",
+        "en": "They live in poverty.",
+        "tatoeba_id": 96229
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N3:vocab:53f7d1e6a9": {
+    "original_examples": [
+      {
+        "ja": "イングランドはその試合に勝つだろう。",
+        "furigana": "イングランドはその{試合|しあい}に{勝|か}つだろう。",
+        "en": "England is going to win the match.",
+        "tatoeba_id": 228397
+      },
+      {
+        "ja": "グランドオープンはいつなの？",
+        "en": "When is the grand opening?",
+        "tatoeba_id": 12072710
+      }
+    ],
+    "examples": [
+      {
+        "ja": "電気回路のグランドを確認してください。",
+        "en": "Please check the ground of the electrical circuit.",
+        "source": "Authored example for グランド as electrical ground, AI semantic review 2026-10-26"
+      },
+      {
+        "ja": "グランドオープンはいつなの？",
+        "en": "When is the grand opening?",
+        "tatoeba_id": 12072710
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N3:vocab:711e829034": {
+    "original_examples": [
+      {
+        "ja": "あなたの時計、時間は狂いませんか。",
+        "furigana": "あなたの{時計|とけい}、{時間|じかん}は{狂|くる}いませんか。",
+        "en": "Does your watch keep good time?",
+        "tatoeba_id": 233250
+      },
+      {
+        "ja": "彼はテニスに狂ってる。",
+        "furigana": "{彼|かれ}はテニスに{狂|くる}ってる。",
+        "en": "He is mad about tennis.",
+        "tatoeba_id": 111815
+      }
+    ],
+    "examples": [
+      {
+        "ja": "あなたの時計、時間は狂いませんか。",
+        "furigana": "あなたの{時計|とけい}、{時間|じかん}は{狂|くる}いませんか。",
+        "en": "Doesn't your watch lose or gain time?",
+        "tatoeba_id": 233250
+      },
+      {
+        "ja": "彼はテニスに狂ってる。",
+        "furigana": "{彼|かれ}はテニスに{狂|くる}ってる。",
+        "en": "He is mad about tennis.",
+        "tatoeba_id": 111815
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N3:vocab:628ac894ab": {
+    "original_examples": [
+      {
+        "ja": "彼女はどうして良いか途方に暮れた。",
+        "furigana": "{彼女|かのじょ}はどうして{良|よ}いか{途方|とほう}に{暮|く}れた。",
+        "en": "She was at a loss for what to do.",
+        "tatoeba_id": 92019
+      },
+      {
+        "ja": "彼は日が暮れてからそこに登場した。",
+        "furigana": "{彼|かれ}は{日|ひ}が{暮|く}れてからそこに{登場|とうじょう}した。",
+        "en": "He arrived there after dark.",
+        "tatoeba_id": 101503
+      }
+    ],
+    "examples": [
+      {
+        "ja": "年の暮れは忙しいです。",
+        "en": "I am busy at the end of the year.",
+        "source": "Authored example for the noun 暮れ, AI semantic review 2026-10-26"
+      },
+      {
+        "ja": "彼は日が暮れてからそこに登場した。",
+        "furigana": "{彼|かれ}は{日|ひ}が{暮|く}れてからそこに{登場|とうじょう}した。",
+        "en": "He arrived there after dark.",
+        "tatoeba_id": 101503
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N3:vocab:3d9a6a01ea": {
+    "original_examples": [
+      {
+        "ja": "一年の計は元旦にあり。",
+        "furigana": "{一年|いちねん}の{計|けい}は{元旦|がんたん}にあり。",
+        "en": "New Year's Day is the key to the year.",
+        "tatoeba_id": 190232
+      },
+      {
+        "ja": "産科・婦人科の計６１床も満床で、受け入れは不可能と答えたという。",
+        "furigana": "{産科|さんか}・{婦人科|ふじんか}の{計|けい}６１{床|とこ}も{満床|まんしょう}で、{受|う}け{入|い}れは{不可能|ふかのう}と{答|こた}えたという。",
+        "en": "They replied that because all 61 beds in the obstetrics/gynaecology department were full, no admissions were possible.",
+        "tatoeba_id": 391892
+      }
+    ],
+    "examples": [
+      {
+        "ja": "一年の計は元旦にあり。",
+        "furigana": "{一年|いちねん}の{計|けい}は{元旦|がんたん}にあり。",
+        "en": "A year's plans should be made on New Year's Day.",
+        "tatoeba_id": 190232
+      },
+      {
+        "ja": "産科・婦人科の計６１床も満床で、受け入れは不可能と答えたという。",
+        "furigana": "{産科|さんか}・{婦人科|ふじんか}の{計|けい}６１{床|とこ}も{満床|まんしょう}で、{受|う}け{入|い}れは{不可能|ふかのう}と{答|こた}えたという。",
+        "en": "They replied that because all 61 beds in the obstetrics/gynaecology department were full, no admissions were possible.",
+        "tatoeba_id": 391892
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N3:vocab:077c9dde2c": {
+    "original_examples": [
+      {
+        "ja": "契約はかなりいいかげんなものだった。",
+        "furigana": "{契約|けいやく}はかなりいいかげんなものだった。",
+        "en": "The contract was rather loose.",
+        "tatoeba_id": 176554
+      },
+      {
+        "ja": "彼女は本を書くことを契約した。",
+        "furigana": "{彼女|かのじょ}は{本|ほん}を{書|か}くことを{契約|けいやく}した。",
+        "en": "She is engaged in writing a book.",
+        "tatoeba_id": 86677
+      }
+    ],
+    "examples": [
+      {
+        "ja": "契約はかなりいいかげんなものだった。",
+        "furigana": "{契約|けいやく}はかなりいいかげんなものだった。",
+        "en": "The contract was rather loose.",
+        "tatoeba_id": 176554
+      },
+      {
+        "ja": "彼女は本を書くことを契約した。",
+        "furigana": "{彼女|かのじょ}は{本|ほん}を{書|か}くことを{契約|けいやく}した。",
+        "en": "She contracted to write a book.",
+        "tatoeba_id": 86677
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N2:vocab:3d33b9e224": {
+    "original_examples": [
+      {
+        "ja": "クリーニング取ってきておいて。",
+        "en": "Please pick up my dry cleaning.",
+        "tatoeba_id": 225528
+      },
+      {
+        "ja": "クリーニングをお願いできますか。",
+        "furigana": "クリーニングをお{願|ねが}いできますか。",
+        "en": "Do you have laundry service?",
+        "tatoeba_id": 225529
+      }
+    ],
+    "examples": [
+      {
+        "ja": "クリーニング取ってきておいて。",
+        "en": "Please pick up my dry cleaning.",
+        "tatoeba_id": 225528
+      },
+      {
+        "ja": "クリーニングをお願いできますか。",
+        "furigana": "クリーニングをお{願|ねが}いできますか。",
+        "en": "Could you do the cleaning for me?",
+        "tatoeba_id": 225529
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N2:vocab:f7b99bf02c": {
+    "original_examples": [
+      {
+        "ja": "ハリーは本当に蛍光灯だね。",
+        "furigana": "ハリーは{本当|ほんとう}に{蛍光灯|けいこうとう}だね。",
+        "en": "Harry's really slow to catch on.",
+        "tatoeba_id": 74557
+      },
+      {
+        "ja": "蛍光灯がチカチカしてるな。新しいのと交換しないとダメかな。",
+        "furigana": "{蛍光灯|けいこうとう}がチカチカしてるな。{新|あたら}しいのと{交換|こうかん}しないとダメかな。",
+        "en": "This fluorescent lamp is starting to flicker. We'll have to replace it.",
+        "tatoeba_id": 176448
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ハリーは本当に蛍光灯だね。",
+        "furigana": "ハリーは{本当|ほんとう}に{蛍光灯|けいこうとう}だね。",
+        "en": "Harry's really slow to catch on.",
+        "tatoeba_id": 74557
+      },
+      {
+        "ja": "蛍光灯がチカチカしてるな。新しいのと交換しないとダメかな。",
+        "furigana": "{蛍光灯|けいこうとう}がチカチカしてるな。{新|あたら}しいのと{交換|こうかん}しないとダメかな。",
+        "en": "The fluorescent lamp is flickering. I wonder if we need to replace it.",
+        "tatoeba_id": 176448
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N2:vocab:27f89c6bea": {
+    "original_examples": [
+      {
+        "ja": "ダービー競馬の日は２週間後の水曜日だ。",
+        "en": "Derby Day is Wednesday fortnight.",
+        "tatoeba_id": 204003
+      },
+      {
+        "ja": "彼は競馬で時間をむだに過ごした。",
+        "furigana": "{彼|かれ}は{競馬|けいば}で{時間|じかん}をむだに{過|す}ごした。",
+        "en": "He wasted his time on gambling at the horse races.",
+        "tatoeba_id": 108399
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ダービー競馬の日は２週間後の水曜日だ。",
+        "en": "Derby Day is Wednesday fortnight.",
+        "tatoeba_id": 204003
+      },
+      {
+        "ja": "彼は競馬で時間をむだに過ごした。",
+        "furigana": "{彼|かれ}は{競馬|けいば}で{時間|じかん}をむだに{過|す}ごした。",
+        "en": "He wasted his time on horse racing.",
+        "tatoeba_id": 108399
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N2:vocab:2d0315cd73": {
+    "original_examples": [
+      {
+        "ja": "医者なら６桁の収入は珍しくない。",
+        "furigana": "{医者|いしゃ}なら６{桁|けた}の{収入|しゅうにゅう}は{珍|めずら}しくない。",
+        "en": "A six-figure income is not uncommon for physicians.",
+        "tatoeba_id": 190910
+      },
+      {
+        "ja": "この２桁は省くべきだ。",
+        "furigana": "この２{桁|けた}は{省|はぶ}くべきだ。",
+        "en": "You should leave out these two lines.",
+        "tatoeba_id": 224065
+      }
+    ],
+    "examples": [
+      {
+        "ja": "医者なら６桁の収入は珍しくない。",
+        "furigana": "{医者|いしゃ}なら６{桁|けた}の{収入|しゅうにゅう}は{珍|めずら}しくない。",
+        "en": "A six-figure income is not uncommon for physicians.",
+        "tatoeba_id": 190910
+      },
+      {
+        "ja": "この２桁は省くべきだ。",
+        "furigana": "この２{桁|けた}は{省|はぶ}くべきだ。",
+        "en": "These two digits should be omitted.",
+        "tatoeba_id": 224065
+      }
+    ],
+    "review_note": "Original examples retained; English corrected against Japanese. Where inherited substring matches used the wrong headword or part of speech, an explicitly attributed authored example demonstrates the intended sense."
+  },
+  "N2:grammar:koto-ni-wa": {
+    "original_examples": [
+      {
+        "ja": "驚いたことに、彼は会社を辞めてパン屋を開いたそうだ。",
+        "furigana": "{驚|おどろ}いたことに、{彼|かれ}は{会社|かいしゃ}を{辞|や}めてパン{屋|や}を{開|ひら}いたそうだ。",
+        "en": "Surprisingly, I heard he quit his company and opened a bakery."
+      },
+      {
+        "ja": "残念なことに、その美しい建物は来月取り壊されることになった。",
+        "furigana": "{残念|ざんねん}なことに、その{美|うつく}しい{建物|たてもの}は{来月|らいげつ}{取|と}り{壊|こわ}されることになった。",
+        "en": "Sadly, it has been decided that the beautiful building will be torn down next month."
+      },
+      {
+        "ja": "うれしいことには、応募作品が予想の倍以上も集まった。",
+        "furigana": "うれしいことには、{応募|おうぼ}{作品|さくひん}が{予想|よそう}の{倍|ばい}{以上|いじょう}も{集|あつ}まった。",
+        "en": "To our delight, we received more than twice as many entries as expected."
+      }
+    ],
+    "examples": [
+      {
+        "ja": "驚いたことに、彼は会社を辞めてパン屋を開いたそうだ。",
+        "furigana": "{驚|おどろ}いたことに、{彼|かれ}は{会社|かいしゃ}を{辞|や}めてパン{屋|や}を{開|ひら}いたそうだ。",
+        "en": "Surprisingly, I heard he quit his company and opened a bakery."
+      },
+      {
+        "ja": "残念なことに、その美しい建物は来月取り壊されることになった。",
+        "furigana": "{残念|ざんねん}なことに、その{美|うつく}しい{建物|たてもの}は{来月|らいげつ}{取|と}り{壊|こわ}されることになった。",
+        "en": "Sadly, it has been decided that the beautiful building will be torn down next month."
+      },
+      {
+        "ja": "うれしいことには、応募作品が予想の倍以上も集まった。",
+        "furigana": "うれしいことには、{応募|おうぼ}{作品|さくひん}が{予想|よそう}の{倍|ばい}{以上|いじょう}も{集|あつ}まった。",
+        "en": "To our delight, we received at least twice as many entries as expected."
+      }
+    ],
+    "review_note": "倍以上 includes exactly twice; corrected the English comparison without changing Japanese."
+  },
+  "N3:vocab:9923ca40cb": {
+    "original_meanings": [
+      "to be blocked",
+      "to choke",
+      "to be obstructed"
+    ],
+    "meanings": [
+      "to support",
+      "to hold up",
+      "to sustain"
+    ],
+    "review_note": "Japanese headword 支える read ささえる takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:30cf0aaae2": {
+    "original_meanings": [
+      "to point",
+      "to put up umbrella",
+      "to play"
+    ],
+    "meanings": [
+      "to point to",
+      "to indicate or mean",
+      "to play shogi or chess"
+    ],
+    "review_note": "Japanese headword 指す read さす takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:8b180f444a": {
+    "original_meanings": [
+      "immediately",
+      "readily",
+      "directly"
+    ],
+    "meanings": [
+      "directly",
+      "in person",
+      "without an intermediary"
+    ],
+    "review_note": "Japanese headword 直に read じかに takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:63d9f749c6": {
+    "original_meanings": [
+      "thing",
+      "article",
+      "goods",
+      "dignity",
+      "article (goods)",
+      "counter for meal courses"
+    ],
+    "meanings": [
+      "thing",
+      "goods",
+      "item",
+      "counter for dishes (reading しな)"
+    ],
+    "review_note": "Japanese headword 品 read しな takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:855762ebcc": {
+    "original_meanings": [
+      "rounding up (fractions)"
+    ],
+    "meanings": [
+      "rounding to the nearest specified place: round down for 0–4 and up for 5–9"
+    ],
+    "review_note": "Japanese headword 四捨五入 read ししゃごにゅう takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:b1905d8e82": {
+    "original_meanings": [
+      "resident",
+      "housing"
+    ],
+    "meanings": [
+      "dwelling",
+      "residential housing"
+    ],
+    "review_note": "Japanese headword 住宅 read じゅうたく takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:d312849382": {
+    "original_meanings": [
+      "housewife",
+      "mistress"
+    ],
+    "meanings": [
+      "housewife",
+      "homemaker"
+    ],
+    "review_note": "Japanese headword 主婦 read しゅふ takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N3:vocab:17c0d3a658": {
+    "original_meanings": [
+      "daughter",
+      "young lady",
+      "virgin",
+      "maiden",
+      "little girl"
+    ],
+    "meanings": [
+      "girl",
+      "young girl"
+    ],
+    "review_note": "Japanese headword 少女 read しょうじょ takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:6ebaee5c4f": {
+    "original_meanings": [
+      "important point",
+      "lay stress on",
+      "colon",
+      "emphasis"
+    ],
+    "meanings": [
+      "main point",
+      "emphasis",
+      "priority"
+    ],
+    "review_note": "Japanese headword 重点 read じゅうてん takes priority over the inherited English gloss; corrected sense/category."
+  },
+  "N2:vocab:93d1d2e9ef": {
+    "original_meanings": [
+      "assistant professor"
+    ],
+    "meanings": [
+      "associate professor (former Japanese title corresponding to 准教授)"
+    ],
+    "review_note": "Japanese headword 助教授 read じょきょうじゅ takes priority over the inherited English gloss; corrected sense/category.",
+    "review_reference": "https://www.ritsumei.ac.jp/mng/gl/koho/rs/kininaru_070416/body.htm"
+  },
+  "N2:vocab:5fdec08677": {
+    "original_meanings": [
+      "white or grey hair",
+      "trendy hair bleaching"
+    ],
+    "meanings": [
+      "white hair",
+      "grey hair"
+    ],
+    "review_note": "Japanese headword 白髪 read しらが takes priority over the inherited English gloss; corrected sense/category."
   }
 }
