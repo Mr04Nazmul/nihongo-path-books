@@ -1420,5 +1420,289 @@
         "tatoeba_id": 74948
       }
     ]
+  },
+  "N3:vocab:b921696612": {
+    "examples": [
+      {
+        "ja": "この方法はよく効きます。",
+        "en": "This method works well.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      },
+      {
+        "ja": "この薬は君にはおおいに効くと思う。",
+        "furigana": "この{薬|くすり}は{君|きみ}にはおおいに{効|き}くと{思|おも}う。",
+        "en": "I think this medicine will do you a lot of good.",
+        "tatoeba_id": 219287
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "よくもまあ私にそんな口がきけるね。",
+        "furigana": "よくもまあ{私|わたし}にそんな{口|くち}がきけるね。",
+        "en": "How dare you speak to me like that?",
+        "tatoeba_id": 192806
+      },
+      {
+        "ja": "この薬は君にはおおいに効くと思う。",
+        "furigana": "この{薬|くすり}は{君|きみ}にはおおいに{効|き}くと{思|おも}う。",
+        "en": "I think this medicine will do you a lot of good.",
+        "tatoeba_id": 219287
+      }
+    ]
+  },
+  "N2:vocab:1b80545d83": {
+    "examples": [
+      {
+        "ja": "この釜でご飯を炊きます。",
+        "en": "I cook rice in this pot.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      },
+      {
+        "ja": "あの店の釜めしは絶品だよ。",
+        "en": "That restaurant's kamameshi is absolutely superb.",
+        "tatoeba_id": 10650428
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "きのう交差点でお釜を掘られちゃったよ。",
+        "furigana": "きのう{交差点|こうさてん}でお{釜|かま}を{掘|ほ}られちゃったよ。",
+        "en": "Someone ploughed into me from behind at an intersection yesterday.",
+        "tatoeba_id": 76787
+      },
+      {
+        "ja": "あの店の釜めしは絶品だよ。",
+        "en": "That restaurant's kamameshi is absolutely superb.",
+        "tatoeba_id": 10650428
+      }
+    ]
+  },
+  "N2:vocab:496afac866": {
+    "examples": [
+      {
+        "ja": "彼女は皿を洗い、それから乾かした。",
+        "furigana": "{彼女|かのじょ}は{皿|さら}を{洗|あら}い、それから{乾|かわ}かした。",
+        "en": "She washed the dishes and she dried them.",
+        "tatoeba_id": 89850
+      },
+      {
+        "ja": "タオルで髪を乾かしました。",
+        "en": "I dried my hair with a towel.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼女は皿を洗い、それから乾かした。",
+        "furigana": "{彼女|かのじょ}は{皿|さら}を{洗|あら}い、それから{乾|かわ}かした。",
+        "en": "She washed the dishes and she dried them.",
+        "tatoeba_id": 89850
+      },
+      {
+        "ja": "のどを乾かしておいてください。",
+        "furigana": "のどを{乾|かわ}かしておいてください。",
+        "en": "Please come thirsty.",
+        "tatoeba_id": 198559
+      }
+    ]
+  },
+  "N2:vocab:8c683a54cf": {
+    "examples": [
+      {
+        "ja": "私たちは夜空の星を観測します。",
+        "en": "We observe the stars in the night sky.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      },
+      {
+        "ja": "この器械で気温と気圧を観測します。",
+        "en": "We observe air temperature and pressure with this instrument.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "来年６月２２日に観測される皆既日食。",
+        "en": "The total solar eclipse can be observed next year on June 22nd.",
+        "tatoeba_id": 74056
+      },
+      {
+        "ja": "ジャンスキーが観測したのは銀河系の中心核からの波長14.6mの電波であった。",
+        "en": "What Jansky had observed was the 14.6m wavelength radio wave from the Milky Way's core.",
+        "tatoeba_id": 74551
+      }
+    ]
+  },
+  "N2:vocab:20b4a043ec": {
+    "examples": [
+      {
+        "ja": "乾電池を探しているのですが。",
+        "furigana": "{乾電池|かんでんち}を{探|さが}しているのですが。",
+        "en": "I'm looking for batteries.",
+        "tatoeba_id": 184052
+      },
+      {
+        "ja": "このラジオには乾電池が二本必要です。",
+        "en": "This radio needs two dry-cell batteries.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "乾電池を探しているのですが。",
+        "furigana": "{乾電池|かんでんち}を{探|さが}しているのですが。",
+        "en": "I'm looking for batteries.",
+        "tatoeba_id": 184052
+      },
+      {
+        "ja": "1.5V乾電池を直接触っただけでは感電死することはないでしょう。",
+        "en": "You're not going to get electrocuted just by directly touching a 1.5V battery.",
+        "tatoeba_id": 75149
+      }
+    ]
+  },
+  "N2:vocab:e0f08f770f": {
+    "examples": [
+      {
+        "ja": "この器械で長さを測ります。",
+        "en": "I measure length with this instrument.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      },
+      {
+        "ja": "使用後は器械を掃除します。",
+        "en": "I clean the instrument after use.",
+        "source": "Authored replacement to demonstrate the headword and remove an inherited homophone, dated claim or context-poor example."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼はその新しい機械を試してみた。",
+        "furigana": "{彼|かれ}はその{新|あたら}しい{機械|きかい}を{試|ため}してみた。",
+        "en": "He tried out that new machine.",
+        "tatoeba_id": 112621
+      },
+      {
+        "ja": "機械は油がきれてキイキイいった。",
+        "furigana": "{機械|きかい}は{油|あぶら}がきれてキイキイいった。",
+        "en": "The machine squealed for lack of oil.",
+        "tatoeba_id": 183354
+      }
+    ]
+  },
+  "N3:vocab:49827ea986": {
+    "examples": [
+      {
+        "ja": "私もまた、議員の一人です。",
+        "furigana": "{私|わたし}もまた、{議員|ぎいん}の{一人|ひとり}です。",
+        "en": "I'm a councillor, too.",
+        "tatoeba_id": 152201
+      },
+      {
+        "ja": "市の議員だったらよくやっていることだよ。",
+        "furigana": "{市|し}の{議員|ぎいん}だったらよくやっていることだよ。",
+        "en": "It is something city council members often do.",
+        "tatoeba_id": 168385
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私もまた、議員の一人です。",
+        "furigana": "{私|わたし}もまた、{議員|ぎいん}の{一人|ひとり}です。",
+        "en": "I'm a councillor, too.",
+        "tatoeba_id": 152201
+      },
+      {
+        "ja": "市の議員だったらよくやっていることだよ。",
+        "furigana": "{市|し}の{議員|ぎいん}だったらよくやっていることだよ。",
+        "en": "City officials often have sticky fingers.",
+        "tatoeba_id": 168385
+      }
+    ]
+  },
+  "N3:vocab:180d018762": {
+    "examples": [
+      {
+        "ja": "議会はさいごにけんかになった。",
+        "furigana": "{議会|ぎかい}はさいごにけんかになった。",
+        "en": "The council meeting ended in a quarrel.",
+        "tatoeba_id": 182900
+      },
+      {
+        "ja": "女王は来週、議会で演説するつもりでいる。",
+        "furigana": "{女王|じょおう}は{来週|らいしゅう}、{議会|ぎかい}で{演説|えんぜつ}するつもりでいる。",
+        "en": "The queen is going to address parliament next week.",
+        "tatoeba_id": 147289
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "議会はさいごにけんかになった。",
+        "furigana": "{議会|ぎかい}はさいごにけんかになった。",
+        "en": "The argument ended in a fight.",
+        "tatoeba_id": 182900
+      },
+      {
+        "ja": "女王は来週、議会で演説するつもりでいる。",
+        "furigana": "{女王|じょおう}は{来週|らいしゅう}、{議会|ぎかい}で{演説|えんぜつ}するつもりでいる。",
+        "en": "The queen is going to address parliament next week.",
+        "tatoeba_id": 147289
+      }
+    ]
+  },
+  "N3:vocab:7456693bdd": {
+    "examples": [
+      {
+        "ja": "彼らはスミスさんを議長に任命した。",
+        "furigana": "{彼|かれ}らはスミスさんを{議長|ぎちょう}に{任命|にんめい}した。",
+        "en": "They appointed Smith chairperson.",
+        "tatoeba_id": 98014
+      },
+      {
+        "ja": "私たちは彼をその会の議長に選んだ。",
+        "furigana": "{私|わたし}たちは{彼|かれ}をその{会|かい}の{議長|ぎちょう}に{選|えら}んだ。",
+        "en": "We have elected him chairman of the meeting.",
+        "tatoeba_id": 165253
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼らはスミスさんを議長に任命した。",
+        "furigana": "{彼|かれ}らはスミスさんを{議長|ぎちょう}に{任命|にんめい}した。",
+        "en": "They appointed Miss Smith chairperson.",
+        "tatoeba_id": 98014
+      },
+      {
+        "ja": "私たちは彼をその会の議長に選んだ。",
+        "furigana": "{私|わたし}たちは{彼|かれ}をその{会|かい}の{議長|ぎちょう}に{選|えら}んだ。",
+        "en": "We have elected him chairman of the meeting.",
+        "tatoeba_id": 165253
+      }
+    ]
+  },
+  "N2:vocab:af5bfb11d1": {
+    "original_examples": [
+      {
+        "ja": "飛行機でお酒飲むと、気圧のせいか酔いやすい。",
+        "furigana": "{飛行機|ひこうき}でお{酒|さけ}{飲|の}むと、{気圧|きあつ}のせいか{酔|よ}いやすい。",
+        "en": "Maybe it's the low air pressure that means you get drunk more easily on planes.",
+        "tatoeba_id": 85717
+      },
+      {
+        "ja": "ただし押し込む瞬間気圧の変化のせいでしょうか、耳がツンとするのが難点です。",
+        "en": "However, maybe from the sudden change in pressure when you push them in, having your ears pop is a problem.",
+        "tatoeba_id": 75150
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今日は気圧が低いです。",
+        "en": "The atmospheric pressure is low today.",
+        "source": "Authored replacement: inherited examples lacked adequate context."
+      },
+      {
+        "ja": "この器械で気圧を測ります。",
+        "en": "We measure atmospheric pressure with this instrument.",
+        "source": "Authored replacement: inherited examples lacked adequate context."
+      }
+    ]
   }
 }
