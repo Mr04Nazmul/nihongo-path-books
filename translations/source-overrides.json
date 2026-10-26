@@ -1704,5 +1704,69 @@
         "source": "Authored replacement: inherited examples lacked adequate context."
       }
     ]
+  },
+  "N2:vocab:47b2831015": {
+    "meanings": [
+      "norm",
+      "criterion for conduct or judgement"
+    ],
+    "original_examples": [
+      {
+        "ja": "彼は基準を持たない男だよ。",
+        "furigana": "{彼|かれ}は{基準|きじゅん}を{持|も}たない{男|おとこ}だよ。",
+        "en": "He is a man with no standards.",
+        "tatoeba_id": 108639
+      },
+      {
+        "ja": "あいての基準を受け入れるのは、そのあいての力に服従することだ。",
+        "furigana": "あいての{基準|きじゅん}を{受|う}け{入|い}れるのは、そのあいての{力|ちから}に{服従|ふくじゅう}することだ。",
+        "en": "Accepting the other's norms is submitting to the other's power.",
+        "tatoeba_id": 234583
+      }
+    ],
+    "examples": [
+      {
+        "ja": "判断の規準を明確にしてください。",
+        "en": "Please make the criteria for judgement clear.",
+        "source": "Authored replacement demonstrating this spelling."
+      },
+      {
+        "ja": "この規則を行動の規準とします。",
+        "en": "We take this rule as a norm for conduct.",
+        "source": "Authored replacement demonstrating this spelling."
+      }
+    ]
+  },
+  "N3:vocab:8e2ffbbcc1": {
+    "meanings": [
+      "question",
+      "doubt"
+    ]
+  },
+  "N3:vocab:135ed2fc45": {
+    "meanings": [
+      "old",
+      "former"
+    ]
+  },
+  "N3:vocab:a6aca833ca": {
+    "meanings": [
+      "suddenly",
+      "abruptly",
+      "rapidly"
+    ]
+  },
+  "N2:vocab:eea1f873b2": {
+    "meanings": [
+      "deadline",
+      "time limit",
+      "expiry"
+    ]
+  },
+  "N2:vocab:bec933e924": {
+    "meanings": [
+      "to dress someone",
+      "to put clothes on someone"
+    ]
   }
 }
