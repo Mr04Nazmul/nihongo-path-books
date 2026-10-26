@@ -27,7 +27,7 @@ class Books(unittest.TestCase):
   subprocess.run([sys.executable,str(ROOT/'scripts/build_data.py')],check=True,capture_output=True)
   self.assertEqual(before,[hashlib.sha256(p.read_bytes()).hexdigest() for p in paths])
  def test_shared_pages_assets_and_ad_settings(self):
-  for page in ['index','n5','n4','n3','n2','n1','lessons','review','progress','sources','extra']:
+  for page in ['index','n5','n4','n3','n2','n1','lessons','review','progress','sources','extra','settings']:
    s=(ROOT/f'dist/{page}.html').read_text()
    for script in ['adsterra-config.js','adsterra.js','speech.js','app.js','motion.js']:self.assertRegex(s,'src="'+script.replace('.','\\.')+r'(?:\?[^"]*)?"')
    self.assertIn('<option value="bn">',s);self.assertIn('<option value="en">',s);self.assertNotIn('value="ne"',s)
