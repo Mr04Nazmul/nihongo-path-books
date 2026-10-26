@@ -56,3 +56,7 @@ Google advertising scripts, publisher tags and empty ad slots have been removed 
 The custom domain `devnazu.online` is assigned in GitHub Pages settings (Actions-based publishing). Onamae DNS uses the four GitHub Pages apex A records and www CNAME to `mr04nazmul.github.io`. The prior Travel domain assignment was released; Travel remains a separate project.
 
 Settings offers Folio and Origami page turns, Calm mode, larger lesson text, an interactive animation preview and the owner-confirmed WhatsApp contact. Preferences are stored locally. Progress on the old github.io origin can be exported and imported using Progress when moving to the custom domain.
+
+## Advertising incident response
+
+All third-party advertising and the five-second book gate are disabled following a deceptive security-warning advertisement report. Generated pages omit ad loaders. Legacy banner URLs are inert and use a restrictive CSP, so direct visits cannot load an ad or redirect. Re-enabling monetization requires a separate review of provider creative controls and frame isolation.

@@ -29,7 +29,7 @@ class Books(unittest.TestCase):
  def test_shared_pages_assets_and_ad_settings(self):
   for page in ['index','n5','n4','n3','n2','n1','lessons','review','progress','sources','extra','settings']:
    s=(ROOT/f'dist/{page}.html').read_text()
-   for script in ['adsterra-config.js','adsterra.js','speech.js','app.js','motion.js']:self.assertRegex(s,'src="'+script.replace('.','\\.')+r'(?:\?[^"]*)?"')
+   for script in ['speech.js','app.js','motion.js']:self.assertRegex(s,'src="'+script.replace('.','\\.')+r'(?:\?[^"]*)?"')
    self.assertIn('<option value="bn">',s);self.assertIn('<option value="en">',s);self.assertNotIn('value="ne"',s)
    self.assertNotIn('adPlacement',s);self.assertNotIn('google-adsense-account',s)
   for path in (ROOT/'dist').glob('*.html'):
