@@ -104,7 +104,6 @@
 {"level":"N3","kind":"vocab","id":"7a5bf31b8a","language":"bn","field":"examples.1","source_sha256":"ef8d02d55f26aaf37debfa0c22d309c590ba676b82300ef49b94ba9ebd3e33c6"}
 {"level":"N3","kind":"vocab","id":"8f735b886b","language":"bn","field":"examples.0","source_sha256":"b90bad5102132a6bd16511caa2285056e4bf14a65f1a1d29a5f67fb177b647c9"}
 {"level":"N3","kind":"vocab","id":"8f735b886b","language":"bn","field":"examples.1","source_sha256":"aba8408c8c08c64f7bc1c45500b83a0e5432891c4d72bef831fa8d74c3f0aeeb"}
-{"level":"N3","kind":"vocab","id":"3f1fbec85e","language":"bn","field":"examples.0","source_sha256":"bd2786dff7414a4848dd094315c3add58ac06a76754dff49a91cf171ad567012"}
 {"level":"N3","kind":"vocab","id":"3f1fbec85e","language":"bn","field":"examples.1","source_sha256":"d435ae3c935661a864eab425ab0bcd3e782175f4d3349e787736984a003f220f"}
 {"level":"N3","kind":"vocab","id":"0adf15ff3f","language":"bn","field":"examples.0","source_sha256":"407b48c913b658bc0cb4a7a50fb032c11fa8fe8cc5114065750e96f95be8dca0"}
 {"level":"N3","kind":"vocab","id":"0adf15ff3f","language":"bn","field":"examples.1","source_sha256":"54ef90eb0a3d706883660bea44409532be9fead50b760cd76d44d7cfd8a4e087"}
@@ -121,7 +120,6 @@
 {"level":"N3","kind":"vocab","id":"107846b167","language":"bn","field":"examples.0","source_sha256":"3a4023a00755eed345d0741431f53fa74fcf8f084ee2709399805d827aa46d6d"}
 {"level":"N3","kind":"vocab","id":"107846b167","language":"bn","field":"examples.1","source_sha256":"27411d4b1554617fdf5cfa2219bf6c02b64f03bdc95e309f5dd280152c09f731"}
 {"level":"N3","kind":"vocab","id":"140d8ab306","language":"bn","field":"examples.0","source_sha256":"42980ce08ecc2805b967b518118ed6934d9d9a996bc45ad747d5b2052fdeb069"}
-{"level":"N3","kind":"vocab","id":"140d8ab306","language":"bn","field":"examples.1","source_sha256":"ea9dd2dff76a72a8830353bb95eef8eaa3bccafc3f92b17d48cfbd1fcdbe1a82"}
 {"level":"N3","kind":"vocab","id":"811101e739","language":"bn","field":"examples.0","source_sha256":"a0a5e3a9edfcb873fd0a5ec9bbb01ef3e21587965a00876f7b56463035d4ce1d"}
 {"level":"N3","kind":"vocab","id":"811101e739","language":"bn","field":"examples.1","source_sha256":"090ab80593030bd9a2c60047188fbb2cac8fa00d07435cafb72e28f08a1d5175"}
 {"level":"N3","kind":"vocab","id":"db4d84d6b0","language":"bn","field":"examples.0","source_sha256":"e5c63b6d43ef4a58a98bafec5a9b159d753727738b0f624b18143306a97cd2fd"}
@@ -145,7 +143,6 @@
 {"level":"N3","kind":"vocab","id":"9620d69897","language":"bn","field":"examples.0","source_sha256":"2b8b2a45730d058b87628d556132c74fec8f380dd42901541cdce9d9af688809"}
 {"level":"N3","kind":"vocab","id":"9620d69897","language":"bn","field":"examples.1","source_sha256":"bc937893f52656b6c410a5927cd9e14798b952e1bb3db3645eb6e22481e8811d"}
 {"level":"N3","kind":"vocab","id":"5d347b309a","language":"bn","field":"examples.0","source_sha256":"aa45e09a7b112e5cff0c224bf245d8837bfd1c0d1e301ff637c6701f889bbd7f"}
-{"level":"N3","kind":"vocab","id":"5d347b309a","language":"bn","field":"examples.1","source_sha256":"378fc53199d700af2f49d8df073693057ad9d26ee9d0e8472694fb30f026b57d"}
 {"level":"N3","kind":"vocab","id":"9a12c4f4e9","language":"bn","field":"examples.0","source_sha256":"dd5893dd61178cc45b2fce6edc9d7a122ca527da5630f54702e1926665174d14"}
 {"level":"N3","kind":"vocab","id":"9a12c4f4e9","language":"bn","field":"examples.1","source_sha256":"5426a7202ad1980288ceaef855f3561034e2f6382988f30fc4a64430c32ba050"}
 {"level":"N3","kind":"vocab","id":"c435f396e3","language":"bn","field":"examples.0","source_sha256":"701e6416fa146a7b2627ac5c0af453575e632ab652cc59e9329c6af86566b7d4"}
@@ -158,7 +155,6 @@
 {"level":"N3","kind":"vocab","id":"ec2ddaa910","language":"bn","field":"examples.1","source_sha256":"d34f696fb39c62760cb02facfed926d2736bed3a6ec25b9b72b89e2f90c2cf12"}
 {"level":"N3","kind":"vocab","id":"cfaaf0ad82","language":"bn","field":"examples.0","source_sha256":"269ded5d27e9fc738fcb3fe5e1b1ac91fe0438849987ee8b1d06ede9e794a334"}
 {"level":"N3","kind":"vocab","id":"cfaaf0ad82","language":"bn","field":"examples.1","source_sha256":"d1c4269531621040ff3b3be28e1d25fb2acdc9edd1b4e9b2904ede69f8503f55"}
-{"level":"N3","kind":"vocab","id":"56d7bebebd","language":"bn","field":"examples.0","source_sha256":"50dd82d1538080fb44680733fb28ddf0cad9df04272a7fb47d16112c56ef9588"}
 {"level":"N3","kind":"vocab","id":"56d7bebebd","language":"bn","field":"examples.1","source_sha256":"2b25f53ad1ca3bbc844dfbc2ac64f99ceaccc4da2f24a0fd34dda87eae031be0"}
 {"level":"N3","kind":"vocab","id":"634490494f","language":"bn","field":"examples.0","source_sha256":"a2baaf6117d3e3e1455dd4b608e9796f1b47ea46ff12aaac25a86b96c7e27ede"}
 {"level":"N3","kind":"vocab","id":"634490494f","language":"bn","field":"examples.1","source_sha256":"c40d26297f262a76d76653688ee09c5789d0f2ff6bd3b478e49fa32e987e2dbc"}
@@ -223,7 +219,6 @@
 {"level":"N3","kind":"vocab","id":"8fb4973f14","language":"bn","field":"examples.0","source_sha256":"a32d5ef0229f155ea4f307ee5e5876b417fd218cfd1c27b8c785c2eb2c110fda"}
 {"level":"N3","kind":"vocab","id":"8fb4973f14","language":"bn","field":"examples.1","source_sha256":"e948316b27c5034653d30aa1dcaa88cb634eafa1808f9a70b60d8a309c897d3e"}
 {"level":"N3","kind":"vocab","id":"3030916eee","language":"bn","field":"examples.0","source_sha256":"25e06c74a0b98a505127d2839943ceb2b949ce8cb54d85a8cfdb3f2a5ba45511"}
-{"level":"N3","kind":"vocab","id":"3030916eee","language":"bn","field":"examples.1","source_sha256":"1f1127fe587fb149cbea31c0e9778b437263d43ac6696e455bc21c23737fcf75"}
 {"level":"N3","kind":"vocab","id":"30088243fb","language":"bn","field":"examples.0","source_sha256":"554d97b37f4e3a3565136a9a79cf384ec5317d98c8d3292137512aad1c0ae87a"}
 {"level":"N3","kind":"vocab","id":"30088243fb","language":"bn","field":"examples.1","source_sha256":"dd3f7764308017dd34781018bd7e87220776d0688e4e3c949e01d1e6f03011b9"}
 {"level":"N3","kind":"vocab","id":"e4e5715dc0","language":"bn","field":"examples.0","source_sha256":"9e8d4390511fe3aaee54c11f4c891747a5e30b2c543108ff5c53e1f7e5a90855"}
@@ -296,7 +291,6 @@
 {"level":"N3","kind":"vocab","id":"a786043e89","language":"bn","field":"examples.1","source_sha256":"389b56af36a9f8eadda10b20aa19ed33892015594a65e7e5a80db517e082a9ea"}
 {"level":"N3","kind":"vocab","id":"9adc22cc25","language":"bn","field":"examples.0","source_sha256":"4fbb9a5ed6462a24a46349faca482ec8edb516b048a3c7255022aecaab8dbdff"}
 {"level":"N3","kind":"vocab","id":"9adc22cc25","language":"bn","field":"examples.1","source_sha256":"3e40417d75648876c8c6e155fee6e916f74154c4b60a8dd331ec0249b2496ec7"}
-{"level":"N3","kind":"vocab","id":"40a60f6e48","language":"bn","field":"examples.0","source_sha256":"25cc27fb412e9b6cadcba225c5710f81cbeb80073fb5cc956a27c10cc1f9a1fb"}
 {"level":"N3","kind":"vocab","id":"40a60f6e48","language":"bn","field":"examples.1","source_sha256":"9b0bbc107f387de3449768cc5032f5460bbe12059674d654d04424e716fc5b38"}
 {"level":"N3","kind":"vocab","id":"41ad5f20ad","language":"bn","field":"examples.0","source_sha256":"17c23a7638ba4d98e97a474ee4f113a303838f9ca53115a24405cf0ecbf84099"}
 {"level":"N3","kind":"vocab","id":"41ad5f20ad","language":"bn","field":"examples.1","source_sha256":"1b61c12c6fadadb850a2f7260f1031e3701d1c390052dab9df499d1c1e3cd843"}
@@ -338,14 +332,12 @@
 {"level":"N3","kind":"vocab","id":"1a796e4b69","language":"bn","field":"examples.1","source_sha256":"04854406254b324eebf8ffdfb2f4e4a1e31c574ae52c888c3176dc7a25d76e1f"}
 {"level":"N3","kind":"vocab","id":"9ae2fdd72f","language":"bn","field":"examples.0","source_sha256":"4a3981252d5dbc9b21eac4926742b28cfb23ae9a97af094419deb70d74e3db3a"}
 {"level":"N3","kind":"vocab","id":"9ae2fdd72f","language":"bn","field":"examples.1","source_sha256":"b6dfeebdd3d196e7357dffbed88e9951fa0acd31bda11e9255ad93945fc68793"}
-{"level":"N3","kind":"vocab","id":"25d3414d84","language":"bn","field":"examples.0","source_sha256":"92cc91fdaf528d2ba29be52537eba01b00c0ff3c9143afcd268ae993ea544003"}
 {"level":"N3","kind":"vocab","id":"25d3414d84","language":"bn","field":"examples.1","source_sha256":"b8407151e36de6694fe0bbdea4d4218e07b6f533516a42b794c127edd15fe312"}
 {"level":"N3","kind":"vocab","id":"1337b1b9ec","language":"bn","field":"examples.0","source_sha256":"9af3e5bdf3ea76bfa59e66d6c523bb6ab787ebbea43fd59be3f7bf4c524222a7"}
 {"level":"N3","kind":"vocab","id":"1337b1b9ec","language":"bn","field":"examples.1","source_sha256":"125120f31c547737b189c92f86298e01871d301a117c4811c6807f0e6752b9af"}
 {"level":"N3","kind":"vocab","id":"b3edaebb52","language":"bn","field":"examples.0","source_sha256":"fce668fd54c6287a9eb1e49fa686bfe506d220460deb7a6e5ea1050f8e547e6c"}
 {"level":"N3","kind":"vocab","id":"b3edaebb52","language":"bn","field":"examples.1","source_sha256":"dadb7e3b8bd08b55bdca6aa486cca3afe15e1c71e8970f52526a30ef361c20e0"}
 {"level":"N3","kind":"vocab","id":"3c2e8a5848","language":"bn","field":"examples.0","source_sha256":"55ce2a650dd6c0fab85b8a41010e1fc7acd41f5bc3792627dec4c9a3b202329a"}
-{"level":"N3","kind":"vocab","id":"3c2e8a5848","language":"bn","field":"examples.1","source_sha256":"b3317178c5ba536659ebff163e5482df40053d5ef9f5895fb34bc37377719dbc"}
 {"level":"N3","kind":"vocab","id":"28bac43acc","language":"bn","field":"examples.0","source_sha256":"c502bb31a22c849b06279b4a525a5d05671ef47b0896629c89c60c83e6c19c90"}
 {"level":"N3","kind":"vocab","id":"28bac43acc","language":"bn","field":"examples.1","source_sha256":"415b20d10072197423355c8c6948c6997c94ce86e2e30361028845b68a5512da"}
 {"level":"N3","kind":"vocab","id":"5b0d9b6282","language":"bn","field":"examples.0","source_sha256":"da128db7672613e3ffcff115b78394965f64302afeeb2b457e6d6d9e368d7007"}
@@ -385,7 +377,6 @@
 {"level":"N3","kind":"vocab","id":"380bf1226c","language":"bn","field":"examples.0","source_sha256":"0504c5a73eab0346bf7358086e4349d1dde5c17bd83cc0efaf876a043737dfcc"}
 {"level":"N3","kind":"vocab","id":"380bf1226c","language":"bn","field":"examples.1","source_sha256":"4979280ed2ab8c11be36b61e9169f47e634af2e1d52f353d41a5deb526a365fe"}
 {"level":"N3","kind":"vocab","id":"5044be2999","language":"bn","field":"examples.0","source_sha256":"fae73727e287f886253ed891ecec205c25e06673d2721c0f93458a086cab64bf"}
-{"level":"N3","kind":"vocab","id":"5044be2999","language":"bn","field":"examples.1","source_sha256":"3947cd770e6c59d95c805509046e33028c8a1ded965cdf95763621744d8231b4"}
 {"level":"N3","kind":"vocab","id":"0896967865","language":"bn","field":"examples.0","source_sha256":"bd886ddaaeb89d03f5e26e54ac3f4133987c8c1559776610c57fa2faaffef385"}
 {"level":"N3","kind":"vocab","id":"0896967865","language":"bn","field":"examples.1","source_sha256":"4076f18de01c46b9daf2c9de83d310d69880d6ceab7f17947bdc9f2a927b780e"}
 {"level":"N3","kind":"vocab","id":"e7facf3a10","language":"bn","field":"examples.0","source_sha256":"7e87ccf272b985dc83de529a5e9fc30b6e75470457e0bd3e4ad179b80da5ffcd"}
@@ -398,7 +389,6 @@
 {"level":"N3","kind":"vocab","id":"9ff6bba172","language":"bn","field":"examples.1","source_sha256":"51a414854fd7c83a7da3b2541e4e639ec410c9da08340a14d194f2b7264c8ef3"}
 {"level":"N3","kind":"vocab","id":"67399eea20","language":"bn","field":"examples.0","source_sha256":"ba2f18a56382b4cc9612eabf2f63a61a9d8604ae4e7f624670b4314244088084"}
 {"level":"N3","kind":"vocab","id":"67399eea20","language":"bn","field":"examples.1","source_sha256":"530597e5c586574b1d510027d72e919dd4fb34ba8d5e7877a329628509f178cf"}
-{"level":"N3","kind":"vocab","id":"e06471a78e","language":"bn","field":"examples.0","source_sha256":"bf7a8cce9d669e6f622f69a5ec69e32fa9be533856125383527e9d29f17dd689"}
 {"level":"N3","kind":"vocab","id":"e06471a78e","language":"bn","field":"examples.1","source_sha256":"64b4a7b212fc833ad78b13e48d9998b3cb31e4ca9bb830868e5d3dd35cd37df2"}
 {"level":"N3","kind":"vocab","id":"87d50bbaf1","language":"bn","field":"examples.0","source_sha256":"125af68f2c80abbfbb2eb93fb7d2013a6219686fc1e84fcda55ff0fb480463c9"}
 {"level":"N3","kind":"vocab","id":"87d50bbaf1","language":"bn","field":"examples.1","source_sha256":"b055c0dbc0e45220193cdaf709d6ffd2438f395ca68136622aff9db01ace6959"}
@@ -438,7 +428,6 @@
 {"level":"N3","kind":"vocab","id":"5f052e8594","language":"bn","field":"examples.1","source_sha256":"37b0dc649fdcc2768d6e56f1fa854a1973d2a2845e7da272eac93247b18aab09"}
 {"level":"N3","kind":"vocab","id":"9923ca40cb","language":"bn","field":"examples.0","source_sha256":"1c3a1cbb34944e8c39982203e83adce3a4c01bd621a99f245bfe383df32b172c"}
 {"level":"N3","kind":"vocab","id":"9923ca40cb","language":"bn","field":"examples.1","source_sha256":"325793a240cf48e404642c334453323106e348869246a8423e123e5c825e4af2"}
-{"level":"N3","kind":"vocab","id":"30cf0aaae2","language":"bn","field":"examples.0","source_sha256":"5b46b8f4fe90ec62ad3900a1dde4d35b6ad39b3e7fc3bc79188dddd530a3173a"}
 {"level":"N3","kind":"vocab","id":"30cf0aaae2","language":"bn","field":"examples.1","source_sha256":"4983b2d48dfd4d4bedc5e70d1a77ee1f3f4002de7568b0f6adc96e103da09536"}
 {"level":"N3","kind":"vocab","id":"76a8947aac","language":"bn","field":"examples.0","source_sha256":"669769cd4a9ce1f86044f2fd31764967b6c01593b85e1cf3283d8510c63a1a0c"}
 {"level":"N3","kind":"vocab","id":"76a8947aac","language":"bn","field":"examples.1","source_sha256":"76e2a19e1ce00b2e1c022173aae9d60e1e7bb7f27eaae5d2a38e8d33fbd20b00"}
@@ -478,7 +467,6 @@
 {"level":"N3","kind":"vocab","id":"8190d9ad28","language":"bn","field":"examples.1","source_sha256":"aaa1889a663048882bec3bfa336ee011fdeae8d215e131612a23e94c8eb79d31"}
 {"level":"N3","kind":"vocab","id":"813ca3b6fc","language":"bn","field":"examples.0","source_sha256":"817bd870fcb0c2dbb42471141ed3b16911d93533dfbd2a9ad85b662ad7e290de"}
 {"level":"N3","kind":"vocab","id":"813ca3b6fc","language":"bn","field":"examples.1","source_sha256":"3d47933d459d50fa911d0cd4e847a02270b73f74dc48be5bc8a7161388b677c5"}
-{"level":"N3","kind":"vocab","id":"ce2ba9fec2","language":"bn","field":"examples.0","source_sha256":"52f544d639ff5cc7ebbea786de2092e0aa0290bbb4746495aa2710f407830ab9"}
 {"level":"N3","kind":"vocab","id":"ce2ba9fec2","language":"bn","field":"examples.1","source_sha256":"f7011d3a6fe1ca0436de97b7dcde1e260c50d5f119ccdd2125dc4422ecf3a137"}
 {"level":"N3","kind":"vocab","id":"731e27d6bb","language":"bn","field":"examples.0","source_sha256":"60b733e63d694b25f09494671b610b9770ce528a867566b9d27ee4a9f9853b3b"}
 {"level":"N3","kind":"vocab","id":"731e27d6bb","language":"bn","field":"examples.1","source_sha256":"e9ab68fd87b6b6c1657a17f56ac125da1d1a9a095427367714f7328b3ad62ca3"}
@@ -552,7 +540,6 @@
 {"level":"N3","kind":"vocab","id":"758bbc40fb","language":"bn","field":"examples.0","source_sha256":"d19db79b90e5472a62b8bd4ed2a0551721cb6b36e945b32180078e57ffde06aa"}
 {"level":"N3","kind":"vocab","id":"758bbc40fb","language":"bn","field":"examples.1","source_sha256":"55ce7b66558da6d5c57e3c8429534d3cbb466720cc9139c140b5d0e71400950f"}
 {"level":"N3","kind":"vocab","id":"ae3fd65f95","language":"bn","field":"examples.0","source_sha256":"8517079d46dfd0bafb8ad89713bf0f89b957172ae1172ce7be850b1f55f3fea7"}
-{"level":"N3","kind":"vocab","id":"ae3fd65f95","language":"bn","field":"examples.1","source_sha256":"145b3541bfd397106823667c587ae81dbc1536af86d8e90d5c0beabc869c0f17"}
 {"level":"N3","kind":"vocab","id":"1ad20880d6","language":"bn","field":"examples.0","source_sha256":"cce8a32f693a7876d4d2f72291c44ff2fbbe3cd2dbad8a171278908b14774690"}
 {"level":"N3","kind":"vocab","id":"1ad20880d6","language":"bn","field":"examples.1","source_sha256":"4eed1b4e5f084c48ae2a3969ae5cfec5f457ff7bfcd61979189949584c9c97e9"}
 {"level":"N3","kind":"vocab","id":"6bfc102fca","language":"bn","field":"examples.0","source_sha256":"66881ca755fa4906d0099ec99ceb349396cefa908692000235ab7aceea751e43"}
@@ -608,7 +595,6 @@
 {"level":"N3","kind":"vocab","id":"b341907305","language":"bn","field":"examples.0","source_sha256":"7c5f95cfdb562353bb9d97aa45a8d72562d401f57239af3c3824a7c565699733"}
 {"level":"N3","kind":"vocab","id":"b341907305","language":"bn","field":"examples.1","source_sha256":"eb62bba3c09884914eae87b640d592f1a3a723505b51004928d8f7ec90ca27b3"}
 {"level":"N3","kind":"vocab","id":"823b048f98","language":"bn","field":"examples.0","source_sha256":"693746d6d4790a97382015048b86ab97785b1df0968b1970e4b9d630b7d57e2e"}
-{"level":"N3","kind":"vocab","id":"823b048f98","language":"bn","field":"examples.1","source_sha256":"b11ee236589b4c71f05758b1f4f5bed6769f75c28e8414673c952fcdc2eb0782"}
 {"level":"N3","kind":"vocab","id":"0bd00cd76e","language":"bn","field":"examples.0","source_sha256":"5545d01ee0056bda15ab49175a6430b63e145e0085b93b273f6641675f978a35"}
 {"level":"N3","kind":"vocab","id":"0bd00cd76e","language":"bn","field":"examples.1","source_sha256":"e8d794e115fdfbb74b5b94b4603b0de8def2182fb2db183709e06c8fca2d9855"}
 {"level":"N3","kind":"vocab","id":"6b76d0e68b","language":"bn","field":"examples.0","source_sha256":"ddf1eed1cf9a5a18574feb6c4799884dcc06b8ae5da37753259dc894325d1acf"}
@@ -735,7 +721,6 @@
 {"level":"N3","kind":"vocab","id":"30e8d35fdf","language":"bn","field":"examples.0","source_sha256":"f3e0efa4f85d0ec1c0b9ff504fbbdd53d2ced89b57a3d1b2c8cda9c45ea330fb"}
 {"level":"N3","kind":"vocab","id":"30e8d35fdf","language":"bn","field":"examples.1","source_sha256":"5504081463a5d10fc201f088e2d4d6e0eb321859275c6cfe7cbf54d39d4a5b9a"}
 {"level":"N3","kind":"vocab","id":"c8ba548f8f","language":"bn","field":"examples.0","source_sha256":"513e898c0752d74e6894a423bacb540b8678621ad5993215daba473f81885f3a"}
-{"level":"N3","kind":"vocab","id":"c8ba548f8f","language":"bn","field":"examples.1","source_sha256":"d20f69faffedb863894cd7aea2f6a20971f4c6277dacb8fc6750b1a64542b6ea"}
 {"level":"N3","kind":"vocab","id":"6a34d83a67","language":"bn","field":"examples.0","source_sha256":"dbb26b6fd55c5dad4659698e697a8dbc73a7371c2820bc5955e9ae61e52a36ba"}
 {"level":"N3","kind":"vocab","id":"6a34d83a67","language":"bn","field":"examples.1","source_sha256":"32612e70ef43918d5d49219a0117cef90f86064d0d0fb93a39f49b52dda9e85f"}
 {"level":"N3","kind":"vocab","id":"65319da4bb","language":"bn","field":"examples.0","source_sha256":"235baba23e843fdacbff4a7cbcb0e407fd2b6c7495b0fc717ae8180de1b540eb"}
@@ -750,8 +735,6 @@
 {"level":"N3","kind":"vocab","id":"e2dc364bee","language":"bn","field":"examples.0","source_sha256":"4c48f31ca3ce4865be28072b5d6b0a6a8b1ff84d6b6d4c0785603cc24fc0391e"}
 {"level":"N3","kind":"vocab","id":"e2dc364bee","language":"bn","field":"examples.1","source_sha256":"e70c491cd716f848d66e2656f76295f167b47d93e19bfdcd1c9b17a3820d7e66"}
 {"level":"N3","kind":"vocab","id":"47dd731c9f","language":"bn","field":"examples.0","source_sha256":"62a29618e14de24b447b9fd1ba954f9b16368b0a8315f03f4e77c3bcb1afc3c0"}
-{"level":"N3","kind":"vocab","id":"47dd731c9f","language":"bn","field":"examples.1","source_sha256":"db5c589ccdf9670c43aeac1cdcc83134bf56f6359afc06623047ffa1fd5857c7"}
-{"level":"N3","kind":"vocab","id":"8d570a517c","language":"bn","field":"examples.0","source_sha256":"63a1d35c27f59826a1a96cc29cdbe8a3c19f3c693ef27ac1ae9b68d7c0bc21ac"}
 {"level":"N3","kind":"vocab","id":"8d570a517c","language":"bn","field":"examples.1","source_sha256":"567fb9e740651fc9a74bac6506050b3de0215ee61a671c9642d72ff8d0e0620b"}
 {"level":"N3","kind":"vocab","id":"8c6202f62c","language":"bn","field":"examples.0","source_sha256":"995444bd2b9a3d7c958633bbbf61747d6461e29667ce32301d36340fec1c9130"}
 {"level":"N3","kind":"vocab","id":"8c6202f62c","language":"bn","field":"examples.1","source_sha256":"8d95dd2b11f767e21e20ea89b7b9deea288cf2461e20204064b8fbda44c3744e"}
@@ -769,7 +752,6 @@
 {"level":"N3","kind":"vocab","id":"49b450eac3","language":"bn","field":"examples.1","source_sha256":"ef950ae8ee2b5e48ad0f420cc59081ba0b59bd71fadccd57a8177868ce31081f"}
 {"level":"N3","kind":"vocab","id":"d83bc64e48","language":"bn","field":"examples.0","source_sha256":"083813121407d05d8721dfa0594f6ea63fa5359460a73c569cfc574023c88b74"}
 {"level":"N3","kind":"vocab","id":"d83bc64e48","language":"bn","field":"examples.1","source_sha256":"6267690ce65816edb309b2a1b3f6d344ab206df50063cd13ca8eaab660c20faf"}
-{"level":"N3","kind":"vocab","id":"0596cdc023","language":"bn","field":"examples.0","source_sha256":"61c8da8267965f605ff817da096247a729610637c48ec65b9188852ae24e5645"}
 {"level":"N3","kind":"vocab","id":"0596cdc023","language":"bn","field":"examples.1","source_sha256":"32402f28547e11535643e46c5417900c2f8f93f94eda863febf27258f4bdc29f"}
 {"level":"N3","kind":"vocab","id":"d64b87f0c2","language":"bn","field":"examples.0","source_sha256":"787eed27cafcb511aaa81417adb422bfefad6648d43c9bf698dbe32ed5cc99ac"}
 {"level":"N3","kind":"vocab","id":"d64b87f0c2","language":"bn","field":"examples.1","source_sha256":"8ffe2e17b126e1ce0546a1537ac3f83f266df38dfcde92509bab368d812ecbcb"}
@@ -811,7 +793,6 @@
 {"level":"N3","kind":"vocab","id":"1ad3b41d6f","language":"bn","field":"examples.0","source_sha256":"d2909434810f12a461bc3c55d7e62ea8475e393605aae46f4488b842c7ce5d42"}
 {"level":"N3","kind":"vocab","id":"1ad3b41d6f","language":"bn","field":"examples.1","source_sha256":"8a7a2d40fc778fafab219c8785bab62b1783c3e987b92a9fb75b645d72b69b62"}
 {"level":"N3","kind":"vocab","id":"e9efe8313d","language":"bn","field":"meaning","source_sha256":"2c7e80794e07e45fa0c04094f292eb20f1655fbaf6b5ceecdaedc774dcf4def6"}
-{"level":"N3","kind":"vocab","id":"e9efe8313d","language":"bn","field":"examples.0","source_sha256":"86935cd0b80fb516f481c57e8b4edcb5162e40d330bee6e0e9748388e50c3675"}
 {"level":"N3","kind":"vocab","id":"e9efe8313d","language":"bn","field":"examples.1","source_sha256":"3204475559a2c14075bf6bce71f37842d1c476d6b28f1a5df27857ad1c7959aa"}
 {"level":"N3","kind":"vocab","id":"ca92616db2","language":"bn","field":"meaning","source_sha256":"ef436e2cedfc1762d5bf2dcc525f7645317630a3a6ada4fab4329e00c2bc1587"}
 {"level":"N3","kind":"vocab","id":"ca92616db2","language":"bn","field":"examples.0","source_sha256":"0fee6d3c0b54f588d066ee6104858ab87ec4f92ad24d17b7d8517c0196f43d4f"}
@@ -830,7 +811,6 @@
 {"level":"N3","kind":"vocab","id":"c53be2d952","language":"bn","field":"examples.1","source_sha256":"49d041fbf636403bf6cbbb29e9c1cbd8e0cb8cbc0bf8f52374a8f51cd790110b"}
 {"level":"N3","kind":"vocab","id":"3793fa82cf","language":"bn","field":"meaning","source_sha256":"a09b8e9c1022c0c49808d16a7308ba467d7adb1d68707e21093c122fa07a1ddb"}
 {"level":"N3","kind":"vocab","id":"3793fa82cf","language":"bn","field":"examples.0","source_sha256":"607e22ed5596887f8943cd2e12c2a36eee64993713ebd388ed1b28ad49039a09"}
-{"level":"N3","kind":"vocab","id":"3793fa82cf","language":"bn","field":"examples.1","source_sha256":"abf4f62c62914d51af93c52565139ac29e4b655b4c8b0319c0c86d87812e91a1"}
 {"level":"N3","kind":"vocab","id":"a8f91562fe","language":"bn","field":"meaning","source_sha256":"a8383496a99289ae58d4b8f23f77c2510baa21e050a8522cb0389221cf5dd7cf"}
 {"level":"N3","kind":"vocab","id":"a8f91562fe","language":"bn","field":"examples.0","source_sha256":"b215285b0eb21e6efbc17e85c0b1da52a58a36ae8c3e9e83541136ea5b05dba0"}
 {"level":"N3","kind":"vocab","id":"a8f91562fe","language":"bn","field":"examples.1","source_sha256":"112e5bb0f2d4788a03b33fd6bfce326768f7cb266144ec1fb7418e8fc7ba8b81"}
@@ -914,12 +894,9 @@
 {"level":"N3","kind":"vocab","id":"87985bf157","language":"bn","field":"examples.1","source_sha256":"a603ee0ee4b6dcc60dd62c50df9deff2baa94315e7b55095622c07a72f0381b4"}
 {"level":"N3","kind":"vocab","id":"69257fa105","language":"bn","field":"meaning","source_sha256":"497fa249705e089149cef749a583b540ca3d6de5db4d9ff41ab5970e36cdb73a"}
 {"level":"N3","kind":"vocab","id":"69257fa105","language":"bn","field":"examples.0","source_sha256":"ef8dbce9e86b71c3b50404e78ac817d67b07c6a8221c9334c20e6b13e40b9262"}
-{"level":"N3","kind":"vocab","id":"69257fa105","language":"bn","field":"examples.1","source_sha256":"e5cc6e7eb91890b93b14e1d946f05e15cf82e57be0d102b632036198df27d202"}
 {"level":"N3","kind":"vocab","id":"5569286656","language":"bn","field":"meaning","source_sha256":"cb35c1d78d32e85bb86783fa85b9e100e31353faf951eaeb205719155e614791"}
-{"level":"N3","kind":"vocab","id":"5569286656","language":"bn","field":"examples.0","source_sha256":"213328e35f55029572928ebdcdb711120e130214600a04d243653e9c68a41ee6"}
 {"level":"N3","kind":"vocab","id":"5569286656","language":"bn","field":"examples.1","source_sha256":"23a6eabb83e9e04905187490c54aba78a83478f7f8c9d8945aa09320c9f2ea1e"}
 {"level":"N3","kind":"vocab","id":"ea15f9f78a","language":"bn","field":"meaning","source_sha256":"f9d302f94102ddac163e6fcf9f364ba783e9e5935b3519f78ae6d832bedb7d70"}
-{"level":"N3","kind":"vocab","id":"ea15f9f78a","language":"bn","field":"examples.0","source_sha256":"55757461a908d95b2f66b3ef8e77924bcfaafa77a5c4898336a5c000316a8664"}
 {"level":"N3","kind":"vocab","id":"ea15f9f78a","language":"bn","field":"examples.1","source_sha256":"7ccbea8042fd740bad6274adb64a75f1b12b33860e72f651942f463887154497"}
 {"level":"N3","kind":"vocab","id":"ef97fe9600","language":"bn","field":"meaning","source_sha256":"96691aec1b039a33e70dbff3d916c924a185b629462657c635c114222197b1c8"}
 {"level":"N3","kind":"vocab","id":"ef97fe9600","language":"bn","field":"examples.0","source_sha256":"7d46d6d73b5ae0526001a49dc8025b401c0a773754814e92cc26503c3f5513e3"}
@@ -934,7 +911,6 @@
 {"level":"N3","kind":"vocab","id":"7b89bdd9ec","language":"bn","field":"examples.0","source_sha256":"0e6af1ce93bf4db63680e25addc5fe0649defc5051c9c7c48c33f8e143820598"}
 {"level":"N3","kind":"vocab","id":"7b89bdd9ec","language":"bn","field":"examples.1","source_sha256":"69095c026fc02adfece65d83058e5efadaf87d8f72f656108055f77fe970a65a"}
 {"level":"N3","kind":"vocab","id":"d6b975f68f","language":"bn","field":"meaning","source_sha256":"2cba866eca52a9ea2a04a82f86b8cdc8afd9f8a745d84fcc1d33dd2303c170cd"}
-{"level":"N3","kind":"vocab","id":"d6b975f68f","language":"bn","field":"examples.0","source_sha256":"6748ab916c647be44ddc86f7258e9642f43d8bc319e814a7f3500403a43d388b"}
 {"level":"N3","kind":"vocab","id":"d6b975f68f","language":"bn","field":"examples.1","source_sha256":"a3f4fff3c4124880de2599ab820c6705d30fef056532295782c97f2a6e0e38bf"}
 {"level":"N3","kind":"vocab","id":"76b200a366","language":"bn","field":"meaning","source_sha256":"9ac31caad1e71d33cf1382a3267d6220a26cfda6ab93c9744afb8353f096467e"}
 {"level":"N3","kind":"vocab","id":"76b200a366","language":"bn","field":"examples.0","source_sha256":"50b9653a839dbb92c60a290cd8e0dc542c07153378cd96b7cb5b4a4460894ee5"}
@@ -1133,7 +1109,6 @@
 {"level":"N3","kind":"vocab","id":"f01cb21b79","language":"bn","field":"examples.0","source_sha256":"f84634a21700cc02c84c5d07a6efc91633a060a7344dfcbfdc555fcc114b13f3"}
 {"level":"N3","kind":"vocab","id":"f01cb21b79","language":"bn","field":"examples.1","source_sha256":"679d86344dca19bb3c991666b0493cafd46b1940517196f7270d0437effd1df0"}
 {"level":"N3","kind":"vocab","id":"5b8ad938b3","language":"bn","field":"meaning","source_sha256":"777ea0bd62f305f95fb9aa7593c6d23a41a3bb3cdb9304bcc43be947f04b8a6c"}
-{"level":"N3","kind":"vocab","id":"5b8ad938b3","language":"bn","field":"examples.0","source_sha256":"cdef79ec3d23d0d9fd3a2322d3cba9521e1cc89639c2b1798d92fe3216f020ca"}
 {"level":"N3","kind":"vocab","id":"5b8ad938b3","language":"bn","field":"examples.1","source_sha256":"adf608b4aa5ddc8046c54a6e4f81c9232c52366e1f0014d2e7b4616613a70372"}
 {"level":"N3","kind":"vocab","id":"cb48e3fc15","language":"bn","field":"meaning","source_sha256":"9a17329f4604846996f3958d4c0acaac841c4ab7e931ea6f3d93537d9757cbb6"}
 {"level":"N3","kind":"vocab","id":"cb48e3fc15","language":"bn","field":"examples.0","source_sha256":"476288d5d7a236211ae0e8ac1f4be9440cefe428788e6260297948a8ee967dd7"}
@@ -1282,7 +1257,6 @@
 {"level":"N3","kind":"vocab","id":"4713a549bc","language":"bn","field":"examples.1","source_sha256":"d11f057d16cc10a27dc8c74441cc91d4ee044025d963c9a02245bf1e09ed5357"}
 {"level":"N3","kind":"vocab","id":"52049336a2","language":"bn","field":"meaning","source_sha256":"d1c5467f0bd6fed045d60b52b9775cbf1e96ebfeebd2e12c0c99c9b94f01b1a3"}
 {"level":"N3","kind":"vocab","id":"52049336a2","language":"bn","field":"examples.0","source_sha256":"f02db657535a3bb7e5080e8bc9d96955f5673f54c40625b5afbcab91b253aa71"}
-{"level":"N3","kind":"vocab","id":"52049336a2","language":"bn","field":"examples.1","source_sha256":"abf4f62c62914d51af93c52565139ac29e4b655b4c8b0319c0c86d87812e91a1"}
 {"level":"N3","kind":"vocab","id":"20d012baaf","language":"bn","field":"meaning","source_sha256":"b7f7b5707f860046658f25897807442cb8128458ba71f7d0a63bdde4127224c1"}
 {"level":"N3","kind":"vocab","id":"20d012baaf","language":"bn","field":"examples.0","source_sha256":"9793ec6cc4e900c68828122f295adc03b59c3f1ede749f9389107abb4ba34e1a"}
 {"level":"N3","kind":"vocab","id":"20d012baaf","language":"bn","field":"examples.1","source_sha256":"09acea5226af8fa21e2d21dfa5a0bc9ff027a6718ddc1cae104f07efdd8c70a0"}
@@ -1309,7 +1283,6 @@
 {"level":"N3","kind":"vocab","id":"f5cb9d932e","language":"bn","field":"examples.1","source_sha256":"a5efec7e629a1e567344d79e1bf028ba7435f49c316b3f39115d366819780e96"}
 {"level":"N3","kind":"vocab","id":"de0215662e","language":"bn","field":"meaning","source_sha256":"e62db9c3545cc2f4200fc6f2dcca2345b91405d61fdc2e907957b629e79ed7dc"}
 {"level":"N3","kind":"vocab","id":"de0215662e","language":"bn","field":"examples.0","source_sha256":"9e0c99aea8b5f9aa2942cba1bf05df4682e2e6d03bb7599eb1f8b731306a83e0"}
-{"level":"N3","kind":"vocab","id":"de0215662e","language":"bn","field":"examples.1","source_sha256":"57cd1b636e040e746ed1309487a602d0a8f323a18ccf542be5e8e524357dee0e"}
 {"level":"N3","kind":"vocab","id":"20119e5c9b","language":"bn","field":"meaning","source_sha256":"1bfc5311aa4c9498ca65e296da95a3e2e6e79a72e16c2b5820bddf6d9a507262"}
 {"level":"N3","kind":"vocab","id":"20119e5c9b","language":"bn","field":"examples.0","source_sha256":"5a44d9d62fe18d32ced0a25fe54fd1a6e4c2a02c034f281bcbc7bf7acde6198d"}
 {"level":"N3","kind":"vocab","id":"20119e5c9b","language":"bn","field":"examples.1","source_sha256":"29b87b7ba8d479891f3afad76162314a94e111fc03093b5a31e22090adc322a0"}
@@ -1448,7 +1421,6 @@
 {"level":"N3","kind":"vocab","id":"d09ecbe5b0","language":"bn","field":"examples.0","source_sha256":"f7827c448be1e7ae1026f394275d5b355c69f78b2a54aacc2525ffae8700fbf2"}
 {"level":"N3","kind":"vocab","id":"d09ecbe5b0","language":"bn","field":"examples.1","source_sha256":"f0f7deb998a04d47b3d5d3dd1eda7eb6aedb91fa2322041427ba7e9a4c14b441"}
 {"level":"N3","kind":"vocab","id":"59dd72cefc","language":"bn","field":"meaning","source_sha256":"99980d8206764a0a3fadd8876bd10fff95224bef3c6567422763939de0c16fad"}
-{"level":"N3","kind":"vocab","id":"59dd72cefc","language":"bn","field":"examples.0","source_sha256":"6748ab916c647be44ddc86f7258e9642f43d8bc319e814a7f3500403a43d388b"}
 {"level":"N3","kind":"vocab","id":"59dd72cefc","language":"bn","field":"examples.1","source_sha256":"da00ef06288f6e3b6ec7f61ac71a2e717d06e0931b62dcf5ce5e131a0b90ba3d"}
 {"level":"N3","kind":"vocab","id":"ce509fd4c7","language":"bn","field":"meaning","source_sha256":"9b5c9487842ae21441b8cbd1d95bca2b7d3d9af72315390c78a34c781acf7b54"}
 {"level":"N3","kind":"vocab","id":"ce509fd4c7","language":"bn","field":"examples.0","source_sha256":"6481797e4929fa3be7ee6985bc9446a04f7986c81824dcf8c7a94767a5178db4"}
@@ -1472,7 +1444,6 @@
 {"level":"N3","kind":"vocab","id":"d74252cb1f","language":"bn","field":"examples.0","source_sha256":"f5073a457eda98b6493fa79201680f80a169d7339e1a23564f0b81c8f64e0c36"}
 {"level":"N3","kind":"vocab","id":"d74252cb1f","language":"bn","field":"examples.1","source_sha256":"f7af2bbc368fab6f31ba2ec9367d3baffd0b0a9c45546bb3b3002c68410d91ae"}
 {"level":"N3","kind":"vocab","id":"ed560b721e","language":"bn","field":"meaning","source_sha256":"f24fbc13c2e34543f6991ecef161a9cbde86c3a5c5f5e4e25f8acf7bff4f4232"}
-{"level":"N3","kind":"vocab","id":"ed560b721e","language":"bn","field":"examples.0","source_sha256":"c0e8e6a45be54cb11d255509bfde689d093b74b193f0fa0f88714648cfb08b50"}
 {"level":"N3","kind":"vocab","id":"ed560b721e","language":"bn","field":"examples.1","source_sha256":"1bb31d27482a081b32e0abac01c44cd241f61f4516ac0fb2f88a1839b277c98b"}
 {"level":"N3","kind":"vocab","id":"7864a376ed","language":"bn","field":"meaning","source_sha256":"c6c545b75db29690bf3dded90cf175ddd23dbd3142c49c812546decc745d53b3"}
 {"level":"N3","kind":"vocab","id":"7864a376ed","language":"bn","field":"examples.0","source_sha256":"2d5d3c7a09a957d7465ee918addba0cf6138398358a2b66d4333552595d2eecc"}
@@ -1569,7 +1540,6 @@
 {"level":"N3","kind":"vocab","id":"4dc252fa39","language":"bn","field":"examples.1","source_sha256":"611f7c47d48185465596264270b81d0d2fe9d02fb15357e9c4e63dcb8f48cde8"}
 {"level":"N3","kind":"vocab","id":"94696ff83d","language":"bn","field":"meaning","source_sha256":"da0ce9517cb7742d434be6a7472af45b41598ac91e10b5ffb55dcf5234028411"}
 {"level":"N3","kind":"vocab","id":"94696ff83d","language":"bn","field":"examples.0","source_sha256":"26ff5e95711bdf2db360265a7f6b695b33e9fbe5a95f4fc264e088137a0001f8"}
-{"level":"N3","kind":"vocab","id":"94696ff83d","language":"bn","field":"examples.1","source_sha256":"0a3bb84864ff496a8d56424cff7a10a0da064ca3f61c4529624af521744a408d"}
 {"level":"N3","kind":"vocab","id":"d19e1e7cb4","language":"bn","field":"meaning","source_sha256":"891f99b831a47ce5c2522e415a8901758f2e183e35a690934f65560ada9f04bd"}
 {"level":"N3","kind":"vocab","id":"d19e1e7cb4","language":"bn","field":"examples.0","source_sha256":"990552f295932be679c97634bfd2e234c135dea007021cc3f440b9aa726789f9"}
 {"level":"N3","kind":"vocab","id":"d19e1e7cb4","language":"bn","field":"examples.1","source_sha256":"b0fe3498e4450f790eda8f97cc18d0f705dc606d56ef6c2c6c0550119cff063a"}
@@ -1613,7 +1583,6 @@
 {"level":"N3","kind":"vocab","id":"331fc42604","language":"bn","field":"examples.0","source_sha256":"4e92e032e698f42b8d246d80c726e74f188d0c59d7d9766bc86f52c6502ed4d6"}
 {"level":"N3","kind":"vocab","id":"331fc42604","language":"bn","field":"examples.1","source_sha256":"a2bf6bb9546f63991f6c8bc773fd17b593f1f03a96b4c478eae9cf4a84860af7"}
 {"level":"N3","kind":"vocab","id":"e6e567643f","language":"bn","field":"meaning","source_sha256":"478503bd6b059b8b5809e21c0b5dea3188070f6eaf2c962eadf89f5ba2849a68"}
-{"level":"N3","kind":"vocab","id":"e6e567643f","language":"bn","field":"examples.0","source_sha256":"59e7042f94b315700e182a4159bd7fd239afc22421ac2453c0611523e75570df"}
 {"level":"N3","kind":"vocab","id":"e6e567643f","language":"bn","field":"examples.1","source_sha256":"089dcae51298f36cfd7d949fc510de91835b4b6dc1ebb15caa064aa80e3bf2fe"}
 {"level":"N3","kind":"vocab","id":"7044f13335","language":"bn","field":"meaning","source_sha256":"dcd795313e44f46d1272b8297c8a95fb7be628c6e818aa0cd00fa08a69dab7a1"}
 {"level":"N3","kind":"vocab","id":"7044f13335","language":"bn","field":"examples.0","source_sha256":"78aa382cb0829d03c8538fff1dcd9023879332486c075fbde51ffe79eca11bdd"}
@@ -1686,7 +1655,6 @@
 {"level":"N3","kind":"vocab","id":"56092bf6de","language":"bn","field":"examples.1","source_sha256":"ab744b72ee7d58c25fe0e71fc82b725aa0dfd7b50d6c3472c98beb6057138bb0"}
 {"level":"N3","kind":"vocab","id":"efa915fbef","language":"bn","field":"meaning","source_sha256":"908476d322cc6a88c56a50609e9cfdba46865059684f79104d51a8da13d826d3"}
 {"level":"N3","kind":"vocab","id":"efa915fbef","language":"bn","field":"examples.0","source_sha256":"b71b8b206502b72c66b4d964a75c595eee958065eb2aef0f52924401635f8c30"}
-{"level":"N3","kind":"vocab","id":"efa915fbef","language":"bn","field":"examples.1","source_sha256":"44af90a1a02606aa14bc4331b2d0dd24c05d78de3f0c5ed42779f7434d28c54a"}
 {"level":"N3","kind":"vocab","id":"b8c0205de7","language":"bn","field":"meaning","source_sha256":"15630f2c1576fbae88a942abe4451fb663b6ea52aeafb2fbcafbbe5cecd99831"}
 {"level":"N3","kind":"vocab","id":"b8c0205de7","language":"bn","field":"examples.0","source_sha256":"1cbebd80ae35a68a3cf132e4f643103cc1c6a4a86c1427e31047d1994ece7c46"}
 {"level":"N3","kind":"vocab","id":"b8c0205de7","language":"bn","field":"examples.1","source_sha256":"e3d19a743b845a7889c99b907359f20338548b91973daab03c7346c70081a150"}
@@ -1745,10 +1713,8 @@
 {"level":"N3","kind":"vocab","id":"4b1cb88257","language":"bn","field":"examples.0","source_sha256":"b5359acb4901ae75f72efdf88039c6544e62b2322e25c6f4267de1fd734a74f9"}
 {"level":"N3","kind":"vocab","id":"4b1cb88257","language":"bn","field":"examples.1","source_sha256":"a1f9a9525523a089b007b3af172b1b2d33ff4fe3cccebad2ebddbd89431e456b"}
 {"level":"N3","kind":"vocab","id":"9ed2c14da0","language":"bn","field":"meaning","source_sha256":"2c440f4df2b15414b98ddfddca0e6ca965a207ac44a16872db0d46b6c8023687"}
-{"level":"N3","kind":"vocab","id":"9ed2c14da0","language":"bn","field":"examples.0","source_sha256":"801117ed9ac17f3d26fa4249794363af195d371a0cad7b1ecd28909d2d2e09cc"}
 {"level":"N3","kind":"vocab","id":"9ed2c14da0","language":"bn","field":"examples.1","source_sha256":"02eb0319c1b5a08be8b49c59453d67d0ccbb66bbcd7910af63ff50a515235951"}
 {"level":"N3","kind":"vocab","id":"7eedda811b","language":"bn","field":"meaning","source_sha256":"c5fc0bb3b0013e61f362be34f858158f0843b6307fc69ef7c675f778a80fef09"}
-{"level":"N3","kind":"vocab","id":"7eedda811b","language":"bn","field":"examples.0","source_sha256":"40274e6c7ce9ee749a2706cca6363960fd65322b5e6700c0c7e639a1d3fe9a71"}
 {"level":"N3","kind":"vocab","id":"7eedda811b","language":"bn","field":"examples.1","source_sha256":"799e7efbb9ea93cd3df803f794371a361ca11d972ef562e786cba911f102c51e"}
 {"level":"N3","kind":"vocab","id":"70e6480c13","language":"bn","field":"meaning","source_sha256":"3e4f2d6c83303b37cef6a67483cbcebadfeb7aa8628a5ac8143c07768f0fb064"}
 {"level":"N3","kind":"vocab","id":"70e6480c13","language":"bn","field":"examples.0","source_sha256":"4a6b0be1070ca4c23f50a47f936bfbb0529db8c6aa6f3828cdc6be3212b1fd9a"}
@@ -1959,7 +1925,6 @@
 {"level":"N3","kind":"vocab","id":"145a15c354","language":"bn","field":"examples.1","source_sha256":"bb7aa3f5d9cb772ad7dca282dc5061b24b6704b831b6100a8af547a218dbcec8"}
 {"level":"N3","kind":"vocab","id":"6556dc10d1","language":"bn","field":"meaning","source_sha256":"b7e13042e915a317351c9cee85b2f7b96cb8c4e4ecc5845c7a45aba5251872b6"}
 {"level":"N3","kind":"vocab","id":"43bc725de0","language":"bn","field":"meaning","source_sha256":"4f1551f10b64cea61f0b3468e3cad396282ed725d09a725cb7afd4d3d18cf0ff"}
-{"level":"N3","kind":"vocab","id":"43bc725de0","language":"bn","field":"examples.0","source_sha256":"cdeb662dcdbfb33fdb15094072bbdd5f2f43913f4eead1795ec4a345a164ab1b"}
 {"level":"N3","kind":"vocab","id":"43bc725de0","language":"bn","field":"examples.1","source_sha256":"d9e2d3d41cbd92201e2b960422569a2e91a6d4ae95e8b5b7a4470fe488f4be94"}
 {"level":"N3","kind":"vocab","id":"2def0fe8be","language":"bn","field":"meaning","source_sha256":"fb4147d2443390f05cbc207b5cc2c28c5d693daa64282d0d452a538aeb08af7e"}
 {"level":"N3","kind":"vocab","id":"2def0fe8be","language":"bn","field":"examples.0","source_sha256":"b22a20150f8973c965a3d5f5e6db143cab45380a79a4c8b80a077b10bfe37315"}
@@ -1977,7 +1942,6 @@
 {"level":"N3","kind":"vocab","id":"15bfdc638d","language":"bn","field":"examples.0","source_sha256":"81976afad9b30b3e3f27c4935eab457d697673fd11fb499abafd6ee3448b3649"}
 {"level":"N3","kind":"vocab","id":"15bfdc638d","language":"bn","field":"examples.1","source_sha256":"a4a7fc471cc49a422cd9e6b874a0398a008a359386c03334bf567bea316d1874"}
 {"level":"N3","kind":"vocab","id":"d811ee3160","language":"bn","field":"meaning","source_sha256":"5c809d10c75c0c5071a681e81d0a16056b7f276d545d5ea64d7b6c6a7e934ba2"}
-{"level":"N3","kind":"vocab","id":"d811ee3160","language":"bn","field":"examples.0","source_sha256":"c3d7e0347f87ebb2641089bba37ece9e1f42ae4b80a027003f5f5c485bfff250"}
 {"level":"N3","kind":"vocab","id":"d811ee3160","language":"bn","field":"examples.1","source_sha256":"5d237d16de6675f66ed97ee96c8eacc17257b4033ba47355b523083ca551a952"}
 {"level":"N3","kind":"vocab","id":"cd33b27e9a","language":"bn","field":"meaning","source_sha256":"3998e83df599b383c07bb563bc9befe61f7689f7fe96ac28b2d5f1e1269f889b"}
 {"level":"N3","kind":"vocab","id":"cd33b27e9a","language":"bn","field":"examples.0","source_sha256":"359c8ebf0b6f4e9705f80ad4aad8bb05024c98fa392372bc84d43d7c6ddb0757"}
@@ -1999,7 +1963,6 @@
 {"level":"N3","kind":"vocab","id":"402b531dd3","language":"bn","field":"examples.1","source_sha256":"34c1d9a91ff672c7d1f8775a888057fabe50d6f253e9488926982086c175f40c"}
 {"level":"N3","kind":"vocab","id":"a588d2a3e0","language":"bn","field":"meaning","source_sha256":"5fc711a1082b3a1b51230f75115b30e1a6736592e28e1ff8118b823c63ce995e"}
 {"level":"N3","kind":"vocab","id":"a588d2a3e0","language":"bn","field":"examples.0","source_sha256":"ac9ed27811a418d107e5066cabd0645aa9500a5633ead56c7ab59b4efb293eba"}
-{"level":"N3","kind":"vocab","id":"a588d2a3e0","language":"bn","field":"examples.1","source_sha256":"7bcda37452be0bcf6274263c1ca04e8fc460375024913f54f639ed4c622adae2"}
 {"level":"N3","kind":"vocab","id":"b7b23bf678","language":"bn","field":"meaning","source_sha256":"8cdcf855e06b6f74b94563c51cc897a5658349b440fc0c6a95fb50d635a6be32"}
 {"level":"N3","kind":"vocab","id":"b7b23bf678","language":"bn","field":"examples.0","source_sha256":"33178e997c4548ecd7cca7fbe75c76e3e51b8460cc5649f4c9ca06dd841f3966"}
 {"level":"N3","kind":"vocab","id":"b7b23bf678","language":"bn","field":"examples.1","source_sha256":"ab8a12424cd1b0fe6d3a398633ecf438095041ca9af9b34d67ce011f03255993"}
@@ -2016,7 +1979,6 @@
 {"level":"N3","kind":"vocab","id":"8b63615acb","language":"bn","field":"examples.0","source_sha256":"dcc5c25fc0e3c727c97118b2016d0e9d92aadd58dd4dedfe0d6ab8f4bc943c6f"}
 {"level":"N3","kind":"vocab","id":"8b63615acb","language":"bn","field":"examples.1","source_sha256":"69381f2662eb103f7ba7c540116bc091613f118359ef3ae9049f995426fee1f1"}
 {"level":"N3","kind":"vocab","id":"9d47958486","language":"bn","field":"meaning","source_sha256":"00eec16213a8b48f8277cfc38b61537bd01f791c323abdeacbd0d139baa67b3a"}
-{"level":"N3","kind":"vocab","id":"9d47958486","language":"bn","field":"examples.0","source_sha256":"8bec0a17053498b8ee6e254ea2224bc94b3b11c0fd44afa75fa215d03d63a06b"}
 {"level":"N3","kind":"vocab","id":"9d47958486","language":"bn","field":"examples.1","source_sha256":"b7e29e5e50bdd532b7f23cdd97d655deadb3bcc982a05b159599df83db13e639"}
 {"level":"N3","kind":"vocab","id":"08f3d1eb54","language":"bn","field":"meaning","source_sha256":"34dfe4fed018ff67b53d7bd46ce289ed243aed3b4b53e95639d025c4853ba36d"}
 {"level":"N3","kind":"vocab","id":"08f3d1eb54","language":"bn","field":"examples.0","source_sha256":"855a7d6275ce379a6f0d3d732aa89978b7d63ba23c710944ee015dbd69741df8"}
@@ -2049,7 +2011,6 @@
 {"level":"N3","kind":"vocab","id":"2d389db4db","language":"bn","field":"examples.0","source_sha256":"c38715e8de02888607adca01254d8e88732ebc0b2bbd10be314559cbaef304e1"}
 {"level":"N3","kind":"vocab","id":"2d389db4db","language":"bn","field":"examples.1","source_sha256":"8236da0a08eb09148bc3ce903ca86c14483a4ec1e532dd19c0082a1fbf90521c"}
 {"level":"N3","kind":"vocab","id":"9ebc3edd19","language":"bn","field":"meaning","source_sha256":"783a5236ba1f0fc8fd25cce223ef1b2682b4f1990839896a60126993c2365819"}
-{"level":"N3","kind":"vocab","id":"9ebc3edd19","language":"bn","field":"examples.0","source_sha256":"5f64eb1f3435730e03181f8d2b7b0a2a8bf97b82ea4d83eb56008ef3db844da8"}
 {"level":"N3","kind":"vocab","id":"9ebc3edd19","language":"bn","field":"examples.1","source_sha256":"8e91e9eb0f60e718199c5fb2e462e6d06ea6e3bf5a98aca3a44561c26ffc1991"}
 {"level":"N3","kind":"vocab","id":"39dd361425","language":"bn","field":"meaning","source_sha256":"0370787e5a55cf275b107fe67fb0d8f54af71b4a0d40f9bde3cd41fc1f77df82"}
 {"level":"N3","kind":"vocab","id":"39dd361425","language":"bn","field":"examples.0","source_sha256":"e401d7e71eb5b065a623d0e707d55d44021b3d487dde95f0f52ef25260196ad1"}
@@ -2131,7 +2092,6 @@
 {"level":"N3","kind":"vocab","id":"182db962d0","language":"bn","field":"examples.1","source_sha256":"ea63569cf4f6ab5f87dafbbf45f5b9f3697739031b6e45bfe749c4cac73b16d3"}
 {"level":"N3","kind":"vocab","id":"df15c38d0a","language":"bn","field":"meaning","source_sha256":"665c4f3ad562968dc2a4b1193fd93db0ec092e55fd360be5dcbcd3e6a7504272"}
 {"level":"N3","kind":"vocab","id":"df15c38d0a","language":"bn","field":"examples.0","source_sha256":"a25776906ea1d3154a5cdd0722914b019a8c113e32700b141a32f9f7d906cf5a"}
-{"level":"N3","kind":"vocab","id":"df15c38d0a","language":"bn","field":"examples.1","source_sha256":"ad061675473b99ac5fdbc46ccbfd82fa8578f11b932f3e5f397bbf6920aad84c"}
 {"level":"N3","kind":"vocab","id":"3acd232764","language":"bn","field":"meaning","source_sha256":"a48276ea3228583bd8f6ca57f7453cefe7b71e867953eac1fa2c22b37924ef7b"}
 {"level":"N3","kind":"vocab","id":"3acd232764","language":"bn","field":"examples.0","source_sha256":"3887bcb01fb68f2603349147718dcdd0fe3568819ca8b445a13173e53e0beaac"}
 {"level":"N3","kind":"vocab","id":"3acd232764","language":"bn","field":"examples.1","source_sha256":"21f0df23055b0537a22f6a908aedf50e602eeae57f8fb2b4c659ff889f71e980"}
@@ -2178,7 +2138,6 @@
 {"level":"N3","kind":"vocab","id":"767cb5e2e6","language":"bn","field":"examples.1","source_sha256":"5f01ec731a637b5da9fae919a426565fd19529a090c6a2fb8c6be532e8a1b235"}
 {"level":"N3","kind":"vocab","id":"aeff3c4d96","language":"bn","field":"meaning","source_sha256":"a33969850752799e78aaf4f38f580d3c190c52992eb03a4b2b8d308c87490217"}
 {"level":"N3","kind":"vocab","id":"aeff3c4d96","language":"bn","field":"examples.0","source_sha256":"708b90659b719270a54e74b733a73d5c11c68427b9f9d98201ba8d3bc6cf0e15"}
-{"level":"N3","kind":"vocab","id":"aeff3c4d96","language":"bn","field":"examples.1","source_sha256":"0954c952990e5e2270ea3c403fe8c0d784cc1f45965639823f16bfe161ced07f"}
 {"level":"N3","kind":"vocab","id":"4850008747","language":"bn","field":"meaning","source_sha256":"98469ce20a363015bf3b186bfbf7ba3438b65a5688f3f75c169435405d8c8083"}
 {"level":"N3","kind":"vocab","id":"4850008747","language":"bn","field":"examples.0","source_sha256":"886ace8641943a89d197a0ac4ce12390b1a8973041d243a839a6d1a53ee6eeb2"}
 {"level":"N3","kind":"vocab","id":"4850008747","language":"bn","field":"examples.1","source_sha256":"5b24444e6f0ab611d61260cc28ebe0d4e60cbc821d191f6bb3b876771294b479"}
@@ -2218,7 +2177,6 @@
 {"level":"N3","kind":"vocab","id":"c4a32b9e77","language":"bn","field":"examples.0","source_sha256":"f8df106cca9c8599030261e09b77b19f8275b600614bf81b1664336ae086e241"}
 {"level":"N3","kind":"vocab","id":"c4a32b9e77","language":"bn","field":"examples.1","source_sha256":"06444e67d92412d7b6ca9b09d6edfce72e4adcc67d7c34f9de5ae7ec477f74fb"}
 {"level":"N3","kind":"vocab","id":"f33e48aa94","language":"bn","field":"meaning","source_sha256":"c31318951f888a2b74fc60f8d0d4741d4234e17ce21c7dfb44dc9c13f29c3d9c"}
-{"level":"N3","kind":"vocab","id":"f33e48aa94","language":"bn","field":"examples.0","source_sha256":"bba39e0d6eafaf101a07ee17a91bf6cc2137e35adf62e9722b0d20f9807ac4db"}
 {"level":"N3","kind":"vocab","id":"f33e48aa94","language":"bn","field":"examples.1","source_sha256":"9327156c54809affbf65bd1d5238b05777bab45a97d66e0fbec4c00dc956f995"}
 {"level":"N3","kind":"vocab","id":"66d7ecadb1","language":"bn","field":"meaning","source_sha256":"b61704bf48562b5f1c5dcbb68de053256759679d8921fcbfbb1b0c5855812b2e"}
 {"level":"N3","kind":"vocab","id":"66d7ecadb1","language":"bn","field":"examples.0","source_sha256":"975ef34a0389d7cbad9028a646622907ba63888e0b80d9c59b1233bf15fbe848"}
@@ -2289,7 +2247,6 @@
 {"level":"N3","kind":"vocab","id":"5d26933404","language":"bn","field":"examples.0","source_sha256":"6f8a1fd3b0cfaba658652429fe027d86ea4d0a3b0e553a28fda78213d0c28398"}
 {"level":"N3","kind":"vocab","id":"5d26933404","language":"bn","field":"examples.1","source_sha256":"e13ac82df1d170b529c4754ba4bbe188a513f6a0d0b55469eaac7786f729d933"}
 {"level":"N3","kind":"vocab","id":"7a68fa62f5","language":"bn","field":"meaning","source_sha256":"c51c92baa214acc9fbaff0fe2c3afb7cf365c89dbbfde918368a05e34eba3f27"}
-{"level":"N3","kind":"vocab","id":"7a68fa62f5","language":"bn","field":"examples.0","source_sha256":"c907edc29e7a1510733144e9834bf426a423a9eba6a4bea9c0263f5dba0718f9"}
 {"level":"N3","kind":"vocab","id":"7a68fa62f5","language":"bn","field":"examples.1","source_sha256":"a53e6ae64c7533b6a89aacd55cb32268912e4229db623dedecd98539f2ea97ef"}
 {"level":"N3","kind":"vocab","id":"b9edd7963b","language":"bn","field":"meaning","source_sha256":"fcd6032e59528d5ce17986585031b6e29ddda42ff607aa3bd744fe27db2f0a63"}
 {"level":"N3","kind":"vocab","id":"b9edd7963b","language":"bn","field":"examples.0","source_sha256":"c0d6af1305556e92e2d4752b248a631886ee625e9cad5a78cd3b17816a5be8c0"}
@@ -2304,7 +2261,6 @@
 {"level":"N3","kind":"vocab","id":"b57a219b43","language":"bn","field":"examples.0","source_sha256":"a1898742db0bc64ecedd533b10f041dc9eb4b832f1bb0de230a7d56f6160f2e9"}
 {"level":"N3","kind":"vocab","id":"b57a219b43","language":"bn","field":"examples.1","source_sha256":"05767bc5a7954fd6d169b91159a88c7f5b875f554a0e00e777c2bc72004e8be0"}
 {"level":"N3","kind":"vocab","id":"7bf9f0076e","language":"bn","field":"meaning","source_sha256":"22f78e9abfd616ef59f6c942f163c3b4f8cc815c4e03c26c2ab094c67d29bef7"}
-{"level":"N3","kind":"vocab","id":"7bf9f0076e","language":"bn","field":"examples.0","source_sha256":"0bbd94d65cdc1274eedcd0ba5d33f928beb579600ceff95d400f2572d713d1df"}
 {"level":"N3","kind":"vocab","id":"7bf9f0076e","language":"bn","field":"examples.1","source_sha256":"d936f8afb419db665f0ea3ef78a21f00590f8c0ffe0df771a04cafc1c8f80f90"}
 {"level":"N3","kind":"vocab","id":"1038a70c3e","language":"bn","field":"meaning","source_sha256":"3fe13bd882f02a7b79cfe7019bd02b45c36dd49043ccc97271127439ac25ce00"}
 {"level":"N3","kind":"vocab","id":"1038a70c3e","language":"bn","field":"examples.0","source_sha256":"e4ca2a2ad06cb45f3f3990fe70ed7d3083e2f11d519a99697a653f8f710987fd"}
@@ -2351,7 +2307,6 @@
 {"level":"N3","kind":"vocab","id":"676b358d1e","language":"bn","field":"examples.0","source_sha256":"c589eddce5fd5ccabd8b7e36e868f87357b2e723619e28fb43ea72b0911b6049"}
 {"level":"N3","kind":"vocab","id":"676b358d1e","language":"bn","field":"examples.1","source_sha256":"b7fc1e5f11f54acf8db4524637eddfab9bf91cec1e64d94284af3abb54a60522"}
 {"level":"N3","kind":"vocab","id":"3e3a15d22b","language":"bn","field":"meaning","source_sha256":"a8c9526afe97e37f13ba336940eefae09cc03c9d0fc1b1b237e6c025ffde1ce5"}
-{"level":"N3","kind":"vocab","id":"3e3a15d22b","language":"bn","field":"examples.0","source_sha256":"429eba31a224373c37440ef748dd0e8a4158345245ec970289f61bfeab8d6dc3"}
 {"level":"N3","kind":"vocab","id":"3e3a15d22b","language":"bn","field":"examples.1","source_sha256":"efd4cd23f3939cf82bc008b42c4ea55514b18c303abca4bb8a7eb74ab1afc685"}
 {"level":"N3","kind":"vocab","id":"c5af695d0b","language":"bn","field":"meaning","source_sha256":"c4a653c23418e4833df8176d05712c0d4f829b46bcbd078fd5f64f3b2ecfe1e1"}
 {"level":"N3","kind":"vocab","id":"c5af695d0b","language":"bn","field":"examples.0","source_sha256":"195a0abc23133b2c96ff5c605c87ee2e229b2ec6d1089696f6b53aadd6833c21"}
@@ -2370,7 +2325,6 @@
 {"level":"N3","kind":"vocab","id":"5c93fedd45","language":"bn","field":"examples.0","source_sha256":"f993bb724ba90ee8f69c21197a946b66a0e5c359228c45ea05a68855c17c4b12"}
 {"level":"N3","kind":"vocab","id":"5c93fedd45","language":"bn","field":"examples.1","source_sha256":"7175211a91b7637d26ca5b694c54ea04692f292ac887d864d04f26070dd529a5"}
 {"level":"N3","kind":"vocab","id":"ba9c96795d","language":"bn","field":"meaning","source_sha256":"df88d70bedd384b7a7927494df3f8cb4e58b9afea0a5399edfa748a9b774d074"}
-{"level":"N3","kind":"vocab","id":"ba9c96795d","language":"bn","field":"examples.0","source_sha256":"6b4bbd66cf81c918d3aff57abee86bf6865ae9efa1a8ca2a194a6c5dfca57c69"}
 {"level":"N3","kind":"vocab","id":"ba9c96795d","language":"bn","field":"examples.1","source_sha256":"09d7c8cb5e1855a4ed4c2b004f6beda737f40890852601bd73953454ecf7a467"}
 {"level":"N3","kind":"vocab","id":"3b88931b34","language":"bn","field":"meaning","source_sha256":"1751464f6c1aec91d1c70c65a2fc8fb686fc502105c93d7fb6a7ea73f2c3fb83"}
 {"level":"N3","kind":"vocab","id":"3b88931b34","language":"bn","field":"examples.0","source_sha256":"f990d9e25224bf4acc0a879ae8e95b2a3990dcc9eaf6bf868974a33f01d5d8cf"}
@@ -2424,7 +2378,6 @@
 {"level":"N3","kind":"vocab","id":"b52e17197f","language":"bn","field":"examples.1","source_sha256":"58edbecbd137e0d891543e4fdab3485b71395e8b79ec1654614da137c63b9080"}
 {"level":"N3","kind":"vocab","id":"1bd65d97c5","language":"bn","field":"meaning","source_sha256":"bc2dcc7b9d7ff77077fbd57b63be4562b62980cc94ab123aef660bf9f6430dc6"}
 {"level":"N3","kind":"vocab","id":"1bd65d97c5","language":"bn","field":"examples.0","source_sha256":"4b971c03eaffa8e94be817373b259ae0944a2509f1608076c4b5d0b086af4420"}
-{"level":"N3","kind":"vocab","id":"1bd65d97c5","language":"bn","field":"examples.1","source_sha256":"18ff2f19201b53300db00c3513b73bed1deae66271e2e461a62a59814e08187c"}
 {"level":"N3","kind":"vocab","id":"b94c212dad","language":"bn","field":"meaning","source_sha256":"0610b7feef5b97bf7d04efd6da3fc35de336812327c60fe13c2ef1c4f0c18d83"}
 {"level":"N3","kind":"vocab","id":"b94c212dad","language":"bn","field":"examples.0","source_sha256":"52d0a65b82a9908706a438e98966b5c917a44aa8132a539654eb6ef8e2b9fefe"}
 {"level":"N3","kind":"vocab","id":"b94c212dad","language":"bn","field":"examples.1","source_sha256":"2d44a46a57585163c454841a8067f6b609f43ffa129139e35c14181482259c46"}
@@ -2468,7 +2421,6 @@
 {"level":"N3","kind":"vocab","id":"ae29f467bd","language":"bn","field":"examples.0","source_sha256":"f4642d3e14c9efef3d7ce51a43ea420b4347b7f0aa18d5110a97e1cecf0c52ba"}
 {"level":"N3","kind":"vocab","id":"ae29f467bd","language":"bn","field":"examples.1","source_sha256":"83789ec95db5765badfdb86d07321d2ba04eccd37c4a91920ab087cd2440df79"}
 {"level":"N3","kind":"vocab","id":"d684a35bd1","language":"bn","field":"meaning","source_sha256":"e9c5ea90bc8f50872c72c72168453e3748a0ce728a4ed1b03837c3e57156a1f8"}
-{"level":"N3","kind":"vocab","id":"d684a35bd1","language":"bn","field":"examples.0","source_sha256":"2cbab7564177bbeb6dfd1b498698cb07c138b7efe336f7de135954d225792c3c"}
 {"level":"N3","kind":"vocab","id":"d684a35bd1","language":"bn","field":"examples.1","source_sha256":"d0c301b24b1ddf0f97dd2902f2309be03d10274e43ed803382d4cb0e4893b4cf"}
 {"level":"N3","kind":"vocab","id":"38664919d1","language":"bn","field":"meaning","source_sha256":"7056446a3e4fc12a43fe29fb191670fb98137780017c636597cea1ce509b1e6d"}
 {"level":"N3","kind":"vocab","id":"38664919d1","language":"bn","field":"examples.0","source_sha256":"2d831fe5e249a78ea60f14df9892099113ac6d25672d1acf0006738ae5de5aa6"}
@@ -2492,7 +2444,6 @@
 {"level":"N3","kind":"vocab","id":"82a95bb809","language":"bn","field":"examples.0","source_sha256":"69440015e46b7633acb5677f5d2978869494c75b080a38b7493775d10fa8299b"}
 {"level":"N3","kind":"vocab","id":"82a95bb809","language":"bn","field":"examples.1","source_sha256":"dcfcf5bc4b1d4949ab07ac59dff7ff39cc6ef134c0dd2ecfc1c02225336c409d"}
 {"level":"N3","kind":"vocab","id":"05550395ae","language":"bn","field":"meaning","source_sha256":"61dc0c6291913b1ef3b7b184877b76f3ab6d3c2711065e1d54eb47678f20ec09"}
-{"level":"N3","kind":"vocab","id":"05550395ae","language":"bn","field":"examples.0","source_sha256":"18ad3173e6b5d71a553b3fc32a9a7fd091002d6aa14571d46b02275cbf404293"}
 {"level":"N3","kind":"vocab","id":"05550395ae","language":"bn","field":"examples.1","source_sha256":"589aa7013ce264651d89891174510c90e4873d3512cf5489371ee2c3205c47e4"}
 {"level":"N3","kind":"vocab","id":"1ea7451e69","language":"bn","field":"meaning","source_sha256":"935a7a6e862b4fb16c79d9fa3f11ba8cb23709e0902605613ea9e519e041cf79"}
 {"level":"N3","kind":"vocab","id":"1ea7451e69","language":"bn","field":"examples.0","source_sha256":"091d5696182cf5266527095c4773ca59f4925722b8093521981cf33f1df45f9d"}
@@ -2538,7 +2489,6 @@
 {"level":"N3","kind":"vocab","id":"b7bd2b9ad8","language":"bn","field":"examples.1","source_sha256":"2c1515f7d8d67cb965cbdca325bd51ef908e481236892df1b05fad9544c1b16c"}
 {"level":"N3","kind":"vocab","id":"692f5c5fae","language":"bn","field":"meaning","source_sha256":"cd84ae4ba117d797fa00c2ca4e476cde99b72e1f770c288c7c8d8b60262c3608"}
 {"level":"N3","kind":"vocab","id":"692f5c5fae","language":"bn","field":"examples.0","source_sha256":"50f93918937394cd90f630689970622dddf3127af41e933daf53b79bd0304b1c"}
-{"level":"N3","kind":"vocab","id":"692f5c5fae","language":"bn","field":"examples.1","source_sha256":"5f4339030f6208767feda809d697fd975763c2d23a48d1342dd7b51a22ab5d7c"}
 {"level":"N3","kind":"vocab","id":"6ee6c57219","language":"bn","field":"meaning","source_sha256":"977903d7fdceb57e1f0dc1113e37d8beda3b0b19eb4f8b4150fb9750c64c8652"}
 {"level":"N3","kind":"vocab","id":"6ee6c57219","language":"bn","field":"examples.0","source_sha256":"7611517950ae8ebf50e2e182eca6f5861fdb0eacdf53f8e0ea332b2c9009bc75"}
 {"level":"N3","kind":"vocab","id":"6ee6c57219","language":"bn","field":"examples.1","source_sha256":"e50900f13525bb0960bae717f8a32f64f36eb5e04f64f943d28c65bdef62f04a"}
@@ -2547,7 +2497,6 @@
 {"level":"N3","kind":"vocab","id":"05eba33435","language":"bn","field":"examples.1","source_sha256":"1603d9cc0334043270138904221c6dd32f07e4080019163f7cdb3a8c0b43e31e"}
 {"level":"N3","kind":"vocab","id":"d60c9a1ed3","language":"bn","field":"meaning","source_sha256":"511e28cf4dd5a0da33be32bde4be53a045da8aec67ec8000bd57347eaa5dc12c"}
 {"level":"N3","kind":"vocab","id":"d60c9a1ed3","language":"bn","field":"examples.0","source_sha256":"21fc867a2ec15439b68d4c1742a9b3416bd2c858d48343293895d7b69569209c"}
-{"level":"N3","kind":"vocab","id":"d60c9a1ed3","language":"bn","field":"examples.1","source_sha256":"63a1d35c27f59826a1a96cc29cdbe8a3c19f3c693ef27ac1ae9b68d7c0bc21ac"}
 {"level":"N3","kind":"vocab","id":"a221781150","language":"bn","field":"meaning","source_sha256":"4b22bef3148d7fa516969d90e5aafdc91ec1be98029927b78585d6a7f5438248"}
 {"level":"N3","kind":"vocab","id":"a221781150","language":"bn","field":"examples.0","source_sha256":"14f9b887d880f53930ced2f15834c76cf1bedb9881a6aa1b8fd03a0b6e5b9cce"}
 {"level":"N3","kind":"vocab","id":"a221781150","language":"bn","field":"examples.1","source_sha256":"6338ae785184d01c6a11054d10fc6965a9bea36f35e34af522afb85a3b5d1a5e"}
@@ -2619,7 +2568,6 @@
 {"level":"N3","kind":"vocab","id":"29031b2ba5","language":"bn","field":"examples.1","source_sha256":"39b50376ff0114ad3e3d968f77a5d6426c36538b921a789a233a681853ef45fd"}
 {"level":"N3","kind":"vocab","id":"24fa33d1a4","language":"bn","field":"meaning","source_sha256":"d30728e057eea450df631fbe341802b0c737d161dbb6d9a45c0bfe61af202211"}
 {"level":"N3","kind":"vocab","id":"24fa33d1a4","language":"bn","field":"examples.0","source_sha256":"b32e5359f63cb0af07a067b95f4eea54bb1813931e48332d75a05b64b48c6d1d"}
-{"level":"N3","kind":"vocab","id":"24fa33d1a4","language":"bn","field":"examples.1","source_sha256":"59df6fa7709a22bde46eb0402b017d82d00d09ffa769837371e757be696c7cbd"}
 {"level":"N3","kind":"vocab","id":"42ce4a629d","language":"bn","field":"meaning","source_sha256":"fea2b923ae7df301c5c335101a8e7435451defb2b642374eff74850277f7761e"}
 {"level":"N3","kind":"vocab","id":"42ce4a629d","language":"bn","field":"examples.0","source_sha256":"3f650b62131cc341a16c4df6adf83081c42826f07ad5956e562016ab4ec592ee"}
 {"level":"N3","kind":"vocab","id":"42ce4a629d","language":"bn","field":"examples.1","source_sha256":"34014f935da6da3d5b78607a639bc18f562d19532300c2a1aa521ffe272c674b"}
@@ -2718,7 +2666,6 @@
 {"level":"N3","kind":"vocab","id":"00b4506e25","language":"bn","field":"examples.1","source_sha256":"63480111eefba636f157733b9cef2d02fa57e26fa4a70d947a59c542ec98fa3c"}
 {"level":"N3","kind":"vocab","id":"b86c6df29f","language":"bn","field":"meaning","source_sha256":"f6b6ca00ad95e6957f1ae9d43ef42c4d2607b5efb4df1aab45f97b27b46f3d9a"}
 {"level":"N3","kind":"vocab","id":"b86c6df29f","language":"bn","field":"examples.0","source_sha256":"be092ac352f75b9d9a67096fc1eaabca8440a35aed8f061bf88c78174851bc85"}
-{"level":"N3","kind":"vocab","id":"b86c6df29f","language":"bn","field":"examples.1","source_sha256":"78cdc9d405c7140033b9f013fcce2f3f354d31089b11f11689c9d7a68c5103e5"}
 {"level":"N3","kind":"vocab","id":"e11ef6d7e3","language":"bn","field":"meaning","source_sha256":"a319af93552dcceb948a1f67bd0de2d15e2f8a4c1c0488a13cbc2ae4a30f8e53"}
 {"level":"N3","kind":"vocab","id":"38dd5eb4a0","language":"bn","field":"meaning","source_sha256":"caa7caada816dfc05c2ff344dff471f6f735c3318cdba266054ba16e7ff6852e"}
 {"level":"N3","kind":"vocab","id":"02dfedfddc","language":"bn","field":"meaning","source_sha256":"8f2e1832fac01ad658fec150327666f32b5df233690bd2187191182e6eb16f30"}
@@ -2757,7 +2704,6 @@
 {"level":"N3","kind":"vocab","id":"3f544e7ada","language":"bn","field":"examples.1","source_sha256":"be3d20309af324656773544c7ce99b01ec8993b23ca893d1ebb15a7028ee9852"}
 {"level":"N3","kind":"vocab","id":"3067b8986a","language":"bn","field":"meaning","source_sha256":"003a9dbb0c8eb2b84c955d45973068d9203c21db5576c72060ca2bdb8aa6bc90"}
 {"level":"N3","kind":"vocab","id":"3067b8986a","language":"bn","field":"examples.0","source_sha256":"997c4fd3b6472cc605f00659577a25bb74cd13c5b04001860a9860d91b7b438a"}
-{"level":"N3","kind":"vocab","id":"3067b8986a","language":"bn","field":"examples.1","source_sha256":"0cae45891cc62651238f6b91ecbb8476c2e03bf5c7965f06828345dd6e38bf7e"}
 {"level":"N3","kind":"vocab","id":"20410e72ff","language":"bn","field":"meaning","source_sha256":"094797be2ebb23c5f160bd1837ee575593c0c5aba7ec99052de1f12f31d84015"}
 {"level":"N3","kind":"vocab","id":"20410e72ff","language":"bn","field":"examples.0","source_sha256":"40f553d2d3b96a2095e3b6b02c888db2b05926810d5fd87055bb4cf970df461d"}
 {"level":"N3","kind":"vocab","id":"20410e72ff","language":"bn","field":"examples.1","source_sha256":"468c82f29f3b4917416f5099a1dfcb8e6c40e510f7930f1bc311cdff9327bd9a"}
@@ -2860,7 +2806,6 @@
 {"level":"N3","kind":"vocab","id":"a4f0b205a3","language":"bn","field":"examples.0","source_sha256":"7126834f7c6863007c00575ad1246e13206ffe8ec894a3db103c0ed29fc88624"}
 {"level":"N3","kind":"vocab","id":"a4f0b205a3","language":"bn","field":"examples.1","source_sha256":"46e4ab5266403e90edfaf0f3b0450be9574e02b3f8f8131150a3c963c8fbaf83"}
 {"level":"N3","kind":"vocab","id":"ad70550f9b","language":"bn","field":"meaning","source_sha256":"080568271a3e7a0d3ef35f3d4a3fc57ff78d2c0059b1d2ad8685a254f0e55ee5"}
-{"level":"N3","kind":"vocab","id":"ad70550f9b","language":"bn","field":"examples.0","source_sha256":"65e4e718f24ee3aa72688c65a0c48934d58e19aec3b418430cdcd683b9ac8f78"}
 {"level":"N3","kind":"vocab","id":"ad70550f9b","language":"bn","field":"examples.1","source_sha256":"775caa1b2d41510e8d00d02c6a2d179095a34bec10dff99a6ce36cfdc85329dd"}
 {"level":"N3","kind":"vocab","id":"6ebe370c91","language":"bn","field":"meaning","source_sha256":"be9ef7b759f35f0a3425cfe65ad757b5ef69c129976a02fc74ecb371be71113e"}
 {"level":"N3","kind":"vocab","id":"6ebe370c91","language":"bn","field":"examples.0","source_sha256":"cb37491054e8d4d0299a61ef40a561fbd938a8488e74d45e6b6fb87386be3105"}
@@ -2876,7 +2821,6 @@
 {"level":"N3","kind":"vocab","id":"ace0cb1202","language":"bn","field":"examples.1","source_sha256":"6ba322de502aee6237c0a43b1190fe0414fed304b6973109fdec185066fcf798"}
 {"level":"N3","kind":"vocab","id":"62682a6308","language":"bn","field":"meaning","source_sha256":"197b517ddef73d7996c6b0bcca48089bb77bc4953bf6314a11f6b88839f46f13"}
 {"level":"N3","kind":"vocab","id":"38321ff824","language":"bn","field":"meaning","source_sha256":"a389216ac0b614ea8c2b67fdbe8bf09e2bb896c79b62d5bc3c5547f24fdfa602"}
-{"level":"N3","kind":"vocab","id":"38321ff824","language":"bn","field":"examples.0","source_sha256":"50e59697a0f833136a167aa475d22914d07074311d30465305a93331fed552e2"}
 {"level":"N3","kind":"vocab","id":"38321ff824","language":"bn","field":"examples.1","source_sha256":"94e36b8c500b62f95e2993011f8f91ce749070049a881c14e89e5d376925a336"}
 {"level":"N3","kind":"vocab","id":"0d0c754a74","language":"bn","field":"meaning","source_sha256":"2ce125bd05d2c97911a51e0411f48981be4ecaedb2ed7fda30d4df559062c086"}
 {"level":"N3","kind":"vocab","id":"0d0c754a74","language":"bn","field":"examples.0","source_sha256":"5cbb557f07786287d3dd53d25999daba0ebba68d77032f37d3e60aec7ef009f4"}
@@ -2890,13 +2834,11 @@
 {"level":"N3","kind":"vocab","id":"8fb52e4502","language":"bn","field":"examples.0","source_sha256":"9118399b2b9c293fb92d7be786ab0156ecb383bad621563bcc0d6ca6978fb749"}
 {"level":"N3","kind":"vocab","id":"8fb52e4502","language":"bn","field":"examples.1","source_sha256":"9515a7785cb6ed23b086c66ca027e0554adf65607e083bdcf0484a5908c6ae20"}
 {"level":"N3","kind":"vocab","id":"c4956951f6","language":"bn","field":"meaning","source_sha256":"035200542a0f2783ebe56987bd34413f80563c690deab3615c7d5726c72829b4"}
-{"level":"N3","kind":"vocab","id":"c4956951f6","language":"bn","field":"examples.0","source_sha256":"a9bea13dc2bbf7bc75ec9465440ad6669a2cd2fcb1078aa6a9a615d2602c5dbf"}
 {"level":"N3","kind":"vocab","id":"c4956951f6","language":"bn","field":"examples.1","source_sha256":"33e48404928a7f369640f8197f7af84c817495c49ff75f939021ede0c9f3eef5"}
 {"level":"N3","kind":"vocab","id":"3b5d6e485c","language":"bn","field":"meaning","source_sha256":"b45ece2d5fdb767ba77fbd7f0d5ebb9973b58a975dbd927383b9399a7ac3ed9d"}
 {"level":"N3","kind":"vocab","id":"3b5d6e485c","language":"bn","field":"examples.0","source_sha256":"b241e565d41cba68f369ac3074b4a50d062c2a8dff0311a96b8b87c4dc8c466f"}
 {"level":"N3","kind":"vocab","id":"3b5d6e485c","language":"bn","field":"examples.1","source_sha256":"1dc76e27c931eb67a14640186da9a9629d6708090e4fd6d6d7f8770a30cf78ba"}
 {"level":"N3","kind":"vocab","id":"1938fb6bcb","language":"bn","field":"meaning","source_sha256":"254049576f24b49f25817283e06673640e3e64b89e03a2a65b7eea36cdb6a726"}
-{"level":"N3","kind":"vocab","id":"1938fb6bcb","language":"bn","field":"examples.0","source_sha256":"0686dc5bc0c67a4905cb8e8929c8f29a09d79490cb0c19a0e9d59a92c71e72aa"}
 {"level":"N3","kind":"vocab","id":"1938fb6bcb","language":"bn","field":"examples.1","source_sha256":"ccc455564fd064e7fdbdd99d5f4b39755aa5f486385c82128b4b02a332fad33c"}
 {"level":"N3","kind":"vocab","id":"246fc4acb8","language":"bn","field":"meaning","source_sha256":"27a81320721e6d4db5977142d04f5dad964a74ad9ce9ae4b0a7d24018774a62f"}
 {"level":"N3","kind":"vocab","id":"246fc4acb8","language":"bn","field":"examples.0","source_sha256":"a03f2228366cd03cc20d05753809ff1299375a18b502caabc35be1c6de83a8cc"}
@@ -2953,7 +2895,6 @@
 {"level":"N3","kind":"vocab","id":"1be11a9bbe","language":"bn","field":"examples.0","source_sha256":"9dd0a5ba68308bba8ae06ef465173583fce92446eb482402113a49010702efab"}
 {"level":"N3","kind":"vocab","id":"1be11a9bbe","language":"bn","field":"examples.1","source_sha256":"2498100eda3f0c66447d41a3bbc600c0352204b32a1261ad92f950a5f9248605"}
 {"level":"N3","kind":"vocab","id":"7bd7d687fa","language":"bn","field":"meaning","source_sha256":"2b63a0c09ef6b85728cc1d7a308c027d4dc0be5b75dd013e8da5bc9ac50df284"}
-{"level":"N3","kind":"vocab","id":"7bd7d687fa","language":"bn","field":"examples.0","source_sha256":"11987d8ef42d2246c67ac5733cc97a4e0210fd488c08522b121d039e78460a18"}
 {"level":"N3","kind":"vocab","id":"7bd7d687fa","language":"bn","field":"examples.1","source_sha256":"0333d537822f0500616f0cb485021cf3a7b7925b03853685b4e9e4805c204327"}
 {"level":"N3","kind":"vocab","id":"37126e35d7","language":"bn","field":"meaning","source_sha256":"424340708f89f9f5474816230dd0579cc07dc9ee78efc4f2cc0bfe243467d1f1"}
 {"level":"N3","kind":"vocab","id":"37126e35d7","language":"bn","field":"examples.0","source_sha256":"07bf5dfbe1d31b5bea448b3d19e9cfb8cae249871d64c1569ce3577280c36351"}
@@ -3004,7 +2945,6 @@
 {"level":"N3","kind":"vocab","id":"0440a8bd4f","language":"bn","field":"examples.0","source_sha256":"937e51817ab059558c9244cfcfee7a437c9ad9e02a4dd74157ee7c20ef4faaf5"}
 {"level":"N3","kind":"vocab","id":"0440a8bd4f","language":"bn","field":"examples.1","source_sha256":"2d040e1959cac777206eb29f7356c88e51b2b80765cadd6002242bc94621d437"}
 {"level":"N3","kind":"vocab","id":"5a93587f3a","language":"bn","field":"meaning","source_sha256":"77a3cbee28010c952cd9cfae7b5671504d0ec20003fde9e71ef43d33256cfbea"}
-{"level":"N3","kind":"vocab","id":"5a93587f3a","language":"bn","field":"examples.0","source_sha256":"74d68aa99fde5bf52f6c5698b8f023adaa715749ed60aae21f9b7e66382742cc"}
 {"level":"N3","kind":"vocab","id":"5a93587f3a","language":"bn","field":"examples.1","source_sha256":"62bce0fcb1c340bab1a98ee32930da56cf119cabc23362fb5563b21a99489e80"}
 {"level":"N3","kind":"vocab","id":"2b9cc873fb","language":"bn","field":"meaning","source_sha256":"742330110ca69e68ee5837543fb19f55e63aaf70acea1fdf1a9ae4311c0495d4"}
 {"level":"N3","kind":"vocab","id":"2b9cc873fb","language":"bn","field":"examples.0","source_sha256":"fa6b2fd75027c4a3e962e370bb88899d7c4875f4ea368c60414dd3e56c2a3db8"}
@@ -3044,7 +2984,6 @@
 {"level":"N3","kind":"vocab","id":"bd2ba94516","language":"bn","field":"examples.1","source_sha256":"9f89f778aab6d46ba41badae59c25072fdf7adb51d6dec3759a8dac060ffe56d"}
 {"level":"N3","kind":"vocab","id":"ae498d63bc","language":"bn","field":"meaning","source_sha256":"2685d9a83238d6d96fa66072328ae9b8f982894677d12b1f844d02d6edb8839f"}
 {"level":"N3","kind":"vocab","id":"ae498d63bc","language":"bn","field":"examples.0","source_sha256":"44b4fccb0f31e96a9701e4af2683a841d1005b4e205b2343aa2cc17337d63cb4"}
-{"level":"N3","kind":"vocab","id":"ae498d63bc","language":"bn","field":"examples.1","source_sha256":"2cbab7564177bbeb6dfd1b498698cb07c138b7efe336f7de135954d225792c3c"}
 {"level":"N3","kind":"vocab","id":"013c3a92d2","language":"bn","field":"meaning","source_sha256":"bfc75435eb2613d5d4830fae8b60859b66c19f68e2057ed668bacfb0fcc78117"}
 {"level":"N3","kind":"vocab","id":"013c3a92d2","language":"bn","field":"examples.0","source_sha256":"eb7c500e307cac8e329cd64459bd3055e574b72ffcc9750d6f0ab745439c72ad"}
 {"level":"N3","kind":"vocab","id":"013c3a92d2","language":"bn","field":"examples.1","source_sha256":"d610c76e0d84f406b97a9823d42f3b70fc94b74e38fa645f5b2e85671a4e4451"}
@@ -3095,13 +3034,11 @@
 {"level":"N3","kind":"vocab","id":"22cc737e03","language":"bn","field":"examples.1","source_sha256":"3c826e059769a770d02473938bc5f40dc1f90fffd1a16e046bde95fc6d123023"}
 {"level":"N3","kind":"vocab","id":"586d4c294b","language":"bn","field":"meaning","source_sha256":"660a5f28c5e43d3c5a90b6ed2eeeab32e99bb382899773b06e5ad1ce82975aed"}
 {"level":"N3","kind":"vocab","id":"586d4c294b","language":"bn","field":"examples.0","source_sha256":"f469620bf33df07241243de56ffd5e8151ed08989ec40e83013d72bfaf241907"}
-{"level":"N3","kind":"vocab","id":"586d4c294b","language":"bn","field":"examples.1","source_sha256":"d1d014a734f39b1e32cc402b5f5473e3c300c570437f655e48629f8253bc7b25"}
 {"level":"N3","kind":"vocab","id":"ea7b6990d3","language":"bn","field":"meaning","source_sha256":"18788b4653add9568a015a5fda305a8739dd05384ebb2ade42fe36e9773de8bb"}
 {"level":"N3","kind":"vocab","id":"ea7b6990d3","language":"bn","field":"examples.0","source_sha256":"945da219b2f04c224ef9d2568b1dc64171aeeceb121ed46255d97d259b944611"}
 {"level":"N3","kind":"vocab","id":"ea7b6990d3","language":"bn","field":"examples.1","source_sha256":"77533a7ff36d09e68e145f4028273a76c66be6e71dbba93cf26ea7a846572b18"}
 {"level":"N3","kind":"vocab","id":"0f54df5fc1","language":"bn","field":"meaning","source_sha256":"3ae76e38a82a764d93b7ee2bcc8058e07248b5607caa1f38a4fb9de695f1a67a"}
 {"level":"N3","kind":"vocab","id":"0f54df5fc1","language":"bn","field":"examples.0","source_sha256":"aceca75e2e8e635bf93354f218c15686cafb799cbd2c99eaff4c015ab6c20d07"}
-{"level":"N3","kind":"vocab","id":"0f54df5fc1","language":"bn","field":"examples.1","source_sha256":"d589234935ccc687f0952d05af40c1278ef82c4d8e33e3cca4867391a2e1a3ed"}
 {"level":"N3","kind":"vocab","id":"1b04830825","language":"bn","field":"meaning","source_sha256":"135e547f2277584023019eabeee0644025861d8e8897ed2ad94514ddce5af279"}
 {"level":"N3","kind":"vocab","id":"1b04830825","language":"bn","field":"examples.0","source_sha256":"d3a2b5b76ac692838573d5d96f6f925b31e8588424ca5b79a2aca0bb0ebf2189"}
 {"level":"N3","kind":"vocab","id":"1b04830825","language":"bn","field":"examples.1","source_sha256":"260f2944b6ddd7519a85cdf149ea9ccc70c8a87c8e98ada70650fbe3320582d6"}
@@ -3179,7 +3116,6 @@
 {"level":"N3","kind":"vocab","id":"571736e080","language":"bn","field":"examples.0","source_sha256":"87727aa22933a97edf30d8687675c9bc8f5651834d1c37619811154292c435ee"}
 {"level":"N3","kind":"vocab","id":"571736e080","language":"bn","field":"examples.1","source_sha256":"625a0e347cdf32ab61929f35ae1af3ba214adde0452646dc09418f6d6b77b06e"}
 {"level":"N3","kind":"vocab","id":"0910eee377","language":"bn","field":"meaning","source_sha256":"6af9c148770b6cc8a56c6e01e8a56ba0c527d746d61eb4cc11fd744679d52829"}
-{"level":"N3","kind":"vocab","id":"0910eee377","language":"bn","field":"examples.0","source_sha256":"19784fa6f59ae83d51788d03f93a86c960e8142c5e5fd8b0ec3c0ada9b5300fa"}
 {"level":"N3","kind":"vocab","id":"0910eee377","language":"bn","field":"examples.1","source_sha256":"4b969f47b8d0c000654dd2656daccad633816467824a111c6894ed77c86769b5"}
 {"level":"N3","kind":"vocab","id":"b6f29d6b8e","language":"bn","field":"meaning","source_sha256":"e23699c457978711fcfee7c541ee12a93145361b7f46e14bc131c8f2cf0e4873"}
 {"level":"N3","kind":"vocab","id":"b6f29d6b8e","language":"bn","field":"examples.0","source_sha256":"e48f153bece9703222f376e087a3366f9b719dc538054ba3aa9a6d2e46bfd2b5"}
@@ -3209,7 +3145,6 @@
 {"level":"N3","kind":"vocab","id":"908b44a04b","language":"bn","field":"examples.1","source_sha256":"9f7ebaaddde4883a4eee04e7cd04c94a3cd5891b28eb6269cc2804169864721c"}
 {"level":"N3","kind":"vocab","id":"82611a8f51","language":"bn","field":"meaning","source_sha256":"7661efef5faabed33343dbc1da65d7ac712de1d270d1c7b1a1599ed8b6e8ff27"}
 {"level":"N3","kind":"vocab","id":"82611a8f51","language":"bn","field":"examples.0","source_sha256":"4a19e6b63c56d676bbdd026da635c203b7f5a3dacc3ce1566a6e9da0ef9f1569"}
-{"level":"N3","kind":"vocab","id":"82611a8f51","language":"bn","field":"examples.1","source_sha256":"35ebb3e7b135a017ca6a2f83f92c70eed7ba7ed6bab304e4c5d52ef6f005b317"}
 {"level":"N3","kind":"vocab","id":"19a41952db","language":"bn","field":"meaning","source_sha256":"e0ae931e423c6475f4ea881115e579deac6c8ad2f8c3be77faad65d46da56d91"}
 {"level":"N3","kind":"vocab","id":"19a41952db","language":"bn","field":"examples.0","source_sha256":"edae673d25e8d805be4c8251334dfcfdcbedc52b59c410a681992b1c91735914"}
 {"level":"N3","kind":"vocab","id":"19a41952db","language":"bn","field":"examples.1","source_sha256":"d9d94fa346c878977fa5ac3c02c24b097c6a37f08ee373c5bfc3755c41c3da0b"}
@@ -3227,7 +3162,6 @@
 {"level":"N3","kind":"vocab","id":"7e01f30eaa","language":"bn","field":"examples.1","source_sha256":"485f5eea0c798c57d5bde1a7272aa71b1141d13781a971b3ab88a6ff0313df2c"}
 {"level":"N3","kind":"vocab","id":"aa98da380d","language":"bn","field":"meaning","source_sha256":"44cc17474390ef376c1daae4b162c1d2781e46a63769865cd7ff7945cb1a4d97"}
 {"level":"N3","kind":"vocab","id":"aa98da380d","language":"bn","field":"examples.0","source_sha256":"ba7299d496e45157fbfd6c0f86b5e2b2a09778307260f8c6fba73a057f12f0d1"}
-{"level":"N3","kind":"vocab","id":"aa98da380d","language":"bn","field":"examples.1","source_sha256":"95df02cc360fb588559a68e709690436414c8dd3c9146c6091f894e263d93e9c"}
 {"level":"N3","kind":"vocab","id":"905e143f7a","language":"bn","field":"meaning","source_sha256":"f7e2069349bbd0368cc135921fecba24a6e768756a9d6ee079a8badcf9dac206"}
 {"level":"N3","kind":"vocab","id":"905e143f7a","language":"bn","field":"examples.0","source_sha256":"75e7f7b389187ba41ff9646b0f2847c4e4bb13a0c63b78a7d8a85c9f6bf73bdb"}
 {"level":"N3","kind":"vocab","id":"905e143f7a","language":"bn","field":"examples.1","source_sha256":"4cb87a2caa48f1a532ba52b9cc45873c2142509dd7f09fa799a179b96e1518e5"}
@@ -3333,7 +3267,6 @@
 {"level":"N3","kind":"vocab","id":"3f77054caf","language":"bn","field":"examples.0","source_sha256":"d97fb6e06c1068a289ba15362c2a2a58f91c869d8c631d4c3060c6179fc5f751"}
 {"level":"N3","kind":"vocab","id":"3f77054caf","language":"bn","field":"examples.1","source_sha256":"8f7ec0b01a4f6f9afd53d7b2883a34822298268ed1266298fe9c00613b07b96e"}
 {"level":"N3","kind":"vocab","id":"06d663e37a","language":"bn","field":"meaning","source_sha256":"cf36fe63ac9a8120cf150cbdc5e8bae72faf0585c95e995e715b31acb3cb0a7f"}
-{"level":"N3","kind":"vocab","id":"06d663e37a","language":"bn","field":"examples.0","source_sha256":"0de330362f88f83dfb777b5fe40dcce57a761b36c46337b3bc4e87290d7656bb"}
 {"level":"N3","kind":"vocab","id":"06d663e37a","language":"bn","field":"examples.1","source_sha256":"d4c3b6eea433e8e5afadc87b6a04ebdb7d3437bbb7517f8fa3ee7cbe0deec37f"}
 {"level":"N3","kind":"vocab","id":"b1861d938a","language":"bn","field":"meaning","source_sha256":"9e8fb944bd2d952a6151d5685c4d590269624a4fbf9b95aef4b770632075b5da"}
 {"level":"N3","kind":"vocab","id":"b1861d938a","language":"bn","field":"examples.0","source_sha256":"f597088d5ecd2adfc0b28bd5a39d4db55b9b4d76d7237a02bc16f8e112e76870"}
@@ -3346,7 +3279,6 @@
 {"level":"N3","kind":"vocab","id":"037c2ecb86","language":"bn","field":"examples.1","source_sha256":"181ef2c124c0c1979c87bcdf2463d950c59ef27d8aeaf80926b65f3f60453f30"}
 {"level":"N3","kind":"vocab","id":"1b8be0151e","language":"bn","field":"meaning","source_sha256":"814409056ad9d4f76bd49fc8ba52cdfca9e2ba1b7a4762b33db8255b7d58f6b7"}
 {"level":"N3","kind":"vocab","id":"1b8be0151e","language":"bn","field":"examples.0","source_sha256":"4d62ce928564c389afc86073059a123413b7fbb4363e0f458b359ba198e27220"}
-{"level":"N3","kind":"vocab","id":"1b8be0151e","language":"bn","field":"examples.1","source_sha256":"31ab01c99d2ef7592fb2b21b4b9937f07a58e053a1ba317840b87d82494efff8"}
 {"level":"N3","kind":"vocab","id":"b778777901","language":"bn","field":"meaning","source_sha256":"0adbab485f6a1b99d1821c42a51af5a5bddf5d094ccbe8772f1139b35e0f2aa1"}
 {"level":"N3","kind":"vocab","id":"b778777901","language":"bn","field":"examples.0","source_sha256":"02808eab5f7df422ae161f3046a78fec769390e143cafee89d7949a4d885e3c2"}
 {"level":"N3","kind":"vocab","id":"b778777901","language":"bn","field":"examples.1","source_sha256":"775cc308c5db43b3bf5e4e71aa3773b99966df1c89237d1af5a19b8b988c6082"}
@@ -3408,7 +3340,6 @@
 {"level":"N3","kind":"vocab","id":"dict-055f62cd76d4","language":"bn","field":"meaning","source_sha256":"dbe56e34f13ed2250066714876b525da2f50c478ac3870d5c083435742146851"}
 {"level":"N3","kind":"vocab","id":"dict-055f62cd76d4","language":"bn","field":"examples.0","source_sha256":"a0b11b9692c2530e7e4f52033737a44656a5ff4c444f17e67634befd0f7c047b"}
 {"level":"N3","kind":"vocab","id":"dict-9b16a1b5a95f","language":"bn","field":"meaning","source_sha256":"73f65ac942aa2568084c3fa79bf71686f53dde17db519acf10566d8b2144627c"}
-{"level":"N3","kind":"vocab","id":"dict-9b16a1b5a95f","language":"bn","field":"examples.0","source_sha256":"f935b36323d9f3ec82fe304d3f0bb0ce1ccb24cef4e2fb0801b13cdfa4fde3aa"}
 {"level":"N3","kind":"vocab","id":"dict-ea0df0c914c5","language":"bn","field":"meaning","source_sha256":"e0c5f69d19c6ce961a35f6f8868c6640d5d3a3a0b4f63c75da98e1255889cbaa"}
 {"level":"N3","kind":"vocab","id":"dict-1a2f3a29b145","language":"bn","field":"meaning","source_sha256":"9a119835c4ab681f5af4bf4b1c6724b9197058cd439af06261646e1e7859c54c"}
 {"level":"N3","kind":"vocab","id":"dict-1a2f3a29b145","language":"bn","field":"examples.0","source_sha256":"052ac6b825c0bcf6d1c19058de65c1de16b7733a877c3261a49dd31377e660f6"}
@@ -3479,7 +3410,6 @@
 {"level":"N3","kind":"vocab","id":"ref-8c44a58db2cc","language":"bn","field":"examples.0","source_sha256":"7fd4f38ef2dabf771ddec74670354cfb3e7546d2b1c886e3eba1edb358094eee"}
 {"level":"N3","kind":"vocab","id":"ref-8c44a58db2cc","language":"bn","field":"examples.1","source_sha256":"b0cc434a79aa2074ffac57e03d3058c55d1890c71be07791ed23547fa33c8a78"}
 {"level":"N3","kind":"vocab","id":"ref-601bb5712423","language":"bn","field":"meaning","source_sha256":"2cf108c1d8671bb1507d2c5dfe46623b877b639858d7516d3a963a4875525543"}
-{"level":"N3","kind":"vocab","id":"ref-601bb5712423","language":"bn","field":"examples.0","source_sha256":"03ecc076f5832b326254ac25680ac0ad6dfbb427ea9bfd25d37cf37c632c4cbc"}
 {"level":"N3","kind":"vocab","id":"ref-07b80c30c48e","language":"bn","field":"meaning","source_sha256":"df2f59fbb1aba464a37e69db3512fe1224e059c6cebc968186b99ff127b1e62a"}
 {"level":"N3","kind":"vocab","id":"ref-07b80c30c48e","language":"bn","field":"examples.0","source_sha256":"6659b9e262bb7e51ea628570aa212b608fa51e336bd94ac56bb424355a9ab738"}
 {"level":"N3","kind":"vocab","id":"ref-750114bc698a","language":"bn","field":"meaning","source_sha256":"8c10d1eacf3f5151603ebf443ef060a2ea6d231dd99798730a64ae02122aac38"}
@@ -4726,7 +4656,6 @@
 {"level":"N2","kind":"vocab","id":"42c4654587","language":"bn","field":"examples.1","source_sha256":"d6bd2681a2726c2afa29d79e29972e20f3dfc85daa5107c70a0323db8183ae7f"}
 {"level":"N2","kind":"vocab","id":"79169045a2","language":"bn","field":"meaning","source_sha256":"f66ead2e097117d95c667be88c6985d6117e206972b2c03c391916ac3dff5aeb"}
 {"level":"N2","kind":"vocab","id":"79169045a2","language":"bn","field":"examples.0","source_sha256":"631a8ed24c6c01b39fc019efe78272f564e205ff703d0db28951eb4ac44aaf5b"}
-{"level":"N2","kind":"vocab","id":"79169045a2","language":"bn","field":"examples.1","source_sha256":"54344808f6b89a37db7795c531b9bec9d4ff9b83257b0dfa9b8de6a489822476"}
 {"level":"N2","kind":"vocab","id":"08e45ae028","language":"bn","field":"meaning","source_sha256":"5b60f66803ddf49749e3a2c643164d91e97124864b8920c9e26b09c6e9b099d9"}
 {"level":"N2","kind":"vocab","id":"08e45ae028","language":"bn","field":"examples.0","source_sha256":"7f2ebb986764ae8e939552a3e80d8ee8233e365642aada344a0ee2bd013e1d15"}
 {"level":"N2","kind":"vocab","id":"08e45ae028","language":"bn","field":"examples.1","source_sha256":"26b2a142fa9b71d425ad91d482f569b937425992a02e95b0eda5b1417653f84a"}
@@ -4801,7 +4730,6 @@
 {"level":"N2","kind":"vocab","id":"cab6203141","language":"bn","field":"examples.0","source_sha256":"cb9f6c44c8d09fb3acf6f56e0a008f27a3c21d6ce05ec137c1769f0596d35230"}
 {"level":"N2","kind":"vocab","id":"956a0a55ec","language":"bn","field":"examples.0","source_sha256":"bf7d4f62c98dfc7b5b4c826d7fd6fef42aaed1a80a936b4c67383defed0774a6"}
 {"level":"N2","kind":"vocab","id":"956a0a55ec","language":"bn","field":"examples.1","source_sha256":"85d119367e70a82accd48ad60138d70748f1ba4e61dca9ba2f093bcb5c588215"}
-{"level":"N2","kind":"vocab","id":"3365ac796d","language":"bn","field":"examples.0","source_sha256":"e63286f98a0c76524727d5f814d0a5591df7f2b3e8011ef716b2432a47342b07"}
 {"level":"N2","kind":"vocab","id":"3365ac796d","language":"bn","field":"examples.1","source_sha256":"ca173979c0a2b9cfd62643e002bcb82f3d573002d2891e0d0494ded951be3dd0"}
 {"level":"N2","kind":"vocab","id":"0823382f19","language":"bn","field":"examples.0","source_sha256":"aba5e40d98c1ec1c5bfe781f288aa57f8ee873ad58d353236b8e5389df7415d2"}
 {"level":"N2","kind":"vocab","id":"e34ae82b35","language":"bn","field":"examples.0","source_sha256":"ed8f2bf16b2e7066b45224ff25245bedac194c8723adc9695d51acb2d90f699e"}
@@ -4811,7 +4739,6 @@
 {"level":"N2","kind":"vocab","id":"796332c2c7","language":"bn","field":"examples.0","source_sha256":"24edb392bd99b51dba9a2dff346a76f62871ddd5a8d5bd7d8d1aa4f7807b3259"}
 {"level":"N2","kind":"vocab","id":"796332c2c7","language":"bn","field":"examples.1","source_sha256":"d5d5565489e09467972440ad52bcbbcd1c4f0db7e92eac63e9a21994d3e80c2e"}
 {"level":"N2","kind":"vocab","id":"fb73ee2899","language":"bn","field":"examples.0","source_sha256":"1be0ddc2d3fa95580692287bb6c59b037717e5005ab836b9d4634e7dacea9fb0"}
-{"level":"N2","kind":"vocab","id":"fb73ee2899","language":"bn","field":"examples.1","source_sha256":"35494283e74f5d2cb5d67de58da24b2efb1b31eb7d8971a579f7ba522b89b841"}
 {"level":"N2","kind":"vocab","id":"488070d93a","language":"bn","field":"examples.0","source_sha256":"043d922927d84b63ddf0c833c4892a59bf4db1e16366aed7978556ecd2b3352d"}
 {"level":"N2","kind":"vocab","id":"488070d93a","language":"bn","field":"examples.1","source_sha256":"7d5c317e02426fece65a4067cdf85bc251bf0f85ac0da494bb6f35f734d9395d"}
 {"level":"N2","kind":"vocab","id":"36d05281eb","language":"bn","field":"examples.0","source_sha256":"942decf8e86cf2e1eba7d02744b65c7202689e298e3fdb6399a54e9f881de58c"}
@@ -4820,7 +4747,6 @@
 {"level":"N2","kind":"vocab","id":"c171dadc4a","language":"bn","field":"examples.1","source_sha256":"eba9e6883f6baa67f2e40c0e67b2eeec4af4fab4a2a6a695593d50a4a3893ec8"}
 {"level":"N2","kind":"vocab","id":"1c9be68b8f","language":"bn","field":"examples.0","source_sha256":"b3312d4bc37e8ecb20e615250b524d313eb73d9f90a683d45842c7b6257ab12d"}
 {"level":"N2","kind":"vocab","id":"1c9be68b8f","language":"bn","field":"examples.1","source_sha256":"1da0b80d0558d453a7b4e518f5e7d962cace86bc6a7187316aa5d65d94990a17"}
-{"level":"N2","kind":"vocab","id":"2c37f1e65a","language":"bn","field":"examples.0","source_sha256":"f4bd9eb8899549565d5aa52e1e9961b2238dabb4de3da0936adec7e4d688de2e"}
 {"level":"N2","kind":"vocab","id":"2c37f1e65a","language":"bn","field":"examples.1","source_sha256":"14612f909f3c5615a5bf0d0e6b39cf23b70035608a76f163e65314fcacb39b0a"}
 {"level":"N2","kind":"vocab","id":"ba30b2fc1e","language":"bn","field":"examples.0","source_sha256":"19b7f8811b52772bccc4fcaa1e1b33c3f02885e6b1595cf068df1efe1d03b59b"}
 {"level":"N2","kind":"vocab","id":"ba30b2fc1e","language":"bn","field":"examples.1","source_sha256":"b2676b3c352d7f366a6d1b7ef18199dad91b873bee40995adf179fb8eddcc4f9"}
@@ -4877,7 +4803,6 @@
 {"level":"N2","kind":"vocab","id":"9299dcd9c4","language":"bn","field":"examples.0","source_sha256":"e633b5c339dd270d791aa3a5d7d41f1b8490211125e741a522fe3dcc21154d83"}
 {"level":"N2","kind":"vocab","id":"9299dcd9c4","language":"bn","field":"examples.1","source_sha256":"141b73b29995a1fa075509c205ef07e0fbe4fac68a068f9e377e449f8e576bfb"}
 {"level":"N2","kind":"vocab","id":"a86f29464a","language":"bn","field":"meaning","source_sha256":"8baf88df8f15524462a8f20539989173a4198a23d088524397cb80b3882320d7"}
-{"level":"N2","kind":"vocab","id":"84ce1b3469","language":"bn","field":"examples.0","source_sha256":"6b0667f2fc155a3d58c44a0adc371ae783eec4c845472eeb1759965de78b064f"}
 {"level":"N2","kind":"vocab","id":"b1205d9b83","language":"bn","field":"examples.0","source_sha256":"986d0cb581fe7ee6cfca4a71d4d65390899aad199ab87fdc0f9e59244c731611"}
 {"level":"N2","kind":"vocab","id":"b1205d9b83","language":"bn","field":"examples.1","source_sha256":"f97c2cf3dece702d08b23f21a8d023b4cf4af420854672bf491d5183573b4d50"}
 {"level":"N2","kind":"vocab","id":"e2c0c40491","language":"bn","field":"examples.0","source_sha256":"2208a5350bce7e807e2f4d2ea68dd64b5e4232ccd379568fcd001f85f41e6af4"}
@@ -5086,7 +5011,6 @@
 {"level":"N2","kind":"vocab","id":"a761bdb540","language":"bn","field":"examples.1","source_sha256":"e44ea5ce043137249e2913d29008992aa323c480acecfdfacbbd17b93cbc449e"}
 {"level":"N2","kind":"vocab","id":"9087a1e25d","language":"bn","field":"examples.0","source_sha256":"408092397f723aadf110f2138865e1294c7695827c13c698717f95563d528705"}
 {"level":"N2","kind":"vocab","id":"9087a1e25d","language":"bn","field":"examples.1","source_sha256":"3174650aaf97979af4b48105eac66133806c2d0f887fb38c546a618437663802"}
-{"level":"N2","kind":"vocab","id":"950143400c","language":"bn","field":"examples.0","source_sha256":"410e4b8bb73c9100837769d5ab5fbefd88335d2a6f8338fa14f5e90f260309b7"}
 {"level":"N2","kind":"vocab","id":"950143400c","language":"bn","field":"examples.1","source_sha256":"98393a604e6545725c8db7c987c5a9660d1605efb95ad66e17c738e5a5db797d"}
 {"level":"N2","kind":"vocab","id":"86c59f38ea","language":"bn","field":"examples.0","source_sha256":"d133a8bdc78e3cefbf640de5269f8e99135dd5db84153630e9618a2abd440433"}
 {"level":"N2","kind":"vocab","id":"86c59f38ea","language":"bn","field":"examples.1","source_sha256":"96295dcb3616401f65e8cc6e911035e60239c0075d9566ccd99dace6c43a445b"}
@@ -5132,7 +5056,6 @@
 {"level":"N2","kind":"vocab","id":"6b29a1b6dd","language":"bn","field":"examples.0","source_sha256":"503f2e8118df5c51c6636b050f722418666bc116a54a61452fa3622086b6cdfa"}
 {"level":"N2","kind":"vocab","id":"2360f93615","language":"bn","field":"examples.0","source_sha256":"59c36452fe7b4061323ea0b0d87d4c7933d1ee6d12bf589a5d0c80001bc0913a"}
 {"level":"N2","kind":"vocab","id":"2360f93615","language":"bn","field":"examples.1","source_sha256":"072f984d74837536c4414185de19a38b46fd4b1b843c08813c8fea20099b4148"}
-{"level":"N2","kind":"vocab","id":"4219eb63bc","language":"bn","field":"examples.0","source_sha256":"29adf8f76455c3712db166d349f5de2a6e1494a190455c716ada33f20642874e"}
 {"level":"N2","kind":"vocab","id":"4219eb63bc","language":"bn","field":"examples.1","source_sha256":"a90dd3f3fcb22f69167a720667a5029870d3a8a421007a1f6613187c349e690d"}
 {"level":"N2","kind":"vocab","id":"d63d5219aa","language":"bn","field":"examples.0","source_sha256":"cb4c50e8e995d5e5315a525c29c460f84e6b5b0922b798939fbc1b7fec70182d"}
 {"level":"N2","kind":"vocab","id":"d63d5219aa","language":"bn","field":"examples.1","source_sha256":"755e262120e7f64ce210f3aceacf17e70eedee09e10d2e9b9d5f42a0f4edfad4"}
@@ -5159,12 +5082,10 @@
 {"level":"N2","kind":"vocab","id":"665fe9ee0b","language":"bn","field":"examples.0","source_sha256":"2127f69a5df8bc035300a16cf097b5abeb35e62e4a60baade6346b1b49523b91"}
 {"level":"N2","kind":"vocab","id":"665fe9ee0b","language":"bn","field":"examples.1","source_sha256":"a364432b3d3307a80bc29888da0912526c36f51f79736df98b6980f90d4c453b"}
 {"level":"N2","kind":"vocab","id":"e9eff104ec","language":"bn","field":"examples.0","source_sha256":"812e4b8781bac4dfcc30fa70660e922b4526054c1d08c4630418bfb9ecfe9753"}
-{"level":"N2","kind":"vocab","id":"e9eff104ec","language":"bn","field":"examples.1","source_sha256":"c2fd6bfae1e6b8a4b8a5ed48c8aa9ebdd5e14b203c4e45376800005f2f2bdea7"}
 {"level":"N2","kind":"vocab","id":"f874eff83f","language":"bn","field":"examples.0","source_sha256":"d953180f5780f072dc44579c83f574b1cd84e7f90b8c02704cb51140e0852b4e"}
 {"level":"N2","kind":"vocab","id":"f874eff83f","language":"bn","field":"examples.1","source_sha256":"b0dc0ed266eabb8b7d88d2867e79b298a4a60a8ae38b9eecc887b7e1218eabf0"}
 {"level":"N2","kind":"vocab","id":"f650563feb","language":"bn","field":"examples.0","source_sha256":"44188aac58405cb4fa70f9a91c347cb3844e356e291edf335a8880e49222f636"}
 {"level":"N2","kind":"vocab","id":"f650563feb","language":"bn","field":"examples.1","source_sha256":"9f555db2d04e2db6846d270e03d71a87fcdc8c707efe085974616a3db7de7d7e"}
-{"level":"N2","kind":"vocab","id":"d4b22ac7cb","language":"bn","field":"examples.0","source_sha256":"a115fb6d667831f233b7822e4c2b5a644e14ad37b1bd0d3ee7f01687b6449c8b"}
 {"level":"N2","kind":"vocab","id":"d4b22ac7cb","language":"bn","field":"examples.1","source_sha256":"945b4edb0974ff5443cdb821c212f51f9d15f688705a5028365adef411a99059"}
 {"level":"N2","kind":"vocab","id":"4bd8d92e08","language":"bn","field":"examples.0","source_sha256":"a558ad1510ccd667dc3a02b7db5f81b095692f670b13783757b2b0f554057edf"}
 {"level":"N2","kind":"vocab","id":"8476b331d5","language":"bn","field":"examples.0","source_sha256":"5b94a936d1d21c6944324dc87368e51d97a610d0c229623221b4d599b06a91d2"}
@@ -5189,7 +5110,6 @@
 {"level":"N2","kind":"vocab","id":"a5f7425823","language":"bn","field":"examples.0","source_sha256":"494bda002940752eaa87c6290c8b5a0a935a8db2f3d2917b7ad63f80d47bb3db"}
 {"level":"N2","kind":"vocab","id":"a5f7425823","language":"bn","field":"examples.1","source_sha256":"89a0052feec0003f375ca8edbca15ff9de0da6662a1d8c85e7c4b381accbad8e"}
 {"level":"N2","kind":"vocab","id":"aa5973a2fb","language":"bn","field":"examples.0","source_sha256":"ee61d3e363a197a9f3a66df837d35cbc2760fa8a6d816db0d56d8b88a04047ad"}
-{"level":"N2","kind":"vocab","id":"aa5973a2fb","language":"bn","field":"examples.1","source_sha256":"d12e0f5739fd255561c06238a2ce9408aa2e07b3a8e7fb3e7336fa96224a847e"}
 {"level":"N2","kind":"vocab","id":"0bd15bf630","language":"bn","field":"examples.0","source_sha256":"ea061b021731d380a560c993e626e7828b6424bcf4cc7296c11a6ca3ee8c73b5"}
 {"level":"N2","kind":"vocab","id":"0bd15bf630","language":"bn","field":"examples.1","source_sha256":"5e5af21970f9baf3898390816cecfa4b086f0e5e6d9415cc3e0e5067263d833b"}
 {"level":"N2","kind":"vocab","id":"f4192e4cee","language":"bn","field":"examples.0","source_sha256":"d235a1e8a91a3ef01a9bccc001de29bd30a1c474d6173609885f289710c9b489"}
@@ -5197,7 +5117,6 @@
 {"level":"N2","kind":"vocab","id":"932013dd52","language":"bn","field":"examples.1","source_sha256":"73b0c39b79efcb2d163c9f95bb8db56ebecd6df30d43bca3f1e0e5bc8ce00499"}
 {"level":"N2","kind":"vocab","id":"270226074a","language":"bn","field":"examples.0","source_sha256":"4eb49cc22e61bda25975029bd6ba9866e0c464a703e401a1e973ef034ca5b979"}
 {"level":"N2","kind":"vocab","id":"270226074a","language":"bn","field":"examples.1","source_sha256":"e0415542b8c266dfea1f1269c1ed5420fc851ba741dd3989fd2091c411c26597"}
-{"level":"N2","kind":"vocab","id":"b1a974f767","language":"bn","field":"examples.0","source_sha256":"3214ada656e0506367aa7aee630ac85c22b7572f73d9abcf8c24557d91428f31"}
 {"level":"N2","kind":"vocab","id":"b1a974f767","language":"bn","field":"examples.1","source_sha256":"b17f9b64f94e48bb9e7d6b50b5d1220c3956bc1a06bdf2ae38e7b57e1c16af62"}
 {"level":"N2","kind":"vocab","id":"c24130db77","language":"bn","field":"examples.0","source_sha256":"a94b2eebcd6095bf3e908bcbc6df7fbc977dfb30f029e1987e44485662abaf47"}
 {"level":"N2","kind":"vocab","id":"c24130db77","language":"bn","field":"examples.1","source_sha256":"81e50c2a9cd4e8ec80769512e2f0d9fca6c5a703d94e7f1a2b416ad65abe38eb"}
@@ -5209,7 +5128,6 @@
 {"level":"N2","kind":"vocab","id":"e0669895cc","language":"bn","field":"examples.1","source_sha256":"ae4f52e7ec8c88d2c359c041e2ad371bd37d931efbf1598b0c8bbcdfd110530b"}
 {"level":"N2","kind":"vocab","id":"ac638ea3f7","language":"bn","field":"examples.0","source_sha256":"6d02e615467d8b17a36821839d46969d30ad5d0a4b9ae987570c61b420f4271c"}
 {"level":"N2","kind":"vocab","id":"ac638ea3f7","language":"bn","field":"examples.1","source_sha256":"ebe200f1fcb6a2bc676a2b43bbc697d24b83ea8973206358836f750436bfd6ee"}
-{"level":"N2","kind":"vocab","id":"855762ebcc","language":"bn","field":"examples.0","source_sha256":"8c75369982f888c17d12befa38a4e11f9dbb3f74a6d61810f1ffc44114ce21db"}
 {"level":"N2","kind":"vocab","id":"855762ebcc","language":"bn","field":"examples.1","source_sha256":"ec8281d3b5ba82d71dfa5b568ec7f52b78272836637e3214793a5ec5888fb4f0"}
 {"level":"N2","kind":"vocab","id":"5c1a471818","language":"bn","field":"examples.0","source_sha256":"af348ef7f7d2eb9d79777f035490ec7444d14187f638cf1d978b6f6c322f7085"}
 {"level":"N2","kind":"vocab","id":"5c1a471818","language":"bn","field":"examples.1","source_sha256":"edc12f8821c5ae94583571d29037a5db04a8ed56a85e6b1cf9f754f7ab08a87e"}
@@ -5218,9 +5136,7 @@
 {"level":"N2","kind":"vocab","id":"b4e52ce195","language":"bn","field":"examples.1","source_sha256":"8f9305c70a5aad227138efe077fe2e16fb2105184cded1df28b6c951d8c66ab3"}
 {"level":"N2","kind":"vocab","id":"3e43a1afad","language":"bn","field":"examples.0","source_sha256":"b113869d01c7ea152599186be982dbded21fa2d1bbd34cc6abca6206d99af694"}
 {"level":"N2","kind":"vocab","id":"3e43a1afad","language":"bn","field":"examples.1","source_sha256":"cb302cd6889d9583202b537477e1e592f6637c08082b5a894cda5e2d817be921"}
-{"level":"N2","kind":"vocab","id":"1e621f5ba1","language":"bn","field":"examples.0","source_sha256":"8d8166df27ca94cee68be8aa9112e24e2c5ea5b19760d9d67886f8f92ef7ac5a"}
 {"level":"N2","kind":"vocab","id":"1e621f5ba1","language":"bn","field":"examples.1","source_sha256":"117b72fd9b86b0d7ec320172312be0302a63b71a79ecfa984c2f4d167352ef87"}
-{"level":"N2","kind":"vocab","id":"b3c318ace7","language":"bn","field":"examples.0","source_sha256":"3a797867d67e07f8a8fe7490a8e10b41f1cd8745e0220583fae720e75c8ccd13"}
 {"level":"N2","kind":"vocab","id":"b3c318ace7","language":"bn","field":"examples.1","source_sha256":"45617fcf95c8f1c3c957845fa6e0dadb022a079727adf6a2feef5aaf2a4bb48b"}
 {"level":"N2","kind":"vocab","id":"2f2bfb723b","language":"bn","field":"examples.0","source_sha256":"f27e535177913a32ae8779b6d7123bb286a25d618822816d05c0ae7935914d4c"}
 {"level":"N2","kind":"vocab","id":"2f2bfb723b","language":"bn","field":"examples.1","source_sha256":"d41e91a349ceef9d451b9c49a0f20b154ed91535870fcf13f460a9d2ac902404"}
@@ -5284,7 +5200,6 @@
 {"level":"N2","kind":"vocab","id":"761f5699eb","language":"bn","field":"examples.1","source_sha256":"5b410c4dfe96ee54efd653c7b2a504daa6096ea8d89d2417202b812adf4df1ad"}
 {"level":"N2","kind":"vocab","id":"57c138744d","language":"bn","field":"examples.0","source_sha256":"fe0689e7fd713ef79b1b0d49dc7dcafa52fce817632e170b213a85d8afaf52c5"}
 {"level":"N2","kind":"vocab","id":"57c138744d","language":"bn","field":"examples.1","source_sha256":"e81e67bd9f119e9cb199e3e59992ec0460b9d8f1d0af85a9eaa92e1e1b418368"}
-{"level":"N2","kind":"vocab","id":"f17646bffa","language":"bn","field":"examples.0","source_sha256":"8d8166df27ca94cee68be8aa9112e24e2c5ea5b19760d9d67886f8f92ef7ac5a"}
 {"level":"N2","kind":"vocab","id":"0a07eb2de8","language":"bn","field":"examples.0","source_sha256":"87b75414013396cf9ac3299bb020d3e793311f940b806ae1df4b070555191df1"}
 {"level":"N2","kind":"vocab","id":"0525f8593c","language":"bn","field":"examples.0","source_sha256":"37912c3e9210a2a8c1a50f73536283751ab43ea1489b44a299eb77cec3dd2b76"}
 {"level":"N2","kind":"vocab","id":"0525f8593c","language":"bn","field":"examples.1","source_sha256":"2d9a1bd5b892b9711ffbbc722254455da2a3f453a837fcce81696761bd8d7096"}
@@ -5299,7 +5214,6 @@
 {"level":"N2","kind":"vocab","id":"c50a6711ac","language":"bn","field":"examples.0","source_sha256":"22f7f2e45aad26c7e16483d05aac2628dfd137f822337f9aadc7bc07a3dc5779"}
 {"level":"N2","kind":"vocab","id":"c50a6711ac","language":"bn","field":"examples.1","source_sha256":"b37262ac9a3b4cff9b365e7789bd53492b5952069de1738f7315441a86bd968c"}
 {"level":"N2","kind":"vocab","id":"d1d2e93a7e","language":"bn","field":"examples.0","source_sha256":"3582d6ccb0f5b1c229e2734de85a910f5bd8f091d9a1cf3d86e69bc7ce365ac7"}
-{"level":"N2","kind":"vocab","id":"0c96de4f87","language":"bn","field":"examples.0","source_sha256":"b116713170d6b93e526a4e769670d427c1418fe6307796d2548c34dec3d0d07e"}
 {"level":"N2","kind":"vocab","id":"0c96de4f87","language":"bn","field":"examples.1","source_sha256":"ab02c78ee91d3ca994ea9c208bd13c8abd1c1ea845ff6fc862928acd9e5c8606"}
 {"level":"N2","kind":"vocab","id":"842986809c","language":"bn","field":"examples.0","source_sha256":"45204f7c22d905fc38e5600d41a04c05be841894216ebeba6f60116f85bb0d50"}
 {"level":"N2","kind":"vocab","id":"842986809c","language":"bn","field":"examples.1","source_sha256":"14c2bea0f8846467e86f8f9bc6436167615e49de41a09ba0ccbafcd336b37955"}
@@ -5333,7 +5247,6 @@
 {"level":"N2","kind":"vocab","id":"780f916fa8","language":"bn","field":"examples.0","source_sha256":"9e92efb6308194c4f1aceb78b0658b00687417d06fb97c9414e9d1fb882472dd"}
 {"level":"N2","kind":"vocab","id":"780f916fa8","language":"bn","field":"examples.1","source_sha256":"b89d298b2acdddd746c95c65c3211c62a08b8db740c28f17cd22c8138ba8c421"}
 {"level":"N2","kind":"vocab","id":"4c7d50b5bb","language":"bn","field":"examples.0","source_sha256":"84d5fbaa9908c9a5db985d4142892193fdfcd74a02657752b872fcfc0e7bf6c3"}
-{"level":"N2","kind":"vocab","id":"4c7d50b5bb","language":"bn","field":"examples.1","source_sha256":"4aea08a0a1d83bdc889c1b19a21918902557b21c3d4976cd7b52a1394db5d44a"}
 {"level":"N2","kind":"vocab","id":"149aa63e77","language":"bn","field":"examples.0","source_sha256":"fd7d27c211ded090ad25dda0dd521ae26e2e383607672cc2a6fa82705b7be0c2"}
 {"level":"N2","kind":"vocab","id":"149aa63e77","language":"bn","field":"examples.1","source_sha256":"23d4a4363d2af2951e580ec8a208b90670a71948ef2e3f147952a9512c970385"}
 {"level":"N2","kind":"vocab","id":"b8ca72ea13","language":"bn","field":"examples.0","source_sha256":"1d8703bcc9dc417e2f0a4cbcfa8cb840540f4493fd297211594b58598149a825"}
@@ -5356,7 +5269,6 @@
 {"level":"N2","kind":"vocab","id":"a4da59bc6b","language":"bn","field":"examples.1","source_sha256":"f65894c94eeb050481722dcf6a2770e07b0d299f33113b954aa8c3ab4ea0e08b"}
 {"level":"N2","kind":"vocab","id":"e7254a71b1","language":"bn","field":"examples.0","source_sha256":"2759bef6794cb0559d1e524ec03f74e6133074dc93cc6017b03d95f0c797f052"}
 {"level":"N2","kind":"vocab","id":"e7254a71b1","language":"bn","field":"examples.1","source_sha256":"b8ade2b933094ea23dff43f5880c46ca701d43cabd156d99e20a6f5c851d98e8"}
-{"level":"N2","kind":"vocab","id":"d894086d17","language":"bn","field":"examples.0","source_sha256":"549cdd829b7f603a3aef079094b85ec6739c9e23cd82d79648e4220f4a939f92"}
 {"level":"N2","kind":"vocab","id":"d894086d17","language":"bn","field":"examples.1","source_sha256":"5a8d1d93155ff18cbbf41228462b729334daa94cf78f4d5d0f0aae9d2bc56416"}
 {"level":"N2","kind":"vocab","id":"4799d6a1c2","language":"bn","field":"examples.0","source_sha256":"1d91ce8d8c3e6b83e855015c83275e8661ccfaccd31d513382d5445a2d03e4c9"}
 {"level":"N2","kind":"vocab","id":"4799d6a1c2","language":"bn","field":"examples.1","source_sha256":"3210f0983b52cd9b41a7b4e147bb15d2309bba5cc650acdd6deb8c12f782e3fa"}
@@ -5371,11 +5283,9 @@
 {"level":"N2","kind":"vocab","id":"cd88dd47e4","language":"bn","field":"examples.1","source_sha256":"37126a57b34f549ebd20afe69aec468e3ea5000d58baac5f58275a85d425ede6"}
 {"level":"N2","kind":"vocab","id":"56af2956cf","language":"bn","field":"examples.0","source_sha256":"e539595a60bab49a77950fcb54d1a7fd412113b0f9449f96662266bf35c5c799"}
 {"level":"N2","kind":"vocab","id":"56af2956cf","language":"bn","field":"examples.1","source_sha256":"99c8ac9b87a5b8f42cd6fb1cc457046aa1bf503cde9fea77e3346e4d5fbd6fa0"}
-{"level":"N2","kind":"vocab","id":"001d99a6ea","language":"bn","field":"examples.0","source_sha256":"378fc53199d700af2f49d8df073693057ad9d26ee9d0e8472694fb30f026b57d"}
 {"level":"N2","kind":"vocab","id":"001d99a6ea","language":"bn","field":"examples.1","source_sha256":"8e6e21b063e92cf479c31c3c7d54eb5edf9e167d6e04a402f8275e71e5f2ff1d"}
 {"level":"N2","kind":"vocab","id":"1400d67422","language":"bn","field":"examples.0","source_sha256":"dc7f838b42bb3c4705fb92605a16330130c83efdadfaf3ba29144a1900f0ff96"}
 {"level":"N2","kind":"vocab","id":"1400d67422","language":"bn","field":"examples.1","source_sha256":"bfe83bfd54b68ff13eccfecffcbb0dcf8f606413847b3e50dedbffeaa87d6f95"}
-{"level":"N2","kind":"vocab","id":"bf39c2aae9","language":"bn","field":"examples.0","source_sha256":"06303406d58b9579eb1516f63f13d956674ac00bf1b976dfef6afab2d76cc943"}
 {"level":"N2","kind":"vocab","id":"bf39c2aae9","language":"bn","field":"examples.1","source_sha256":"675da72059204f880b766ae27ec6f77497e3b2084140bb10cf39f83bad6be826"}
 {"level":"N2","kind":"vocab","id":"a272d2c2a2","language":"bn","field":"examples.0","source_sha256":"3065649e09e6e2d12f6fd8c8bc58be0cb6b50ab5093ce406d4768e3cfa31afe2"}
 {"level":"N2","kind":"vocab","id":"a272d2c2a2","language":"bn","field":"examples.1","source_sha256":"41003041dafe83ff6d2e8450c02d73bdd88c169cf975a6453be9c3f967760fdb"}
@@ -5436,7 +5346,6 @@
 {"level":"N2","kind":"vocab","id":"b8fdf48b47","language":"bn","field":"examples.1","source_sha256":"e36343269bd2a913086e0540b9563863fc1ac547df98750027279ab08b858a08"}
 {"level":"N2","kind":"vocab","id":"9ad41551a9","language":"bn","field":"examples.0","source_sha256":"bae1fb0fa1bb911707f40b12eddbb82ae7be4a04a2c9d428f9409a8528f4752e"}
 {"level":"N2","kind":"vocab","id":"8dfe67b16a","language":"bn","field":"meaning","source_sha256":"cf40a125d216c01b45f718a2390df0e1581b093ae29f372961da486ab931ad26"}
-{"level":"N2","kind":"vocab","id":"8dfe67b16a","language":"bn","field":"examples.0","source_sha256":"8f0479a3330aa127ff136b55d3b1b77022e66a51cb1c9d263034858db2938bad"}
 {"level":"N2","kind":"vocab","id":"8dfe67b16a","language":"bn","field":"examples.1","source_sha256":"7ee7edf7219129f0da98b9e2fe946d90a6e39661f8d5a3375bc994791f96d1d1"}
 {"level":"N2","kind":"vocab","id":"3adb9ea016","language":"bn","field":"meaning","source_sha256":"ff7329f93a3c5d3d465acca4027f347c0a2a484276cbf989c8bf2d5804790845"}
 {"level":"N2","kind":"vocab","id":"3adb9ea016","language":"bn","field":"examples.0","source_sha256":"399e3b2c277bf71b07e2cb04c7fc6fcb954b00d4e181b6ef9e4871fef8d70e08"}
@@ -5578,7 +5487,6 @@
 {"level":"N2","kind":"vocab","id":"d0522fe2ab","language":"bn","field":"examples.0","source_sha256":"bb1fc33f63f4567edee138e71af2fe239eb5dedbbf2a19a6fcb372365d0c0a2f"}
 {"level":"N2","kind":"vocab","id":"d0522fe2ab","language":"bn","field":"examples.1","source_sha256":"bda0278cd825e897bc1730aed0ce0fed89cc41b995f0e7aef00cc74878879102"}
 {"level":"N2","kind":"vocab","id":"3d04400545","language":"bn","field":"meaning","source_sha256":"6657a8b4ef5fc3e6ce44610743d81b3c2e3e4ca816350ea4f76ba507c0dca376"}
-{"level":"N2","kind":"vocab","id":"3d04400545","language":"bn","field":"examples.0","source_sha256":"1fa0ae25ed81e352709270b5fc1a9accd5e23e24efa7edab2f315f39b74d409f"}
 {"level":"N2","kind":"vocab","id":"3d04400545","language":"bn","field":"examples.1","source_sha256":"6c192791d283b227c83a6228a7ae07953586a5630069527e7472448c2c8ebabc"}
 {"level":"N2","kind":"vocab","id":"56b91d068d","language":"bn","field":"meaning","source_sha256":"6b56a768167d9d3bd8b8c15234edef4080d9390833d6dc5e3d1c5d21de2c471b"}
 {"level":"N2","kind":"vocab","id":"56b91d068d","language":"bn","field":"examples.0","source_sha256":"8a6ecf7d59740946991bdcc54b070cdc403136f6dd87515a2c4bf53e0ccc462c"}
@@ -5626,7 +5534,6 @@
 {"level":"N2","kind":"vocab","id":"1fca295d01","language":"bn","field":"examples.0","source_sha256":"ee93d70f2c86ea940f1f87aae5f34a7d42647b4b796da3d129f3026980d92bd3"}
 {"level":"N2","kind":"vocab","id":"1fca295d01","language":"bn","field":"examples.1","source_sha256":"5dbd6e4c1e5ef023c1cb7d9fe3cfb4f227a4a4a6a4c4e106063e1308590e427a"}
 {"level":"N2","kind":"vocab","id":"c55109ac27","language":"bn","field":"meaning","source_sha256":"18c77e8da2573f2a5c5c3c64c2ee32758d29be91f6d937be53a2e3024765d6a3"}
-{"level":"N2","kind":"vocab","id":"c55109ac27","language":"bn","field":"examples.0","source_sha256":"e3668ed8ba1a58fbf547c510805ef43a8700e1934711207cc7616d9c8b430891"}
 {"level":"N2","kind":"vocab","id":"c55109ac27","language":"bn","field":"examples.1","source_sha256":"8f61ff00f3a7bdff18a27c925b411d7e7e55f903cdd070e45371469575d9ecdf"}
 {"level":"N2","kind":"vocab","id":"40e9454453","language":"bn","field":"meaning","source_sha256":"83adf9a427badb58225ce80991f9a501c612ab5e941a0a0ade836623b883ccb5"}
 {"level":"N2","kind":"vocab","id":"40e9454453","language":"bn","field":"examples.0","source_sha256":"b3225699322d3c76738e11c048eda73afd01a19486f2b50855c13de3786b38a3"}
@@ -5677,7 +5584,6 @@
 {"level":"N2","kind":"vocab","id":"f81222045a","language":"bn","field":"examples.1","source_sha256":"d6e81248ff36a9e404bb24017684b4f5092c8512b3fc8a6dfa19ee4f5b2d333e"}
 {"level":"N2","kind":"vocab","id":"55527ab494","language":"bn","field":"meaning","source_sha256":"4636f9b046d37c45d8734b883392470ba91b629d35519da07e9e1b77a52d0e0f"}
 {"level":"N2","kind":"vocab","id":"55527ab494","language":"bn","field":"examples.0","source_sha256":"3d78fce2eb9b96a69f6f3f675aa6f096a9a16a70b0e765ab0a13706ac7f5cb6a"}
-{"level":"N2","kind":"vocab","id":"55527ab494","language":"bn","field":"examples.1","source_sha256":"c522a6b6db0e3220f51a39e2e61879760668099d26fc97fc1ba06244a5c0246f"}
 {"level":"N2","kind":"vocab","id":"909e6bb3f1","language":"bn","field":"meaning","source_sha256":"262858a21a6319ee1aa0dca47cd22e29595a9da3f8e1f471021a428f7101ef72"}
 {"level":"N2","kind":"vocab","id":"909e6bb3f1","language":"bn","field":"examples.0","source_sha256":"c3423e48a5e957ff309f35a2bfafe02a9c702826c2b45d692c9261270985fdd3"}
 {"level":"N2","kind":"vocab","id":"909e6bb3f1","language":"bn","field":"examples.1","source_sha256":"63e550524b7988fa81964d5587bf640fb3f2bafcfa1367c87b8fcf833c16e7dd"}
@@ -5703,13 +5609,11 @@
 {"level":"N2","kind":"vocab","id":"9714cc8a70","language":"bn","field":"examples.0","source_sha256":"3049745ce2fc7f4c87cedcef368a19479271ec301df488d5250822b4dec80eee"}
 {"level":"N2","kind":"vocab","id":"5e3dfc6ff1","language":"bn","field":"meaning","source_sha256":"c4224975d0cbc1d33978a7fabc304d21f628a21ff6894e896ab74b08c4dafb5d"}
 {"level":"N2","kind":"vocab","id":"5e3dfc6ff1","language":"bn","field":"examples.0","source_sha256":"3353af09791cc6ab65a5683056618b739ae9700f42e67ee0c25d5900efd9f58b"}
-{"level":"N2","kind":"vocab","id":"5e3dfc6ff1","language":"bn","field":"examples.1","source_sha256":"2c9c5694f4a27e5a4e8ab2e81cadc5ec8f141f6b01b60d1b91e93b1931a929ae"}
 {"level":"N2","kind":"vocab","id":"191d9697e6","language":"bn","field":"meaning","source_sha256":"e739fbf05114ce7318a411100f40b78e92b4334d383bc2cce3576baaec4a7293"}
 {"level":"N2","kind":"vocab","id":"191d9697e6","language":"bn","field":"examples.0","source_sha256":"842abd6e32143fc694a334a08de6e976ea3db6e61fdbab84b0d1b328a7a97603"}
 {"level":"N2","kind":"vocab","id":"191d9697e6","language":"bn","field":"examples.1","source_sha256":"3481ecfacbbb69d0769c9661712e14df98f485dc026c4ffb2638c93e37ccf2ba"}
 {"level":"N2","kind":"vocab","id":"e482b08f7b","language":"bn","field":"meaning","source_sha256":"e28120034894eeb8470a0218d445a7c7967a32b4c37ff7883d4a7ca08c4f998a"}
 {"level":"N2","kind":"vocab","id":"e482b08f7b","language":"bn","field":"examples.0","source_sha256":"49f111a4b3f1d77cca5f21a0e103860d3306206d269814a40764d390ad8bf39f"}
-{"level":"N2","kind":"vocab","id":"e482b08f7b","language":"bn","field":"examples.1","source_sha256":"1a0d3177c158cb099fdcd407d9f5a4ffb1cd6a65109138e8abc625905c4432de"}
 {"level":"N2","kind":"vocab","id":"c4861afd31","language":"bn","field":"meaning","source_sha256":"01ca100635be5e01905a3175798bac67edd6212c108e0d60df0d1434e7740490"}
 {"level":"N2","kind":"vocab","id":"c4861afd31","language":"bn","field":"examples.0","source_sha256":"fdfe493ca2479549652be832a4b38ae106b21697335607c3c144b2ac246096e2"}
 {"level":"N2","kind":"vocab","id":"c4861afd31","language":"bn","field":"examples.1","source_sha256":"4b733421130019e09e214779f8a22aabc4c6ae9c13621960d627d1d6d40bb69e"}
@@ -5739,7 +5643,6 @@
 {"level":"N2","kind":"vocab","id":"6f7f0e1422","language":"bn","field":"meaning","source_sha256":"aa1875f2b3ca17111976282ccac1c7a2473f73bd48d383ab3bd56d88bbeb4318"}
 {"level":"N2","kind":"vocab","id":"6f7f0e1422","language":"bn","field":"examples.0","source_sha256":"286cd89b54b06f05b5ab9eb0c59c5c8f61e5412c52983a4ce0952adcda006e42"}
 {"level":"N2","kind":"vocab","id":"e2a46f8f00","language":"bn","field":"meaning","source_sha256":"2aefeb6492ce610f94a53074178917fb0b59101f8a34fc759912109c94ae758a"}
-{"level":"N2","kind":"vocab","id":"e2a46f8f00","language":"bn","field":"examples.0","source_sha256":"ce1903d6fb557b773db8b7dc3e24e6c1f0de187cec453e4732e4ad90e8c02580"}
 {"level":"N2","kind":"vocab","id":"e2a46f8f00","language":"bn","field":"examples.1","source_sha256":"732ac02bbb832e74b47a905f22512752b3437ae363067687827ac9b3d8e9e65f"}
 {"level":"N2","kind":"vocab","id":"3b1eafd858","language":"bn","field":"meaning","source_sha256":"a3f213091f073b2527c866f4551941aff933d0b1f41558d2ec6239660f08dc03"}
 {"level":"N2","kind":"vocab","id":"3b1eafd858","language":"bn","field":"examples.0","source_sha256":"80bdc3dc44ff07723ac1957c86a2652b587578657cadeba57e58fb36b0078de1"}
@@ -5865,7 +5768,6 @@
 {"level":"N2","kind":"vocab","id":"84fe109bdf","language":"bn","field":"examples.1","source_sha256":"4900c40d818d368add7845236dae38c83c0c77365c408ccb8110f5f2157406e6"}
 {"level":"N2","kind":"vocab","id":"5f30ae15e7","language":"bn","field":"meaning","source_sha256":"b12bfae3ca962bd5e43175973fb002bb5ffd9edfda287b1084c7daec65c7ff09"}
 {"level":"N2","kind":"vocab","id":"5f30ae15e7","language":"bn","field":"examples.0","source_sha256":"6fa062c25174efdb7e3135ae5ed221b3cd23e6ead63043cb91536cd1c75ba906"}
-{"level":"N2","kind":"vocab","id":"5f30ae15e7","language":"bn","field":"examples.1","source_sha256":"9ff7e5ad3514d918ba5ec17ca50caf201619794e7d4a197e44b688000aceebb5"}
 {"level":"N2","kind":"vocab","id":"31df50f399","language":"bn","field":"meaning","source_sha256":"084a25bbe8b42e2f24b1e0bfd3f6c9e2d055866c92afefe6cfaa0e30d60f5b0c"}
 {"level":"N2","kind":"vocab","id":"31df50f399","language":"bn","field":"examples.0","source_sha256":"eaab7e8b8ecaa78049f8371c4c691db55df996e97c976586772e058b0ee5fca4"}
 {"level":"N2","kind":"vocab","id":"31df50f399","language":"bn","field":"examples.1","source_sha256":"4f2684c7daebbda0725801cd80072a4f30f8eb060cd7d4cc93a5c6dc2ac70c0c"}
@@ -5944,7 +5846,6 @@
 {"level":"N2","kind":"vocab","id":"6c0f869b21","language":"bn","field":"examples.1","source_sha256":"1a3cdf837298fa844f77e72037376aaced6bea519ddc88b6f871edce217166da"}
 {"level":"N2","kind":"vocab","id":"aba27902d4","language":"bn","field":"meaning","source_sha256":"196af1780c5e8775b4b926a25e870325a39892b4d3556d99e7900f26a0b75271"}
 {"level":"N2","kind":"vocab","id":"d019c7013c","language":"bn","field":"meaning","source_sha256":"f5e5b843c78900c1a33fcfc2545786d73effe9681338dc0d0c57231baab2d540"}
-{"level":"N2","kind":"vocab","id":"d019c7013c","language":"bn","field":"examples.0","source_sha256":"740c075153dbabd8135b0684a08b2507a55c587ba2e468d4f600e718189703e0"}
 {"level":"N2","kind":"vocab","id":"d019c7013c","language":"bn","field":"examples.1","source_sha256":"bfde52282653ed7d2eab69b74966314c1bcd6781a61f5f3c8ca0002050526a22"}
 {"level":"N2","kind":"vocab","id":"09ac423c73","language":"bn","field":"meaning","source_sha256":"957d5d0cffcf80d552102511e970fac9b3eac5a1d858097b171c166dd0d68525"}
 {"level":"N2","kind":"vocab","id":"09ac423c73","language":"bn","field":"examples.0","source_sha256":"736921e836b91462777387a746dbfb8c038421201def729af1a737616458cc76"}
@@ -5981,7 +5882,6 @@
 {"level":"N2","kind":"vocab","id":"36867e1153","language":"bn","field":"examples.0","source_sha256":"8f4bd4e9e6da1b4df0d29f118b6960c3ae5fa6ee397c4b5c39527a6983a5aa3a"}
 {"level":"N2","kind":"vocab","id":"36867e1153","language":"bn","field":"examples.1","source_sha256":"59fcb9df0d52f3aa7110e6fda15f39e3a6455cc328ea1e878c74dcce0fd20642"}
 {"level":"N2","kind":"vocab","id":"9cae12b7c2","language":"bn","field":"meaning","source_sha256":"9b49854ce869659b0ffaf7eb7fe5f00a05917edef5e00c3074614e0f280a0f19"}
-{"level":"N2","kind":"vocab","id":"9cae12b7c2","language":"bn","field":"examples.0","source_sha256":"d73950c1d690fa718b8cde5e77edb747531feaf6712f12c9098db8256d30465e"}
 {"level":"N2","kind":"vocab","id":"9cae12b7c2","language":"bn","field":"examples.1","source_sha256":"d82fc410821a2b1339b7ac3489395e58b02440b4071ffc481136946b9f64fbf8"}
 {"level":"N2","kind":"vocab","id":"a9b5d114ca","language":"bn","field":"meaning","source_sha256":"246772d46215575517c4b40f09e2693860f97580c119ad1e988b8b2fbb221cfc"}
 {"level":"N2","kind":"vocab","id":"a9b5d114ca","language":"bn","field":"examples.0","source_sha256":"b02ae06fb7179cc4cf6ec7cdbd76400baa8b9d07095d71aaa5beb270e792d468"}
@@ -6248,7 +6148,6 @@
 {"level":"N2","kind":"vocab","id":"c0a222a559","language":"bn","field":"examples.1","source_sha256":"6dd1932963a08ce98d7470f0dc136c8bc24da804a32b1b98a71df6e0d9b637a3"}
 {"level":"N2","kind":"vocab","id":"f6833a87fe","language":"bn","field":"meaning","source_sha256":"d8fbec09d3d09c9130508a0bb922a8a85b3cdb8be637d69257e8032461edf154"}
 {"level":"N2","kind":"vocab","id":"f6833a87fe","language":"bn","field":"examples.0","source_sha256":"53aa55dfcc14e58e4cbdddb4bb9f0ba3be2370f384c5ad9008cf1d80dbcf50a6"}
-{"level":"N2","kind":"vocab","id":"f6833a87fe","language":"bn","field":"examples.1","source_sha256":"429eba31a224373c37440ef748dd0e8a4158345245ec970289f61bfeab8d6dc3"}
 {"level":"N2","kind":"vocab","id":"d6a3f85dab","language":"bn","field":"meaning","source_sha256":"c2dcaee3300e11b50939282779a916a49c228ef5bf8d181202075076adb176a1"}
 {"level":"N2","kind":"vocab","id":"d6a3f85dab","language":"bn","field":"examples.0","source_sha256":"0332ff0864fb9023533d4220574793843036ab596f38d60ae0a65101aeb15671"}
 {"level":"N2","kind":"vocab","id":"d6a3f85dab","language":"bn","field":"examples.1","source_sha256":"3b49a4fe0cb78caf8ad1891ce4b8e48d4836f19376dc8af494d1e649cbcddedb"}
@@ -6265,7 +6164,6 @@
 {"level":"N2","kind":"vocab","id":"5622faf78b","language":"bn","field":"examples.0","source_sha256":"6cad26ed896f13d5541aab912efc019e5b382dd9b3b6af89486def7082211f74"}
 {"level":"N2","kind":"vocab","id":"5622faf78b","language":"bn","field":"examples.1","source_sha256":"50f67298b9e06f7d0d04faf69157d9dca332f6bfb7f38b9c7d86deb75d5cac6a"}
 {"level":"N2","kind":"vocab","id":"ad4ecf843d","language":"bn","field":"meaning","source_sha256":"f9c86b9baaaa6bc9b4e82fea4599cffa5d28ba26971c0ae8dbcc691915104702"}
-{"level":"N2","kind":"vocab","id":"ad4ecf843d","language":"bn","field":"examples.0","source_sha256":"8a77c1dd0757a3f1b17d398aa0a1413c7bf1df2a0c5525f40e355203cfe5f569"}
 {"level":"N2","kind":"vocab","id":"ad4ecf843d","language":"bn","field":"examples.1","source_sha256":"21ff6b1068838233de6a319bd3d53cacf21d8ecca78a6857bdb75488b2e92141"}
 {"level":"N2","kind":"vocab","id":"049cebeff8","language":"bn","field":"meaning","source_sha256":"07b4f4714690608d1e75f5e1f27dac9fc528073eb1a86228cc52cee84617ad0c"}
 {"level":"N2","kind":"vocab","id":"049cebeff8","language":"bn","field":"examples.0","source_sha256":"8b1e88f7aea6286451e0081d0a7687e2b85c77e7df29e132538d79e19d160036"}
@@ -6295,7 +6193,6 @@
 {"level":"N2","kind":"vocab","id":"c7c5529d83","language":"bn","field":"examples.1","source_sha256":"c6124f8f4b3eeb49410e6d87d76ce2aeeb86cc2b289803f100718602451a1aba"}
 {"level":"N2","kind":"vocab","id":"afb774a77e","language":"bn","field":"meaning","source_sha256":"72ea859cfe7549a1d3ecdd28cecdf51e91a1f28f0ad62ea74509634047a5fd5f"}
 {"level":"N2","kind":"vocab","id":"afb774a77e","language":"bn","field":"examples.0","source_sha256":"6e45926656a69c809f166096f93a8dc300ef0f47e74f13cf43c5f2b14b89b614"}
-{"level":"N2","kind":"vocab","id":"afb774a77e","language":"bn","field":"examples.1","source_sha256":"22c6452a487704582a83a1f87463bd394d16d82d9c12ab4099098909a73b5cf7"}
 {"level":"N2","kind":"vocab","id":"9cdbf2f93d","language":"bn","field":"meaning","source_sha256":"483dc5c9d10311eb04c7fde6b55e60706d81d2f4e8664ca6b823b01530bad935"}
 {"level":"N2","kind":"vocab","id":"9cdbf2f93d","language":"bn","field":"examples.0","source_sha256":"5ae734e0cc2fd895d5250c72846092b5540d1f76865fa4f683cb7a35b390aee4"}
 {"level":"N2","kind":"vocab","id":"9cdbf2f93d","language":"bn","field":"examples.1","source_sha256":"d0199b9e19e04df3947eee4a1769bc81778a1928b7f080cec14a7b4c9ae704fe"}
@@ -6396,7 +6293,6 @@
 {"level":"N2","kind":"vocab","id":"7045685b8f","language":"bn","field":"meaning","source_sha256":"bee56caa3d84f82bcf24d483b62fe59b4a077cdf5bbb19a1baff257d2806aed7"}
 {"level":"N2","kind":"vocab","id":"b74910080c","language":"bn","field":"meaning","source_sha256":"5bf44cd2d068b0977c9aab9dadbcaf3e17978082e4ac92753dfb31ddc80bd3d1"}
 {"level":"N2","kind":"vocab","id":"fbc4e2c947","language":"bn","field":"meaning","source_sha256":"b5fc4cb5413e41505af04d4fe0c90987738cf0fd7266b9711c78a3daf31b8233"}
-{"level":"N2","kind":"vocab","id":"fbc4e2c947","language":"bn","field":"examples.0","source_sha256":"3b5144e35003ef8dc72a296152c4495f38bd35a6090cb6238027a8957365f65a"}
 {"level":"N2","kind":"vocab","id":"fbc4e2c947","language":"bn","field":"examples.1","source_sha256":"bc892dd52a4759af2a664bae1e2955f88d7e0da9091d55f9a92e2d04d70f609c"}
 {"level":"N2","kind":"vocab","id":"ceee9cc545","language":"bn","field":"meaning","source_sha256":"3d1c483ee73af7aaf4250f1c4ff54fd4637bcc1df45858f5c3e83c61601a28e3"}
 {"level":"N2","kind":"vocab","id":"ceee9cc545","language":"bn","field":"examples.0","source_sha256":"bb9326ecfe64e574029b138ea9710b8dc1d5823d870f7bb7405ee62090e3e333"}
@@ -6480,7 +6376,6 @@
 {"level":"N2","kind":"vocab","id":"55ae63883f","language":"bn","field":"examples.0","source_sha256":"8fa4b43fa7c054a7280e5afb6ab6f515b6cd2314e6fe997953b487c0e3325307"}
 {"level":"N2","kind":"vocab","id":"88c7c412dd","language":"bn","field":"meaning","source_sha256":"1b8e24eeac6d2a81977d1c89ff267e7e255db204d18eb3f8d117677d02648664"}
 {"level":"N2","kind":"vocab","id":"88c7c412dd","language":"bn","field":"examples.0","source_sha256":"d55e6321c654a68017b72f316b37f6113e136e5a7eb335038f509f0496646b09"}
-{"level":"N2","kind":"vocab","id":"88c7c412dd","language":"bn","field":"examples.1","source_sha256":"d93c3f4bb89cc1d2b0d608b0895b45abddcd02f6fc8f8ecaf5739fddcd37863b"}
 {"level":"N2","kind":"vocab","id":"368baf2dfb","language":"bn","field":"meaning","source_sha256":"9dedf908f0cd05f4e104f6d2d8be77c1bf6d7e5d1ed6cf27a2355050d29e7c95"}
 {"level":"N2","kind":"vocab","id":"368baf2dfb","language":"bn","field":"examples.0","source_sha256":"9874f9cfd02fba301fceae8574e144fa6fa64d1d2f657186f86ed3702791303f"}
 {"level":"N2","kind":"vocab","id":"368baf2dfb","language":"bn","field":"examples.1","source_sha256":"4c535531619a3e002e704a1cf910872e3aa54d17e342c015739cf3572ef3ac8e"}
@@ -6858,7 +6753,6 @@
 {"level":"N2","kind":"vocab","id":"0d38dcb15b","language":"bn","field":"examples.1","source_sha256":"0b4c5810923bd7aaa0fa925664155062f0f51582875ded65ab7d3364962f3edb"}
 {"level":"N2","kind":"vocab","id":"61ed75f466","language":"bn","field":"meaning","source_sha256":"680ed723ad63a60a24dd17f4b1dec831eb0bcda004e7e565b84425c6a717db82"}
 {"level":"N2","kind":"vocab","id":"61ed75f466","language":"bn","field":"examples.0","source_sha256":"977826dd21cd8ee9edc142e2b1d95147c58f94f1e887d6590f00ba48448f76d6"}
-{"level":"N2","kind":"vocab","id":"61ed75f466","language":"bn","field":"examples.1","source_sha256":"2613864cb02b1f4f739a63ef89eb936b8ea7b1e15b11e8162dc72d72bfc156f1"}
 {"level":"N2","kind":"vocab","id":"1d12a649ce","language":"bn","field":"meaning","source_sha256":"586f2a4c788f86d884768a549f4cc945aa98e0b7a2b65fa5dfe5fd6a67b6cab5"}
 {"level":"N2","kind":"vocab","id":"1d12a649ce","language":"bn","field":"examples.0","source_sha256":"c0aadb853c4024e0ffc8aeb6d5243725f2d952d7be16fc3b7cbff1afc7d3b34b"}
 {"level":"N2","kind":"vocab","id":"9d9cfcda72","language":"bn","field":"meaning","source_sha256":"f4172ccfbeb1744f1f4530009fec69e5fb2202b6e43b300b0d2e4058d9228013"}
@@ -6957,7 +6851,6 @@
 {"level":"N2","kind":"vocab","id":"87313b2fe5","language":"bn","field":"examples.0","source_sha256":"b9015d14ec0df265297d04dcf5f26a28708253ee009e03a52c898d8e7178f8bd"}
 {"level":"N2","kind":"vocab","id":"87313b2fe5","language":"bn","field":"examples.1","source_sha256":"fba00a29e70ca6df8d0035503585a39fbe54257fbd1faac99fa533d603353774"}
 {"level":"N2","kind":"vocab","id":"22def1bae6","language":"bn","field":"meaning","source_sha256":"b6ac2e786037a7ed9552d77c8fe913ec392368d0b1da2d14b8dfbb3190828ab0"}
-{"level":"N2","kind":"vocab","id":"22def1bae6","language":"bn","field":"examples.0","source_sha256":"b6a37afffb942fa00be9a2a2a344b22014b542ce4b45b7c670a7194e2f1669ff"}
 {"level":"N2","kind":"vocab","id":"22def1bae6","language":"bn","field":"examples.1","source_sha256":"edfb013821407a612fa52fff5475b13c2dc629d0a077ec688866db86b1052860"}
 {"level":"N2","kind":"vocab","id":"4e8fe5911e","language":"bn","field":"meaning","source_sha256":"bf8da1fa3ca33379f711e09048906fcb856e40a34670889ea9970f1df5a77d78"}
 {"level":"N2","kind":"vocab","id":"4e8fe5911e","language":"bn","field":"examples.0","source_sha256":"158e44b158e2ec7636bf7cc3462ab6e16d66afac3ebcae85076840aade132983"}
@@ -7107,7 +7000,6 @@
 {"level":"N2","kind":"vocab","id":"7dc4f9002b","language":"bn","field":"examples.0","source_sha256":"5fab2ca58dd98283403782b209e4c6cf84769ae1298b45aae91e4f63d04e1f6d"}
 {"level":"N2","kind":"vocab","id":"7dc4f9002b","language":"bn","field":"examples.1","source_sha256":"06d2d3f55774116bd1c7f3abc1cc8e4959c9c2e1e8eb3dc59c5c73aad6a40afa"}
 {"level":"N2","kind":"vocab","id":"9c34d52658","language":"bn","field":"meaning","source_sha256":"9faf3d70e7a671b4aaf71aa93fbfdece21ae3cf9cac44433971f6407f12149fd"}
-{"level":"N2","kind":"vocab","id":"9c34d52658","language":"bn","field":"examples.0","source_sha256":"390531722c22237d847613238463682c5f1f038e2862937f3b06e3fa1862fe49"}
 {"level":"N2","kind":"vocab","id":"9c34d52658","language":"bn","field":"examples.1","source_sha256":"7211b289ad4113f21aca6a054c5267faca67ecb520cedd92f0abe4716cfb5895"}
 {"level":"N2","kind":"vocab","id":"6398ff89a6","language":"bn","field":"meaning","source_sha256":"5ac71efd2ebe330796ff060bd96f323ced7ad7bdb81894ac47ef699852a61f05"}
 {"level":"N2","kind":"vocab","id":"6398ff89a6","language":"bn","field":"examples.0","source_sha256":"98d6718be7bc76151eca65eb238cc2907779ece090a12cf2e5156aaffae3eb90"}
@@ -7115,7 +7007,6 @@
 {"level":"N2","kind":"vocab","id":"b23a427cf5","language":"bn","field":"examples.0","source_sha256":"86f9775ede64e9adde732200674a4ea5af0e55e35a0b8d19ed3f650df1e5ad0e"}
 {"level":"N2","kind":"vocab","id":"b23a427cf5","language":"bn","field":"examples.1","source_sha256":"bae4619ea7a7a100b3d6cd120e025dd3ef9986f4a7cef5dce04adab36b790c3f"}
 {"level":"N2","kind":"vocab","id":"50b6055d9b","language":"bn","field":"meaning","source_sha256":"490efc7f58e1a810bfd18d2807f9ac320a9753dd72669e9898ee2d904a01413f"}
-{"level":"N2","kind":"vocab","id":"50b6055d9b","language":"bn","field":"examples.0","source_sha256":"fca656f4698a50a6fdb6cbff98d0363fbe632a1d2e29e5be4a40d2e8e847188e"}
 {"level":"N2","kind":"vocab","id":"50b6055d9b","language":"bn","field":"examples.1","source_sha256":"164bdcdc21a23cc872b706a43e0d9424e64a8a9f0be5b1eac53b83c56fb89fa7"}
 {"level":"N2","kind":"vocab","id":"5687460a15","language":"bn","field":"meaning","source_sha256":"1906994d6c91e47c69902251a47f6b93ab120f1bf63051c81baf9b5b66e8b889"}
 {"level":"N2","kind":"vocab","id":"5687460a15","language":"bn","field":"examples.0","source_sha256":"10351c961e929258b315517caeb0485f7fd9ede461ca5ff71604134cc68337a2"}
@@ -7159,7 +7050,6 @@
 {"level":"N2","kind":"vocab","id":"36aeb65143","language":"bn","field":"examples.0","source_sha256":"d5e346c5ee7936c9328091f1e5a048d0d07dc278dfde7d93b11f86076c02ae09"}
 {"level":"N2","kind":"vocab","id":"36aeb65143","language":"bn","field":"examples.1","source_sha256":"9523cf82bc5aa974770577ac6e9605c4e76d69ff44e0cc9ffc0517a61c2aa31d"}
 {"level":"N2","kind":"vocab","id":"5fc011d141","language":"bn","field":"meaning","source_sha256":"e2f26c633b7c8335a85636a4b05859dd758d9308a96af4fb4ae5b7eb9eb06c59"}
-{"level":"N2","kind":"vocab","id":"5fc011d141","language":"bn","field":"examples.0","source_sha256":"017a05c0d795240dd675acc2ceb9f55e71c7d0c5b248dc59f380c2876552c979"}
 {"level":"N2","kind":"vocab","id":"5fc011d141","language":"bn","field":"examples.1","source_sha256":"d5e2fbdbc9db63f892f930745016f8f00b310c6d867a174e85ffc7d0a08073c2"}
 {"level":"N2","kind":"vocab","id":"da902c0820","language":"bn","field":"meaning","source_sha256":"bd6dccacc4960eccb8c6f0577c2733ce38eac468967058626fbfe40f706ff0cf"}
 {"level":"N2","kind":"vocab","id":"4dcfec8f3b","language":"bn","field":"meaning","source_sha256":"2fc778126e2e72778c247cba886a6fa96f0bc78c50fd5950c179c1cfc8737f33"}
@@ -7197,7 +7087,6 @@
 {"level":"N2","kind":"vocab","id":"081607d806","language":"bn","field":"examples.1","source_sha256":"e979fbd6d0941a6e04cb5c4d431e48dbb5c26b23aa2398460d16e413bbd9d599"}
 {"level":"N2","kind":"vocab","id":"c3c21a7396","language":"bn","field":"meaning","source_sha256":"69916c59d9bfd69c7e14c8a3f5da12fab9ff117564b264d1949923a8d94a1edf"}
 {"level":"N2","kind":"vocab","id":"c3c21a7396","language":"bn","field":"examples.0","source_sha256":"edf86f730efee31048d7f36b95f5918979a82db2dc8abe7a75a453d651594ce3"}
-{"level":"N2","kind":"vocab","id":"c3c21a7396","language":"bn","field":"examples.1","source_sha256":"8e34852a35e80e9b1d6273631d92542d1fd66b37e9963b1add3fe7fe9679d028"}
 {"level":"N2","kind":"vocab","id":"3957b9283e","language":"bn","field":"meaning","source_sha256":"175808bdede74929e3f27b7f5f23c3e0edc0f4fc6a451857ec6b678d16a76ddf"}
 {"level":"N2","kind":"vocab","id":"3957b9283e","language":"bn","field":"examples.0","source_sha256":"f24776dd64fe6e18d6282c325360d5ed79d3d346f6795169dc3035f89f23e4b7"}
 {"level":"N2","kind":"vocab","id":"3957b9283e","language":"bn","field":"examples.1","source_sha256":"77ff15e3003a168e46ea6c94399bf2071181efdecfd276faf5bb8e8d8214d130"}
@@ -7214,7 +7103,6 @@
 {"level":"N2","kind":"vocab","id":"a89704a64a","language":"bn","field":"examples.0","source_sha256":"a15a284f43ec17e9c15ad8cd063f00d7de6fda03bf336927a7ad9e57d873401d"}
 {"level":"N2","kind":"vocab","id":"a89704a64a","language":"bn","field":"examples.1","source_sha256":"631ef77fa349352ea0b9e9f8257d8b813711ba186ce5de8ac4fc4d89a90cc931"}
 {"level":"N2","kind":"vocab","id":"370b10e13a","language":"bn","field":"meaning","source_sha256":"2ced74d9d5933fd4f94a1e208d7264edae16ed2f6ee7f6687fd1a383c98271d1"}
-{"level":"N2","kind":"vocab","id":"370b10e13a","language":"bn","field":"examples.0","source_sha256":"654101aedb16fe0c2e21bb703432a9583a7af3d7be95f2ba2fa00bb44fe992b3"}
 {"level":"N2","kind":"vocab","id":"370b10e13a","language":"bn","field":"examples.1","source_sha256":"4f5b1b43ad8d1e3cbf68075cb0b4d1c9270d6ecb07b7111d281a3530a5502027"}
 {"level":"N2","kind":"vocab","id":"da73d5aa2c","language":"bn","field":"meaning","source_sha256":"f8c9df1bb4cc996a56c195e43c415c32cb13ae3c01b85b9a477dd3e2ba159315"}
 {"level":"N2","kind":"vocab","id":"da73d5aa2c","language":"bn","field":"examples.0","source_sha256":"f5837570233dc4d0c5e5eec4ca57c0436cb2d61e03832ea8224a7634171242d8"}
@@ -7315,7 +7203,6 @@
 {"level":"N2","kind":"vocab","id":"d434669f71","language":"bn","field":"examples.0","source_sha256":"b0b4a82e12cbee0cff34b3995d33fb1b174690f9900c3c56f91b5238921296df"}
 {"level":"N2","kind":"vocab","id":"d434669f71","language":"bn","field":"examples.1","source_sha256":"ac907fc870b44e205e7ef413ea23fcd1069420b84051393a075b157b061303dd"}
 {"level":"N2","kind":"vocab","id":"e380a00f33","language":"bn","field":"meaning","source_sha256":"b5441392d7817087f475080695f53a1d5b3b7e86391959c90bf9ebb605c78c14"}
-{"level":"N2","kind":"vocab","id":"e380a00f33","language":"bn","field":"examples.0","source_sha256":"0f57299afee957bc8d30fdfc1320238cd29f001a5f9649425f9da426e9f4b511"}
 {"level":"N2","kind":"vocab","id":"e380a00f33","language":"bn","field":"examples.1","source_sha256":"1a64307047ded7eabef50c8c392e904d3a0e2cb8e16f7de81fe3cbe4bdbb4bd8"}
 {"level":"N2","kind":"vocab","id":"a992ca5e44","language":"bn","field":"meaning","source_sha256":"887fb2e48e59046b2a7700dc9535b60bb60e947b69daed54e9011ee2ed032e30"}
 {"level":"N2","kind":"vocab","id":"a992ca5e44","language":"bn","field":"examples.0","source_sha256":"d2d9fcdf098aa01f772d45451776a776020297d58cb1900c0b471cd6c2e3b754"}
@@ -7635,7 +7522,6 @@
 {"level":"N2","kind":"vocab","id":"2effe26e96","language":"bn","field":"examples.1","source_sha256":"c220b48e8e02209b91c1189677b8718d2092ead95c911d6d26e20017eb9c7c94"}
 {"level":"N2","kind":"vocab","id":"a104cae099","language":"bn","field":"meaning","source_sha256":"f9f5c7427480f06f65ba98890c41e7bac11aca182d5a83f9c444ceb1c6b02f98"}
 {"level":"N2","kind":"vocab","id":"a104cae099","language":"bn","field":"examples.0","source_sha256":"7d10fa07fbc0f149946df8eac064b0d0c49f20de4214ba9507351ba4736d1993"}
-{"level":"N2","kind":"vocab","id":"a104cae099","language":"bn","field":"examples.1","source_sha256":"03c594ff5816d19b41454f2b8c05c1d7eec6b89790cc964f7de2e849e7057539"}
 {"level":"N2","kind":"vocab","id":"808b166fab","language":"bn","field":"meaning","source_sha256":"82ebb3d86e6a114a869784bc568ed99dea335bbf0d2920ee7149f0908c4d6c97"}
 {"level":"N2","kind":"vocab","id":"808b166fab","language":"bn","field":"examples.0","source_sha256":"56bb7d66b24497b0e50f94c848c3fbdb1a6cb51d4b00c18aef3a60ca13785bda"}
 {"level":"N2","kind":"vocab","id":"808b166fab","language":"bn","field":"examples.1","source_sha256":"f990d9e25224bf4acc0a879ae8e95b2a3990dcc9eaf6bf868974a33f01d5d8cf"}
@@ -7730,7 +7616,6 @@
 {"level":"N2","kind":"vocab","id":"8867344d55","language":"bn","field":"examples.0","source_sha256":"7e826ce7cbcf02f41df82db7c2d21d6b932f2dcaf6bc2820e73136a15dbb62ba"}
 {"level":"N2","kind":"vocab","id":"8867344d55","language":"bn","field":"examples.1","source_sha256":"2165cf928db9194dd0e5f05ad19a896faa6da1166b963dcbcdb4b439fca86305"}
 {"level":"N2","kind":"vocab","id":"f00e187c45","language":"bn","field":"meaning","source_sha256":"0f60260ebb54494c5b6f4c53287ba5ba9e51e92a99cdf3542a3f33e13e775443"}
-{"level":"N2","kind":"vocab","id":"f00e187c45","language":"bn","field":"examples.0","source_sha256":"d26acf48b8274cfd6ad5bcfaa218c4a7fcb9d046f621327ff5f0d45495a04b59"}
 {"level":"N2","kind":"vocab","id":"f00e187c45","language":"bn","field":"examples.1","source_sha256":"3fe777b049530218cb57675bfd18528c02bef51010e1d972407a0ac8e825cca9"}
 {"level":"N2","kind":"vocab","id":"eb8077f101","language":"bn","field":"meaning","source_sha256":"3bf091385ded765598f0656386472b2ab56f465d4ceb8e0078e007ea7f995b3d"}
 {"level":"N2","kind":"vocab","id":"eb8077f101","language":"bn","field":"examples.0","source_sha256":"1e0cfc4991656ef9395a20835017cf5485a6da7674749e89428c5f65b24f519e"}
@@ -7748,7 +7633,6 @@
 {"level":"N2","kind":"vocab","id":"68378c2685","language":"bn","field":"examples.1","source_sha256":"19cc2eb072d3aacab28d82b1589a78af09ae0cb8e3040652ef9e16bc3921afe2"}
 {"level":"N2","kind":"vocab","id":"c864ff58da","language":"bn","field":"meaning","source_sha256":"1dbab2b2683ee62d9283cbe1d4b64600c4894ece24b1b6a9170e16726be1487c"}
 {"level":"N2","kind":"vocab","id":"c864ff58da","language":"bn","field":"examples.0","source_sha256":"985c9b24539ec649a141580081970cb34fc04526a4d2f2bcf0a65b310e0e59fa"}
-{"level":"N2","kind":"vocab","id":"c864ff58da","language":"bn","field":"examples.1","source_sha256":"19647d4c0751fedaae35be4791606f7c95c32472437696e9303e0901c255e538"}
 {"level":"N2","kind":"vocab","id":"93c3df67fe","language":"bn","field":"meaning","source_sha256":"21426f845e99e036d6216f9191d3bc494098e8ed8da3e2e6ddc9333994d8ca3d"}
 {"level":"N2","kind":"vocab","id":"93c3df67fe","language":"bn","field":"examples.0","source_sha256":"24f8febf8f6aec7634fe2ea780350eafd86a838a0f8e7aae23f80121114cd940"}
 {"level":"N2","kind":"vocab","id":"93c3df67fe","language":"bn","field":"examples.1","source_sha256":"b681e6e5cf813d5abb5d46aa76c2f79330961938367966f187009ce6db634c53"}
@@ -7772,7 +7656,6 @@
 {"level":"N2","kind":"vocab","id":"afd6358788","language":"bn","field":"examples.1","source_sha256":"010f5e3e87f80d62b70432b07cda997a1a4098f36765f32c3a35f26c4645483f"}
 {"level":"N2","kind":"vocab","id":"6d105647c5","language":"bn","field":"meaning","source_sha256":"15bd456f15730baaf95612979a696e42edf3886ed8d632dcf56ac010db975e16"}
 {"level":"N2","kind":"vocab","id":"6d105647c5","language":"bn","field":"examples.0","source_sha256":"f10fe8072dfa5c8fc7520439537052932eaf59e83f64128228fc68227beb162d"}
-{"level":"N2","kind":"vocab","id":"6d105647c5","language":"bn","field":"examples.1","source_sha256":"99d69fddcbf437e01e4cde356583ce3aa32f8cf87ed2af45b8a7d68ff0df9dc8"}
 {"level":"N2","kind":"vocab","id":"a3c5f7dcf6","language":"bn","field":"meaning","source_sha256":"0e4d785a675a517e3f8edc77a659c3b5f2b23a70e196d2b494aac955a7ec9436"}
 {"level":"N2","kind":"vocab","id":"a3c5f7dcf6","language":"bn","field":"examples.0","source_sha256":"e333e953757963167ea7f953f60769b6b7f7c7fc7cd26d07d79490442d6e66fe"}
 {"level":"N2","kind":"vocab","id":"a3c5f7dcf6","language":"bn","field":"examples.1","source_sha256":"0392cc7c0ac5d6bdf63193f554c74c27373c3cd875fb07e3a00f809e32de019a"}
@@ -7780,7 +7663,6 @@
 {"level":"N2","kind":"vocab","id":"8093d21731","language":"bn","field":"examples.0","source_sha256":"91b9b1a5f9a62843e0d51c51f13a7dfcc6205d7e7c29f15d39d3a97282af11fa"}
 {"level":"N2","kind":"vocab","id":"8093d21731","language":"bn","field":"examples.1","source_sha256":"dce7384efd60992c9bb7252a783f00638b4f38b00dd1bc82c3bf08848dbd2fb5"}
 {"level":"N2","kind":"vocab","id":"561a981d4b","language":"bn","field":"meaning","source_sha256":"bfe928db0e91791bf631851639aa21d5d88b63ed0eb035632da6ce7e5dbeede7"}
-{"level":"N2","kind":"vocab","id":"561a981d4b","language":"bn","field":"examples.0","source_sha256":"7adfbdce99810eb9d3f9fa4311cd8519a3d4931b621a9c68db0b05c273fa6925"}
 {"level":"N2","kind":"vocab","id":"561a981d4b","language":"bn","field":"examples.1","source_sha256":"3d4bfee180dbfa7312499393b48294f6782f6dc5943dd1314ca8f463be1cbb21"}
 {"level":"N2","kind":"vocab","id":"5af15108d0","language":"bn","field":"meaning","source_sha256":"b2ff5322fb39843a1ee1fe7946fe079ded571ed9278a54ef375e708c460260e0"}
 {"level":"N2","kind":"vocab","id":"5af15108d0","language":"bn","field":"examples.0","source_sha256":"b5c48e1a690ddd22ebf197b2330a185c59c08175e3041b5f0d31bb2ad359fdc2"}
@@ -7965,7 +7847,6 @@
 {"level":"N2","kind":"vocab","id":"705663b2ad","language":"bn","field":"examples.0","source_sha256":"e1d03a5aacd7844630a6aebb66b8e0ae06e7c8d93114087ea467d7a65710df1c"}
 {"level":"N2","kind":"vocab","id":"705663b2ad","language":"bn","field":"examples.1","source_sha256":"3eb3560963f2cb13e15c43f8084aa9c45bae93f8b8df3fcd771c63e6c1b4f704"}
 {"level":"N2","kind":"vocab","id":"d7aad6d893","language":"bn","field":"meaning","source_sha256":"f5fe895676603a209f26bcc3659481360639f21f277dc7e761907063f8eecca3"}
-{"level":"N2","kind":"vocab","id":"d7aad6d893","language":"bn","field":"examples.0","source_sha256":"0096c9e8a68cc0f7e494152b19973ff783e4648932d67f29b86f548806b27e68"}
 {"level":"N2","kind":"vocab","id":"d7aad6d893","language":"bn","field":"examples.1","source_sha256":"fe5ad5977efcc064e70070b2ba4d3779a067eb5c03f57bcec03d24ba3986b8a7"}
 {"level":"N2","kind":"vocab","id":"c305d4a6e1","language":"bn","field":"meaning","source_sha256":"e8e242e59596c4c5cf0cb67b72155e6553e0536c5571240bde01fdd77122fd2b"}
 {"level":"N2","kind":"vocab","id":"c305d4a6e1","language":"bn","field":"examples.0","source_sha256":"448f586c531a55da98f1e26a98227af5a63c909b728c1d3d3f7a147b32bcf027"}
@@ -7973,7 +7854,6 @@
 {"level":"N2","kind":"vocab","id":"e01e3ed9a2","language":"bn","field":"examples.0","source_sha256":"0aed1360cdd16e520a6136dfa6c7097e801d5c7fc94e60713ad5eed117c1becb"}
 {"level":"N2","kind":"vocab","id":"e01e3ed9a2","language":"bn","field":"examples.1","source_sha256":"adfb39a1d5691d59f182d73124ae34322b661f45c649d13eff9820ae144507ba"}
 {"level":"N2","kind":"vocab","id":"8dd4e6c718","language":"bn","field":"meaning","source_sha256":"e6cd6978b0ffbc23e48f732837615e0c806fb69e32b15769b058c628704ea0e6"}
-{"level":"N2","kind":"vocab","id":"8dd4e6c718","language":"bn","field":"examples.0","source_sha256":"718a4c5faaafc373c3a4a07d13651f78ae3a7e29291f477193f82c826fafd642"}
 {"level":"N2","kind":"vocab","id":"8dd4e6c718","language":"bn","field":"examples.1","source_sha256":"297a5f2335ccef8f6136e44d6e46dd719f6b2587f732037391d5cdfdcfa51ed7"}
 {"level":"N2","kind":"vocab","id":"fa4c3baabd","language":"bn","field":"meaning","source_sha256":"e6eb0a1e23b720346716052eb2f92f3586eb9f504d02184afc9fa3be18c9075a"}
 {"level":"N2","kind":"vocab","id":"fa4c3baabd","language":"bn","field":"examples.0","source_sha256":"361e06649812f8af42ccc79f791675db7c309d043156db87622d6c92adce1276"}
@@ -7996,7 +7876,6 @@
 {"level":"N2","kind":"vocab","id":"270816b6b9","language":"bn","field":"examples.0","source_sha256":"1390d0e3cb4613900607bb419b40eb5147d5efe0038ddec563f6841e40b243c1"}
 {"level":"N2","kind":"vocab","id":"270816b6b9","language":"bn","field":"examples.1","source_sha256":"dab99da591caab76d260ec6af86251bd38ec10dad8659abc6bcc2460b3de4d3b"}
 {"level":"N2","kind":"vocab","id":"7b0e1ac9e0","language":"bn","field":"meaning","source_sha256":"1a7ae24d0ddcd79c6613a709751696acf4d6007bebcb7f0acaf1fe99692ad8f2"}
-{"level":"N2","kind":"vocab","id":"7b0e1ac9e0","language":"bn","field":"examples.0","source_sha256":"88f18ee2a915ddd52c741887478ba6c26dcf29e943b726edae0efc261f1e77cc"}
 {"level":"N2","kind":"vocab","id":"40481ab25c","language":"bn","field":"meaning","source_sha256":"a283207a6aa0192e65cf1c8846015e16b4ec34f27fb0bcafdb3dd48d6cab9817"}
 {"level":"N2","kind":"vocab","id":"f9ea0cc185","language":"bn","field":"meaning","source_sha256":"29caa02919ada1986efbd63b0a3f0850e29a9fa58000b3409b30c08c2b69d0b0"}
 {"level":"N2","kind":"vocab","id":"4977d2381f","language":"bn","field":"meaning","source_sha256":"ea4d11645687daa1b74c1f6cfef83e9082e02e1c35776de07875eaac19c6dd8e"}
@@ -8012,7 +7891,6 @@
 {"level":"N2","kind":"vocab","id":"b7af843a7d","language":"bn","field":"examples.0","source_sha256":"52c90e25f710aa8c3f550b7d6721eef60a1cb9033416cbcff60631e031b192c3"}
 {"level":"N2","kind":"vocab","id":"b7af843a7d","language":"bn","field":"examples.1","source_sha256":"7eb6977dfd705c4995dcc44de54b3c82edb0949af04cf3dd4edeae6a47aeb210"}
 {"level":"N2","kind":"vocab","id":"a941e4dd4a","language":"bn","field":"meaning","source_sha256":"85398e7a94662202e6ec7dd008acd7b93244eab3cb6a26f8f7ed2c8ef950dca9"}
-{"level":"N2","kind":"vocab","id":"a941e4dd4a","language":"bn","field":"examples.0","source_sha256":"9fa3b4824bc3f664e821b7e24653b0b2dfc1b307fb64107308c356cad02f133b"}
 {"level":"N2","kind":"vocab","id":"a941e4dd4a","language":"bn","field":"examples.1","source_sha256":"177e80b24ab4ccb7a4900248c59589b4b561934eab7feed12dc6f4f5c29ece57"}
 {"level":"N2","kind":"vocab","id":"e7d30987dd","language":"bn","field":"meaning","source_sha256":"84d3867687c1fa5e1507cbe4a01c04688ca12f95e6bbbd763653cabc88d1e3a5"}
 {"level":"N2","kind":"vocab","id":"e7d30987dd","language":"bn","field":"examples.0","source_sha256":"56c90ca0bacec8cd7059b664ef812d178c4471c7e5272b712bc0db4613ab5a76"}
@@ -8127,13 +8005,11 @@
 {"level":"N2","kind":"vocab","id":"da17d2355a","language":"bn","field":"examples.0","source_sha256":"c75fd45eb8b13d8d95581ccaa2076e97af439fdea8e342788e9b31f5f2eeae8d"}
 {"level":"N2","kind":"vocab","id":"da17d2355a","language":"bn","field":"examples.1","source_sha256":"3a08110611b5d2747381ad3122923c8c593fff7237cb2ee864a2bc2bee8477fc"}
 {"level":"N2","kind":"vocab","id":"b34032ae3f","language":"bn","field":"meaning","source_sha256":"3b910d00224ddd5d1dce25ce792cfeea39980e352abd347e43beda00744a45f2"}
-{"level":"N2","kind":"vocab","id":"b34032ae3f","language":"bn","field":"examples.0","source_sha256":"e6c17490f8025dad8585d47fba9a363c73305b1e876217e8fbd23ffe37302845"}
 {"level":"N2","kind":"vocab","id":"b34032ae3f","language":"bn","field":"examples.1","source_sha256":"44adbce1dccc9ac2bcc1eca846d3523319e195e7a2168b5e39e713de2aaee8d9"}
 {"level":"N2","kind":"vocab","id":"f98e192838","language":"bn","field":"meaning","source_sha256":"4524542401b91d595f333c41411675c55f61eb3747214751e2fc1fba57e12f43"}
 {"level":"N2","kind":"vocab","id":"f98e192838","language":"bn","field":"examples.0","source_sha256":"0a3482ee3b856444bd07c336cfb5372205acc839e38593e83ce597dd7bc8c3d4"}
 {"level":"N2","kind":"vocab","id":"f98e192838","language":"bn","field":"examples.1","source_sha256":"b5395eeab51af2e3a4f8b0a06641f80e0c27eb148b233b4e43e8b47f50025de2"}
 {"level":"N2","kind":"vocab","id":"037cf136b2","language":"bn","field":"meaning","source_sha256":"167f5c9bc3c0e1cf009c878d5a2e752b81c46974e74cc20881c6e4e9454a1b1d"}
-{"level":"N2","kind":"vocab","id":"037cf136b2","language":"bn","field":"examples.0","source_sha256":"390531722c22237d847613238463682c5f1f038e2862937f3b06e3fa1862fe49"}
 {"level":"N2","kind":"vocab","id":"037cf136b2","language":"bn","field":"examples.1","source_sha256":"9e84b47fe5991d45f926adf278b7bbd79aff8b94d18a740fb7218c1d25c4592b"}
 {"level":"N2","kind":"vocab","id":"9575772ddd","language":"bn","field":"meaning","source_sha256":"9541d0d73adb3891409be17c1d7d921c8d50a3f02a4eb7745d8bbfcb4a14274e"}
 {"level":"N2","kind":"vocab","id":"9575772ddd","language":"bn","field":"examples.0","source_sha256":"038ac5c2a852f0f39704239eee7354525c9bf3a3f5f9ec5ff28297960d053379"}
