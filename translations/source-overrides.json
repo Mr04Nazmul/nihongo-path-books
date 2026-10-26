@@ -1,0 +1,51 @@
+{
+  "N5:vocab:9661cbac61": {
+    "meanings": [
+      "to raise",
+      "to increase",
+      "to give"
+    ],
+    "review_note": "Added senses used by both supplied Japanese examples: raising a hand and increasing speed."
+  },
+  "N5:vocab:1cfccd0cdd": {
+    "meanings": [
+      "one day",
+      "all day"
+    ],
+    "review_note": "いちにち denotes one day/all day; first day of the month is ついたち and has a separate existing entry."
+  },
+  "N5:vocab:cd1bcc2b1b": {
+    "meanings": [
+      "busy",
+      "occupied",
+      "hectic"
+    ],
+    "review_note": "N5 primary sense checked against JMdict 1519290 in Japanese Language Data. Removed misleading irritated gloss; secondary restless/hurried senses are outside this beginner core gloss."
+  },
+  "N5:vocab:ebec658463": {
+    "meanings": [
+      "blue",
+      "green (in some contexts, e.g. traffic signals)"
+    ],
+    "review_note": "The supplied Japanese traffic-light example uses 青 for a green signal; preserve this contextual color distinction."
+  },
+  "N5:vocab:51a671ec17": {
+    "meanings": [
+      "blue",
+      "inexperienced or immature (figurative)"
+    ],
+    "review_note": "The supplied お前はまだ「青い」な example is figurative, not a literal color description."
+  },
+  "N5:vocab:a1cda8cb11": {
+    "meanings": [
+      "half"
+    ],
+    "review_note": "半分 read はんぶん means half; half a minute is はんぷん. Both Japanese examples refer to dividing a whole."
+  },
+  "N5:vocab:b48d0c99d4": {
+    "meanings": [
+      "soap"
+    ],
+    "review_note": "せっけん (石鹸) is soap; economy is an erroneous English gloss. Both existing Japanese examples concern soap."
+  }
+}
