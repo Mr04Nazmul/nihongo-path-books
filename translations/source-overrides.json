@@ -314,5 +314,632 @@
       }
     ],
     "review_note": "Preserved inherited examples and corrected inaccurate English or replaced an example unrelated to the headword. Replacement sentences are explicitly authored."
+  },
+  "N3:vocab:9c851c43f7": {
+    "meanings": [
+      "honorific prefix o-"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "examples": [
+      {
+        "ja": "お名前は何ですか。",
+        "en": "What is your name?",
+        "source": "Authored replacement: inherited example used a different lexical sense or homophone."
+      },
+      {
+        "ja": "お元気ですか。",
+        "en": "Are you well?",
+        "source": "Authored replacement: inherited example used a different lexical sense or homophone."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "御社のお考えを先におっしゃってください。",
+        "furigana": "{御社|おんしゃ}のお{考|かんが}えを{先|さき}におっしゃってください。",
+        "en": "Please let us know your company's thoughts on this matter first.",
+        "tatoeba_id": 76178
+      },
+      {
+        "ja": "お、タエ、このチーズいけるよ。",
+        "en": "Oh, Tae, this cheese is a winner!",
+        "tatoeba_id": 76834
+      }
+    ]
+  },
+  "N3:vocab:c139bcdcb4": {
+    "meanings": [
+      "card"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N3:vocab:e5d795cde2": {
+    "meanings": [
+      "to put away",
+      "to obtain or achieve",
+      "to capture on camera"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N3:vocab:07ced3db7b": {
+    "meanings": [
+      "obi (kimono sash)",
+      "band or belt",
+      "energy band (physics)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "examples": [
+      {
+        "ja": "彼女の着物と帯の取り合わせはおつだね。",
+        "en": "Her kimono and obi combination is smart, isn't it?",
+        "tatoeba_id": 75758
+      },
+      {
+        "ja": "帯に短し、襷に長し。",
+        "en": "Too short for a sash and too long for a tasuki cord: unsuitable for either purpose.",
+        "tatoeba_id": 137949
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼女の着物と帯の取り合わせはおつだね。",
+        "en": "Her kimono and obi combination is smart, isn't it?",
+        "tatoeba_id": 75758
+      },
+      {
+        "ja": "帯に短し、襷に長し。",
+        "en": "Too much spoils, too little is nothing.",
+        "tatoeba_id": 137949
+      }
+    ]
+  },
+  "N3:vocab:cf3cbde2a8": {
+    "meanings": [
+      "to be or exist (humble or dialectal form of iru)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "examples": [
+      {
+        "ja": "おかげで元気にしております。",
+        "furigana": "おかげで{元気|げんき}にしております。",
+        "en": "I am well, thanks to you.",
+        "tatoeba_id": 227760
+      },
+      {
+        "ja": "私は疑念を表明せずにはおれない。",
+        "furigana": "{私|わたし}は{疑念|ぎねん}を{表明|ひょうめい}せずにはおれない。",
+        "en": "I cannot forbear expressing my doubts.",
+        "tatoeba_id": 157713
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "おかげで元気にしております。",
+        "furigana": "おかげで{元気|げんき}にしております。",
+        "en": "They're all fine, thank you.",
+        "tatoeba_id": 227760
+      },
+      {
+        "ja": "私は疑念を表明せずにはおれない。",
+        "furigana": "{私|わたし}は{疑念|ぎねん}を{表明|ひょうめい}せずにはおれない。",
+        "en": "I cannot forbear expressing my doubts.",
+        "tatoeba_id": 157713
+      }
+    ]
+  },
+  "N3:vocab:23538b01de": {
+    "meanings": [
+      "to lower",
+      "to unload",
+      "to let someone off a vehicle"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N3:vocab:69db85c3a9": {
+    "meanings": [
+      "to give a gift",
+      "to present or award"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N3:vocab:b4340dadc2": {
+    "meanings": [
+      "overcoat",
+      "over a limit",
+      "exaggerated"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:ca8c4f4dbf": {
+    "meanings": [
+      "to neglect",
+      "to fail to do a duty"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:1be15a39e4": {
+    "meanings": [
+      "to pay (tax or fees)",
+      "to deliver",
+      "to put away"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "examples": [
+      {
+        "ja": "資産家は高額の所得税を納めなければならない。",
+        "en": "A man of wealth has to pay a lot of income tax.",
+        "tatoeba_id": 150990
+      },
+      {
+        "ja": "明日までに料金を納めてください。",
+        "en": "Please pay the fee by tomorrow.",
+        "source": "Authored replacement: inherited example used a different lexical sense or homophone."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "資産家は高額の所得税を納めなければならない。",
+        "en": "A man of wealth has to pay a lot of income tax.",
+        "tatoeba_id": 150990
+      },
+      {
+        "ja": "彼が仲裁してその場は丸く収めた。",
+        "furigana": "{彼|かれ}が{仲裁|ちゅうさい}してその{場|ば}は{丸|まる}く{収|おさ}めた。",
+        "en": "He intervened and settled the matter peacefully for the time being.",
+        "tatoeba_id": 119647
+      }
+    ]
+  },
+  "N2:vocab:bc22fda1e4": {
+    "meanings": [
+      "to sell wholesale"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:ea45ce4bc8": {
+    "meanings": [
+      "uncle (younger brother of a parent)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:997f2be694": {
+    "meanings": [
+      "uncle (older brother of a parent)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "original_examples": [
+      {
+        "ja": "あなたの叔父さんと話し合いたい。",
+        "furigana": "あなたの{叔父|おじ}さんと{話|はな}し{合|あ}いたい。",
+        "en": "I want to talk with your uncle.",
+        "tatoeba_id": 233200
+      },
+      {
+        "ja": "ヘレンは日曜日ごとに叔父さんを訪問する。",
+        "furigana": "ヘレンは{日曜日|にちようび}ごとに{叔父|おじ}さんを{訪問|ほうもん}する。",
+        "en": "Helen visits her uncle every Sunday.",
+        "tatoeba_id": 196656
+      }
+    ],
+    "examples": [
+      {
+        "ja": "父の兄である伯父さんは東京に住んでいます。",
+        "en": "My uncle, my father’s older brother, lives in Tokyo.",
+        "source": "Authored replacement: inherited examples used 叔父 rather than this entry’s spelling and sense."
+      },
+      {
+        "ja": "日曜日に母の兄である伯父さんに会いました。",
+        "en": "On Sunday I met my uncle, my mother’s older brother.",
+        "source": "Authored replacement: inherited examples used 叔父 rather than this entry’s spelling and sense."
+      }
+    ]
+  },
+  "N2:vocab:b6e9e55b54": {
+    "meanings": [
+      "middle-aged man (familiar address)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations.",
+    "original_examples": [
+      {
+        "ja": "あなたの叔父さんと話し合いたい。",
+        "furigana": "あなたの{叔父|おじ}さんと{話|はな}し{合|あ}いたい。",
+        "en": "I want to talk with your uncle.",
+        "tatoeba_id": 233200
+      },
+      {
+        "ja": "ヘレンは日曜日ごとに叔父さんを訪問する。",
+        "furigana": "ヘレンは{日曜日|にちようび}ごとに{叔父|おじ}さんを{訪問|ほうもん}する。",
+        "en": "Helen visits her uncle every Sunday.",
+        "tatoeba_id": 196656
+      }
+    ],
+    "examples": [
+      {
+        "ja": "隣の小父さんが挨拶してくれました。",
+        "en": "The middle-aged man next door greeted me.",
+        "source": "Authored replacement: inherited examples used 叔父 rather than this entry’s spelling and sense."
+      },
+      {
+        "ja": "あの小父さんはとても親切です。",
+        "en": "That middle-aged man is very kind.",
+        "source": "Authored replacement: inherited examples used 叔父 rather than this entry’s spelling and sense."
+      }
+    ]
+  },
+  "N2:vocab:ab742a2e6a": {
+    "meanings": [
+      "aunt (younger sister of a parent or wife of an uncle)",
+      "middle-aged woman (colloquial)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:1e77167484": {
+    "meanings": [
+      "organ (musical instrument)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:5510e3f22f": {
+    "meanings": [
+      "honorific address for an organization or department in correspondence"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:616698b578": {
+    "meanings": [
+      "auspicious",
+      "congratulatory",
+      "naive or gullible (context-dependent)"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:a3e381631c": {
+    "meanings": [
+      "thanks to you",
+      "thanks to your help"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:bf9ca7e7bf": {
+    "meanings": [
+      "clear cloudless weather"
+    ],
+    "review_note": "Clarified senses for this Japanese spelling and reading; removed inherited mistranslations and homophone conflations."
+  },
+  "N2:vocab:91b50bd069": {
+    "examples": [
+      {
+        "ja": "お元気で。また会いましょう。",
+        "en": "Stay well. Let us meet again.",
+        "source": "Authored replacement: inherited example used a different lexical sense or homophone."
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼女が私に近づいてきて「おげんきですか」と言った。",
+        "en": "She came up to me and said \"How are you?\"",
+        "tatoeba_id": 237047
+      }
+    ]
+  },
+  "N2:vocab:24727f461e": {
+    "examples": [
+      {
+        "ja": "この椅子におかけください。",
+        "en": "Please sit in this chair.",
+        "source": "Authored replacement: inherited example used a different lexical sense or homophone."
+      },
+      {
+        "ja": "こちらにおかけください。",
+        "en": "Please have a seat here.",
+        "tatoeba_id": 2691523
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "いいえ、はじめに９番におかけ下さい。",
+        "furigana": "いいえ、はじめに９{番|ばん}におかけ{下|くだ}さい。",
+        "en": "No, please dial nine first.",
+        "tatoeba_id": 229449
+      },
+      {
+        "ja": "こちらにおかけください。",
+        "en": "Please have a seat here.",
+        "tatoeba_id": 2691523
+      }
+    ]
+  },
+  "N3:vocab:33abea1364": {
+    "examples": [
+      {
+        "ja": "彼女たちの演説はすばらしかった。",
+        "furigana": "{彼女|かのじょ}たちの{演説|えんぜつ}はすばらしかった。",
+        "en": "Their speeches were excellent.",
+        "tatoeba_id": 95140
+      },
+      {
+        "ja": "彼はたくさんの人の前で演説した。",
+        "furigana": "{彼|かれ}はたくさんの{人|ひと}の{前|#1392580}で{演説|えんぜつ}した。",
+        "en": "He made a speech in front of many people.",
+        "tatoeba_id": 112063
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼女たちの演説はすばらしかった。",
+        "furigana": "{彼女|かのじょ}たちの{演説|えんぜつ}はすばらしかった。",
+        "en": "Her speech was excellent.",
+        "tatoeba_id": 95140
+      },
+      {
+        "ja": "彼はたくさんの人の前で演説した。",
+        "furigana": "{彼|かれ}はたくさんの{人|ひと}の{前|#1392580}で{演説|えんぜつ}した。",
+        "en": "He made a speech in front of many people.",
+        "tatoeba_id": 112063
+      }
+    ]
+  },
+  "N3:vocab:5d1c14bede": {
+    "examples": [
+      {
+        "ja": "彼らはレストランの奥の方に座った。",
+        "furigana": "{彼|かれ}らはレストランの{奥|おく}の{方|ほう}に{座|すわ}った。",
+        "en": "The group was seated in the back of the restaurant.",
+        "tatoeba_id": 97583
+      },
+      {
+        "ja": "心の奥からわきあがる。",
+        "furigana": "{心|こころ}の{奥|おく}からわきあがる。",
+        "en": "It wells up from deep within the heart.",
+        "tatoeba_id": 145596
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼らはレストランの奥の方に座った。",
+        "furigana": "{彼|かれ}らはレストランの{奥|おく}の{方|ほう}に{座|すわ}った。",
+        "en": "The group was seated in the back of the restaurant.",
+        "tatoeba_id": 97583
+      },
+      {
+        "ja": "心の奥からわきあがる。",
+        "furigana": "{心|こころ}の{奥|おく}からわきあがる。",
+        "en": "I've got a feeling.",
+        "tatoeba_id": 145596
+      }
+    ]
+  },
+  "N3:vocab:6d74c09476": {
+    "examples": [
+      {
+        "ja": "トムに追いつくために走らなければならなかった。",
+        "furigana": "トムに{追|お}いつくために{走|はし}らなければならなかった。",
+        "en": "I had to run to catch up with Tom.",
+        "tatoeba_id": 200162
+      },
+      {
+        "ja": "彼は車を加速し、私に追いついた。",
+        "furigana": "{彼|かれ}は{車|くるま}を{加速|かそく}し、{私|わたし}に{追|お}いついた。",
+        "en": "He accelerated his car and caught up with me.",
+        "tatoeba_id": 104638
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "トムに追いつくために走らなければならなかった。",
+        "furigana": "トムに{追|お}いつくために{走|はし}らなければならなかった。",
+        "en": "I had to run to catch up with Tom.",
+        "tatoeba_id": 200162
+      },
+      {
+        "ja": "彼は車を加速し、私に追いついた。",
+        "furigana": "{彼|かれ}は{車|くるま}を{加速|かそく}し、{私|わたし}に{追|お}いついた。",
+        "en": "He accelerated his car and overtook me.",
+        "tatoeba_id": 104638
+      }
+    ]
+  },
+  "N2:vocab:6155e8fd84": {
+    "examples": [
+      {
+        "ja": "私はあの人が将来偉くなると見取った。",
+        "furigana": "{私|わたし}はあの{人|ひと}が{将来|しょうらい}{偉|えら}くなると{見取|みと}った。",
+        "en": "I discerned the potential of great things in him.",
+        "tatoeba_id": 161571
+      },
+      {
+        "ja": "あの偉い坊さんを見ろよ。",
+        "furigana": "あの{偉|えら}い{坊|ぼう}さんを{見|み}ろよ。",
+        "en": "Look at that distinguished Buddhist monk.",
+        "tatoeba_id": 231217
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私はあの人が将来偉くなると見取った。",
+        "furigana": "{私|わたし}はあの{人|ひと}が{将来|しょうらい}{偉|えら}くなると{見取|みと}った。",
+        "en": "I discerned the potential of great things in him.",
+        "tatoeba_id": 161571
+      },
+      {
+        "ja": "あの偉い坊さんを見ろよ。",
+        "furigana": "あの{偉|えら}い{坊|ぼう}さんを{見|み}ろよ。",
+        "en": "Look at the big shot.",
+        "tatoeba_id": 231217
+      }
+    ]
+  },
+  "N2:vocab:1495560853": {
+    "examples": [
+      {
+        "ja": "彼女のおおよその年齢しか知らない。",
+        "en": "I only know her approximate age.",
+        "tatoeba_id": 94737
+      },
+      {
+        "ja": "それは、おおよそ５００年前に建てられました。",
+        "en": "It was built about 500 years ago.",
+        "tatoeba_id": 8919774
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼女のおおよその年齢しか知らない。",
+        "en": "We can only know her approximate age.",
+        "tatoeba_id": 94737
+      },
+      {
+        "ja": "それは、おおよそ５００年前に建てられました。",
+        "en": "It was built about 500 years ago.",
+        "tatoeba_id": 8919774
+      }
+    ]
+  },
+  "N3:vocab:7a8059af14": {
+    "examples": [
+      {
+        "ja": "大人はしばしば変化を恐れる。",
+        "furigana": "{大人|おとな}はしばしば{変化|へんか}を{恐|おそ}れる。",
+        "en": "Adults often fear change.",
+        "tatoeba_id": 137475
+      },
+      {
+        "ja": "彼らは立ち聞きされるのを恐れた。",
+        "furigana": "{彼|かれ}らは{立|た}ち{聞|ぎ}きされるのを{恐|おそ}れた。",
+        "en": "They feared being overheard.",
+        "tatoeba_id": 96045
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "大人はしばしば変化を恐れる。",
+        "furigana": "{大人|おとな}はしばしば{変化|へんか}を{恐|おそ}れる。",
+        "en": "Older people often fear change.",
+        "tatoeba_id": 137475
+      },
+      {
+        "ja": "彼らは立ち聞きされるのを恐れた。",
+        "furigana": "{彼|かれ}らは{立|た}ち{聞|ぎ}きされるのを{恐|おそ}れた。",
+        "en": "They feared being overheard.",
+        "tatoeba_id": 96045
+      }
+    ]
+  },
+  "N3:vocab:a80b19470d": {
+    "examples": [
+      {
+        "ja": "あいつはカーマニアだから、車のことならなんでも知ってるよ。",
+        "furigana": "あいつはカーマニアだから、{車|くるま}のことならなんでも{知|し}ってるよ。",
+        "en": "He is a car enthusiast, so he knows everything about cars.",
+        "tatoeba_id": 234639
+      },
+      {
+        "ja": "彼らはＧＴカーが大好きだった。",
+        "furigana": "{彼|かれ}らはＧＴカーが{大好|だいす}きだった。",
+        "en": "They loved grand touring cars.",
+        "tatoeba_id": 98250
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "あいつはカーマニアだから、車のことならなんでも知ってるよ。",
+        "furigana": "あいつはカーマニアだから、{車|くるま}のことならなんでも{知|し}ってるよ。",
+        "en": "He's a car nut. Ask him anything.",
+        "tatoeba_id": 234639
+      },
+      {
+        "ja": "彼らはＧＴカーが大好きだった。",
+        "furigana": "{彼|かれ}らはＧＴカーが{大好|だいす}きだった。",
+        "en": "They loved grand touring cars.",
+        "tatoeba_id": 98250
+      }
+    ]
+  },
+  "N3:vocab:45f44c2449": {
+    "examples": [
+      {
+        "ja": "チェックアウトしたいので、会計をおねがいします。",
+        "furigana": "チェックアウトしたいので、{会計|かいけい}をおねがいします。",
+        "en": "I'd like to check out. Do you have my bill?",
+        "tatoeba_id": 203012
+      },
+      {
+        "ja": "会計係は会計が不足しているのがわかった。",
+        "en": "The accountant found a shortfall in the accounts.",
+        "tatoeba_id": 185326
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "チェックアウトしたいので、会計をおねがいします。",
+        "furigana": "チェックアウトしたいので、{会計|かいけい}をおねがいします。",
+        "en": "I'd like to check out. Do you have my bill?",
+        "tatoeba_id": 203012
+      },
+      {
+        "ja": "会計係は会計が不足しているのがわかった。",
+        "en": "The treasurer was short in his accounts.",
+        "tatoeba_id": 185326
+      }
+    ]
+  },
+  "N2:vocab:df1a94a798": {
+    "examples": [
+      {
+        "ja": "我々のところの気候は温帯性です。",
+        "en": "The climate in our area is temperate.",
+        "tatoeba_id": 186319
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "我々のところの気候は温帯性です。",
+        "en": "Our country's climate is temperate.",
+        "tatoeba_id": 186319
+      }
+    ]
+  },
+  "N2:vocab:834b59c61e": {
+    "examples": [
+      {
+        "ja": "今、女の人が１人入っていきましたよ。",
+        "en": "A woman has just gone inside.",
+        "tatoeba_id": 172888
+      },
+      {
+        "ja": "あの女の人は私よりずっと年上です。",
+        "furigana": "あの{女|おんな}の{人|ひと}は{私|わたし}よりずっと{年上|としうえ}です。",
+        "en": "That woman is much older than I.",
+        "tatoeba_id": 230879
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "今、女の人が１人入っていきましたよ。",
+        "en": "A woman is going into it now.",
+        "tatoeba_id": 172888
+      },
+      {
+        "ja": "あの女の人は私よりずっと年上です。",
+        "furigana": "あの{女|おんな}の{人|ひと}は{私|わたし}よりずっと{年上|としうえ}です。",
+        "en": "That woman is much older than I.",
+        "tatoeba_id": 230879
+      }
+    ]
+  },
+  "N2:vocab:5b8c65c480": {
+    "examples": [
+      {
+        "ja": "彼の解説がわかった人はほとんどいなかった。",
+        "en": "Few people understood his explanation.",
+        "tatoeba_id": 117903
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼の解説がわかった人はほとんどいなかった。",
+        "en": "Few people understood his comment.",
+        "tatoeba_id": 117903
+      }
+    ]
   }
 }
