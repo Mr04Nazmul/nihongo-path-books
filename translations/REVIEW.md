@@ -37,3 +37,7 @@ Authored and checked 200 additional meanings. Examples in this range remain inde
 ## Vocabulary examples, positions 260–309, N3 and N2
 
 Authored and checked 184 examples. Corrected negation, quantities, pronouns and source English mismatches. The inherited 方々 example with the ほうぼう reading was replaced with an attributed かたがた example, with its original preserved. Cumulative N3/N2 checked fields: 1,543 of 13,901; remaining: 12,358. Full review and the 5,000-field target remain incomplete.
+
+## Vocabulary examples, positions 310–359, N3 and N2
+
+Authored and checked 182 examples. Fixed polarity, numbers, time and agency; corrected English source mismatches. Attributed replacement examples demonstrate the intended headwords, with originals preserved. Cumulative N3/N2 checked fields: 1,725 of 13,901; remaining: 12,176. The full semantic review and 5,000-field target remain incomplete.
