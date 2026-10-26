@@ -1,15 +1,3 @@
-{"level":"N3","kind":"vocab","id":"c3b1f16454","language":"bn","field":"meaning","source_sha256":"fdb149eb12620b9205da5d74c6dd34ce3797ac0af2529219dca30aaa7fedf92c"}
-{"level":"N3","kind":"vocab","id":"c3b1f16454","language":"bn","field":"examples.0","source_sha256":"f89ed9aa2405f3187d56e8b22ac9fed615368971ce9c65c4caf78f6746aaf956"}
-{"level":"N3","kind":"vocab","id":"c3b1f16454","language":"bn","field":"examples.1","source_sha256":"c2fd6bfae1e6b8a4b8a5ed48c8aa9ebdd5e14b203c4e45376800005f2f2bdea7"}
-{"level":"N3","kind":"vocab","id":"d2ac37bee3","language":"bn","field":"meaning","source_sha256":"28e2f28364fa8d5b1e6bb0948456a05e94f7943e0fed5050c5dfd1bd2b8ce152"}
-{"level":"N3","kind":"vocab","id":"d2ac37bee3","language":"bn","field":"examples.0","source_sha256":"46221ed37aca84a6807987da803d7a3f2cd01840e698568db80b59567874f7db"}
-{"level":"N3","kind":"vocab","id":"d2ac37bee3","language":"bn","field":"examples.1","source_sha256":"432e7c635641a19aeaf7028a6708c4a7ce0f5669aa2f23e476ccde2090beb6a2"}
-{"level":"N3","kind":"vocab","id":"0cb7e80d4c","language":"bn","field":"meaning","source_sha256":"8ea5aecfa429917ae339c251e6c258dc4f4f930c46d0c2be701b7bed948a824e"}
-{"level":"N3","kind":"vocab","id":"0cb7e80d4c","language":"bn","field":"examples.0","source_sha256":"b7d5e0e8c61380e444092b4a9161237b032d8c8c493bbfa57fde411343daca65"}
-{"level":"N3","kind":"vocab","id":"0cb7e80d4c","language":"bn","field":"examples.1","source_sha256":"f4b5a4c81f5ef687d410f37df6a4fade19add1a669c5c964b310d3e30c2dabb1"}
-{"level":"N3","kind":"vocab","id":"7d26b9a262","language":"bn","field":"meaning","source_sha256":"647199fd4c562c4e6d8ed2b2b201ad7edaee43fcce5802a105fbe91b63d458aa"}
-{"level":"N3","kind":"vocab","id":"7d26b9a262","language":"bn","field":"examples.0","source_sha256":"959e918fd06a58699dc1a0583c3a14ffed1e5ce094813d0b85665e83f5263134"}
-{"level":"N3","kind":"vocab","id":"7d26b9a262","language":"bn","field":"examples.1","source_sha256":"de4f99fcbf21c4fea465ed021fb42d5a1e04aa3f7cc46aebaa2cafbb465a1aab"}
 {"level":"N3","kind":"vocab","id":"9452242b03","language":"bn","field":"meaning","source_sha256":"bd05f621bff39a4747abbca667664adbd0ca9841d23c4dbd8a0fd032f77de8b4"}
 {"level":"N3","kind":"vocab","id":"9452242b03","language":"bn","field":"examples.0","source_sha256":"d6db529791abfb17c6caef88b59a2af57a78e4ffab2023b22a70fc89685368fc"}
 {"level":"N3","kind":"vocab","id":"9452242b03","language":"bn","field":"examples.1","source_sha256":"0a7c6024eb5f77e6854996b929f72e7c8843a9f7c94ab996da4aa1af3bf9bd8f"}
