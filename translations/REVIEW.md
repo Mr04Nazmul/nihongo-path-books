@@ -29,3 +29,7 @@ Authored and checked 200 Bengali meanings and 366 individual example translation
 ## Vocabulary positions 230–259, N3 and N2
 
 Authored and checked 60 meanings and 113 example translations (173 fields). Clarified exchanges/replacements, shade/shadow, amount/frame and adjustment/health senses. Corrected source glosses; two authored replacement examples retain original examples. Cumulative N3/N2 checked fields: 1,159 of 13,901; 12,742 remain pending. Full review and the requested 5,000-field batch remain incomplete.
+
+## Vocabulary meanings, positions 260–359, N3 and N2
+
+Authored and checked 200 additional meanings. Examples in this range remain independently pending. Corrected conflated readings and misleading glosses, including 方々, 学級 and 生地. Cumulative N3/N2 checked fields: 1,359 of 13,901; remaining: 12,542. Full review and the 5,000-field target remain incomplete.

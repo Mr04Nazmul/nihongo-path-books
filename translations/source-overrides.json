@@ -1176,5 +1176,76 @@
         "tatoeba_id": 166870
       }
     ]
+  },
+  "N3:vocab:d9627ee0f6": {
+    "meanings": [
+      "people or persons (honorific plural, katagata)"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N3:vocab:8c7a0c5f8b": {
+    "meanings": [
+      "sweets",
+      "confectionery",
+      "snacks"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N3:vocab:302bc4694a": {
+    "meanings": [
+      "cloth",
+      "fabric",
+      "dough or batter"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:9ceaaec557": {
+    "meanings": [
+      "school class (group of students)"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:0fed46ef78": {
+    "meanings": [
+      "to become tidy",
+      "to be settled or finished"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:a2e9a76dd2": {
+    "meanings": [
+      "volcanic crater",
+      "fire opening",
+      "burner outlet"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:61e0e71518": {
+    "meanings": [
+      "Kanto region (Tokyo and surrounding prefectures)"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:ad1e1c4b93": {
+    "meanings": [
+      "drying",
+      "dryness",
+      "dehydration"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:2397f62252": {
+    "meanings": [
+      "being active and successful",
+      "distinguished performance"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N2:vocab:0221781ce9": {
+    "meanings": [
+      "crown",
+      "diadem"
+    ],
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
   }
 }
