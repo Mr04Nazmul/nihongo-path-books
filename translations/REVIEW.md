@@ -21,3 +21,7 @@ A further 158 N3/N2 vocabulary meanings were compared against the Japanese and s
 ## Vocabulary 100–129 checkpoint
 
 Reviewed 60 further N3/N2 meanings and all 107 associated example translations. Corrected the English source where it disagreed with Japanese and replaced unrelated うがい and homophone-confused 写る examples with explicitly authored sentences, retaining original examples in source overrides. This adds 167 checked fields; cumulative N3/N2 review coverage is 420 of 13,901 fields. The remaining 13,481 fields are not claimed as checked.
+
+## Vocabulary positions 130–229, N3 and N2
+
+Authored and checked 200 Bengali meanings and 366 individual example translations (566 fields). Fixed source glosses and homophone examples, preserving inherited originals. Cumulative N3/N2 checked fields: 986 of 13,901; remaining: 12,915. This is an AI semantic pass, not a native-speaker certification. The requested 5,000-field batch is not complete.
