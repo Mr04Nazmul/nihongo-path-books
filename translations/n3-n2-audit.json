@@ -3,18 +3,18 @@
   "structural_audit_passed": true,
   "semantic_review_complete": false,
   "total_fields": 13901,
-  "checked_fields": 4037,
-  "pending_fields": 9864,
+  "checked_fields": 4161,
+  "pending_fields": 9740,
   "checked_by_level": {
-    "N3": 2061,
-    "N2": 1976
+    "N3": 2131,
+    "N2": 2030
   },
   "pending_by_kind_and_field": {
     "grammar:examples": 1496,
     "grammar:formation": 463,
     "grammar:guidance": 463,
     "grammar:meaning": 463,
-    "vocab:examples": 4986,
+    "vocab:examples": 4862,
     "vocab:meaning": 1993
   },
   "missing_fields": [],
