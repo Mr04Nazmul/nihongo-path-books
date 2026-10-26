@@ -4,8 +4,8 @@
     {
       "path": "data/n1.json",
       "http": 200,
-      "bytes": 9599394,
-      "sha256": "9a010912324e90a85105d3fb5b6ac6304be93bfb02296c34526fe9ea5f1d5150",
+      "bytes": 4607852,
+      "sha256": "5a220406f8f495b46c8ccc3b342ed9f3ee45f400ea2ce0c1e3c802d216780edd",
       "matches_checkout": true
     },
     {
@@ -37,6 +37,69 @@
       "matches_checkout": true
     },
     {
+      "path": "data/extra.json",
+      "http": 200,
+      "bytes": 4991577,
+      "sha256": "86b42c464148dd711a627d889adec4163c5c926307ea604a65b3a028d1650482",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/book-inventory.json",
+      "http": 200,
+      "bytes": 222773,
+      "sha256": "7c700707e48586192152c5cdc291acb22c8487d2878b0b251ae6df566a9861c1",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/book-audit.json",
+      "http": 200,
+      "bytes": 804,
+      "sha256": "1bdd4f6a2f63eb9c9219e85f87685d4cec3fe889ebf79d571e8ea794bca65210",
+      "matches_checkout": true
+    },
+    {
+      "path": "n1.html",
+      "http": 200,
+      "bytes": 2450,
+      "sha256": "199a08d3ea1c95c2e8e8a56e9ce542f2230cc33bd2226fb67c3f02959bd09df4",
+      "matches_checkout": true
+    },
+    {
+      "path": "n2.html",
+      "http": 200,
+      "bytes": 2450,
+      "sha256": "1c9abb53206e4d42a4acc547c445041b42a7e922601459ca1539fc06b3053709",
+      "matches_checkout": true
+    },
+    {
+      "path": "n3.html",
+      "http": 200,
+      "bytes": 2450,
+      "sha256": "be1e2e3662642a7ab9a28a52db35407762eb986d069e2957414c3c804f472a15",
+      "matches_checkout": true
+    },
+    {
+      "path": "n4.html",
+      "http": 200,
+      "bytes": 2450,
+      "sha256": "7aad192556fb5c2f65cb72794954fe2accc069c526a2a37fddd9f1f434c7f34a",
+      "matches_checkout": true
+    },
+    {
+      "path": "n5.html",
+      "http": 200,
+      "bytes": 2450,
+      "sha256": "e5d8424831df3cd549ceb223f349c3e4696e215857271b5df768b44e623149fe",
+      "matches_checkout": true
+    },
+    {
+      "path": "extra.html",
+      "http": 200,
+      "bytes": 2462,
+      "sha256": "5c4b68e325fad848e416b6b29e665845071212c0356dfd5f765e67aa9796943e",
+      "matches_checkout": true
+    },
+    {
       "path": "data/review-status.json",
       "http": 200,
       "bytes": 50752,
@@ -53,22 +116,22 @@
     {
       "path": "data/index.json",
       "http": 200,
-      "bytes": 312,
-      "sha256": "a8937000483a21036fdcf156535cee759240d1a856cbecd8a7059d49b75c9d2e",
+      "bytes": 373,
+      "sha256": "431ceff2b5a29f93eba6716f39375953cbf25a7d5bd9444f6919c6ce84e2ab7f",
       "matches_checkout": true
     },
     {
       "path": "app.js",
       "http": 200,
-      "bytes": 31466,
-      "sha256": "f375ad02a895ce1872067215c73a1f2ae3c6970f316aa645ab857fb949615957",
+      "bytes": 38284,
+      "sha256": "8a879d136971e3d1e126496b2c113a01ea87ad013d6d57c5c7e14080c614d977",
       "matches_checkout": true
     },
     {
       "path": "styles.css",
       "http": 200,
-      "bytes": 20735,
-      "sha256": "1093f222adf95fbc299be889662e1c0fa914b3f9c61a132ed5f9238d98b7dc3f",
+      "bytes": 30021,
+      "sha256": "b1e9f467176ee986d73fe85f8230f68729db3e0b7f28431649a7a1c3341ab63b",
       "matches_checkout": true
     },
     {
