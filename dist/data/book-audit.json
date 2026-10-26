@@ -1,0 +1,43 @@
+{
+  "source_commit": "d47fa3cc42efc5e32a0fa3b296248a886d402b95",
+  "book_counts": {
+    "N5": {
+      "vocab": 697,
+      "grammar": 221,
+      "kanji": 84
+    },
+    "N4": {
+      "vocab": 637,
+      "grammar": 214,
+      "kanji": 169
+    },
+    "N3": {
+      "vocab": 1722,
+      "grammar": 223,
+      "kanji": 387
+    },
+    "N2": {
+      "vocab": 1793,
+      "grammar": 296,
+      "kanji": 398
+    },
+    "N1": {
+      "vocab": 3179,
+      "grammar": 376,
+      "kanji": 1345
+    },
+    "EXTRA": {
+      "vocab": 4109,
+      "grammar": 0,
+      "kanji": 0
+    }
+  },
+  "total_vocabulary": 12137,
+  "total_grammar": 1330,
+  "total_kanji": 2383,
+  "missing_entries": [],
+  "unexpected_entries": [],
+  "duplicate_entries": [],
+  "misplaced_extra_entries": [],
+  "all_original_entries_preserved": true
+}

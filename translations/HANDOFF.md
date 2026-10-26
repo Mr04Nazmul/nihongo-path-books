@@ -1,5 +1,14 @@
 # Nihongo Path Books handoff — 26 October 2026
 
+## Open-book reader revision
+
+Base commit: `d47fa3cc42efc5e32a0fa3b296248a886d402b95`. Six physically separate books now replace the mixed N1/Extra collection. N5–N1 vocabulary counts: 697, 637, 1,722, 1,793, 3,179 (8,028 total); Extra has 4,109. The immutable pre-split corpus inventory and rebuild audit prove all 12,137 vocabulary entries plus all grammar/kanji identities survive with zero missing, duplicate, unexpected or misplaced entries. Canonical Extra IDs and N1 bookmark identities are retained. All included primary/reference source inventory records are also tested. This proves retention of the existing source collection, not an official exhaustive JLPT word list.
+
+Level pages now open an actual two-facing-page reader, with physical front/back 3D leaf turns, cover entrance, page numbers, previous/next, direct entry jump, keyboard arrows and touch swipe. Mobile pages flow vertically without hiding examples; reduced-motion mode immediately changes the actual entry. Search/contents remains collapsible below the reader. Extra has its own route, practice and membership-based progress. Bengali review coverage is unchanged.
+
+Local checks pass: 7 Python tests and 13 JavaScript tests, including every forward boundary through all 4,109 Extra entries, exact entry-ID unions, source inventory retention, bookmark identity and progress separation, actual lesson movement under reduced motion, translation gates and audio behavior. Live checks for this revision follow publication; earlier live evidence below describes the previous deployment.
+
+
 ## Repository checkpoint
 
 New repository: `Mr04Nazmul/nihongo-path-books`. Verified implementation commit: `22887f99a056fa9433fb8ef8f64eab50a7b06ee0` (main); this evidence-only follow-up records the deployed implementation without changing runtime assets. Initial repository commit: `720e6187e9bdc72d8d288a27cfb8df7330296113`. This implementation imports the original corpus at `Mr04Nazmul/nihongo-path@69b7ecd53a6ca36d82d0511cfcd87e29a5fe1186` and the corrected hash-bound review batch. The old repository is not deleted; permanent deletion requires a separate final confirmation. Resolve `git rev-parse HEAD` to obtain this handoff's exact containing commit.

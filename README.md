@@ -2,7 +2,7 @@
 
 [Live website](https://mr04nazmul.github.io/nihongo-path-books/)
 
-A new book-inspired Bengali/English edition of [Nihongo Path](https://github.com/Mr04Nazmul/nihongo-path), preserving the original stable curriculum IDs, source licenses, bookmarks/progress storage key and bundled Japanese audio. Independent cream-paper/book-cover interface with responsive pages, gentle animations, reduced-motion support, vocabulary/grammar/kanji search, lesson book dialogs, flashcards, quizzes and progress export/import.
+A new book-inspired Bengali/English edition of [Nihongo Path](https://github.com/Mr04Nazmul/nihongo-path), preserving the original stable curriculum IDs, source licenses, bookmarks/progress storage key and bundled Japanese audio. Independent open-book interface with a physical 3D page-turn, two facing paper pages, next/previous navigation, keyboard arrows and touch swipes, reduced-motion support, vocabulary/grammar/kanji search, lesson book dialogs, flashcards, quizzes and progress export/import.
 
 ## Included collection
 
@@ -12,9 +12,10 @@ A new book-inspired Bengali/English edition of [Nihongo Path](https://github.com
 | N4 | 637 | 214 | 169 |
 | N3 | 1,722 | 223 | 387 |
 | N2 | 1,793 | 296 | 398 |
-| N1 | 7,288 | 376 | 1,345 |
+| N1 | 3,179 | 376 | 1,345 |
+| Extra vocabulary | 4,109 | 0 | 0 |
 
-Total: 12,137 vocabulary entries, 1,330 grammar entries and 2,383 kanji entries. The N1 browsing collection includes 4,109 unclassified extra-practice words, explicitly labeled. This is a broad community collection, not an official exhaustive JLPT specification.
+Total: 12,137 vocabulary entries, 1,330 grammar entries and 2,383 kanji entries. The five level books contain 8,028 vocabulary entries. The separate Extra book contains 4,109 unclassified extra-practice words. Extras retain canonical N1 IDs for saved-progress compatibility, but are not presented as N1 exam vocabulary. This is a broad community collection, not an official exhaustive JLPT specification.
 
 ## Translation integrity
 
@@ -37,6 +38,8 @@ node --check dist/app.js
 node --check dist/speech.js
 python -m http.server 8080 --directory dist
 ```
+
+`translations/corpus-inventory.json` is the immutable pre-split ID inventory. Every rebuild compares all original identities with the six books and fails for missing, duplicate, unexpected or misplaced Extra entries; `dist/data/book-audit.json` publishes the result.
 
 The committed corpus JSON is the source baseline; authored amendments live in `translations/`. Rebuild is idempotent and tested. GitHub Pages deploys `dist/` after the checks.
 
