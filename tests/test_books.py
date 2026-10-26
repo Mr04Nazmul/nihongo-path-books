@@ -29,10 +29,12 @@ class Books(unittest.TestCase):
  def test_shared_pages_assets_and_ad_settings(self):
   for page in ['index','n5','n4','n3','n2','n1','lessons','review','progress','sources','extra']:
    s=(ROOT/f'dist/{page}.html').read_text()
-   for script in ['ads-config.js','ads.js','speech.js','app.js']:self.assertRegex(s,'src="'+script.replace('.','\\.')+r'(?:\?[^"]*)?"')
+   for script in ['adsterra-config.js','adsterra.js','speech.js','app.js','motion.js']:self.assertRegex(s,'src="'+script.replace('.','\\.')+r'(?:\?[^"]*)?"')
    self.assertIn('<option value="bn">',s);self.assertIn('<option value="en">',s);self.assertNotIn('value="ne"',s)
-  self.assertIn("slot:'2007625275'",(ROOT/'dist/ads-config.js').read_text())
-  self.assertIn('ca-pub-3728341118830943',(ROOT/'dist/ads-config.js').read_text())
+   self.assertNotIn('adPlacement',s);self.assertNotIn('google-adsense-account',s)
+  for path in (ROOT/'dist').glob('*.html'):
+   self.assertNotIn('adsbygoogle',path.read_text());self.assertNotIn('ca-pub-',path.read_text())
+  self.assertFalse((ROOT/'dist/ads.js').exists());self.assertFalse((ROOT/'dist/ads-config.js').exists())
  def test_no_entry_missing_or_duplicated_after_separating_extra(self):
   baseline=json.loads((ROOT/'translations/corpus-inventory.json').read_text())['books']
   expected={f'{kind}:{level}:{entry_id}' for level,kinds in baseline.items() for kind,ids in kinds.items() for entry_id in ids}

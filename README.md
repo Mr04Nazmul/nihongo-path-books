@@ -49,4 +49,4 @@ Original source revisions, inclusion/exclusion audits and licenses remain in `di
 
 The new interface is independently implemented. Circle-reveal theme transition inspiration: [Skiper UI Theme Toggle #26](https://skiper-ui.com/v1/skiper26), a free documented interaction, with required attribution. No paid component or subscription was used.
 
-AdSense publisher, responsive slot and auto-ad settings are copied unchanged. Ad eligibility remains controlled by Google. Audio playback depends on browser support; physical iPhone testing is outstanding.
+Google advertising scripts, publisher tags and empty ad slots have been removed at the owner’s request. Adsterra remains enabled, including the five-second book-entry dialog. Audio playback depends on browser support; physical iPhone testing is outstanding.
