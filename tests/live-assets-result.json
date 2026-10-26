@@ -1,0 +1,96 @@
+{
+  "base": "https://mr04nazmul.github.io/nihongo-path-books/",
+  "assets": [
+    {
+      "path": "data/n1.json",
+      "http": 200,
+      "bytes": 9599394,
+      "sha256": "9a010912324e90a85105d3fb5b6ac6304be93bfb02296c34526fe9ea5f1d5150",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/n2.json",
+      "http": 200,
+      "bytes": 2649576,
+      "sha256": "b88af97331c127bcd7d626448eb91f1cdeda9a70a4d709570e056b30df03f739",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/n3.json",
+      "http": 200,
+      "bytes": 2491535,
+      "sha256": "7d4cc4fd815e0f3b9e9acd34b220be1258bdffc99225d46453f2bfacbef433cc",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/n4.json",
+      "http": 200,
+      "bytes": 1165936,
+      "sha256": "f34fb286e4fe8925d0da723cfcb8a582dffb62054b85694b484e3b514420ad74",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/n5.json",
+      "http": 200,
+      "bytes": 1122882,
+      "sha256": "f76b5bdecba4c3b5a1031623ab60bc045fcd67fcef46abe215de5e62b10369c0",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/review-status.json",
+      "http": 200,
+      "bytes": 50752,
+      "sha256": "421aa9d0f26f4eea210d512e7e27886070ded33123c85489f301f5c1c5816911",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/review-progress.json",
+      "http": 200,
+      "bytes": 4327,
+      "sha256": "5332c804b28ff8bca42f2b42a911eacfc09e2231bce00342e3268f1c55cb6680",
+      "matches_checkout": true
+    },
+    {
+      "path": "data/index.json",
+      "http": 200,
+      "bytes": 312,
+      "sha256": "a8937000483a21036fdcf156535cee759240d1a856cbecd8a7059d49b75c9d2e",
+      "matches_checkout": true
+    },
+    {
+      "path": "app.js",
+      "http": 200,
+      "bytes": 31466,
+      "sha256": "f375ad02a895ce1872067215c73a1f2ae3c6970f316aa645ab857fb949615957",
+      "matches_checkout": true
+    },
+    {
+      "path": "styles.css",
+      "http": 200,
+      "bytes": 20735,
+      "sha256": "1093f222adf95fbc299be889662e1c0fa914b3f9c61a132ed5f9238d98b7dc3f",
+      "matches_checkout": true
+    },
+    {
+      "path": "speech.js",
+      "http": 200,
+      "bytes": 6338,
+      "sha256": "e67a3f52407a2df8bb0d4bf0b32c8252ce4a1a1c8ea27ae832c7e335d1281963",
+      "matches_checkout": true
+    },
+    {
+      "path": "ads-config.js",
+      "http": 200,
+      "bytes": 164,
+      "sha256": "18d2145e3a421470925a9ea5112339cfb8ccf1898a954dfc4d0c9bb6e3cf69f3",
+      "matches_checkout": true
+    },
+    {
+      "path": "audio/manifest.json",
+      "http": 200,
+      "bytes": 6366,
+      "sha256": "4f14765d7e706a215f832d8df842c684c51ac099e6e09ff8c183539e3abb9a1a",
+      "matches_checkout": true
+    }
+  ]
+}

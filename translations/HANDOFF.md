@@ -2,7 +2,7 @@
 
 ## Repository checkpoint
 
-New repository: `Mr04Nazmul/nihongo-path-books`, initialized from `720e6187e9bdc72d8d288a27cfb8df7330296113`. This implementation imports the original corpus at `Mr04Nazmul/nihongo-path@69b7ecd53a6ca36d82d0511cfcd87e29a5fe1186` and the corrected hash-bound review batch. The old repository is not deleted; permanent deletion requires a separate final confirmation. Resolve `git rev-parse HEAD` to obtain this handoff's exact containing commit.
+New repository: `Mr04Nazmul/nihongo-path-books`. Verified implementation commit: `22887f99a056fa9433fb8ef8f64eab50a7b06ee0` (main); this evidence-only follow-up records the deployed implementation without changing runtime assets. Initial repository commit: `720e6187e9bdc72d8d288a27cfb8df7330296113`. This implementation imports the original corpus at `Mr04Nazmul/nihongo-path@69b7ecd53a6ca36d82d0511cfcd87e29a5fe1186` and the corrected hash-bound review batch. The old repository is not deleted; permanent deletion requires a separate final confirmation. Resolve `git rev-parse HEAD` to obtain this handoff's exact containing commit.
 
 ## Implemented
 
@@ -23,8 +23,7 @@ Bengali text is only displayed for exact hash-valid reviewed fields. Pending tra
 
 ## Rebuild and tests
 
-`python scripts/build_data.py`, `python build-pages.py`, `python -m unittest discover -s tests`, `node --test tests/*.test.cjs
-node --check dist/app.js`, `node --check dist/speech.js` pass locally. Five Python tests and three JavaScript behavior tests cover inventory/IDs/locales, exact ledger hashes/invalidation, cacheless idempotent rebuild, pages/ads, audio manifest and draft display gates. Browser/live deployment verification will be recorded after publication. Local browser preview could not reach executor loopback; no replacement browser was installed.
+`python scripts/build_data.py`, `python build-pages.py`, `python -m unittest discover -s tests`, `node --test tests/*.test.cjs`, `node --check dist/app.js`, `node --check dist/speech.js` pass locally. Five Python tests and eight JavaScript behavior/audio tests cover inventory/IDs/locales, exact ledger hashes/invalidation, cacheless idempotent rebuild, pages/ads, audio manifest and draft display gates. GitHub Actions run `40255661842` succeeded, including rebuild/tests and Pages deployment. Live URL: https://mr04nazmul.github.io/nihongo-path-books/. All 13 checked live assets (all five complete datasets, review files, index, app/CSS/speech/ads config/audio manifest) exactly match the checkout; hashes are in `tests/live-assets-result.json`. Live browser checks passed: Bengali/English switch, reading-sensitive ひとつき search, lesson modal and independently pending examples, bookmarking and learned counts across navigation, flashcard reveal, correct quiz feedback, grammar formation/roles/examples, N1 kanji readings and English fallback, and dark/light transition. Test-only bookmark/learned markers were removed. Homepage capture: `docs/live-preview-20261026.jpg`. Local browser preview could not reach executor loopback; no replacement browser was installed.
 
 ## Exact next review action
 

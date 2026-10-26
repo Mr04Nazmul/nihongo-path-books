@@ -1,5 +1,7 @@
 # Nihongo Path Books
 
+[Live website](https://mr04nazmul.github.io/nihongo-path-books/)
+
 A new book-inspired Bengali/English edition of [Nihongo Path](https://github.com/Mr04Nazmul/nihongo-path), preserving the original stable curriculum IDs, source licenses, bookmarks/progress storage key and bundled Japanese audio. Independent cream-paper/book-cover interface with responsive pages, gentle animations, reduced-motion support, vocabulary/grammar/kanji search, lesson book dialogs, flashcards, quizzes and progress export/import.
 
 ## Included collection
