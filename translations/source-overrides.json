@@ -1181,7 +1181,32 @@
     "meanings": [
       "people or persons (honorific plural, katagata)"
     ],
-    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+    "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses.",
+    "examples": [
+      {
+        "ja": "ここにいる方々に感謝します。",
+        "en": "I thank the people who are here.",
+        "source": "Authored replacement: inherited example used the hou bou reading, not katagata."
+      },
+      {
+        "ja": "あの人たちが昨日あなたが会った方々ですか。",
+        "en": "Are those the people you saw yesterday?",
+        "tatoeba_id": 230802
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "わからなかったら方々の人に聞いた方がいいよ。",
+        "furigana": "わからなかったら{方々|かたがた}の{人|ひと}に{聞|き}いた{方|ほう}がいいよ。",
+        "en": "If you don't know, you had better ask around.",
+        "tatoeba_id": 192039
+      },
+      {
+        "ja": "あの人たちが昨日あなたが会った方々ですか。",
+        "en": "Are those the people you saw yesterday?",
+        "tatoeba_id": 230802
+      }
+    ]
   },
   "N3:vocab:8c7a0c5f8b": {
     "meanings": [
@@ -1247,5 +1272,153 @@
       "diadem"
     ],
     "review_note": "Clarified the meaning for this Japanese spelling and reading, excluding conflated readings or misleading English glosses."
+  },
+  "N3:vocab:33875d6135": {
+    "examples": [
+      {
+        "ja": "私は両親が家事をするのを手伝った。",
+        "furigana": "{私|わたし}は{両親|りょうしん}が{家事|かじ}をするのを{手伝|てつだ}った。",
+        "en": "I helped my parents with the housework.",
+        "tatoeba_id": 152333
+      },
+      {
+        "ja": "妻の活動は家事に限られている。",
+        "furigana": "{妻|#1294330}の{活動|かつどう}は{家事|かじ}に{限|かぎ}られている。",
+        "en": "My wife’s activities are confined to housework.",
+        "tatoeba_id": 170362
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私は両親が家事をするのを手伝った。",
+        "furigana": "{私|わたし}は{両親|りょうしん}が{家事|かじ}をするのを{手伝|てつだ}った。",
+        "en": "I helped my parents with the housework.",
+        "tatoeba_id": 152333
+      },
+      {
+        "ja": "妻の活動は家事に限られている。",
+        "furigana": "{妻|#1294330}の{活動|かつどう}は{家事|かじ}に{限|かぎ}られている。",
+        "en": "A wife's activities are confined to domestic matters.",
+        "tatoeba_id": 170362
+      }
+    ]
+  },
+  "N2:vocab:3786c907e1": {
+    "examples": [
+      {
+        "ja": "下線のある文を訳しなさい。",
+        "furigana": "{下線|かせん}のある{文|ぶん}を{訳|やく}しなさい。",
+        "en": "Translate the underlined sentences.",
+        "tatoeba_id": 188220
+      },
+      {
+        "ja": "下線を引いた語を正しい形にしなさい。",
+        "furigana": "{下線|かせん}を{引|ひ}いた{語|ご}を{正|ただ}しい{形|かたち}にしなさい。",
+        "en": "Put the underlined words into their correct forms.",
+        "tatoeba_id": 188219
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "下線のある文を訳しなさい。",
+        "furigana": "{下線|かせん}のある{文|ぶん}を{訳|やく}しなさい。",
+        "en": "Translate the underlined sentences.",
+        "tatoeba_id": 188220
+      },
+      {
+        "ja": "下線を引いた語を正しい形にしなさい。",
+        "furigana": "{下線|かせん}を{引|ひ}いた{語|ご}を{正|ただ}しい{形|かたち}にしなさい。",
+        "en": "Correct the underlined words.",
+        "tatoeba_id": 188219
+      }
+    ]
+  },
+  "N2:vocab:64bfcad88e": {
+    "examples": [
+      {
+        "ja": "その政策は、インフレを加速させるだけだ。",
+        "furigana": "その{政策|せいさく}は、インフレを{加速|かそく}させるだけだ。",
+        "en": "The policy will only accelerate inflation.",
+        "tatoeba_id": 208699
+      },
+      {
+        "ja": "彼は車を加速し、私に追いついた。",
+        "furigana": "{彼|かれ}は{車|くるま}を{加速|かそく}し、{私|わたし}に{追|お}いついた。",
+        "en": "He accelerated his car and caught up with me.",
+        "tatoeba_id": 104638
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "その政策は、インフレを加速させるだけだ。",
+        "furigana": "その{政策|せいさく}は、インフレを{加速|かそく}させるだけだ。",
+        "en": "The policy will only accelerate inflation.",
+        "tatoeba_id": 208699
+      },
+      {
+        "ja": "彼は車を加速し、私に追いついた。",
+        "furigana": "{彼|かれ}は{車|くるま}を{加速|かそく}し、{私|わたし}に{追|お}いついた。",
+        "en": "He accelerated his car and overtook me.",
+        "tatoeba_id": 104638
+      }
+    ]
+  },
+  "N2:vocab:bc5751f35d": {
+    "examples": [
+      {
+        "ja": "彼は新聞の小さな活字をじっとみた。",
+        "furigana": "{彼|かれ}は{新聞|しんぶん}の{小|ちい}さな{活字|かつじ}をじっとみた。",
+        "en": "He peered at the small print in a newspaper.",
+        "tatoeba_id": 103751
+      },
+      {
+        "ja": "小さい活字がかすんで見えます。",
+        "furigana": "{小|ちい}さい{活字|かつじ}がかすんで{見|み}えます。",
+        "en": "The small print looks blurred.",
+        "tatoeba_id": 147039
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "彼は新聞の小さな活字をじっとみた。",
+        "furigana": "{彼|かれ}は{新聞|しんぶん}の{小|ちい}さな{活字|かつじ}をじっとみた。",
+        "en": "He peered at the small print in a newspaper.",
+        "tatoeba_id": 103751
+      },
+      {
+        "ja": "小さい活字がかすんで見えます。",
+        "furigana": "{小|ちい}さい{活字|かつじ}がかすんで{見|み}えます。",
+        "en": "The small print looks faded.",
+        "tatoeba_id": 147039
+      }
+    ]
+  },
+  "N2:vocab:a159655db4": {
+    "examples": [
+      {
+        "ja": "私は勉強と遊びを兼ねている仕事につきたい。",
+        "furigana": "{私|わたし}は{勉強|べんきょう}と{遊|あそ}びを{兼|か}ねている{仕事|しごと}につきたい。",
+        "en": "I want a job that combines learning and enjoyment.",
+        "tatoeba_id": 152889
+      },
+      {
+        "ja": "今日は、ばーさんのお使いを兼ねて街で買い物。",
+        "en": "Today I'm shopping in town as well as running an errand for my grandmother.",
+        "tatoeba_id": 74948
+      }
+    ],
+    "original_examples": [
+      {
+        "ja": "私は勉強と遊びを兼ねている仕事につきたい。",
+        "furigana": "{私|わたし}は{勉強|べんきょう}と{遊|あそ}びを{兼|か}ねている{仕事|しごと}につきたい。",
+        "en": "I want to get a job that mixes work and play.",
+        "tatoeba_id": 152889
+      },
+      {
+        "ja": "今日は、ばーさんのお使いを兼ねて街で買い物。",
+        "en": "Today I'm shopping in town as well as running an errand for my grandmother.",
+        "tatoeba_id": 74948
+      }
+    ]
   }
 }
