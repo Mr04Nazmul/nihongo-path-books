@@ -1,0 +1,1425 @@
+{
+  "mode": "Original Bengali corrections integrated into existing books; no external book directory",
+  "changes": [
+    {
+      "level": "N3",
+      "id": "2d5b06d1fa",
+      "word": "飽きる",
+      "reading": "あきる",
+      "meaning": [
+        "to get tired of",
+        "to lose interest in",
+        "to have enough"
+      ],
+      "before": "একঘেয়ে লাগা; আগ্রহ হারানো; বিরক্ত হয়ে যাওয়া",
+      "after": "বিরক্ত হয়ে যাওয়া; আগ্রহ হারানো; আর ভালো না লাগা"
+    },
+    {
+      "level": "N3",
+      "id": "6312892cc5",
+      "word": "握手",
+      "reading": "あくしゅ",
+      "meaning": [
+        "handshake"
+      ],
+      "before": "করমর্দন",
+      "after": "করমর্দন; হাত মেলানো"
+    },
+    {
+      "level": "N3",
+      "id": "6bec104564",
+      "word": "悪魔",
+      "reading": "あくま",
+      "meaning": [
+        "devil",
+        "demon",
+        "evil spirit"
+      ],
+      "before": "শয়তান",
+      "after": "শয়তান; দানব; অশুভ আত্মা"
+    },
+    {
+      "level": "N3",
+      "id": "5b9f9fdc86",
+      "word": "明ける",
+      "reading": "あける",
+      "meaning": [
+        "to dawn",
+        "to become daylight"
+      ],
+      "before": "ভোর হওয়া; রাত বা কোনো নির্দিষ্ট সময় শেষ হওয়া",
+      "after": "ভোর হওয়া; রাত শেষ হয়ে দিনের আলো ফোটা"
+    },
+    {
+      "level": "N3",
+      "id": "9092a33de5",
+      "word": "預ける",
+      "reading": "あずける",
+      "meaning": [
+        "to give into custody",
+        "to entrust",
+        "to deposit"
+      ],
+      "before": "কারও জিম্মায় দেওয়া; আমানত রাখা; জমা দেওয়া",
+      "after": "জিম্মায় দেওয়া; দেখাশোনার দায়িত্ব দিয়ে রাখা; জমা রাখা"
+    },
+    {
+      "level": "N3",
+      "id": "2a534a4917",
+      "word": "書類",
+      "reading": "しょるい",
+      "meaning": [
+        "documents",
+        "official papers"
+      ],
+      "before": "কাগজপত্র",
+      "after": "নথিপত্র; দাপ্তরিক কাগজপত্র"
+    },
+    {
+      "level": "N3",
+      "id": "aff4676eed",
+      "word": "知らせ",
+      "reading": "しらせ",
+      "meaning": [
+        "notice"
+      ],
+      "before": "খবর / বিজ্ঞপ্তি",
+      "after": "খবর; সংবাদ; বিজ্ঞপ্তি"
+    },
+    {
+      "level": "N3",
+      "id": "55b77976ae",
+      "word": "尻",
+      "reading": "しり",
+      "meaning": [
+        "buttocks",
+        "bottom"
+      ],
+      "before": "নিতম্ব / পেছন দিক",
+      "after": "নিতম্ব; পশ্চাৎদেশ; কোনো কিছুর নিচের বা পেছনের অংশ"
+    },
+    {
+      "level": "N3",
+      "id": "365fe85edb",
+      "word": "印",
+      "reading": "しるし",
+      "meaning": [
+        "mark",
+        "symbol",
+        "evidence"
+      ],
+      "before": "চিহ্ন / নিদর্শন",
+      "after": "চিহ্ন; প্রতীক; প্রমাণ"
+    },
+    {
+      "level": "N3",
+      "id": "4ee42f5330",
+      "word": "進学",
+      "reading": "しんがく",
+      "meaning": [
+        "going on to university"
+      ],
+      "before": "উচ্চশিক্ষায় ভর্তি",
+      "after": "উচ্চতর শিক্ষাপ্রতিষ্ঠানে ভর্তি হওয়া; পরবর্তী শিক্ষাস্তরে অগ্রসর হওয়া"
+    },
+    {
+      "level": "N3",
+      "id": "6366942bd5",
+      "word": "神経",
+      "reading": "しんけい",
+      "meaning": [
+        "nerve",
+        "sensitivity"
+      ],
+      "before": "স্নায়ু; সংবেদনশীলতা",
+      "after": "স্নায়ু; সংবেদনশীলতা"
+    },
+    {
+      "level": "N3",
+      "id": "df0df5a923",
+      "word": "真剣",
+      "reading": "しんけん",
+      "meaning": [
+        "seriousness",
+        "earnestness"
+      ],
+      "before": "গুরুতর; আন্তরিকতা",
+      "after": "গম্ভীর ও আন্তরিক মনোভাব; একাগ্রতা; আসল তলোয়ার"
+    },
+    {
+      "level": "N3",
+      "id": "1ad3b41d6f",
+      "word": "信仰",
+      "reading": "しんこう",
+      "meaning": [
+        "(religious) faith",
+        "belief",
+        "creed"
+      ],
+      "before": "ধর্মবিশ্বাস",
+      "after": "ধর্মবিশ্বাস; কোনো ধর্মে আস্থা"
+    },
+    {
+      "level": "N3",
+      "id": "e9efe8313d",
+      "word": "信号",
+      "reading": "しんごう",
+      "meaning": [
+        "traffic lights",
+        "signal",
+        "semaphore"
+      ],
+      "before": "ট্রাফিক লাইট; সংকেত; সেমিফোর",
+      "after": "সংকেত; ট্রাফিক সিগন্যাল"
+    },
+    {
+      "level": "N3",
+      "id": "ca92616db2",
+      "word": "人工",
+      "reading": "じんこう",
+      "meaning": [
+        "artificial",
+        "manmade",
+        "human work",
+        "human skill",
+        "artificiality"
+      ],
+      "before": "কৃত্রিম; ম্যানমেটেড; মানবিক কাজ; মানব দক্ষতা",
+      "after": "মানুষের তৈরি; কৃত্রিম; মানুষের শ্রম বা দক্ষতায় নির্মিত"
+    },
+    {
+      "level": "N3",
+      "id": "bc6b84dcb4",
+      "word": "深刻",
+      "reading": "しんこく",
+      "meaning": [
+        "serious"
+      ],
+      "before": "গুরুতর",
+      "after": "গুরুতর; গভীর উদ্বেগজনক"
+    },
+    {
+      "level": "N3",
+      "id": "3a6ac640fd",
+      "word": "診察",
+      "reading": "しんさつ",
+      "meaning": [
+        "medical examination"
+      ],
+      "before": "ডাক্তারি পরীক্ষা",
+      "after": "রোগীর শারীরিক অবস্থা পরীক্ষা; চিকিৎসকের পরীক্ষা"
+    },
+    {
+      "level": "N3",
+      "id": "6847277390",
+      "word": "人種",
+      "reading": "じんしゅ",
+      "meaning": [
+        "race (of people)"
+      ],
+      "before": "জাতি (মানুষের)",
+      "after": "মানবগোষ্ঠী; মানুষের বর্ণগত বা নৃতাত্ত্বিক গোষ্ঠী"
+    },
+    {
+      "level": "N3",
+      "id": "c53be2d952",
+      "word": "信じる",
+      "reading": "しんじる",
+      "meaning": [
+        "to believe",
+        "to place trust in"
+      ],
+      "before": "বিশ্বাস করতে; আত্মবিশ্বাস স্থাপন করুন",
+      "after": "বিশ্বাস করা; আস্থা রাখা"
+    },
+    {
+      "level": "N3",
+      "id": "3793fa82cf",
+      "word": "人生",
+      "reading": "じんせい",
+      "meaning": [
+        "(human) life (i.e. conception to death)"
+      ],
+      "before": "জীবন (মানুষের)",
+      "after": "জীবন; জন্ম থেকে মৃত্যু পর্যন্ত মানুষের জীবনযাত্রা"
+    },
+    {
+      "level": "N3",
+      "id": "a8f91562fe",
+      "word": "親戚",
+      "reading": "しんせき",
+      "meaning": [
+        "relative"
+      ],
+      "before": "আত্মীয়",
+      "after": "আত্মীয়স্বজন; আত্মীয়"
+    },
+    {
+      "level": "N3",
+      "id": "20f712fd71",
+      "word": "新鮮",
+      "reading": "しんせん",
+      "meaning": [
+        "fresh"
+      ],
+      "before": "ফ্রিজ",
+      "after": "তাজা; সতেজ; নতুনত্বপূর্ণ"
+    },
+    {
+      "level": "N3",
+      "id": "d271a61e9b",
+      "word": "身体",
+      "reading": "しんたい",
+      "meaning": [
+        "the body"
+      ],
+      "before": "শরীর / দেহ",
+      "after": "দেহ; শরীর"
+    },
+    {
+      "level": "N3",
+      "id": "1e0d006e02",
+      "word": "慎重",
+      "reading": "しんちょう",
+      "meaning": [
+        "discretion",
+        "prudence"
+      ],
+      "before": "বিবেচনার; সতর্কতা",
+      "after": "সতর্ক ও বিবেচনাপূর্ণ; সাবধানী"
+    },
+    {
+      "level": "N3",
+      "id": "ef1a073c8c",
+      "word": "身長",
+      "reading": "しんちょう",
+      "meaning": [
+        "height (of body)",
+        "stature"
+      ],
+      "before": "উচ্চতা (শরীরের)",
+      "after": "দৈহিক উচ্চতা"
+    },
+    {
+      "level": "N3",
+      "id": "f805c3046f",
+      "word": "審判",
+      "reading": "しんぱん",
+      "meaning": [
+        "refereeing",
+        "trial",
+        "judgement",
+        "umpire",
+        "referee"
+      ],
+      "before": "বিচারক / রেফারি",
+      "after": "বিচার বা রায়; খেলায় রেফারির সিদ্ধান্ত; রেফারি বা আম্পায়ার"
+    },
+    {
+      "level": "N3",
+      "id": "fbaf566aaa",
+      "word": "人物",
+      "reading": "じんぶつ",
+      "meaning": [
+        "character",
+        "personality",
+        "person",
+        "man",
+        "personage",
+        "talented man"
+      ],
+      "before": "ব্যক্তি / চরিত্র",
+      "after": "ব্যক্তি; ব্যক্তিত্ব; উল্লেখযোগ্য বা যোগ্য ব্যক্তি"
+    },
+    {
+      "level": "N3",
+      "id": "e7e0343eb0",
+      "word": "進歩",
+      "reading": "しんぽ",
+      "meaning": [
+        "progress",
+        "development"
+      ],
+      "before": "অগ্রগতি / উন্নতি",
+      "after": "অগ্রগতি; উন্নতি"
+    },
+    {
+      "level": "N3",
+      "id": "5f3091a6cb",
+      "word": "親友",
+      "reading": "しんゆう",
+      "meaning": [
+        "close friend",
+        "buddy"
+      ],
+      "before": "অন্তরঙ্গ বন্ধু",
+      "after": "ঘনিষ্ঠ বন্ধু; অন্তরঙ্গ বন্ধু"
+    },
+    {
+      "level": "N3",
+      "id": "1978c546e2",
+      "word": "信用",
+      "reading": "しんよう",
+      "meaning": [
+        "confidence",
+        "dependence",
+        "credit",
+        "faith"
+      ],
+      "before": "আস্থা / বিশ্বাস",
+      "after": "বিশ্বাসযোগ্যতা; কারও ওপর আস্থা; আর্থিক ঋণযোগ্যতা"
+    },
+    {
+      "level": "N3",
+      "id": "60594ade18",
+      "word": "信頼",
+      "reading": "しんらい",
+      "meaning": [
+        "reliance",
+        "trust",
+        "confidence"
+      ],
+      "before": "ভরসা / আস্থা",
+      "after": "ভরসা; নির্ভরতা; আস্থা"
+    },
+    {
+      "level": "N3",
+      "id": "27ccf826bb",
+      "word": "心理",
+      "reading": "しんり",
+      "meaning": [
+        "mentality"
+      ],
+      "before": "মনস্তত্ত্ব / মনের অবস্থা",
+      "after": "মনের অবস্থা; মনস্তত্ত্ব"
+    },
+    {
+      "level": "N3",
+      "id": "9b428ad249",
+      "word": "人類",
+      "reading": "じんるい",
+      "meaning": [
+        "mankind",
+        "humanity"
+      ],
+      "before": "মানবজাতি",
+      "after": "মানবজাতি; সমগ্র মানুষ"
+    },
+    {
+      "level": "N3",
+      "id": "73db783ef8",
+      "word": "巣",
+      "reading": "す",
+      "meaning": [
+        "nest",
+        "rookery",
+        "breeding place",
+        "beehive",
+        "cobweb"
+      ],
+      "before": "নাস; রোকারি; প্রজনন স্থান; বিবাহিত; COBWEB",
+      "after": "পাখি বা প্রাণীর বাসা; মৌচাক; মাকড়সার জাল"
+    },
+    {
+      "level": "N3",
+      "id": "4e53e93195",
+      "word": "図",
+      "reading": "ず",
+      "meaning": [
+        "figure (e.g. Fig 1)",
+        "drawing",
+        "picture",
+        "illustration"
+      ],
+      "before": "চিত্র / নকশা",
+      "after": "চিত্র; নকশা; রেখাচিত্র; ব্যাখ্যামূলক ছবি"
+    },
+    {
+      "level": "N3",
+      "id": "a89f303db8",
+      "word": "水準",
+      "reading": "すいじゅん",
+      "meaning": [
+        "water level",
+        "level",
+        "standard"
+      ],
+      "before": "মান / স্তর",
+      "after": "মান; স্তর; পানির সমতল উচ্চতা"
+    },
+    {
+      "level": "N3",
+      "id": "590eb476e5",
+      "word": "推薦",
+      "reading": "すいせん",
+      "meaning": [
+        "recommendation"
+      ],
+      "before": "সুপারিশ",
+      "after": "সুপারিশ; কাউকে বা কিছুকে উপযুক্ত বলে প্রস্তাব করা"
+    },
+    {
+      "level": "N2",
+      "id": "79169045a2",
+      "word": "アイデア",
+      "reading": "アイデア",
+      "meaning": [
+        "idea"
+      ],
+      "before": "ধারণা; ভাবনা; পরিকল্পনা",
+      "after": "ভাবনা; ধারণা; পরিকল্পনার বুদ্ধি"
+    },
+    {
+      "level": "N2",
+      "id": "08e45ae028",
+      "word": "あいまい",
+      "reading": "あいまい",
+      "meaning": [
+        "vague",
+        "ambiguous"
+      ],
+      "before": "অস্পষ্ট; দ্ব্যর্থক; অনির্দিষ্ট",
+      "after": "অস্পষ্ট; দ্ব্যর্থক; সুনির্দিষ্ট নয় এমন"
+    },
+    {
+      "level": "N2",
+      "id": "5b1dbc60e6",
+      "word": "遭う",
+      "reading": "あう",
+      "meaning": [
+        "to meet",
+        "to encounter (undesirable nuance)"
+      ],
+      "before": "অনাকাঙ্ক্ষিত ঘটনার মুখোমুখি হওয়া; বিপদে পড়া",
+      "after": "দুর্ঘটনা বা বিপদের মুখে পড়া; অনাকাঙ্ক্ষিত কিছুর সম্মুখীন হওয়া"
+    },
+    {
+      "level": "N2",
+      "id": "5c46e379a2",
+      "word": "扇ぐ",
+      "reading": "あおぐ",
+      "meaning": [
+        "to fan",
+        "to flap"
+      ],
+      "before": "বাতাস করা; পাখা দিয়ে হাওয়া করা",
+      "after": "পাখা দিয়ে বাতাস করা; ডানা ঝাপটানো"
+    },
+    {
+      "level": "N2",
+      "id": "f24da46d2e",
+      "word": "青白い",
+      "reading": "あおじろい",
+      "meaning": [
+        "pale",
+        "pallid"
+      ],
+      "before": "ফ্যাকাশে; নীলচে সাদা",
+      "after": "ফ্যাকাশে; রক্তহীন বা নীলচে সাদা"
+    },
+    {
+      "level": "N2",
+      "id": "b286c3e278",
+      "word": "明き",
+      "reading": "あき",
+      "meaning": [
+        "room",
+        "time to spare",
+        "emptiness"
+      ],
+      "before": "খালি জায়গা; অবসর সময়; শূন্যতা",
+      "after": "খালি জায়গা; শূন্যপদ; অবসর সময়"
+    },
+    {
+      "level": "N2",
+      "id": "4bbc998853",
+      "word": "あきれる",
+      "reading": "あきれる",
+      "meaning": [
+        "to be amazed",
+        "to be shocked"
+      ],
+      "before": "হতবাক হওয়া; বিরক্তি বা অবিশ্বাসে অবাক হওয়া",
+      "after": "কারও আচরণে হতবাক বা বিরক্ত হওয়া; স্তম্ভিত হওয়া"
+    },
+    {
+      "level": "N2",
+      "id": "f4f844d9b9",
+      "word": "アクセント",
+      "reading": "アクセント",
+      "meaning": [
+        "accent"
+      ],
+      "before": "উচ্চারণে স্বরের ওঠানামা বা জোর; অ্যাকসেন্ট",
+      "after": "উচ্চারণের স্বরাঘাত; বিশেষ জোর; কথার উচ্চারণভঙ্গি"
+    },
+    {
+      "level": "N2",
+      "id": "a542a76c28",
+      "word": "あくまで",
+      "reading": "あくまで",
+      "meaning": [
+        "to the end",
+        "to the last",
+        "stubbornly"
+      ],
+      "before": "শেষ পর্যন্ত; সম্পূর্ণভাবে; জেদ করে",
+      "after": "শেষ পর্যন্ত; দৃঢ়ভাবে; নিছক বা কেবলই"
+    },
+    {
+      "level": "N2",
+      "id": "817ab81f5e",
+      "word": "明け方",
+      "reading": "あけがた",
+      "meaning": [
+        "dawn"
+      ],
+      "before": "ভোরবেলা; দিনের আলো ফোটার সময়",
+      "after": "ভোরবেলা; রাত ফুরিয়ে আসার সময়"
+    },
+    {
+      "level": "N2",
+      "id": "8c256fc677",
+      "word": "挙げる",
+      "reading": "あげる",
+      "meaning": [
+        "to raise",
+        "to fly"
+      ],
+      "before": "উঁচু করা; উদাহরণ দেওয়া; অর্জন করা",
+      "after": "ওপরে তোলা; উদাহরণ হিসেবে উল্লেখ করা; সাফল্য অর্জন করা; হাত বা পতাকা তোলা"
+    },
+    {
+      "level": "N2",
+      "id": "d4d89391b7",
+      "word": "揚げる",
+      "reading": "あげる",
+      "meaning": [
+        "to lift",
+        "to fry"
+      ],
+      "before": "তোলা; উঁচুতে ওড়ানো; তেলে ভাজা",
+      "after": "ওপরে তোলা; তেলে ভাজা; ঘুড়ি ওড়ানো"
+    },
+    {
+      "level": "N2",
+      "id": "36c77eda04",
+      "word": "憧れる",
+      "reading": "あこがれる",
+      "meaning": [
+        "to long for",
+        "to yearn after",
+        "to admire"
+      ],
+      "before": "তীব্রভাবে আকাঙ্ক্ষা করা; মুগ্ধ হয়ে অনুকরণ করতে চাওয়া",
+      "after": "আকুলভাবে কামনা করা; মুগ্ধ হয়ে আদর্শ হিসেবে দেখা"
+    },
+    {
+      "level": "N2",
+      "id": "e62d8e80cc",
+      "word": "味わう",
+      "reading": "あじわう",
+      "meaning": [
+        "to taste",
+        "to savor",
+        "to relish"
+      ],
+      "before": "স্বাদ নেওয়া; উপভোগ করা; কোনো অভিজ্ঞতার মধ্য দিয়ে যাওয়া",
+      "after": "স্বাদ নেওয়া; উপভোগ করা; কোনো অভিজ্ঞতা লাভ করা"
+    },
+    {
+      "level": "N2",
+      "id": "eafba17b69",
+      "word": "預かる",
+      "reading": "あずかる",
+      "meaning": [
+        "to keep in custody",
+        "to receive on deposit",
+        "to take charge of"
+      ],
+      "before": "জিম্মায় রাখা; আমানত গ্রহণ করা; দায়িত্ব নেওয়া",
+      "after": "জিম্মায় রাখা; দেখাশোনার দায়িত্ব নেওয়া; সাময়িকভাবে গ্রহণ করে রাখা"
+    },
+    {
+      "level": "N2",
+      "id": "4d006aea23",
+      "word": "暖まる",
+      "reading": "あたたまる",
+      "meaning": [
+        "to warm up",
+        "to get warm"
+      ],
+      "before": "উষ্ণ হওয়া; গরম হওয়া",
+      "after": "উষ্ণ হয়ে ওঠা; শরীর বা পরিবেশ গরম হওয়া"
+    },
+    {
+      "level": "N2",
+      "id": "a7a7a09d5d",
+      "word": "暖める",
+      "reading": "あたためる",
+      "meaning": [
+        "to warm",
+        "to heat"
+      ],
+      "before": "উষ্ণ করা; গরম করা",
+      "after": "উষ্ণ করা; শরীর বা পরিবেশ গরম করা"
+    },
+    {
+      "level": "N2",
+      "id": "83df753526",
+      "word": "あてはまる",
+      "reading": "あてはまる",
+      "meaning": [
+        "to be applicable",
+        "to come under (a category)",
+        "to fulfill"
+      ],
+      "before": "প্রযোজ্য হওয়া; কোনো শ্রেণির অন্তর্ভুক্ত হওয়া; পূরণ করা",
+      "after": "প্রযোজ্য হওয়া; কোনো শ্রেণি বা শর্তের সঙ্গে মিলে যাওয়া"
+    },
+    {
+      "level": "N2",
+      "id": "8dfe67b16a",
+      "word": "私立",
+      "reading": "しりつ",
+      "meaning": [
+        "private (establishment)"
+      ],
+      "before": "ব্যক্তিগত ( প্রতিষ্ঠা)",
+      "after": "বেসরকারি পরিচালিত বা প্রতিষ্ঠিত"
+    },
+    {
+      "level": "N2",
+      "id": "3adb9ea016",
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": [
+        "materials",
+        "data"
+      ],
+      "before": "উপাদান; ডাটা",
+      "after": "তথ্য-উপাত্ত; গবেষণা বা কাজের উপকরণ; নথি"
+    },
+    {
+      "level": "N2",
+      "id": "9b34e5636e",
+      "word": "汁",
+      "reading": "しる",
+      "meaning": [
+        "juice",
+        "sap",
+        "soup",
+        "broth"
+      ],
+      "before": "রস; জেনে নিন; স্যুপ; ব্রোথ",
+      "after": "রস; গাছের কষ বা রস; স্যুপ বা ঝোল"
+    },
+    {
+      "level": "N2",
+      "id": "607a46e623",
+      "word": "素人",
+      "reading": "しろうと",
+      "meaning": [
+        "amateur",
+        "novice"
+      ],
+      "before": "অপেশাদার; খবর",
+      "after": "অপেশাদার; অনভিজ্ঞ ব্যক্তি; কোনো বিষয়ে বিশেষজ্ঞ নন এমন ব্যক্তি"
+    },
+    {
+      "level": "N2",
+      "id": "05fd834bdb",
+      "word": "芯",
+      "reading": "しん",
+      "meaning": [
+        "core",
+        "heart",
+        "wick",
+        "marrow"
+      ],
+      "before": "কোর; হৃদয়; উইক; মরু",
+      "after": "কেন্দ্রীয় অংশ; ভেতরের শক্ত অংশ; সলতে; পেন্সিলের শিস"
+    },
+    {
+      "level": "N2",
+      "id": "817a8e8089",
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meaning": [
+        "bullet train (very high speed)",
+        "shinkansen"
+      ],
+      "before": "বুলেট ট্রেন (অত্যন্ত উচ্চ গতি); শিনাকসেন",
+      "after": "শিনকানসেন; জাপানের অতিদ্রুতগতির রেলব্যবস্থা বা তার ট্রেন"
+    },
+    {
+      "level": "N2",
+      "id": "a210fab631",
+      "word": "真空",
+      "reading": "しんくう",
+      "meaning": [
+        "vacuum",
+        "hollow",
+        "empty"
+      ],
+      "before": "ভ্যাকুয়াম; হাল্কা; খালি",
+      "after": "শূন্যস্থান; বায়ুশূন্য অবস্থা"
+    },
+    {
+      "level": "N2",
+      "id": "3d4e50f775",
+      "word": "信ずる",
+      "reading": "しんずる",
+      "meaning": [
+        "to believe",
+        "to believe in",
+        "to place trust in"
+      ],
+      "before": "বিশ্বাস করতে; আত্মবিশ্বাস স্থাপন করুন",
+      "after": "বিশ্বাস করা; আস্থা রাখা"
+    },
+    {
+      "level": "N2",
+      "id": "ced0ddb80e",
+      "word": "申請",
+      "reading": "しんせい",
+      "meaning": [
+        "application",
+        "request",
+        "petition"
+      ],
+      "before": "আবেদন; অনুরোধ; পিটিশন",
+      "after": "আনুষ্ঠানিক আবেদন; অনুমতি বা স্বীকৃতির জন্য দরখাস্ত"
+    },
+    {
+      "level": "N2",
+      "id": "4baeaa31c0",
+      "word": "人造",
+      "reading": "じんぞう",
+      "meaning": [
+        "man-made",
+        "synthetic",
+        "artificial"
+      ],
+      "before": "মানব-নির্মিত; সিন্থেটিক; কৃত্রিম",
+      "after": "মানুষের তৈরি; কৃত্রিম; সংশ্লেষিত"
+    },
+    {
+      "level": "N2",
+      "id": "e1f1434b63",
+      "word": "寝台",
+      "reading": "しんだい",
+      "meaning": [
+        "bed",
+        "couch"
+      ],
+      "before": "বিছানা",
+      "after": "শোয়ার খাট; ট্রেন বা জাহাজের শোয়ার বার্থ"
+    },
+    {
+      "level": "N2",
+      "id": "564d959643",
+      "word": "診断",
+      "reading": "しんだん",
+      "meaning": [
+        "diagnosis"
+      ],
+      "before": "নির্ণয়",
+      "after": "রোগনির্ণয়; পরীক্ষা করে সমস্যার কারণ নির্ধারণ"
+    },
+    {
+      "level": "N2",
+      "id": "2e69bd6862",
+      "word": "侵入",
+      "reading": "しんにゅう",
+      "meaning": [
+        "penetration",
+        "invasion",
+        "raid",
+        "aggression",
+        "trespass"
+      ],
+      "before": "প্রবেশাধিকার; আঘাত; র্যাড; আক্রমণ; ট্রেসপাস",
+      "after": "অনধিকার প্রবেশ; অনুপ্রবেশ; আক্রমণ করে ঢোকা"
+    },
+    {
+      "level": "N2",
+      "id": "ef02a97b60",
+      "word": "人文科学",
+      "reading": "じんぶんかがく",
+      "meaning": [
+        "social sciences",
+        "humanities"
+      ],
+      "before": "সামাজিক বিজ্ঞান; মানবিকতা",
+      "after": "মানবিক বিদ্যা; ভাষা, সাহিত্য, ইতিহাস ও দর্শনের মতো মানুষ ও সংস্কৃতিবিষয়ক শাস্ত্র"
+    },
+    {
+      "level": "N2",
+      "id": "4ae649a9ef",
+      "word": "人命",
+      "reading": "じんめい",
+      "meaning": [
+        "(human) life"
+      ],
+      "before": "মানবিক জীবন",
+      "after": "মানুষের জীবন; প্রাণ"
+    },
+    {
+      "level": "N2",
+      "id": "7ce9d61e4c",
+      "word": "深夜",
+      "reading": "しんや",
+      "meaning": [
+        "late at night"
+      ],
+      "before": "রাতে দেরিতে",
+      "after": "গভীর রাত"
+    },
+    {
+      "level": "N2",
+      "id": "ddca1b1da0",
+      "word": "森林",
+      "reading": "しんりん",
+      "meaning": [
+        "forest",
+        "woods"
+      ],
+      "before": "বন; বনসমূহ",
+      "after": "বন; অরণ্য"
+    },
+    {
+      "level": "N1",
+      "id": "1cf257772e",
+      "word": "嗚呼",
+      "reading": "ああ",
+      "meaning": [
+        "Ah!",
+        "Oh!",
+        "Alas!"
+      ],
+      "before": "হ্যা!; ওহ!; লাশ!",
+      "after": "আহা!; ওহ!; হায়!"
+    },
+    {
+      "level": "N1",
+      "id": "f9d361f995",
+      "word": "相",
+      "reading": "あい",
+      "meaning": [
+        "together",
+        "mutually",
+        "fellow"
+      ],
+      "before": "একসঙ্গে; পারস্পরিক; বন্ধু",
+      "after": "পরস্পর; একে অন্যকে; একসঙ্গে—যৌগিক শব্দে ব্যবহৃত উপসর্গ"
+    },
+    {
+      "level": "N1",
+      "id": "49167c4c88",
+      "word": "愛想",
+      "reading": "あいそ",
+      "meaning": [
+        "civility",
+        "courtesy",
+        "compliments",
+        "sociability",
+        "graces"
+      ],
+      "before": "সভ্যতা; দয়ালু; অভিনন্দন; সামাজিকতা; ধন্যবাদ",
+      "after": "সৌজন্য; মিশুক ব্যবহার; আন্তরিক আপ্যায়ন বা ভদ্রতা"
+    },
+    {
+      "level": "N1",
+      "id": "5e01def051",
+      "word": "愛憎",
+      "reading": "あいぞう",
+      "meaning": [
+        "love and hate",
+        "likes and dislikes"
+      ],
+      "before": "ভালোবাসা ও ঘৃণা; পছন্দ ও অস্বীকার",
+      "after": "ভালোবাসা ও ঘৃণা"
+    },
+    {
+      "level": "N1",
+      "id": "6f6edac49d",
+      "word": "相対",
+      "reading": "あいたい",
+      "meaning": [
+        "confrontation",
+        "facing",
+        "between ourselves",
+        "no third party",
+        "tete-a-tete"
+      ],
+      "before": "মোকাবেলা; মুখোমুখি; আমাদের মধ্যে; কোন তৃতীয় পক্ষ; টেস্ট-এ-টেস্ট",
+      "after": "সামনাসামনি; সরাসরি দুই পক্ষের মধ্যে; তৃতীয় পক্ষ ছাড়া"
+    },
+    {
+      "level": "N1",
+      "id": "3a407bbc0b",
+      "word": "間柄",
+      "reading": "あいだがら",
+      "meaning": [
+        "relation(ship)"
+      ],
+      "before": "সম্পর্ক ( জাহাজ)",
+      "after": "পারস্পরিক সম্পর্ক; আত্মীয়তা বা ঘনিষ্ঠতার সম্পর্ক"
+    },
+    {
+      "level": "N1",
+      "id": "f7da525529",
+      "word": "合間",
+      "reading": "あいま",
+      "meaning": [
+        "interval"
+      ],
+      "before": "ইন্টারভিউ",
+      "after": "মধ্যবর্তী সময়; কাজের ফাঁক; বিরতি"
+    },
+    {
+      "level": "N1",
+      "id": "69bb692c2b",
+      "word": "敢えて",
+      "reading": "あえて",
+      "meaning": [
+        "dare (to do)",
+        "challenge (to do)"
+      ],
+      "before": "দান করুন (দান করুন); চ্যালেঞ্জ (To Do)",
+      "after": "সাহস করে; বাধা বা আপত্তি জেনেও ইচ্ছাকৃতভাবে"
+    },
+    {
+      "level": "N1",
+      "id": "568d94afad",
+      "word": "仰ぐ",
+      "reading": "あおぐ",
+      "meaning": [
+        "to look up (to)",
+        "to respect",
+        "to depend on",
+        "to ask for",
+        "to seek",
+        "to revere",
+        "to drink",
+        "to take"
+      ],
+      "before": "উপরে দেখুন (To); সম্মান; উপর নির্ভর করে; জিজ্ঞাসা করুন; খুঁজে পেতে; প্রত্যাবর্তন; পান করা; গ্রহণ করতে",
+      "after": "ওপরে তাকানো; শ্রদ্ধা করা; সাহায্য বা নির্দেশ চাওয়া; কারও ওপর নির্ভর করা; পান করা"
+    },
+    {
+      "level": "N1",
+      "id": "8645802338",
+      "word": "亜科",
+      "reading": "あか",
+      "meaning": [
+        "suborder",
+        "subfamily"
+      ],
+      "before": "সাবঅর্ডার; উপ পরিবার",
+      "after": "জীববৈজ্ঞানিক শ্রেণিবিন্যাসে উপপরিবার"
+    },
+    {
+      "level": "N1",
+      "id": "3b72fad905",
+      "word": "垢",
+      "reading": "あか",
+      "meaning": [
+        "dirt",
+        "filth"
+      ],
+      "before": "নোংরা; ফিল্টার",
+      "after": "শরীর বা কোনো পৃষ্ঠে জমে থাকা ময়লা"
+    },
+    {
+      "level": "N1",
+      "id": "ddb83d9881",
+      "word": "証",
+      "reading": "あかし",
+      "meaning": [
+        "proof",
+        "evidence"
+      ],
+      "before": "প্রমাণ",
+      "after": "প্রমাণ; সাক্ষ্য; কোনো কিছুর নিদর্শন"
+    },
+    {
+      "level": "N1",
+      "id": "6836124c3c",
+      "word": "赤字",
+      "reading": "あかじ",
+      "meaning": [
+        "deficit",
+        "go in the red"
+      ],
+      "before": "ঘাটতি; লাল চলে যান",
+      "after": "আর্থিক ঘাটতি; লোকসান; হিসাবের লাল কালির অঙ্ক"
+    },
+    {
+      "level": "N1",
+      "id": "b82e2ceca8",
+      "word": "明かす",
+      "reading": "あかす",
+      "meaning": [
+        "to pass",
+        "spend",
+        "to reveal",
+        "to divulge"
+      ],
+      "before": "পাস করতে; খরচ; প্রকাশ করা; প্রকাশ করতে",
+      "after": "প্রকাশ করা; গোপন কথা জানানো; রাত জেগে কাটানো"
+    },
+    {
+      "level": "N1",
+      "id": "ff854ec90e",
+      "word": "赤らむ",
+      "reading": "あからむ",
+      "meaning": [
+        "to become red",
+        "to redden",
+        "to blush"
+      ],
+      "before": "লাল হয়ে যাওয়া; বাঁচানোর; ব্লুচ",
+      "after": "লাল হয়ে ওঠা; লজ্জায় মুখ রাঙা হওয়া"
+    },
+    {
+      "level": "N1",
+      "id": "b20eb26e92",
+      "word": "上がり",
+      "reading": "あがり",
+      "meaning": [
+        "slope",
+        "advance income",
+        "crop yield",
+        "ascent",
+        "rise",
+        "advance",
+        "death",
+        "spinning",
+        "completion",
+        "stop",
+        "finish",
+        "after (rain, illness, etc.)"
+      ],
+      "before": "স্লোগান; আগ্রহী আয়; উৎপাদন; উত্থান; অগ্রগতি; মৃত্যু; স্পিনিং; সম্পন্ন; থেমে; ফাইনাল; পরে ( বৃষ্টি, রোগ, ইত্যাদি)",
+      "after": "ওপরে ওঠা; উন্নতি; আয় বা ফলন; কাজের সমাপ্তি; বৃষ্টি বা অসুস্থতা কেটে যাওয়ার পরের অবস্থা"
+    },
+    {
+      "level": "N1",
+      "id": "61c572fca7",
+      "word": "空き間",
+      "reading": "あきま",
+      "meaning": [
+        "vacancy",
+        "room for rent or lease"
+      ],
+      "before": "ছুটি; ভাড়া বা ভাড়া জন্য রুম",
+      "after": "খালি ঘর; ভাড়া দেওয়ার জন্য খালি কক্ষ"
+    },
+    {
+      "level": "N1",
+      "id": "7e9e492582",
+      "word": "諦め",
+      "reading": "あきらめ",
+      "meaning": [
+        "resignation",
+        "acceptance",
+        "consolation"
+      ],
+      "before": "পদত্যাগ; স্বীকৃতি; শান্তিরা",
+      "after": "হাল ছেড়ে দেওয়া; অনিবার্য অবস্থা মেনে নেওয়া"
+    },
+    {
+      "level": "N1",
+      "id": "0812660ad4",
+      "word": "悪",
+      "reading": "あく",
+      "meaning": [
+        "evil",
+        "wickedness"
+      ],
+      "before": "খারাপ; অশ্লীলতা",
+      "after": "অমঙ্গল; মন্দ কাজ; দুষ্টতা"
+    },
+    {
+      "level": "N1",
+      "id": "1acc5eb731",
+      "word": "アクセル",
+      "reading": "アクセル",
+      "meaning": [
+        "accelerator"
+      ],
+      "before": "গতিশীলতা",
+      "after": "অ্যাক্সিলারেটর; গাড়ির গতি বাড়ানোর প্যাডেল"
+    },
+    {
+      "level": "N1",
+      "id": "c91ead7388",
+      "word": "あくどい",
+      "reading": "あくどい",
+      "meaning": [
+        "gaudy",
+        "showy",
+        "excessive",
+        "vicious"
+      ],
+      "before": "গাডি; শো; অতিরিক্ত; ভয়াবহ",
+      "after": "চড়া বা অতিরিক্ত জাঁকজমকপূর্ণ; নির্দয়; অসাধু ও শোষণমূলক"
+    },
+    {
+      "level": "N1",
+      "id": "03b0ef5987",
+      "word": "悪日",
+      "reading": "あくび",
+      "meaning": [
+        "unlucky day"
+      ],
+      "before": "দুর্ভাগ্যবশত দিন",
+      "after": "অশুভ দিন; দুর্ভাগ্যের দিন"
+    },
+    {
+      "level": "N1",
+      "id": "1977f3c94f",
+      "word": "明くる",
+      "reading": "あくる",
+      "meaning": [
+        "next",
+        "following"
+      ],
+      "before": "পরবর্তী",
+      "after": "পরবর্তী; পরের—দিন, বছর ইত্যাদির আগে ব্যবহৃত"
+    },
+    {
+      "level": "N1",
+      "id": "a91e6b714f",
+      "word": "顎",
+      "reading": "あご",
+      "meaning": [
+        "chin"
+      ],
+      "before": "চীন",
+      "after": "চোয়াল; থুতনি"
+    },
+    {
+      "level": "N1",
+      "id": "d290395bb6",
+      "word": "憧れ",
+      "reading": "あこがれ",
+      "meaning": [
+        "yearning",
+        "longing",
+        "aspiration"
+      ],
+      "before": "বার্ষিকী; দীর্ঘস্থায়ী; প্রত্যাশা",
+      "after": "আকাঙ্ক্ষা; প্রবল ইচ্ছা; মুগ্ধতা থেকে জন্ম নেওয়া সাধ"
+    },
+    {
+      "level": "N1",
+      "id": "b5fbd85675",
+      "word": "麻",
+      "reading": "あさ",
+      "meaning": [
+        "flax",
+        "linen",
+        "hemp"
+      ],
+      "before": "ফ্লেক্স; লিন; ক্যাম্পাস",
+      "after": "শণ বা তিসিজাতীয় আঁশ; সেই আঁশের কাপড়"
+    },
+    {
+      "level": "N1",
+      "id": "13e5e36fd0",
+      "word": "字",
+      "reading": "あざ",
+      "meaning": [
+        "section of village"
+      ],
+      "before": "গ্রামের বিভাগ",
+      "after": "গ্রাম বা এলাকার নামযুক্ত ছোট প্রশাসনিক অংশ"
+    },
+    {
+      "level": "N1",
+      "id": "f06b8ec290",
+      "word": "朝寝坊",
+      "reading": "あさねぼう",
+      "meaning": [
+        "oversleeping",
+        "late riser"
+      ],
+      "before": "ঘুমাচ্ছে; দেরিতে উঠে",
+      "after": "বেশি বেলা পর্যন্ত ঘুমানো; দেরিতে ঘুম থেকে ওঠা ব্যক্তি"
+    },
+    {
+      "level": "N1",
+      "id": "88828cefce",
+      "word": "浅ましい",
+      "reading": "あさましい",
+      "meaning": [
+        "wretched",
+        "miserable",
+        "shameful",
+        "mean",
+        "despicable",
+        "abject"
+      ],
+      "before": "ভাস্কর্য; দুর্ভাগ্যজনক; লজ্জিত; মানে; বিস্ময়কর; অ্যাবজেক্ট",
+      "after": "হীন; লজ্জাজনক; নীচ ও ঘৃণ্য; করুণ"
+    },
+    {
+      "level": "N1",
+      "id": "5f330190c2",
+      "word": "欺く",
+      "reading": "あざむく",
+      "meaning": [
+        "to deceive"
+      ],
+      "before": "প্রতারণা",
+      "after": "প্রতারণা করা; ধোঁকা দেওয়া"
+    },
+    {
+      "level": "N1",
+      "id": "a7d4d501a5",
+      "word": "鮮やか",
+      "reading": "あざやか",
+      "meaning": [
+        "vivid",
+        "clear",
+        "brilliant"
+      ],
+      "before": "জীবিত; পরিষ্কার; চমৎকার",
+      "after": "উজ্জ্বল; সুস্পষ্ট; নিপুণ ও চমকপ্রদ"
+    },
+    {
+      "level": "N1",
+      "id": "9f51d0da76",
+      "word": "あざ笑う",
+      "reading": "あざわらう",
+      "meaning": [
+        "to sneer at",
+        "to ridicule"
+      ],
+      "before": "তুষারপাতের জন্য; হাস্যকর",
+      "after": "বিদ্রূপ করে হাসা; উপহাস করা"
+    },
+    {
+      "level": "N1",
+      "id": "940a36553f",
+      "word": "味わい",
+      "reading": "あじわい",
+      "meaning": [
+        "flavour",
+        "meaning",
+        "significance"
+      ],
+      "before": "স্বাদ; অর্থ; গুরুত্ব",
+      "after": "স্বাদ; কোনো কিছুর অন্তর্নিহিত মাধুর্য বা তাৎপর্য"
+    },
+    {
+      "level": "N1",
+      "id": "4905fc6f13",
+      "word": "焦る",
+      "reading": "あせる",
+      "meaning": [
+        "to be in a hurry",
+        "to be impatient"
+      ],
+      "before": "তাড়াহুড়ো হওয়া; অসহিষ্ণু হতে",
+      "after": "অস্থির হয়ে তাড়াহুড়া করা; উদ্বেগে ধৈর্য হারানো"
+    },
+    {
+      "level": "N1",
+      "id": "2b7ed7f48e",
+      "word": "値",
+      "reading": "あたい",
+      "meaning": [
+        "value",
+        "price",
+        "cost",
+        "worth",
+        "merit"
+      ],
+      "before": "মূল্য; দাম; খরচ; যোগ্যতা",
+      "after": "মূল্য; দাম; মান; গুরুত্ব বা যোগ্যতা"
+    },
+    {
+      "level": "N1",
+      "id": "92da7d5ed8",
+      "word": "値する",
+      "reading": "あたいする",
+      "meaning": [
+        "to be worth",
+        "to deserve",
+        "to merit"
+      ],
+      "before": "মূল্যবান হতে হবে; যোগ্যতা",
+      "after": "যোগ্য হওয়া; প্রাপ্য হওয়া; মূল্য বা গুরুত্ব থাকা"
+    },
+    {
+      "level": "N1",
+      "id": "6859422547",
+      "word": "私",
+      "reading": "あたし",
+      "meaning": [
+        "I (fem)"
+      ],
+      "before": "আমি (পাঁচটি)",
+      "after": "আমি—সাধারণত নারীদের অনানুষ্ঠানিক কথায় ব্যবহৃত"
+    },
+    {
+      "level": "N1",
+      "id": "e7ce133582",
+      "word": "当たり",
+      "reading": "あたり",
+      "meaning": [
+        "hit",
+        "success",
+        "reaching the mark",
+        "per ...",
+        "vicinity",
+        "neighborhood"
+      ],
+      "before": "হিট; সাফল্য; মার্কেট পৌঁছানোর; এর জন্য...; প্রতিবেশী",
+      "after": "লাগা বা আঘাত; লক্ষ্যভেদ; সাফল্য; পুরস্কার মেলা; প্রতি একক হিসেবে; আশপাশ"
+    },
+    {
+      "level": "N1",
+      "id": "91564706d0",
+      "word": "悪化",
+      "reading": "あっか",
+      "meaning": [
+        "deterioration",
+        "growing worse",
+        "aggravation",
+        "degeneration",
+        "corruption"
+      ],
+      "before": "খারাপ; বাড়ছে খারাপ; দুর্বলতা; ডিজেনারেশন; দুর্নীতি",
+      "after": "অবনতি; খারাপ হয়ে যাওয়া; রোগ বা পরিস্থিতির আরও গুরুতর হওয়া"
+    }
+  ],
+  "new_entries": 0,
+  "duplicate_entries_added": 0,
+  "review_status": "Drafts; not certified by a native speaker",
+  "skipped": [
+    {
+      "id": "a86f29464a",
+      "word": "佚",
+      "reason": "Source gloss is suspect; not safe to infer a general vocabulary meaning"
+    }
+  ],
+  "research": [
+    {
+      "source": "https://att-astrec.nict.go.jp/member/mutiyama/ALT/index.html",
+      "finding": "Parallel corpus includes Bengali and English under CC BY 4.0, but its README says Japanese sentence fields are empty in this release. Not imported as JLPT lessons."
+    },
+    {
+      "source": "https://github.com/MinhasKamal/BengaliDictionary",
+      "finding": "English-Bengali lexical data, not Japanese/JLPT sense-aligned. No automatic bulk replacement."
+    },
+    {
+      "source": "https://github.com/InanXR/Shobdo",
+      "finding": "Bengali lexical corpus; not a complete Japanese-Bengali JLPT translation dataset."
+    }
+  ]
+}
