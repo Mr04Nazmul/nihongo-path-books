@@ -9,3 +9,5 @@
 @media(prefers-reduced-motion:reduce){.book-reader.cover-opening:before{display:none}.turning-leaf{display:none}.book-reader.cover-opening .book-spread{animation:none}}
 .progress-item{grid-template-columns:100px 1fr auto}.progress-item>strong{font-size:28px}@media(max-width:650px){.progress-item{grid-template-columns:75px 1fr}.progress-item>strong{font-size:23px}}
 .paper-page:focus-visible{outline:2px solid var(--accent);outline-offset:-5px}
+
+.jump-button{border:1px solid var(--line);border-radius:3px;background:var(--panel);color:var(--ink);padding:7px 9px;font:11px var(--sans);cursor:pointer}.jump-button:hover{background:var(--soft)}
