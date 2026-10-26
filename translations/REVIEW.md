@@ -33,3 +33,7 @@ Authored and checked 60 meanings and 113 example translations (173 fields). Clar
 ## Vocabulary meanings, positions 260–359, N3 and N2
 
 Authored and checked 200 additional meanings. Examples in this range remain independently pending. Corrected conflated readings and misleading glosses, including 方々, 学級 and 生地. Cumulative N3/N2 checked fields: 1,359 of 13,901; remaining: 12,542. Full review and the 5,000-field target remain incomplete.
+
+## Vocabulary examples, positions 260–309, N3 and N2
+
+Authored and checked 184 examples. Corrected negation, quantities, pronouns and source English mismatches. The inherited 方々 example with the ほうぼう reading was replaced with an attributed かたがた example, with its original preserved. Cumulative N3/N2 checked fields: 1,543 of 13,901; remaining: 12,358. Full review and the 5,000-field target remain incomplete.
