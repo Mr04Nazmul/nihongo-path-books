@@ -42,8 +42,8 @@ class Translator:
 def main(limit: int = 2, offset: int = 0, output: str = 'translations/modal-pilot-drafts.jsonl'):
     sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
     from modal_translation_drafts import pending_items, validate_draft
-    if not 1 <= limit <= 10:
-        raise ValueError('Pilot limit must be 1–10 fields per run')
+    if not 1 <= limit <= 100:
+        raise ValueError('Pilot limit must be 1–100 fields per run')
     if offset < 0:
         raise ValueError('offset must be nonnegative')
     path = pathlib.Path(output)
