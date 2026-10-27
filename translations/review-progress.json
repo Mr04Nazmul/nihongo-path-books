@@ -1,11 +1,11 @@
 {
   "status": "in-progress",
   "total_bengali_fields": 39589,
-  "ai_semantic_checked_fields": 5531,
-  "pending_fields": 34058,
+  "ai_semantic_checked_fields": 5561,
+  "pending_fields": 34028,
   "stale_evidence_fields": 0,
   "checked_by_level": {
-    "N5": 1340,
+    "N5": 1370,
     "N3": 2161,
     "N2": 2030
   },
@@ -14,210 +14,210 @@
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "dd34250740",
+      "id": "c92dbe626a",
+      "language": "bn",
+      "field": "examples.0"
+    },
+    {
+      "level": "N5",
+      "kind": "vocab",
+      "id": "c92dbe626a",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "2eb252da72",
+      "id": "d5d8c608aa",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "2eb252da72",
+      "id": "d5d8c608aa",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "04e80a2ba1",
+      "id": "a9191729e3",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "04e80a2ba1",
+      "id": "a9191729e3",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "2e1642b248",
+      "id": "e9e492c68a",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "2e1642b248",
+      "id": "e9e492c68a",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "442c4aa1ca",
+      "id": "be9b8bcb5e",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "442c4aa1ca",
+      "id": "be9b8bcb5e",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "47c1fdbe2f",
+      "id": "0020b9ee4e",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "47c1fdbe2f",
+      "id": "0020b9ee4e",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "05cf590971",
+      "id": "491cfa69be",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "05cf590971",
+      "id": "491cfa69be",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "8699b8bec2",
+      "id": "1f4bb6e503",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "8699b8bec2",
+      "id": "1f4bb6e503",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "1288e600be",
+      "id": "bd3a2ad2ad",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "1288e600be",
+      "id": "bd3a2ad2ad",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "402eb0d21f",
+      "id": "a2694d259e",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "402eb0d21f",
+      "id": "a2694d259e",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "d890e45616",
+      "id": "f586d7d023",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "d890e45616",
+      "id": "f586d7d023",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "c552e79d34",
+      "id": "61994485cb",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "67126059f1",
-      "language": "bn",
-      "field": "examples.0"
-    },
-    {
-      "level": "N5",
-      "kind": "vocab",
-      "id": "67126059f1",
+      "id": "61994485cb",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "9a7c962266",
+      "id": "4a11eb5fb4",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "9a7c962266",
+      "id": "4a11eb5fb4",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "f114f6f499",
+      "id": "6313cc9cb5",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "f114f6f499",
+      "id": "6313cc9cb5",
       "language": "bn",
       "field": "examples.1"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "cff3c57405",
+      "id": "3793173687",
       "language": "bn",
       "field": "examples.0"
     },
     {
       "level": "N5",
       "kind": "vocab",
-      "id": "cff3c57405",
+      "id": "3793173687",
       "language": "bn",
       "field": "examples.1"
     }

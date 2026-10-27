@@ -83,3 +83,10 @@ relationships, politeness, and tense. Total all-level AI semantic-checked fields
 word counts. No native-speaker or teacher verification is claimed. The 102 Modal
 machine drafts are stored separately on the draft pilot branch, not treated as
 reviewed in these totals.
+
+## N5 example checkpoint: 30 additional fields
+
+Reviewed 30 more N5 examples against Japanese, checking negation, numbers,
+relative positions, grammatical person and time. Total all-level AI semantic
+review is 5,561 of 39,589 fields, leaving 34,028 pending. Human review has
+not been performed.
