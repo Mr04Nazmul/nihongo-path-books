@@ -73,3 +73,13 @@ remains disabled.
 No attached translation ZIP was available in this session or found in Library;
 no old /tmp path or other Work process was assumed. See TRANSLATION-TOOLS.md for
 the actual GitHub tool checks, successful MyMemory smoke test and unchecked cache.
+
+## N5 example checkpoint: 35 additional fields
+
+Reviewed 35 N5 example translations against their Japanese sentences and supplied
+context. Corrections include negation, the number of objects, clothing, spatial
+relationships, politeness, and tense. Total all-level AI semantic-checked fields:
+5,531 of 39,589; 34,058 pending. These are independent translation fields, not
+word counts. No native-speaker or teacher verification is claimed. The 102 Modal
+machine drafts are stored separately on the draft pilot branch, not treated as
+reviewed in these totals.
