@@ -94,3 +94,7 @@ not been performed.
 ## N5 example checkpoint: 30 further fields
 
 Reviewed 30 N5 examples against their Japanese sources, including time, negation, speaker, directions and commands. These are AI semantic checks; human review remains outstanding.
+
+## N1 initial vocabulary checkpoint
+
+Reviewed 29 N1 vocabulary meaning and example fields against Japanese. The example for 相対 was left pending because its reading and context may differ from the headword. AI semantic review is not human verification.
