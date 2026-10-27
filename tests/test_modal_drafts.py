@@ -14,6 +14,14 @@ class DraftSafetyTest(unittest.TestCase):
         self.assertTrue(all(not reviewed.get(row['key']) for row in selected))
         actual = {key(f): f for f in fields()}
         self.assertTrue(all(row['source_sha256'] == drafts.digest(actual[row['key']]['source']) for row in selected))
+    def test_offset_selects_nonoverlapping_pending_fields(self):
+        first = drafts.pending_items(10)
+        second = drafts.pending_items(10, 10)
+        self.assertEqual(len(second), 10)
+        self.assertFalse({x['key'] for x in first} & {x['key'] for x in second})
+        self.assertEqual(first + second, drafts.pending_items(20))
+        with self.assertRaises(ValueError):
+            drafts.pending_items(1, -1)
     def test_drafts_never_mark_reviewed(self):
         item = drafts.pending_items(1)[0]
         self.assertEqual(drafts.validate_draft(item, 'বাংলা')['status'], 'unreviewed-machine-draft')
