@@ -1,12 +1,10 @@
-name: Modal M2M bounded benchmark
+name: Modal M2M bounded benchmark (paused)
 on:
-  pull_request:
-    types: [synchronize]
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
   benchmark:
-    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'codex/bengali-field-inventory-20261027'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -19,9 +17,7 @@ jobs:
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
-        run: |
-          test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal credentials not configured"; exit 1; }
-          python -m modal run scripts/modal_m2m_benchmark.py
+        run: python -m modal run scripts/modal_m2m_benchmark.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
