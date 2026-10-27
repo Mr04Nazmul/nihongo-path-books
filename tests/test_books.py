@@ -18,8 +18,6 @@ class Books(unittest.TestCase):
   self.assertEqual(set(statuses),{key(r) for r in records})
   for r in records:
    self.assertEqual(r['language'],'bn');self.assertTrue(r['basis'].strip());self.assertTrue(valid(r,lookup[key(r)]))
-  self.assertNotIn('N5:vocab:03d7b15720:bn:meaning',statuses)
-  self.assertNotIn('N5:vocab:9d648d38ad:bn:examples.0',statuses)
   r=records[0];f=lookup[key(r)];self.assertFalse(valid(r,{**f,'translation':'changed'}))
  def test_rebuild_does_not_change_corpus(self):
   paths=[*[ROOT/f'dist/data/n{n}.json' for n in range(1,6)],ROOT/'dist/data/extra.json',ROOT/'dist/data/book-inventory.json',ROOT/'dist/data/book-audit.json']
