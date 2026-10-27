@@ -12,7 +12,7 @@ An account-side hard spending limit, current GPU prices and secure runtime
 credentials have not been verified. A timeout or batch size alone cannot
 prevent charges. The code is a preparation tool, not a working inference
 pipeline; no model has been selected, downloaded, evaluated or run. Before
-execution, establish enforceable no-overage controls and evaluate a properly
+execution, confirm that remaining applicable credits cover the run and evaluate a properly
 licensed Japanese–Bengali model on representative examples. Persist drafts
 outside the review ledger and check source/translation hashes again on import.
 Do not mark generated text as reviewed or silently replace verified text.
