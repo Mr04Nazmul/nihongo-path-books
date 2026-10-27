@@ -47,10 +47,10 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     plan = sub.add_parser('plan', help='Print pending field records without network access')
     plan.add_argument('--limit', type=int, default=10)
-    sub.add_parser('run', help='Blocked until account-side hard spend limit is verified')
+    sub.add_parser('run', help='Blocked until the inference backend is implemented and tested')
     args = parser.parse_args()
     if args.command == 'run':
-        parser.error('GPU execution disabled: verify an account-side hard spend limit first.')
+        parser.error('GPU execution disabled: inference backend and secure runtime authentication are not ready.')
     if not 1 <= args.limit <= 1000:
         parser.error('--limit must be between 1 and 1000')
     for item in pending_items(args.limit):
