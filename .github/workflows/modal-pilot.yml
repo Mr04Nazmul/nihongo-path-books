@@ -1,7 +1,5 @@
 name: Modal translation pilot
 on:
-  pull_request:
-    types: [synchronize]
   workflow_dispatch:
     inputs:
       limit:
