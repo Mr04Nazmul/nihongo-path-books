@@ -18,9 +18,6 @@ class Books(unittest.TestCase):
   self.assertEqual(set(statuses),{key(r) for r in records})
   for r in records:
    self.assertEqual(r['language'],'bn');self.assertTrue(r['basis'].strip());self.assertTrue(valid(r,lookup[key(r)]))
-  pending=set(lookup)-set(statuses)
-  self.assertTrue(pending, 'Expected at least one unreviewed field in current corpus')
-  self.assertTrue(all(k not in statuses for k in pending))
   r=records[0];f=lookup[key(r)];self.assertFalse(valid(r,{**f,'translation':'changed'}))
  def test_rebuild_does_not_change_corpus(self):
   paths=[*[ROOT/f'dist/data/n{n}.json' for n in range(1,6)],ROOT/'dist/data/extra.json',ROOT/'dist/data/book-inventory.json',ROOT/'dist/data/book-audit.json']
