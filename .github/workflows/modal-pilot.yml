@@ -1,9 +1,11 @@
 name: Modal translation pilot
 on:
+  pull_request:
+    types: [synchronize]
   workflow_dispatch:
     inputs:
       limit:
-        description: "Number of draft fields (1–10)"
+        description: "Number of draft fields (1–100)"
         required: true
         default: "2"
       offset:
@@ -28,11 +30,12 @@ jobs:
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
-          REQUESTED_LIMIT: ${{ inputs.limit || '2' }}
-          REQUESTED_OFFSET: ${{ inputs.offset || '0' }}
+          REQUESTED_LIMIT: ${{ inputs.limit || '100' }}
+          REQUESTED_OFFSET: ${{ inputs.offset || '2' }}
         run: |
           test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal credentials not configured"; exit 1; }
-          case "$REQUESTED_LIMIT" in 1|2|3|4|5|6|7|8|9|10) ;; *) echo "Invalid batch size"; exit 1;; esac
+          case "$REQUESTED_LIMIT" in ""|*[!0-9]*) echo "Invalid batch size"; exit 1;; esac
+          test "$REQUESTED_LIMIT" -ge 1 && test "$REQUESTED_LIMIT" -le 100 || { echo "Invalid batch size"; exit 1; }
           case "$REQUESTED_OFFSET" in ""|*[!0-9]*) echo "Invalid offset"; exit 1;; esac
           python -m modal run scripts/modal_inference.py --limit "$REQUESTED_LIMIT" --offset "$REQUESTED_OFFSET" --output modal-pilot-drafts.jsonl
       - name: Save unreviewed drafts
