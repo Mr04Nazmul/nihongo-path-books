@@ -90,3 +90,7 @@ Reviewed 30 more N5 examples against Japanese, checking negation, numbers,
 relative positions, grammatical person and time. Total all-level AI semantic
 review is 5,561 of 39,589 fields, leaving 34,028 pending. Human review has
 not been performed.
+
+## N5 example checkpoint: 30 further fields
+
+Reviewed 30 N5 examples against their Japanese sources, including time, negation, speaker, directions and commands. These are AI semantic checks; human review remains outstanding.
