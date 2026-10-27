@@ -1,5 +1,7 @@
 name: Modal translation pilot
 on:
+  pull_request:
+    types: [synchronize]
   workflow_dispatch:
     inputs:
       limit:
@@ -14,6 +16,7 @@ permissions:
   contents: read
 jobs:
   pilot:
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'codex/bengali-field-inventory-20261027')
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -27,8 +30,8 @@ jobs:
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
-          REQUESTED_LIMIT: ${{ inputs.limit }}
-          REQUESTED_OFFSET: ${{ inputs.offset }}
+          REQUESTED_LIMIT: ${{ inputs.limit || '2' }}
+          REQUESTED_OFFSET: ${{ inputs.offset || '0' }}
         run: |
           test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal credentials not configured"; exit 1; }
           case "$REQUESTED_LIMIT" in 1|2|3|4|5|6|7|8|9|10) ;; *) echo "Invalid batch size"; exit 1;; esac
