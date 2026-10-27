@@ -16,7 +16,7 @@ app = modal.App('nihongo-bengali-draft-pilot')
 image = (modal.Image.debian_slim(python_version='3.11')
          .pip_install('torch==2.5.1', 'transformers==4.49.0', 'accelerate==1.3.0'))
 
-@app.cls(image=image, gpu='L4', timeout=600, scaledown_window=10, max_containers=1)
+@app.cls(image=image, gpu=['L4', 'A10', 'L40S'], timeout=600, scaledown_window=10, max_containers=1)
 class Translator:
     @modal.enter()
     def load(self):
