@@ -10,7 +10,7 @@ import time
 import modal
 
 
-MODEL = 'Qwen/Qwen2.5-7B-Instruct'
+MODEL = 'google/madlad400-3b-mt'
 REVISION = 'main'
 app = modal.App('nihongo-bengali-draft-pilot')
 image = (modal.Image.debian_slim(python_version='3.11')
@@ -21,24 +21,22 @@ class Translator:
     @modal.enter()
     def load(self):
         import torch
-        from transformers import AutoModelForCausalLM, AutoTokenizer
+        from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(MODEL, revision=REVISION)
-        self.model = AutoModelForCausalLM.from_pretrained(
+        self.model = AutoModelForSeq2SeqLM.from_pretrained(
             MODEL, revision=REVISION, torch_dtype=torch.float16, device_map='auto')
         self.model.eval()
 
     @modal.method()
     def translate(self, item):
         import torch
-        messages = [
-            {'role': 'system', 'content': 'Translate Japanese-learning content into natural Bangladeshi Bengali. Preserve Japanese patterns. Prioritize Japanese, use English only for disambiguation. Never invent information. Return only the requested translation without commentary.'},
-            {'role': 'user', 'content': json.dumps({'requested_field': item['field'], 'context': item['source']}, ensure_ascii=False)},
-        ]
-        prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-        inputs = self.tokenizer(prompt, return_tensors='pt').to(self.model.device)
+        source = item['source'].get('ja')
+        if not source:
+            raise ValueError('This pilot accepts Japanese example sentences only')
+        inputs = self.tokenizer('<2bn> ' + source, return_tensors='pt').to(self.model.device)
         with torch.inference_mode():
             output = self.model.generate(**inputs, max_new_tokens=256, do_sample=False)
-        return self.tokenizer.decode(output[0][inputs['input_ids'].shape[1]:], skip_special_tokens=True).strip()
+        return self.tokenizer.decode(output[0], skip_special_tokens=True).strip()
 
 @app.local_entrypoint()
 def main(limit: int = 2, offset: int = 0, output: str = 'translations/modal-pilot-drafts.jsonl'):
@@ -56,7 +54,7 @@ def main(limit: int = 2, offset: int = 0, output: str = 'translations/modal-pilo
             existing[(row['key'], row['source_sha256'], row['previous_translation_sha256'])] = row
     # Fetch more candidates so already completed records do not prevent progress.
     candidates = pending_items(1000, offset)
-    selected = [i for i in candidates if (i['key'], i['source_sha256'], i['previous_translation_sha256']) not in existing][:limit]
+    selected = [i for i in candidates if i['field'].startswith('examples.') and i['source'].get('ja') and (i['key'], i['source_sha256'], i['previous_translation_sha256']) not in existing][:limit]
     if not selected:
         print('No pending pilot candidates found in selected window.')
         return
@@ -68,6 +66,8 @@ def main(limit: int = 2, offset: int = 0, output: str = 'translations/modal-pilo
             try:
                 response = worker.translate.remote(item)
                 row = validate_draft(item, response)
+                if any('\u0400' <= ch <= '\u052f' for ch in response):
+                    row['flags'].append('unexpected_cyrillic_script')
                 row.update(model=MODEL, revision=REVISION, created_unix=int(time.time()))
                 with path.open('a', encoding='utf-8') as stream:
                     stream.write(json.dumps(row, ensure_ascii=False) + '\n')
