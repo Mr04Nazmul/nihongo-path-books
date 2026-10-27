@@ -1,20 +1,12 @@
-name: Modal translation pilot
+name: Modal M2M bounded benchmark
 on:
-  workflow_dispatch:
-    inputs:
-      limit:
-        description: "Number of draft fields (1–100)"
-        required: true
-        default: "2"
-      offset:
-        description: "Zero-based pending-field offset (same corpus revision)"
-        required: true
-        default: "0"
+  pull_request:
+    types: [synchronize]
 permissions:
   contents: read
 jobs:
-  pilot:
-    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'codex/bengali-field-inventory-20261027')
+  benchmark:
+    if: github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref == 'codex/bengali-field-inventory-20261027'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -22,25 +14,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install Modal CLI
-        run: python -m pip install modal==1.6.2
-      - name: Run experimental pilot
+      - run: python -m pip install modal==1.6.2
+      - name: Benchmark eight sentences
         env:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
-          REQUESTED_LIMIT: ${{ inputs.limit || '100' }}
-          REQUESTED_OFFSET: ${{ inputs.offset || '2' }}
         run: |
           test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal credentials not configured"; exit 1; }
-          case "$REQUESTED_LIMIT" in ""|*[!0-9]*) echo "Invalid batch size"; exit 1;; esac
-          test "$REQUESTED_LIMIT" -ge 1 && test "$REQUESTED_LIMIT" -le 100 || { echo "Invalid batch size"; exit 1; }
-          case "$REQUESTED_OFFSET" in ""|*[!0-9]*) echo "Invalid offset"; exit 1;; esac
-          python -m modal run scripts/modal_inference.py --limit "$REQUESTED_LIMIT" --offset "$REQUESTED_OFFSET" --output modal-pilot-drafts.jsonl
-      - name: Save unreviewed drafts
+          python -m modal run scripts/modal_m2m_benchmark.py
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: modal-pilot-unreviewed-drafts
-          path: modal-pilot-drafts.jsonl
+          name: m2m-benchmark-unreviewed
+          path: m2m-benchmark.jsonl
           if-no-files-found: warn
           retention-days: 7
