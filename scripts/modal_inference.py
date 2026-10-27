@@ -43,9 +43,11 @@ class Translator:
         return self.tokenizer.decode(output[0][inputs['input_ids'].shape[1]:], skip_special_tokens=True).strip()
 
 @app.local_entrypoint()
-def main(limit: int = 2, output: str = 'translations/modal-pilot-drafts.jsonl'):
+def main(limit: int = 2, offset: int = 0, output: str = 'translations/modal-pilot-drafts.jsonl'):
     if not 1 <= limit <= 10:
         raise ValueError('Pilot limit must be 1–10 fields per run')
+    if offset < 0:
+        raise ValueError('offset must be nonnegative')
     path = pathlib.Path(output)
     existing = {}
     if path.exists():
@@ -53,10 +55,10 @@ def main(limit: int = 2, output: str = 'translations/modal-pilot-drafts.jsonl'):
             row = json.loads(line)
             existing[(row['key'], row['source_sha256'], row['previous_translation_sha256'])] = row
     # Fetch more candidates so already completed records do not prevent progress.
-    candidates = pending_items(1000)
+    candidates = pending_items(1000, offset)
     selected = [i for i in candidates if (i['key'], i['source_sha256'], i['previous_translation_sha256']) not in existing][:limit]
     if not selected:
-        print('No pending pilot candidates found among first 1000 fields.')
+        print('No pending pilot candidates found in selected window.')
         return
     path.parent.mkdir(parents=True, exist_ok=True)
     worker = Translator()
