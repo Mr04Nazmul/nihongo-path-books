@@ -6,6 +6,10 @@ on:
         description: "Number of draft fields (1–10)"
         required: true
         default: "2"
+      offset:
+        description: "Zero-based pending-field offset (same corpus revision)"
+        required: true
+        default: "0"
 permissions:
   contents: read
 jobs:
@@ -24,10 +28,12 @@ jobs:
           MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
           MODAL_TOKEN_SECRET: ${{ secrets.MODAL_TOKEN_SECRET }}
           REQUESTED_LIMIT: ${{ inputs.limit }}
+          REQUESTED_OFFSET: ${{ inputs.offset }}
         run: |
           test -n "$MODAL_TOKEN_ID" && test -n "$MODAL_TOKEN_SECRET" || { echo "Modal credentials not configured"; exit 1; }
           case "$REQUESTED_LIMIT" in 1|2|3|4|5|6|7|8|9|10) ;; *) echo "Invalid batch size"; exit 1;; esac
-          python -m modal run scripts/modal_inference.py --limit "$REQUESTED_LIMIT" --output modal-pilot-drafts.jsonl
+          case "$REQUESTED_OFFSET" in ""|*[!0-9]*) echo "Invalid offset"; exit 1;; esac
+          python -m modal run scripts/modal_inference.py --limit "$REQUESTED_LIMIT" --offset "$REQUESTED_OFFSET" --output modal-pilot-drafts.jsonl
       - name: Save unreviewed drafts
         if: always()
         uses: actions/upload-artifact@v4
