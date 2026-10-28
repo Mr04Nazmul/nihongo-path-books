@@ -1,0 +1,42 @@
+{
+  "N5": {
+    "vocab": 27,
+    "grammar": 14,
+    "kanji": 13,
+    "pages": {
+      "vocab": 53,
+      "grammar": 27,
+      "kanji": 26
+    }
+  },
+  "N4": {
+    "vocab": 26,
+    "grammar": 17,
+    "kanji": 26,
+    "pages": {
+      "vocab": 52,
+      "grammar": 34,
+      "kanji": 51
+    }
+  },
+  "N3": {
+    "vocab": 51,
+    "grammar": 42,
+    "kanji": 23,
+    "pages": {
+      "vocab": 101,
+      "grammar": 84,
+      "kanji": 45
+    }
+  },
+  "N2": {
+    "vocab": 7,
+    "grammar": 56,
+    "kanji": 26,
+    "pages": {
+      "vocab": 11,
+      "grammar": 112,
+      "kanji": 52
+    }
+  }
+}

@@ -72,3 +72,9 @@ The owner requested removal of the original scan/OCR reader. Its HTML route and 
 The active N3 vocabulary book and its practice now use the three owner-supplied Word lists from PDF pages 1–232: 2,195 vocabulary/short-phrase entries. The complete searchable list at `n3-bangla-words.html` and `n3-bangla-book.html` preserves all 2,363 source rows, with 166 full sentences and two incomplete source notes separated from vocabulary practice. Counts include repeated headwords and must not be described as unique words.
 
 The source-baseline counts above and the immutable corpus/review audit continue to describe the original licensed collection. That baseline is preserved for attribution and evidence; it is replaced at runtime for the N3 vocabulary book. N3 grammar/kanji and other books are unchanged. Imported entries have separate stable IDs so prior progress cannot be attached to different vocabulary. See `translations/n3-word-import.md`.
+
+## Owner PDF replacement, 2026-10-28
+
+N5–N2 now load owner-supplied editions inside the existing level books and subject tabs. The 15 original PDFs (648 pages) are bundled unchanged; `dist/data/owner-pdfs.json` records their SHA-256 hashes. Ordered facing-page records live in `owner-n5.json` through `owner-n2.json`; `owner-index.json` supplies the page counts. No third-party curriculum is mixed into these four editions. N1 and Extra retain their existing data.
+
+The existing page-turn reader renders both original pages into its paper/ink palette, with chapter search, bookmarks, learned markers and an enlarged-page dialog. The source page artwork preserves Bengali and Japanese glyphs; search uses the PDF text layer, whose encoded Bengali can vary. Quiz generation is not synthesized from page images. PDF.js is bundled locally with its code license; PDF content ownership is separate from the rendering library.

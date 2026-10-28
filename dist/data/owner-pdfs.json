@@ -1,0 +1,152 @@
+[
+  {
+    "id": "n5-grammar-bangla",
+    "level": "N5",
+    "kind": "grammar",
+    "title": "N5 Grammar Bangla",
+    "url": "pdfs/n5-grammar-bangla.pdf",
+    "pages": 27,
+    "bytes": 282720,
+    "sha256": "0e10ea66a8f0ed5a54ba1ab491e555af0ce7d6ddd9f7659c282d6c278d448e9f"
+  },
+  {
+    "id": "n5-kanji-new-typed-list",
+    "level": "N5",
+    "kind": "kanji",
+    "title": "N5 Kanji New Typed List",
+    "url": "pdfs/n5-kanji-new-typed-list.pdf",
+    "pages": 26,
+    "bytes": 2726093,
+    "sha256": "3e8a93f2f81166c9612d44d5ac791fde6887c7f49fa8bf2adf86e769f85a95cc"
+  },
+  {
+    "id": "n5-vocabulary-new-typed-list",
+    "level": "N5",
+    "kind": "vocab",
+    "title": "N5 Vocabulary New Typed List",
+    "url": "pdfs/n5-vocabulary-new-typed-list.pdf",
+    "pages": 53,
+    "bytes": 3995272,
+    "sha256": "cddb061b12ea48bb18ff162311c860b0e9e2ea58a1711404d641024b39867682"
+  },
+  {
+    "id": "n4-grammar-lessons-26-50-typed",
+    "level": "N4",
+    "kind": "grammar",
+    "title": "N4 Grammar Lessons 26 50 Typed",
+    "url": "pdfs/n4-grammar-lessons-26-50-typed.pdf",
+    "pages": 34,
+    "bytes": 2391770,
+    "sha256": "f446061bf6a3841f78dd8e6368890dadf75beee45f075051577b32aeed701677"
+  },
+  {
+    "id": "n4-kanji-onyomi-kunyomi-bangla",
+    "level": "N4",
+    "kind": "kanji",
+    "title": "N4 Kanji Onyomi Kunyomi Bangla",
+    "url": "pdfs/n4-kanji-onyomi-kunyomi-bangla.pdf",
+    "pages": 51,
+    "bytes": 2121202,
+    "sha256": "fabf5a0477d4a4dddaaf85ea9b3ad2bccca53143a484fa8296eb4f99df74d0df"
+  },
+  {
+    "id": "n4-vocabulary-bangla",
+    "level": "N4",
+    "kind": "vocab",
+    "title": "N4 Vocabulary Bangla",
+    "url": "pdfs/n4-vocabulary-bangla.pdf",
+    "pages": 52,
+    "bytes": 549724,
+    "sha256": "19aac8d0badeb296909013563aaf41edd57c51e739e19dfb6a4c143999075626"
+  },
+  {
+    "id": "n3-grammar-bangla",
+    "level": "N3",
+    "kind": "grammar",
+    "title": "N3 Grammar Bangla",
+    "url": "pdfs/n3-grammar-bangla.pdf",
+    "pages": 84,
+    "bytes": 2434993,
+    "sha256": "d74ac89f143dc77aa27d6b208238fd8a793655c919d5a646f381597c1d4410f6"
+  },
+  {
+    "id": "n3-kanji-bangla-onyomi-kunyomi",
+    "level": "N3",
+    "kind": "kanji",
+    "title": "N3 Kanji Bangla Onyomi Kunyomi",
+    "url": "pdfs/n3-kanji-bangla-onyomi-kunyomi.pdf",
+    "pages": 45,
+    "bytes": 512367,
+    "sha256": "8e71ddcace0ebc4c9e76856548f45256353f9cebef5cabdc8443a7c75fdf0dd7"
+  },
+  {
+    "id": "n3-vocabulary-bangla-typed",
+    "level": "N3",
+    "kind": "vocab",
+    "title": "N3 Vocabulary Bangla Typed",
+    "url": "pdfs/n3-vocabulary-bangla-typed.pdf",
+    "pages": 101,
+    "bytes": 3122685,
+    "sha256": "2fc9ba43d4a9ebe902a8848ec5058a58411f565d7ad6bc2e845740f0c8e96fd5"
+  },
+  {
+    "id": "jlpt-n2-complete-grammar-master-book",
+    "level": "N2",
+    "kind": "grammar",
+    "title": "N2 Complete Grammar Master Book",
+    "url": "pdfs/jlpt-n2-complete-grammar-master-book.pdf",
+    "pages": 4,
+    "bytes": 495032,
+    "sha256": "1eb4b9848aa3a8148e0343261c2ed3cbaa07ed3657d4775bf1b02c7e638354ee"
+  },
+  {
+    "id": "n2-grammar-bangla",
+    "level": "N2",
+    "kind": "grammar",
+    "title": "N2 Grammar Bangla",
+    "url": "pdfs/n2-grammar-bangla.pdf",
+    "pages": 108,
+    "bytes": 2508950,
+    "sha256": "e2fa778edd8156d4932260c19f767ae7be53e951535bca93c3e59d2e7a6d121a"
+  },
+  {
+    "id": "n2-kanji-400-bangla",
+    "level": "N2",
+    "kind": "kanji",
+    "title": "N2 Kanji 400 Bangla",
+    "url": "pdfs/n2-kanji-400-bangla.pdf",
+    "pages": 52,
+    "bytes": 576571,
+    "sha256": "0301da928ee570c96a27c99c50a7dc2f7b6b1456fd676316c0717f26363ab718"
+  },
+  {
+    "id": "jlpt-n2-vocab-vol1-verbs-and-nouns",
+    "level": "N2",
+    "kind": "vocab",
+    "title": "N2 Vocab Vol1 Verbs and Nouns",
+    "url": "pdfs/jlpt-n2-vocab-vol1-verbs-and-nouns.pdf",
+    "pages": 5,
+    "bytes": 390873,
+    "sha256": "2ff385ecc7801d02320d606d1408185e38696da38d2b1375f80cd228c4372b1f"
+  },
+  {
+    "id": "jlpt-n2-vocab-vol2-adverbs-and-adjectives",
+    "level": "N2",
+    "kind": "vocab",
+    "title": "N2 Vocab Vol2 Adverbs and Adjectives",
+    "url": "pdfs/jlpt-n2-vocab-vol2-adverbs-and-adjectives.pdf",
+    "pages": 3,
+    "bytes": 365197,
+    "sha256": "8bd76548e233d6f97412b57ef87bbc4124d9e49b6d540a2fa79d96929347ab19"
+  },
+  {
+    "id": "jlpt-n2-vocab-vol3-business-and-society-nouns",
+    "level": "N2",
+    "kind": "vocab",
+    "title": "N2 Vocab Vol3 Business and Society Nouns",
+    "url": "pdfs/jlpt-n2-vocab-vol3-business-and-society-nouns.pdf",
+    "pages": 3,
+    "bytes": 364587,
+    "sha256": "8d9c674a2b860f2f40fe0a542212fe2c906909e46c7563dbbc12422002909282"
+  }
+]
