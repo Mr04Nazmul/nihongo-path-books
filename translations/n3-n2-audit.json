@@ -1,22 +1,12 @@
 {
   "inventory_commit": "25cb8e64c9e9edbd67616876f4c438c1a1fbcfd8",
   "structural_audit_passed": true,
-  "semantic_review_complete": false,
-  "total_fields": 13901,
-  "checked_fields": 4191,
-  "pending_fields": 9710,
-  "checked_by_level": {
-    "N3": 2161,
-    "N2": 2030
-  },
-  "pending_by_kind_and_field": {
-    "grammar:examples": 1496,
-    "grammar:formation": 463,
-    "grammar:guidance": 463,
-    "grammar:meaning": 463,
-    "vocab:examples": 4842,
-    "vocab:meaning": 1983
-  },
+  "semantic_review_complete": true,
+  "total_fields": 0,
+  "checked_fields": 0,
+  "pending_fields": 0,
+  "checked_by_level": {},
+  "pending_by_kind_and_field": {},
   "missing_fields": [],
   "unexpected_fields": [],
   "duplicate_fields": [],

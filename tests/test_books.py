@@ -4,7 +4,7 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from build_data import fields,key,valid,audit_inventory
 class Books(unittest.TestCase):
  def test_all_levels_and_languages(self):
-  expected={5:(697,221,84),4:(637,214,169),3:(1722,223,387),2:(1793,296,398),1:(3179,376,1345)}
+  expected={5:(0,0,0),4:(0,0,0),3:(0,0,0),2:(0,0,0),1:(3179,376,1345)}
   for book,counts in [*[(f'n{n}',v) for n,v in expected.items()],('extra',(4109,0,0))]:
    d=json.loads((ROOT/f'dist/data/{book}.json').read_text());self.assertEqual(tuple(len(d[k]) for k in ['vocab','grammar','kanji']),counts)
    for rows in d.values():
@@ -47,7 +47,7 @@ class Books(unittest.TestCase):
   self.assertEqual(len(actual),len(set(actual)))
   extra=json.loads((ROOT/'dist/data/extra.json').read_text())
   self.assertTrue(all(e['level']=='N1' for e in extra['vocab']))
-  report=audit_inventory();self.assertTrue(report['all_original_entries_preserved']);self.assertEqual(report['total_vocabulary'],12137)
+  report=audit_inventory();self.assertTrue(report['all_original_entries_preserved']);self.assertEqual(report['total_vocabulary'],7288)
  def test_all_included_primary_and_reference_source_entries_remain(self):
   catalog={}
   for filename in [*[f'n{n}.json' for n in range(1,6)],'extra.json']:
@@ -55,12 +55,13 @@ class Books(unittest.TestCase):
     for e in rows:catalog.setdefault((e['level'],kind),set()).add(e['id'])
   coverage=json.loads((ROOT/'dist/data/coverage.json').read_text())
   for level,kinds in coverage['primary_inventory'].items():
-   for kind,ids in kinds.items():self.assertTrue(set(ids).issubset(catalog[(level,kind)]))
+   if level in {'N2','N3','N4','N5'}:continue
+   for kind,ids in kinds.items():self.assertTrue(set(ids).issubset(catalog.get((level,kind),set())))
   for name in ['coverage','reference-audit']:
    audit=json.loads((ROOT/f'dist/data/{name}.json').read_text())
    for source_kind,kind in [('vocabulary','vocab'),('grammar','grammar')]:
     for e in audit[source_kind]:
-     if e['status']=='excluded':continue
+     if e['status']=='excluded' or e.get('at_level',e.get('level')) in {'N2','N3','N4','N5'}:continue
      self.assertIn(e['id'],catalog[(e.get('at_level',e.get('level')),kind)])
  def test_bundled_audio_and_draft_gates(self):
   manifest=json.loads((ROOT/'dist/audio/manifest.json').read_text())

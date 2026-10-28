@@ -1,3 +1,5 @@
+N2–N5 curriculum cleared at owner request on 2026-10-28; awaiting replacement PDFs. N1 and Extra retained. Prior content remains in Git history.
+
 # Nihongo Path Books
 
 [Live website](https://mr04nazmul.github.io/nihongo-path-books/)

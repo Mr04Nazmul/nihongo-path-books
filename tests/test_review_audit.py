@@ -9,8 +9,8 @@ class ReviewAudit(unittest.TestCase):
     def test_resume_manifest_is_exact_and_current(self):
         report, rendered_report, pending = rendered()
         self.assertTrue(report['structural_audit_passed'])
-        self.assertEqual(report['total_fields'], 13901)
-        self.assertEqual(report['checked_fields'] + report['pending_fields'], 13901)
+        self.assertEqual(report['total_fields'], 0)
+        self.assertEqual(report['checked_fields'] + report['pending_fields'], 0)
         self.assertEqual((ROOT / 'translations/n3-n2-audit.json').read_text(), rendered_report)
         self.assertEqual((ROOT / 'translations/n3-n2-pending.jsonl').read_text(), pending)
         self.assertEqual(report['semantic_review_complete'], report['pending_fields'] == 0)
