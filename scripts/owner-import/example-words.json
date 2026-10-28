@@ -1,0 +1,1946 @@
+[
+  {
+    "word": "富士山",
+    "reading": "ふじさん",
+    "meaning": "ফুজি পর্বত",
+    "english": "Mount Fuji"
+  },
+  {
+    "word": "登山",
+    "reading": "とざん",
+    "meaning": "পর্বতারোহণ",
+    "english": "mountain climbing"
+  },
+  {
+    "word": "山川さん",
+    "reading": "やまかわさん",
+    "meaning": "ইয়ামাকাওয়া; ব্যক্তির পদবি",
+    "english": "Mr./Ms. Yamakawa"
+  },
+  {
+    "word": "インダス川",
+    "reading": "インダスがわ",
+    "meaning": "সিন্ধু নদ",
+    "english": "Indus River"
+  },
+  {
+    "word": "田んぼ",
+    "reading": "たんぼ",
+    "meaning": "ধানক্ষেত",
+    "english": "rice ﬁeld"
+  },
+  {
+    "word": "山田さん",
+    "reading": "やまださん",
+    "meaning": "ইয়ামাদা; ব্যক্তির পদবি",
+    "english": "Mr./Ms. Yamada"
+  },
+  {
+    "word": "油田",
+    "reading": "ゆでん",
+    "meaning": "তেলক্ষেত্র",
+    "english": "oil ﬁeld"
+  },
+  {
+    "word": "日曜日",
+    "reading": "にちようび",
+    "meaning": "রবিবার",
+    "english": "Sunday"
+  },
+  {
+    "word": "日本",
+    "reading": "にほん／にっぽん",
+    "meaning": "জাপান",
+    "english": "Japan"
+  },
+  {
+    "word": "休日",
+    "reading": "きゅうじつ",
+    "meaning": "ছুটির দিন",
+    "english": "holiday; day oﬀ"
+  },
+  {
+    "word": "月曜日",
+    "reading": "げつようび",
+    "meaning": "সোমবার",
+    "english": "Monday"
+  },
+  {
+    "word": "一月",
+    "reading": "いちがつ",
+    "meaning": "জানুয়ারি",
+    "english": "January"
+  },
+  {
+    "word": "火曜日",
+    "reading": "かようび",
+    "meaning": "মঙ্গলবার",
+    "english": "Tuesday"
+  },
+  {
+    "word": "火山",
+    "reading": "かざん",
+    "meaning": "আগ্নেয়গিরি",
+    "english": "volcano"
+  },
+  {
+    "word": "火事",
+    "reading": "かじ",
+    "meaning": "অগ্নিকাণ্ড",
+    "english": "ﬁre; conﬂagration"
+  },
+  {
+    "word": "水曜日",
+    "reading": "すいようび",
+    "meaning": "বুধবার",
+    "english": "Wednesday"
+  },
+  {
+    "word": "水田",
+    "reading": "すいでん",
+    "meaning": "জলযুক্ত ধানক্ষেত",
+    "english": "rice paddy"
+  },
+  {
+    "word": "水道",
+    "reading": "すいどう",
+    "meaning": "পানির সরবরাহব্যবস্থা; কলের পানি",
+    "english": "water supply; waterworks"
+  },
+  {
+    "word": "木曜日",
+    "reading": "もくようび",
+    "meaning": "বৃহস্পতিবার",
+    "english": "Thursday"
+  },
+  {
+    "word": "お金",
+    "reading": "おかね",
+    "meaning": "টাকা",
+    "english": "money"
+  },
+  {
+    "word": "金曜日",
+    "reading": "きんようび",
+    "meaning": "শুক্রবার",
+    "english": "Friday"
+  },
+  {
+    "word": "土",
+    "reading": "つち",
+    "meaning": "মাটি",
+    "english": "soil; earth"
+  },
+  {
+    "word": "土曜日",
+    "reading": "どようび",
+    "meaning": "শনিবার",
+    "english": "Saturday"
+  },
+  {
+    "word": "土地",
+    "reading": "とち",
+    "meaning": "জমি; ভূমি",
+    "english": "land"
+  },
+  {
+    "word": "一つ",
+    "reading": "ひとつ",
+    "meaning": "একাট",
+    "english": "one object"
+  },
+  {
+    "word": "一日",
+    "reading": "いちにち",
+    "meaning": "এক দিন",
+    "english": "one day"
+  },
+  {
+    "word": "一日",
+    "reading": "ついたち",
+    "meaning": "মাসের প্রথম দিন; ১ তারিখ",
+    "english": "ﬁrst day of the month"
+  },
+  {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "meaning": "দুটি",
+    "english": "two objects"
+  },
+  {
+    "word": "二月",
+    "reading": "にがつ",
+    "meaning": "ফেব্রুয়ারি",
+    "english": "February"
+  },
+  {
+    "word": "二日",
+    "reading": "ふつか",
+    "meaning": "দুই দিন; ২ তারিখ",
+    "english": "two days; second day"
+  },
+  {
+    "word": "二人",
+    "reading": "ふたり",
+    "meaning": "দুজন",
+    "english": "two people"
+  },
+  {
+    "word": "三つ",
+    "reading": "みっつ",
+    "meaning": "তিনটি",
+    "english": "three objects"
+  },
+  {
+    "word": "三日",
+    "reading": "みっか",
+    "meaning": "তিন দিন; ৩ তারিখ",
+    "english": "three days; third day"
+  },
+  {
+    "word": "三角",
+    "reading": "さんかく",
+    "meaning": "ত্রিভুজ; ত্রিকোণ",
+    "english": "triangle"
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaning": "চারাঁট",
+    "english": "four objects"
+  },
+  {
+    "word": "四月",
+    "reading": "しがつ",
+    "meaning": "এপ্রিল",
+    "english": "April"
+  },
+  {
+    "word": "四日",
+    "reading": "よっか",
+    "meaning": "চার দিন; ৪ তারিখ",
+    "english": "four days; fourth day"
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaning": "পাঁচাঁট",
+    "english": "ﬁve objects"
+  },
+  {
+    "word": "五月",
+    "reading": "ごがつ",
+    "meaning": "মে মাস",
+    "english": "May"
+  },
+  {
+    "word": "五日",
+    "reading": "いつか",
+    "meaning": "পাঁচ দিন; ৫ তারিখ",
+    "english": "ﬁve days; ﬁfth day"
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaning": "ছয়টি",
+    "english": "six objects"
+  },
+  {
+    "word": "六日",
+    "reading": "むいか",
+    "meaning": "ছয় দিন; ৬ তারিখ",
+    "english": "six days; sixth day"
+  },
+  {
+    "word": "六本木",
+    "reading": "ろっぽんぎ",
+    "meaning": "রোপ্লপোঙ্গি; টোকিওর একাঁট এলাকা",
+    "english": "Roppongi, Tokyo"
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaning": "সাতাঁট",
+    "english": "seven objects"
+  },
+  {
+    "word": "七月",
+    "reading": "しちがつ",
+    "meaning": "জুলাই",
+    "english": "July"
+  },
+  {
+    "word": "七日",
+    "reading": "なのか",
+    "meaning": "সাত দিন; ৭ তারিখ",
+    "english": "seven days; seventh day"
+  },
+  {
+    "word": "八つ",
+    "reading": "やっつ",
+    "meaning": "আটটি",
+    "english": "eight objects"
+  },
+  {
+    "word": "八日",
+    "reading": "ようか",
+    "meaning": "আট দিন; ৮ তারিখ",
+    "english": "eight days; eighth day"
+  },
+  {
+    "word": "八百屋",
+    "reading": "やおや",
+    "meaning": "সবজি ও ফলের দোকান",
+    "english": "greengrocer"
+  },
+  {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "meaning": "নয়টি",
+    "english": "nine objects"
+  },
+  {
+    "word": "九月",
+    "reading": "くがつ",
+    "meaning": "সেপ্টেম্বর",
+    "english": "September"
+  },
+  {
+    "word": "九州",
+    "reading": "きゅうしゅう",
+    "meaning": "কিউশু; জাপানের একটি প্রধান দ্বীপ",
+    "english": "Kyushu"
+  },
+  {
+    "word": "九日",
+    "reading": "ここのか",
+    "meaning": "নয় দিন; ৯ তারিখ",
+    "english": "nine days; ninth day"
+  },
+  {
+    "word": "十",
+    "reading": "とお",
+    "meaning": "দশাটি",
+    "english": "ten objects"
+  },
+  {
+    "word": "十分な",
+    "reading": "じゅうぶんな",
+    "meaning": "যথেষ্ট; পর্যাপ্ত",
+    "english": "suﬃcient"
+  },
+  {
+    "word": "十日",
+    "reading": "とおか",
+    "meaning": "দশ দিন; ১০ তারিখ",
+    "english": "ten days; tenth day"
+  },
+  {
+    "word": "三百",
+    "reading": "さんびゃく",
+    "meaning": "তিনশ",
+    "english": "three hundred"
+  },
+  {
+    "word": "百科事典",
+    "reading": "ひゃっかじてん",
+    "meaning": "বিশ্বকোষ",
+    "english": "encyclopedia"
+  },
+  {
+    "word": "六百",
+    "reading": "ろっぴゃく",
+    "meaning": "ছয়শ",
+    "english": "six hundred"
+  },
+  {
+    "word": "二千",
+    "reading": "にせん",
+    "meaning": "দুই হাজার",
+    "english": "two thousand"
+  },
+  {
+    "word": "三千",
+    "reading": "さんぜん",
+    "meaning": "তিন হাজার",
+    "english": "three thousand"
+  },
+  {
+    "word": "千葉県",
+    "reading": "ちばけん",
+    "meaning": "চিবা প্রিফেকচার",
+    "english": "Chiba Prefecture"
+  },
+  {
+    "word": "一万",
+    "reading": "いちまん",
+    "meaning": "দশ হাজার",
+    "english": "ten thousand"
+  },
+  {
+    "word": "万国",
+    "reading": "ばんこく",
+    "meaning": "সব দেশ; সমগ্র বিশ্ব",
+    "english": "all countries; all nations"
+  },
+  {
+    "word": "万年筆",
+    "reading": "まんねんひつ",
+    "meaning": "ফাউন্টেন পেন",
+    "english": "fountain pen"
+  },
+  {
+    "word": "四万円",
+    "reading": "よんまんえん",
+    "meaning": "চল্লিশ হাজার ইয়েন",
+    "english": "forty thousand yen"
+  },
+  {
+    "word": "円高",
+    "reading": "えんだか",
+    "meaning": "ইয়েনের বিনিময়মূল্য বৃদ্ধি",
+    "english": "a stronger yen"
+  },
+  {
+    "word": "二千年",
+    "reading": "にせんねん",
+    "meaning": "২০০০ সাল; দুই হাজার বছর",
+    "english": "the year 2000; two thousand years"
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "আগামী বছর",
+    "english": "next year"
+  },
+  {
+    "word": "年金",
+    "reading": "ねんきん",
+    "meaning": "পেনশন",
+    "english": "pension"
+  },
+  {
+    "word": "上がる",
+    "reading": "あがる",
+    "meaning": "ওঠা; বেড়ে যাওয়া",
+    "english": "rise; go up"
+  },
+  {
+    "word": "水上スキー",
+    "reading": "すいじょうスキー",
+    "meaning": "ওয়াটার স্ককি",
+    "english": "water skiing"
+  },
+  {
+    "word": "上着",
+    "reading": "うわぎ",
+    "meaning": "জ্যাকেট; বাইরের পোশাক",
+    "english": "jacket; outerwear"
+  },
+  {
+    "word": "下がる",
+    "reading": "さがる",
+    "meaning": "নামা, কমে যাওয়া",
+    "english": "go down; fall"
+  },
+  {
+    "word": "上下",
+    "reading": "じょうげ",
+    "meaning": "ওপর ও নিচ; উচুনিচু",
+    "english": "up and down"
+  },
+  {
+    "word": "地下鉄",
+    "reading": "ちかてつ",
+    "meaning": "পাতালরেল; মেট্রো",
+    "english": "subway"
+  },
+  {
+    "word": "一日中",
+    "reading": "いちにちじゅう",
+    "meaning": "সারা দিন",
+    "english": "all day long"
+  },
+  {
+    "word": "中学",
+    "reading": "ちゅうがく",
+    "meaning": "জুনিয়র হাই স্কুল; মাধ্যমিকের প্রথম স্তর",
+    "english": "junior high school"
+  },
+  {
+    "word": "中心",
+    "reading": "ちゅうしん",
+    "meaning": "কেন্দ্র",
+    "english": "center"
+  },
+  {
+    "word": "半年",
+    "reading": "はんとし",
+    "meaning": "অর্ধ বছর; ছয় মাস",
+    "english": "half a year"
+  },
+  {
+    "word": "半分",
+    "reading": "はんぶん",
+    "meaning": "অর্ধেক",
+    "english": "half"
+  },
+  {
+    "word": "四時半",
+    "reading": "よじはん",
+    "meaning": "সাড়ে চারটা",
+    "english": "half past four"
+  },
+  {
+    "word": "半日",
+    "reading": "はんにち",
+    "meaning": "অর্ধদিন",
+    "english": "half a day"
+  },
+  {
+    "word": "分",
+    "reading": "ふん",
+    "meaning": "মিনিট",
+    "english": "minute"
+  },
+  {
+    "word": "十分",
+    "reading": "じゅっぷん／じっぷん",
+    "meaning": "দশ মিনিট",
+    "english": "ten minutes"
+  },
+  {
+    "word": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "যথেষ্ট; পর্যাপ্ত",
+    "english": "enough; suﬃcient"
+  },
+  {
+    "word": "一人",
+    "reading": "ひとり",
+    "meaning": "একজন",
+    "english": "one person"
+  },
+  {
+    "word": "三人",
+    "reading": "さんにん",
+    "meaning": "তিনজন",
+    "english": "three people"
+  },
+  {
+    "word": "日本人",
+    "reading": "にほんじん",
+    "meaning": "জাপানি ব্যক্তি",
+    "english": "Japanese person"
+  },
+  {
+    "word": "女子",
+    "reading": "じょし",
+    "meaning": "মেয়ে; নারী",
+    "english": "girl; female"
+  },
+  {
+    "word": "親子",
+    "reading": "おやこ",
+    "meaning": "বাবা-মা ও সন্তান",
+    "english": "parent and child"
+  },
+  {
+    "word": "調子",
+    "reading": "ちょうし",
+    "meaning": "অবস্থা; শারীরিক বা যান্ত্রিক কার্যক্ষমতা",
+    "english": "condition"
+  },
+  {
+    "word": "女の人",
+    "reading": "おんなのひと",
+    "meaning": "নারী",
+    "english": "woman"
+  },
+  {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "meaning": "মেয়ে শিশু",
+    "english": "girl"
+  },
+  {
+    "word": "女性",
+    "reading": "じょせい",
+    "meaning": "নারী",
+    "english": "woman; female"
+  },
+  {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "meaning": "ছেলে শিশু",
+    "english": "boy"
+  },
+  {
+    "word": "男女",
+    "reading": "だんじょ",
+    "meaning": "পুরুষ ও নারী",
+    "english": "men and women"
+  },
+  {
+    "word": "長男",
+    "reading": "ちょうなん",
+    "meaning": "বড় ছেলে; জ্যেষ্ঠ পুত্র",
+    "english": "eldest son"
+  },
+  {
+    "word": "男性",
+    "reading": "だんせい",
+    "meaning": "পুরুষ",
+    "english": "man; male"
+  },
+  {
+    "word": "一日目",
+    "reading": "いちにちめ",
+    "meaning": "প্রথম দিন; কোনো সময়কালের প্রথম দিন",
+    "english": "the ﬁrst day of a period"
+  },
+  {
+    "word": "目薬",
+    "reading": "めぐすり",
+    "meaning": "চোখের ওষুধ; আই ড্রপ",
+    "english": "eye drops"
+  },
+  {
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning": "উদ্দেশ্য",
+    "english": "purpose"
+  },
+  {
+    "word": "入口",
+    "reading": "いりぐち",
+    "meaning": "প্রবেশপথ",
+    "english": "entrance"
+  },
+  {
+    "word": "人口",
+    "reading": "じんこう",
+    "meaning": "জনসংখ্যা",
+    "english": "population"
+  },
+  {
+    "word": "非常口",
+    "reading": "ひじょうぐち",
+    "meaning": "জরর বহিগমনপথ",
+    "english": "emergency exit"
+  },
+  {
+    "word": "耳鼻科",
+    "reading": "じびか",
+    "meaning": "নাক-কান-গলা চিকিৎসা বিভাগ",
+    "english": "ear, nose and throat department"
+  },
+  {
+    "word": "上手な",
+    "reading": "じょうずな",
+    "meaning": "দক্ষ",
+    "english": "skillful; good at"
+  },
+  {
+    "word": "下手な",
+    "reading": "へたな",
+    "meaning": "অদক্ষ",
+    "english": "unskillful; poor at"
+  },
+  {
+    "word": "手紙",
+    "reading": "てがみ",
+    "meaning": "চিঠি",
+    "english": "letter"
+  },
+  {
+    "word": "一足",
+    "reading": "いっそく",
+    "meaning": "এক জোড়া; জুতা বা মোজার গণনা",
+    "english": "one pair of footwear"
+  },
+  {
+    "word": "足りる",
+    "reading": "たりる",
+    "meaning": "যথেষ্ট হওয়া",
+    "english": "be suﬃcient"
+  },
+  {
+    "word": "遠足",
+    "reading": "えんそく",
+    "meaning": "শিক্ষা বা আনন্দদভ্রমণ; স্কুলের পিকনিক",
+    "english": "school excursion"
+  },
+  {
+    "word": "水力",
+    "reading": "すいりょく",
+    "meaning": "জলশক্তি",
+    "english": "water power"
+  },
+  {
+    "word": "体力",
+    "reading": "たいりょく",
+    "meaning": "শারীরিক শক্তি; সহনশক্তি",
+    "english": "physical strength; stamina"
+  },
+  {
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "meaning": "বাবা; অন্যের বাবাকে ভদ্রভাবে উল্লেখ",
+    "english": "father; dad, polite"
+  },
+  {
+    "word": "父親",
+    "reading": "ちちおや",
+    "meaning": "পিতা; বাবা",
+    "english": "father; male parent"
+  },
+  {
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "meaning": "মা; অন্যের মাকে ভদ্রভাবে উল্লেখ",
+    "english": "mother; mom, polite"
+  },
+  {
+    "word": "父母",
+    "reading": "ふぼ",
+    "meaning": "বাবা-মা",
+    "english": "father and mother"
+  },
+  {
+    "word": "母国",
+    "reading": "ぼこく",
+    "meaning": "মাতৃভূমি; নিজের দেশ",
+    "english": "home country; motherland"
+  },
+  {
+    "word": "先",
+    "reading": "さき",
+    "meaning": "সামনে; আগে; অগ্রবর্তী অংশ",
+    "english": "ahead; before; the tip"
+  },
+  {
+    "word": "先月",
+    "reading": "せんげつ",
+    "meaning": "গত মাস",
+    "english": "last month"
+  },
+  {
+    "word": "先輩",
+    "reading": "せんぱい",
+    "meaning": "সিনিয়র; আগে যোগ দেওয়া ব্যক্তি",
+    "english": "senior; more experienced colleague"
+  },
+  {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "meaning": "জন্ম নেওয়া",
+    "english": "be born"
+  },
+  {
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "শিক্ষক; সম্মানসূচক সম্বোধন",
+    "english": "teacher; respectful title"
+  },
+  {
+    "word": "生きる",
+    "reading": "いきる",
+    "meaning": "বেঁচে থাকা",
+    "english": "live; be alive"
+  },
+  {
+    "word": "生活",
+    "reading": "せいかつ",
+    "meaning": "জীবনযাপন",
+    "english": "life; daily living"
+  },
+  {
+    "word": "学生",
+    "reading": "がくせい",
+    "meaning": "শিক্ষার্থী",
+    "english": "student"
+  },
+  {
+    "word": "大学",
+    "reading": "だいがく",
+    "meaning": "বিশ্ববিদ্যালয়",
+    "english": "university"
+  },
+  {
+    "word": "科学",
+    "reading": "かがく",
+    "meaning": "বিজ্ঞান",
+    "english": "science"
+  },
+  {
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "meaning": "বিদেশে পড়াশোনা করা",
+    "english": "study abroad"
+  },
+  {
+    "word": "学校",
+    "reading": "がっこう",
+    "meaning": "বিদ্যালয়; স্কুল",
+    "english": "school"
+  },
+  {
+    "word": "校長",
+    "reading": "こうちょう",
+    "meaning": "বিদ্যালয়ের প্রধান শিক্ষক",
+    "english": "school principal"
+  },
+  {
+    "word": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "প্রাথমিক বিদ্যালয়",
+    "english": "elementary school"
+  },
+  {
+    "word": "母校",
+    "reading": "ぼこう",
+    "meaning": "নিজের প্রাক্তন শিক্ষাপ্রতিষ্ঠান",
+    "english": "alma mater"
+  },
+  {
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning": "বন্ধু",
+    "english": "friend"
+  },
+  {
+    "word": "友人",
+    "reading": "ゆうじん",
+    "meaning": "বন্ধু",
+    "english": "friend"
+  },
+  {
+    "word": "親友",
+    "reading": "しんゆう",
+    "meaning": "ঘনিষ্ঠ বন্ধু",
+    "english": "close friend"
+  },
+  {
+    "word": "日本",
+    "reading": "にほん／にっぽん",
+    "meaning": "জাপান",
+    "english": "Japan"
+  },
+  {
+    "word": "本屋",
+    "reading": "ほんや",
+    "meaning": "বইয়ের দোকান",
+    "english": "bookstore"
+  },
+  {
+    "word": "山本さん",
+    "reading": "やまもとさん",
+    "meaning": "ইয়ামামোতো:; ব্যক্তির পদবি",
+    "english": "Mr./Ms. Yamamoto"
+  },
+  {
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning": "প্রতিদিন",
+    "english": "every day"
+  },
+  {
+    "word": "毎月",
+    "reading": "まいつき／まいげつ",
+    "meaning": "প্রতি মাসে",
+    "english": "every month"
+  },
+  {
+    "word": "毎年",
+    "reading": "まいとし／まいねん",
+    "meaning": "প্রতি বছর",
+    "english": "every year"
+  },
+  {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "meaning": "প্রতিদিন সকালে",
+    "english": "every morning"
+  },
+  {
+    "word": "何月",
+    "reading": "なんがつ",
+    "meaning": "কোন মাস",
+    "english": "what month"
+  },
+  {
+    "word": "何人",
+    "reading": "なんにん",
+    "meaning": "কতজন",
+    "english": "how many people"
+  },
+  {
+    "word": "何時",
+    "reading": "なんじ",
+    "meaning": "কয়টা; কোন সময়ে",
+    "english": "what time"
+  },
+  {
+    "word": "三日前",
+    "reading": "みっかまえ",
+    "meaning": "তিন দিন আগে",
+    "english": "three days ago"
+  },
+  {
+    "word": "前半",
+    "reading": "ぜんはん",
+    "meaning": "প্রথম অর্ধেক",
+    "english": "ﬁrst half"
+  },
+  {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaning": "পেছনে",
+    "english": "behind; the back"
+  },
+  {
+    "word": "前後",
+    "reading": "ぜんご",
+    "meaning": "আগে-পরে; সামনে-পেছনে",
+    "english": "before and after; front and back"
+  },
+  {
+    "word": "最後",
+    "reading": "さいご",
+    "meaning": "শেষ",
+    "english": "last; the end"
+  },
+  {
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning": "বিদেশ",
+    "english": "foreign country"
+  },
+  {
+    "word": "左手",
+    "reading": "ひだりて",
+    "meaning": "বাম হাত",
+    "english": "left hand"
+  },
+  {
+    "word": "左側",
+    "reading": "ひだりがわ",
+    "meaning": "বাম পাশ",
+    "english": "left side"
+  },
+  {
+    "word": "右手",
+    "reading": "みぎて",
+    "meaning": "ডান হাত",
+    "english": "right hand"
+  },
+  {
+    "word": "左右",
+    "reading": "さゆう",
+    "meaning": "বাম ও ডান",
+    "english": "left and right"
+  },
+  {
+    "word": "右側",
+    "reading": "みぎがわ",
+    "meaning": "ডান পাশ",
+    "english": "right side"
+  },
+  {
+    "word": "東口",
+    "reading": "ひがしぐち",
+    "meaning": "পূর্বদিকের গেট",
+    "english": "east exit"
+  },
+  {
+    "word": "東京",
+    "reading": "とうきょう",
+    "meaning": "টোকিও",
+    "english": "Tokyo"
+  },
+  {
+    "word": "東洋",
+    "reading": "とうよう",
+    "meaning": "প্রাচ্য",
+    "english": "the East; the Orient"
+  },
+  {
+    "word": "西口",
+    "reading": "にしぐち",
+    "meaning": "পশ্চিমদিকের গেট",
+    "english": "west exit"
+  },
+  {
+    "word": "東西",
+    "reading": "とうざい",
+    "meaning": "পূর্ব ও পশ্চিম",
+    "english": "east and west"
+  },
+  {
+    "word": "西洋",
+    "reading": "せいよう",
+    "meaning": "পাশ্চাত্য",
+    "english": "the West"
+  },
+  {
+    "word": "南口",
+    "reading": "みなみぐち",
+    "meaning": "দক্ষিণদিকের গেট",
+    "english": "south exit"
+  },
+  {
+    "word": "東南アジア",
+    "reading": "とうなんアジア",
+    "meaning": "দক্ষিণ-পূর্ব এশিয়া",
+    "english": "Southeast Asia"
+  },
+  {
+    "word": "南極",
+    "reading": "なんきょく",
+    "meaning": "দক্ষিণ মেরু; আ্যান্টার্কাটিকা",
+    "english": "South Pole; Antarctica"
+  },
+  {
+    "word": "北口",
+    "reading": "きたぐち",
+    "meaning": "উত্তরদিকের গেট",
+    "english": "north exit"
+  },
+  {
+    "word": "南北",
+    "reading": "なんぼく",
+    "meaning": "দক্ষিণ ও উত্তর",
+    "english": "south and north"
+  },
+  {
+    "word": "北海道",
+    "reading": "ほっかいどう",
+    "meaning": "হোক্কাইদো",
+    "english": "Hokkaido"
+  },
+  {
+    "word": "名前",
+    "reading": "なまえ",
+    "meaning": "নাম",
+    "english": "name"
+  },
+  {
+    "word": "十名",
+    "reading": "じゅうめい",
+    "meaning": "দশজন; ভদ্র গণনা",
+    "english": "ten people, polite counting"
+  },
+  {
+    "word": "有名な",
+    "reading": "ゆうめいな",
+    "meaning": "বিখ্যাত",
+    "english": "famous"
+  },
+  {
+    "word": "人名",
+    "reading": "じんめい",
+    "meaning": "ব্যক্তির নাম",
+    "english": "personal name"
+  },
+  {
+    "word": "水牛",
+    "reading": "すいぎゅう",
+    "meaning": "মহিষ",
+    "english": "water buﬀalo"
+  },
+  {
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "meaning": "গরুর মাংস",
+    "english": "beef"
+  },
+  {
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meaning": "গরুর দুধ",
+    "english": "milk"
+  },
+  {
+    "word": "馬車",
+    "reading": "ばしゃ",
+    "meaning": "ঘোড়ার গাড়ি",
+    "english": "horse-drawn carriage"
+  },
+  {
+    "word": "トロイの木馬",
+    "reading": "トロイのもくば",
+    "meaning": "ট্রয়ের ঘোড়া",
+    "english": "Trojan horse"
+  },
+  {
+    "word": "乗馬",
+    "reading": "じょうば",
+    "meaning": "ঘোড়ায় চড়া",
+    "english": "horse riding"
+  },
+  {
+    "word": "金魚",
+    "reading": "きんぎょ",
+    "meaning": "গোল্ডফিশ",
+    "english": "goldﬁsh"
+  },
+  {
+    "word": "人魚",
+    "reading": "にんぎょ",
+    "meaning": "মৎস্যকন্যা",
+    "english": "mermaid"
+  },
+  {
+    "word": "貝殻",
+    "reading": "かいがら",
+    "meaning": "ঝিনুকের খোলস",
+    "english": "seashell"
+  },
+  {
+    "word": "大雨",
+    "reading": "おおあめ",
+    "meaning": "ভারী বৃষ্টি",
+    "english": "heavy rain"
+  },
+  {
+    "word": "雨期",
+    "reading": "うき",
+    "meaning": "বর্ষাকাল",
+    "english": "rainy season"
+  },
+  {
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "আবহাওয়া",
+    "english": "weather"
+  },
+  {
+    "word": "天国",
+    "reading": "てんごく",
+    "meaning": "স্বর্গ",
+    "english": "heaven"
+  },
+  {
+    "word": "人気",
+    "reading": "にんき",
+    "meaning": "জনপ্রিয়তা",
+    "english": "popularity"
+  },
+  {
+    "word": "気をつける",
+    "reading": "きをつける",
+    "meaning": "সাবধান হওয়া; খেয়াল রাখা",
+    "english": "be careful; pay attention"
+  },
+  {
+    "word": "気持ち",
+    "reading": "きもち",
+    "meaning": "অনুভূতি",
+    "english": "feeling"
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "বৈদ্যুতিক ট্রেন",
+    "english": "electric train"
+  },
+  {
+    "word": "自動車",
+    "reading": "じどうしゃ",
+    "meaning": "মোটরগাড়ি",
+    "english": "automobile"
+  },
+  {
+    "word": "正門",
+    "reading": "せいもん",
+    "meaning": "প্রধান ফটক",
+    "english": "main gate"
+  },
+  {
+    "word": "専門",
+    "reading": "せんもん",
+    "meaning": "'বিশেষজ্ঞতার ক্ষেত্র; বিশেষ অধ্যয়নের বিষয়",
+    "english": "specialty; ﬁeld of study"
+  },
+  {
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning": "দুপুরের আগের সময়",
+    "english": "a.m.; morning"
+  },
+  {
+    "word": "午後",
+    "reading": "ごご",
+    "meaning": "দুপুরের পরের সময়",
+    "english": "p.m.; afternoon"
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "বড়",
+    "english": "big; large"
+  },
+  {
+    "word": "大学",
+    "reading": "だいがく",
+    "meaning": "বিশ্ববিদ্যালয়",
+    "english": "university"
+  },
+  {
+    "word": "アジア大会",
+    "reading": "アジアたいかい",
+    "meaning": "এশিয়ান গেমস",
+    "english": "Asian Games"
+  },
+  {
+    "word": "大人",
+    "reading": "おとな",
+    "meaning": "প্রাপ্তবয়স্ক ব্যক্তি",
+    "english": "adult"
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "ছোট",
+    "english": "small"
+  },
+  {
+    "word": "小川",
+    "reading": "おがわ",
+    "meaning": "ছোট নদী; খাল",
+    "english": "small stream"
+  },
+  {
+    "word": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "প্রাথমিক বিদ্যালয়",
+    "english": "elementary school"
+  },
+  {
+    "word": "子犬",
+    "reading": "こいぬ",
+    "meaning": "কুকুরছানা",
+    "english": "puppy"
+  },
+  {
+    "word": "高い",
+    "reading": "たかい",
+    "meaning": "উচু; দামি",
+    "english": "high; expensive"
+  },
+  {
+    "word": "高校生",
+    "reading": "こうこうせい",
+    "meaning": "সিনিয়র হাই স্কুলের শিক্ষার্থী",
+    "english": "senior high school student"
+  },
+  {
+    "word": "円高",
+    "reading": "えんだか",
+    "meaning": "ইয়েনের বিনিময়মূল্য বৃদ্ধি",
+    "english": "a stronger yen"
+  },
+  {
+    "word": "安い",
+    "reading": "やすい",
+    "meaning": "সম্ভা",
+    "english": "inexpensive"
+  },
+  {
+    "word": "安心する",
+    "reading": "あんしんする",
+    "meaning": "নিশ্চিন্ত হওয়া",
+    "english": "feel relieved"
+  },
+  {
+    "word": "安全",
+    "reading": "あんぜん",
+    "meaning": "নিরাপত্তা; নিরাপদ",
+    "english": "safety; safe"
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "নতুন",
+    "english": "new"
+  },
+  {
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaning": "সংবাদপত্র",
+    "english": "newspaper"
+  },
+  {
+    "word": "新人",
+    "reading": "しんじん",
+    "meaning": "নবাগত; নতুন কর্মী",
+    "english": "newcomer"
+  },
+  {
+    "word": "新年",
+    "reading": "しんねん",
+    "meaning": "নববর্ষ",
+    "english": "new year"
+  },
+  {
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "পুরোনো",
+    "english": "old"
+  },
+  {
+    "word": "中古車",
+    "reading": "ちゅうこしゃ",
+    "meaning": "ব্যবহৃত গাড়ি; সেকেন্ডহ্যান্ড গাড়ি",
+    "english": "used car"
+  },
+  {
+    "word": "長い",
+    "reading": "ながい",
+    "meaning": "লম্বা; দীর্ঘ",
+    "english": "long"
+  },
+  {
+    "word": "社長",
+    "reading": "しゃちょう",
+    "meaning": "কোম্পানির প্রধান",
+    "english": "company president"
+  },
+  {
+    "word": "学長",
+    "reading": "がくちょう",
+    "meaning": "বিশ্ববিদ্যালয়ের প্রধান",
+    "english": "university president"
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "অনেক; বেশি",
+    "english": "many; much"
+  },
+  {
+    "word": "多少",
+    "reading": "たしょう",
+    "meaning": "কিছুটা; অল্পবিস্তর",
+    "english": "somewhat; more or less"
+  },
+  {
+    "word": "多数決",
+    "reading": "たすうけつ",
+    "meaning": "সংখ্যাগরিষ্ঠ ভোটে সিদ্ধান্ত",
+    "english": "majority decision"
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "কম; অল্প",
+    "english": "few; little"
+  },
+  {
+    "word": "少し",
+    "reading": "すこし",
+    "meaning": "একটু",
+    "english": "a little"
+  },
+  {
+    "word": "少年",
+    "reading": "しょうねん",
+    "meaning": "কিশোর; বালক",
+    "english": "boy; youth"
+  },
+  {
+    "word": "少女",
+    "reading": "しょうじょ",
+    "meaning": "কিশোরী; বালিকা",
+    "english": "girl"
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "meaning": "আগে; তাড়াতাড়ি",
+    "english": "early"
+  },
+  {
+    "word": "早朝",
+    "reading": "そうちょう",
+    "meaning": "ভোরবেলা",
+    "english": "early morning"
+  },
+  {
+    "word": "早送り",
+    "reading": "はやおくり",
+    "meaning": "দ্রুত এগিয়ে চালানো",
+    "english": "fast-forward"
+  },
+  {
+    "word": "行く",
+    "reading": "いく／ゆく",
+    "meaning": "যাওয়া",
+    "english": "go"
+  },
+  {
+    "word": "行き方",
+    "reading": "いきかた",
+    "meaning": "যাওয়ার উপায়",
+    "english": "how to get somewhere"
+  },
+  {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meaning": "ব্যাংক",
+    "english": "bank"
+  },
+  {
+    "word": "三行目",
+    "reading": "さんぎょうめ",
+    "meaning": "তৃতীয় লাইন",
+    "english": "third line"
+  },
+  {
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "আসা",
+    "english": "come"
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "আগামী বছর",
+    "english": "next year"
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "আগামী সপ্তাহ",
+    "english": "next week"
+  },
+  {
+    "word": "将来",
+    "reading": "しょうらい",
+    "meaning": "ভবিষ্যৎ",
+    "english": "future"
+  },
+  {
+    "word": "食べる",
+    "reading": "たべる",
+    "meaning": "খাওয়া",
+    "english": "eat"
+  },
+  {
+    "word": "外食する",
+    "reading": "がいしょくする",
+    "meaning": "বাইরে খাওয়া",
+    "english": "eat out"
+  },
+  {
+    "word": "食料品",
+    "reading": "しょくりょうひん",
+    "meaning": "খাদ্যসামগ্রী",
+    "english": "foodstuﬀs; groceries"
+  },
+  {
+    "word": "食堂",
+    "reading": "しょくどう",
+    "meaning": "খাবার ঘর; ক্যান্টিন",
+    "english": "dining hall; canteen"
+  },
+  {
+    "word": "見る",
+    "reading": "みる",
+    "meaning": "দেখা",
+    "english": "see; look at"
+  },
+  {
+    "word": "見せる",
+    "reading": "みせる",
+    "meaning": "দেখানো",
+    "english": "show"
+  },
+  {
+    "word": "見学する",
+    "reading": "けんがくする",
+    "meaning": "শেখার জন্য কোনো স্থান পরিদর্শন করা",
+    "english": "visit a place for study"
+  },
+  {
+    "word": "意見",
+    "reading": "いけん",
+    "meaning": "মতামত",
+    "english": "opinion"
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "প্রবেশ করা, ঢোকা",
+    "english": "enter"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "ঢোকানো; ভেতরে রাখা",
+    "english": "put in"
+  },
+  {
+    "word": "入口",
+    "reading": "いりぐち",
+    "meaning": "প্রবেশপথ",
+    "english": "entrance"
+  },
+  {
+    "word": "入学する",
+    "reading": "にゅうがくする",
+    "meaning": "বিদ্যালয়ে ভর্তি হওয়া",
+    "english": "enter a school; enroll"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "বের হওয়া",
+    "english": "go out; leave"
+  },
+  {
+    "word": "出す",
+    "reading": "だす",
+    "meaning": "বের করা",
+    "english": "take out; put out"
+  },
+  {
+    "word": "出口",
+    "reading": "でぐち",
+    "meaning": "বহিগমনপথ",
+    "english": "exit"
+  },
+  {
+    "word": "出席する",
+    "reading": "しゅっせきする",
+    "meaning": "উপস্থিত থাকা",
+    "english": "attend"
+  },
+  {
+    "word": "立つ",
+    "reading": "たつ",
+    "meaning": "দাড়ানো",
+    "english": "stand"
+  },
+  {
+    "word": "立食パーティー",
+    "reading": "りっしょくパーティー",
+    "meaning": "দাড়িয়ে খাওয়ার পার্টি",
+    "english": "standing buﬀet party"
+  },
+  {
+    "word": "国立大学",
+    "reading": "こくりつだいがく",
+    "meaning": "জাতীয় বিশ্ববিদ্যালয়",
+    "english": "national university"
+  },
+  {
+    "word": "書く",
+    "reading": "かく",
+    "meaning": "লেখা",
+    "english": "write"
+  },
+  {
+    "word": "下書き",
+    "reading": "したがき",
+    "meaning": "খসড়া",
+    "english": "draft"
+  },
+  {
+    "word": "辞書",
+    "reading": "じしょ",
+    "meaning": "অভিধান",
+    "english": "dictionary"
+  },
+  {
+    "word": "言う",
+    "reading": "いう",
+    "meaning": "বলা",
+    "english": "say"
+  },
+  {
+    "word": "言語",
+    "reading": "げんご",
+    "meaning": "ভাষা",
+    "english": "language"
+  },
+  {
+    "word": "伝言",
+    "reading": "でんごん",
+    "meaning": "অন্যের কাছে পৌঁছানোর বাতা",
+    "english": "message"
+  },
+  {
+    "word": "飲む",
+    "reading": "のむ",
+    "meaning": "পান করা",
+    "english": "drink"
+  },
+  {
+    "word": "飲み物",
+    "reading": "のみもの",
+    "meaning": "পানীয়",
+    "english": "drink; beverage"
+  },
+  {
+    "word": "飲食店",
+    "reading": "いんしょくてん",
+    "meaning": "খাবার ও পানীয়ের দোকান; রেস্তোরী",
+    "english": "food and drink establishment"
+  },
+  {
+    "word": "話す",
+    "reading": "はなす",
+    "meaning": "কথা বলা",
+    "english": "speak; talk"
+  },
+  {
+    "word": "話",
+    "reading": "はなし",
+    "meaning": "কথা; গল্প",
+    "english": "talk; story"
+  },
+  {
+    "word": "読む",
+    "reading": "よむ",
+    "meaning": "পড়া",
+    "english": "read"
+  },
+  {
+    "word": "読書",
+    "reading": "どくしょ",
+    "meaning": "বই পড়া",
+    "english": "reading books"
+  },
+  {
+    "word": "日本語",
+    "reading": "にほんご",
+    "meaning": "জাপানি ভাষা",
+    "english": "Japanese language"
+  },
+  {
+    "word": "中国語",
+    "reading": "ちゅうごくご",
+    "meaning": "টানা ভাষা",
+    "english": "Chinese language"
+  },
+  {
+    "word": "外国語",
+    "reading": "がいこくご",
+    "meaning": "বিদেশি ভাষা",
+    "english": "foreign language"
+  },
+  {
+    "word": "時間",
+    "reading": "じかん",
+    "meaning": "সময়",
+    "english": "time"
+  },
+  {
+    "word": "一年間",
+    "reading": "いちねんかん",
+    "meaning": "এক বছর সময়কাল",
+    "english": "a period of one year"
+  },
+  {
+    "word": "間に合う",
+    "reading": "まにあう",
+    "meaning": "সময়মতো পৌঁছানো বা শেষ করা",
+    "english": "be in time"
+  },
+  {
+    "word": "聞く",
+    "reading": "きく",
+    "meaning": "শোনা; জিজ্ঞেস করা",
+    "english": "listen; ask"
+  },
+  {
+    "word": "聞こえる",
+    "reading": "きこえる",
+    "meaning": "শোনা যাওয়া",
+    "english": "be audible; can hear"
+  },
+  {
+    "word": "買う",
+    "reading": "かう",
+    "meaning": "কেনা",
+    "english": "buy"
+  },
+  {
+    "word": "買い物する",
+    "reading": "かいものする",
+    "meaning": "কেনাকাটা করা",
+    "english": "go shopping"
+  },
+  {
+    "word": "売買する",
+    "reading": "ばいばいする",
+    "meaning": "কেনাবেচা করা",
+    "english": "buy and sell"
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "meaning": "বিশ্রাম নেওয়া; ছুটি নেওয়া",
+    "english": "rest; take a day oﬀ"
+  },
+  {
+    "word": "休み",
+    "reading": "やすみ",
+    "meaning": "বিশ্রাম; ছুটি",
+    "english": "rest; holiday"
+  },
+  {
+    "word": "休日",
+    "reading": "きゅうじつ",
+    "meaning": "ছুটির দিন",
+    "english": "day oﬀ"
+  },
+  {
+    "word": "夏休み",
+    "reading": "なつやすみ",
+    "meaning": "গ্রীষ্মকালীন ছুটি",
+    "english": "summer vacation"
+  },
+  {
+    "word": "時",
+    "reading": "とき",
+    "meaning": "সময়; যখন",
+    "english": "time; when"
+  },
+  {
+    "word": "四時",
+    "reading": "よじ",
+    "meaning": "চারটা",
+    "english": "four o'clock"
+  },
+  {
+    "word": "一時間",
+    "reading": "いちじかん",
+    "meaning": "এক ঘণ্টা",
+    "english": "one hour"
+  },
+  {
+    "word": "時計",
+    "reading": "とけい",
+    "meaning": "ঘড়ি",
+    "english": "clock; watch"
+  },
+  {
+    "word": "一週間",
+    "reading": "いっしゅうかん",
+    "meaning": "এক সপ্তাহ",
+    "english": "one week"
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "আগামী সপ্তাহ",
+    "english": "next week"
+  },
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaning": "গত সপ্তাহ",
+    "english": "last week"
+  },
+  {
+    "word": "今週",
+    "reading": "こんしゅう",
+    "meaning": "এই সপ্তাহ",
+    "english": "this week"
+  },
+  {
+    "word": "車道",
+    "reading": "しゃどう",
+    "meaning": "যানবাহন চলার রাস্তা",
+    "english": "roadway; carriageway"
+  },
+  {
+    "word": "書道",
+    "reading": "しょどう",
+    "meaning": "সুলেখনশিল্প; ক্যালিপ্রাফি",
+    "english": "calligraphy"
+  },
+  {
+    "word": "今月",
+    "reading": "こんげつ",
+    "meaning": "এই মাস",
+    "english": "this month"
+  },
+  {
+    "word": "今年",
+    "reading": "ことし",
+    "meaning": "এই বছর",
+    "english": "this year"
+  },
+  {
+    "word": "今日",
+    "reading": "きょう",
+    "meaning": "আজ",
+    "english": "today"
+  },
+  {
+    "word": "会う",
+    "reading": "あう",
+    "meaning": "দেখা করা",
+    "english": "meet"
+  },
+  {
+    "word": "会話",
+    "reading": "かいわ",
+    "meaning": "কথোপকথন",
+    "english": "conversation"
+  },
+  {
+    "word": "新年会",
+    "reading": "しんねんかい",
+    "meaning": "নববর্ষের মিলনানুষ্ঠান",
+    "english": "New Year's party"
+  },
+  {
+    "word": "会議",
+    "reading": "かいぎ",
+    "meaning": "সভা; মিটিং",
+    "english": "meeting"
+  },
+  {
+    "word": "社会",
+    "reading": "しゃかい",
+    "meaning": "সমাজ",
+    "english": "society"
+  },
+  {
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning": "কোম্পানি",
+    "english": "company"
+  },
+  {
+    "word": "社長",
+    "reading": "しゃちょう",
+    "meaning": "কোম্পানির প্রধান",
+    "english": "company president"
+  },
+  {
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning": "শিলস্তো উপাসনালয়",
+    "english": "Shinto shrine"
+  },
+  {
+    "word": "店員",
+    "reading": "てんいん",
+    "meaning": "দোকানের কর্মী",
+    "english": "shop assistant"
+  },
+  {
+    "word": "売店",
+    "reading": "ばいてん",
+    "meaning": "ছোট দোকান; স্টল",
+    "english": "kiosk; shop"
+  },
+  {
+    "word": "駅長",
+    "reading": "えきちょう",
+    "meaning": "স্টেশনমাস্টার",
+    "english": "stationmaster"
+  },
+  {
+    "word": "駅前",
+    "reading": "えきまえ",
+    "meaning": "স্টেশনের সামনে",
+    "english": "in front of a station"
+  },
+  {
+    "word": "花見",
+    "reading": "はなみ",
+    "meaning": "সাকুরা ফুল দেখা ও উপভোগ",
+    "english": "cherry-blossom viewing"
+  },
+  {
+    "word": "花火",
+    "reading": "はなび",
+    "meaning": "আতশবাজি",
+    "english": "ﬁreworks"
+  },
+  {
+    "word": "花屋",
+    "reading": "はなや",
+    "meaning": "ফুলের দোকান; ফুল বিক্রেতা",
+    "english": "ﬂower shop; ﬂorist"
+  },
+  {
+    "word": "中国",
+    "reading": "ちゅうごく",
+    "meaning": "টান",
+    "english": "China"
+  },
+  {
+    "word": "国際会議",
+    "reading": "こくさいかいぎ",
+    "meaning": "আন্তর্জাতিক সম্মেলন",
+    "english": "international conference"
+  },
+  {
+    "word": "白い",
+    "reading": "しろい",
+    "meaning": "সাদা",
+    "english": "white"
+  },
+  {
+    "word": "白書",
+    "reading": "はくしょ",
+    "meaning": "শ্বেতপত্র; সরকারি প্রতিবেদন",
+    "english": "white paper; oﬃcial report"
+  },
+  {
+    "word": "真っ白",
+    "reading": "まっしろ",
+    "meaning": "সম্পুর্ণ সাদা; ধবধবে সাদা",
+    "english": "pure white"
+  },
+  {
+    "word": "空気",
+    "reading": "くうき",
+    "meaning": "বাতাস",
+    "english": "air"
+  },
+  {
+    "word": "大空",
+    "reading": "おおぞら",
+    "meaning": "বিশাল আকাশ",
+    "english": "the wide sky"
+  },
+  {
+    "word": "空港",
+    "reading": "くうこう",
+    "meaning": "বিমানবন্দর",
+    "english": "airport"
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "বৈদ্যুতিক ট্রেন",
+    "english": "electric train"
+  },
+  {
+    "word": "電話",
+    "reading": "でんわ",
+    "meaning": "টেলিফোন; ফোনকল",
+    "english": "telephone; phone call"
+  },
+  {
+    "word": "電気",
+    "reading": "でんき",
+    "meaning": "বিদ্যুৎ; বৈদ্যুতিক আলো",
+    "english": "electricity; electric light"
+  },
+  {
+    "word": "電池",
+    "reading": "でんち",
+    "meaning": "ব্যাটারি ৪9৪99178119 ₹7091-এর নামে থাকা বই। নতুন করে",
+    "english": "battery"
+  }
+]
