@@ -64,3 +64,9 @@ All third-party advertising and the five-second book gate are disabled following
 ## N3 source book
 
 The N3 Vocabulary tab links to `dist/n3-vocabulary-232.html`, the complete 232-page Bengali scan/OCR reader. Original page images are embedded, with search, copy and TXT download. OCR remains explicitly labeled as an uncorrected draft. The optional inline preview loads only when opened.
+
+## Owner supplied N3 vocabulary replacement
+
+The active N3 vocabulary book and its practice now use the three owner-supplied Word lists from PDF pages 1–232: 2,195 vocabulary/short-phrase entries. The complete searchable list at `n3-bangla-words.html` and `n3-bangla-book.html` preserves all 2,363 source rows, with 166 full sentences and two incomplete source notes separated from vocabulary practice. Counts include repeated headwords and must not be described as unique words.
+
+The source-baseline counts above and the immutable corpus/review audit continue to describe the original licensed collection. That baseline is preserved for attribution and evidence; it is replaced at runtime for the N3 vocabulary book. N3 grammar/kanji and other books are unchanged. Imported entries have separate stable IDs so prior progress cannot be attached to different vocabulary. See `translations/n3-word-import.md`.
