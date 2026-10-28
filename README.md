@@ -60,3 +60,7 @@ Settings offers Folio and Origami page turns, Calm mode, larger lesson text, an 
 ## Advertising incident response
 
 All third-party advertising and the five-second book gate are disabled following a deceptive security-warning advertisement report. Generated pages omit ad loaders. Legacy banner URLs are inert and use a restrictive CSP, so direct visits cannot load an ad or redirect. Re-enabling monetization requires a separate review of provider creative controls and frame isolation.
+
+## N3 source book
+
+The N3 Vocabulary tab links to `dist/n3-vocabulary-232.html`, the complete 232-page Bengali scan/OCR reader. Original page images are embedded, with search, copy and TXT download. OCR remains explicitly labeled as an uncorrected draft. The optional inline preview loads only when opened.
