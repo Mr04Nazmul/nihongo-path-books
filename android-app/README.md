@@ -80,7 +80,7 @@ Workflow `Android app · build and verify` runs only on Android changes. Existin
 - Emulator launch/FLAG_SECURE instrumentation test.
 - Signed release AAB only when keystore secrets exist.
 
-Download `Nihongo-Path-Books-debug-APK` from the successful workflow run's Artifacts area. GitHub requires login to download artifacts. APK is debug signed and installable on Android 7+; use the AAB for Play after signing setup.
+Download `Nihongo-Path-Books-debug-APK` from the successful workflow run's Artifacts area. GitHub requires login to download artifacts. APK is debug signed and targets Android 6.0+ (API 23+); use the AAB for Play after signing setup.
 
 Repository variable: `BOOKS_API_URL` (public HTTPS API origin).
 Repository secrets: `ANDROID_KEYSTORE_BASE64`, `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`. Protect/backup the keystore outside Git. Never send secret values in chat. AAB is only generated with signing configured.
@@ -99,3 +99,9 @@ Tests cover authentication, invalid sessions/passwords, cross-user RLS, unfinish
 FLAG_SECURE blocks ordinary screenshots/recording where Android supports it. External cameras, modified devices and extraction of material that is already public on the existing website cannot be fully prevented. This project does not alter or privatize the live site. Content held in reader memory after a valid request is cleared when the reader is destroyed, but Android app security is not DRM against a hostile OS.
 
 Before public launch: deploy API/DB; run Google SSV device test; verify listening commercial rights and any target-audience requirements; publish an app-specific privacy URL and support/account-deletion webpage; add account recovery/email verification and production auth abuse monitoring; complete Play Data Safety/ads declarations; test Japanese TTS, PDF workers, real login/ad no-fill/offline/resume/expiry and capture behavior on physical Android devices. Review a production release separately. No successful external setup or physical-device result is claimed by source code alone.
+
+## Device compatibility
+
+Version 1.0.2 lowers the OS floor to API 23, the minimum supported by the selected Google Mobile Ads v24 SDK. No CPU ABI or screen-size filter is configured. The app uses native Kotlin/JVM code; packaging checks verify APK signatures and alignment. CI installs and launches the app on API 23 (32-bit x86), API 29 and API 35 (64-bit x86_64), including FLAG_SECURE assertions. These emulators do not prove compatibility with every physical device or ARM chipset.
+
+Keep Android System WebView/Chrome updated for the book reader. Google ad availability depends on Google services, consent, region and fill; missing ads must not block free study or remove credits. Android versions below 6.0 are unsupported. Installation failure must be diagnosed from Package Installer/ADB output, rather than assumed to be an OS or CPU problem. Debug, local release and Play-signed packages may have different signing certificates; they cannot replace each other without matching signatures. Preserve the same release signing key for updates. Uninstalling an app clears its local data, so do not recommend uninstall as a silent repair.
