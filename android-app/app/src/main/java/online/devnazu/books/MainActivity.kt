@@ -176,6 +176,7 @@ class MainActivity : ComponentActivity() {
                 fun denied(code:Int=403)=WebResourceResponse("text/plain","UTF-8",code,if(code==403)"Forbidden" else "Unavailable",mapOf("Cache-Control" to "no-store"),ByteArrayInputStream("Access unavailable. Return to Reward Center and refresh.".toByteArray()))
                 if(!Access.internal(r.url.toString()))return denied()
                 val path=r.url.path!!.removePrefix("/assets/reader/")
+                if(Regex("(?:^|/)(?:lessons-|owner-|listening-|jlpt-)?n1(?:[./-])").containsMatchIn(path)||Regex("^data/listening-n[2-4]\\.json$").matches(path)||Regex("^audio/(?:listening/)?n[1-4]/").containsMatchIn(path))return denied()
                 val protected=path.startsWith("pdfs/")||path.startsWith("audio/")||Regex("^data/(?:lessons-|owner-|listening-)?n[1-5]\\.json$").matches(path)||path=="data/extra.json"
                 if(protected){return try{val (type,bytes)=api.content(path);WebResourceResponse(type.substringBefore(';'),null,200,"OK",mapOf("Cache-Control" to "no-store"),ByteArrayInputStream(bytes))}catch(_:Exception){denied(503)}}
                 return loader.shouldInterceptRequest(r.url)?:denied()

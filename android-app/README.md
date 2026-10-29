@@ -6,7 +6,7 @@ Native Kotlin Android application with a restricted WebView book reader, Google 
 
 - Active N5–N2 vocabulary, grammar and kanji; N5 listening only. Free basics.
 - N1 Coming Soon in native library. N1 is denied by the server even if a stale database entitlement exists. No N1 reward sessions or redemption; legacy data retained. Enabling N1 requires a future reviewed app/backend release, as well as the administrator level setting.
-- Supabase Auth sign-up/sign-in adapter and Supabase PostgreSQL configuration. Previous Neon deployment is historical, **not the backend for this edition**. No API origin is built in by default: set `BOOKS_API_URL` to the new HTTPS API after deployment. An unconfigured APK provides free basics and a clear setup message; secure books/rewards cannot operate until backend configuration.
+- Supabase Auth sign-up/sign-in adapter and Supabase PostgreSQL configuration. Previous Neon deployment is historical, **not the backend for this edition**. No API origin is built in by default: set `BOOKS_API_URL` locally (or repository variable `SUPABASE_BOOKS_API_URL` in CI) to the new HTTPS API after deployment. An unconfigured APK provides free basics and a clear setup message; secure books/rewards cannot operate until backend configuration.
 - Cloud study-state storage for bookmarks, learned entries, settings and next/previous page positions. Latest save replaces the prior snapshot; simultaneous device edits are last-write-wins. Automatic sync failures currently require another save/retry; there is no offline queue.
 - Admin level controls, reward thresholds, durations, balances, unlock/redemption views, events, chapter/audio JSON draft editing. Draft publication and audio uploading are **not complete**; editor saves drafts and refuses publication until a reviewed publishing pipeline is implemented.
 
@@ -36,7 +36,7 @@ Discovered projects were a general project and NAZU Cloud Staging, neither estab
 4. Deploy `backend/Dockerfile` to a Node 22 HTTPS host; `CONTENT_ROOT=https://devnazu.online/`. Hosting selection and any paid provisioning require approval. The API uses Supabase PostgreSQL for all persistent state.
 5. Supabase Auth validates email/password and `/auth/v1/user`; backend then issues a random opaque 30-day app session, stores only its SHA-256 hash, and encrypts the token on Android with Keystore. This is an API session bridge, **not native Supabase JWT refresh on Android**. App logout revokes the app session. Revoke all `books.sessions` for an account when handling compromised accounts; Supabase logout alone does not revoke these app sessions. Password recovery and cross-provider revocation are release blockers.
 6. Assign administrator role using a privileged DB connection only: `update books.users set role='admin' where email='YOUR_CONFIRMED_OWNER_EMAIL';`. Role never comes from user-editable metadata. Open `/admin` on the API host. The Android client does not yet embed the admin editor.
-7. Set repository variable `BOOKS_API_URL`, build again, and run real device tests. Existing old deployment URLs in historical `LIVE_DEPLOYMENT.md` do not prove this edition deployed.
+7. Set repository variable `SUPABASE_BOOKS_API_URL`, build again, and run real device tests. Existing old deployment URLs in historical `LIVE_DEPLOYMENT.md` do not prove this edition deployed.
 
 ## Rewards and secure access
 
