@@ -139,7 +139,12 @@ jobs:
           working-directory: android-app
           script: |
             chmod +x gradlew && ./gradlew connectedDebugAndroidTest
+            # Gradle uninstalls test packages on completion. Capture while explicitly installed.
+            adb install -r app/build/outputs/apk/debug/app-debug.apk
+            adb install -r app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+            adb shell am instrument -w -e class online.devnazu.books.ProtectionTest#accountHasGoogleAndMaskedPassword online.devnazu.books.test/androidx.test.runner.AndroidJUnitRunner
             adb exec-out run-as online.devnazu.books cat files/auth-preview.png > app/build/reports/androidTests/auth-preview.png
+            python3 -c "from pathlib import Path; p=Path('app/build/reports/androidTests/auth-preview.png'); assert p.read_bytes().startswith(bytes.fromhex('89504e470d0a1a0a')), 'Auth capture is not a PNG'"
             if adb shell pm path online.devnazu.books | grep -q '^package:'; then adb uninstall online.devnazu.books; fi
             adb install ../delivered-apk/app-debug.apk
             adb logcat -c

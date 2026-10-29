@@ -58,9 +58,9 @@ export async function handle(req:Request):Promise<Response>{
     return json({ok:true,message:'Password changed. Sign in again on your Nihongo devices.'});
    }
    if(route==='/auth/recover'){await auth('/recover?redirect_to='+encodeURIComponent('nihongopathbooks://auth/recovery'),'POST',{email});return json({ok:true,message:'If this account exists, check the recovery email. Recovery uses the Supabase project account.'})}
-   if(route==='/auth/resend'){await auth('/resend','POST',{type:'signup',email});return json({ok:true,message:'Check your inbox and spam folder, or use Google sign-in.'})}
+   if(route==='/auth/resend'){await auth('/resend?redirect_to='+encodeURIComponent('nihongopathbooks://auth/confirmed'),'POST',{type:'signup',email});return json({ok:true,message:'Check your inbox and spam folder, or use Google sign-in.'})}
    const password=String(b.password||'');if(password.length<(route.endsWith('register')?10:1)||password.length>128)throw new Fault(400,'New accounts need a 10–128 character password');
-   const d=await auth(route.endsWith('register')?'/signup':'/token?grant_type=password','POST',{email,password,...(route.endsWith('register')?{data:{name:String(b.name||'').slice(0,100)}}:{})});
+   const d=await auth(route.endsWith('register')?'/signup?redirect_to='+encodeURIComponent('nihongopathbooks://auth/confirmed'):'/token?grant_type=password','POST',{email,password,...(route.endsWith('register')?{data:{name:String(b.name||'').slice(0,100)}}:{})});
    if(!d.access_token)return json({confirmationRequired:true,email,message:'Confirm your email, then sign in. You can also continue with Google.'});
    return json(await appSession(d.access_token,String(b.referralCode||'')));
   }

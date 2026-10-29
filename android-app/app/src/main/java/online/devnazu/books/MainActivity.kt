@@ -62,6 +62,10 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(next:android.content.Intent){super.onNewIntent(next);setIntent(next);handleAppIntent(next)}
     private fun handleAppIntent(incoming:android.content.Intent?){
         val uri=incoming?.data?:return
+        if(uri.scheme=="nihongopathbooks"&&uri.host=="auth"&&uri.path=="/confirmed"){
+            incoming.data=null;authMode="login";tab="Account";draw()
+            message(tr("Return to sign in. The server will check email confirmation.","এখন লগইন করুন। সার্ভার ইমেইল নিশ্চিতকরণ যাচাই করবে।"));return
+        }
         if(uri.scheme=="nihongopathbooks"&&uri.host=="join"){
             val code=uri.getQueryParameter("ref")?:""
             if(Regex("^[A-Za-z0-9_-]{3,64}$").matches(code)){invitationPrefs.edit().putString("ref",code).apply();authMode="register";tab="Account";draw();message(tr("Invitation saved · new accounts receive 5 N5 credits","আমন্ত্রণ রাখা হয়েছে · নতুন অ্যাকাউন্টে ৫ N5 ক্রেডিট"))};incoming.data=null;return
