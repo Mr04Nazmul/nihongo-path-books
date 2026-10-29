@@ -17,6 +17,12 @@ jobs:
       publication_ready: ${{ steps.readiness.outputs.ready }}
     steps:
       - uses: actions/checkout@v4
+      - name: Install audio verifier
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes --no-install-recommends ffmpeg
+          fi
       - name: Rebuild and test
         run: |
           python scripts/build_data.py
@@ -63,3 +69,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
