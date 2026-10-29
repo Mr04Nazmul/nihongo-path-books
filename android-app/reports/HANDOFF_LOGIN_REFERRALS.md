@@ -1,3 +1,7 @@
+# Latest native stability delivery - 1.5.1-test / code10
+
+User supplied IMG_0149.mp4 showing unexpected exits after launch/account navigation. Read ANDROID_CRASH_1_5_1.md for evidence and limitations. Source6edaac783491088248fe193dd28a0934c6e5675a, CI40893295986 all SIX jobs PASSED incl API23/29/33/35 and new signed-in/snapshot-error regressions. Main UI response failures are handled, server time validated, advertising startup deferred until ad request, local non-sensitive crash signature can be copied from About when available. API29 diagnostic confirms the old numeric-offset timestamp parser fails; the replacement passed. No exact physical-device exception was obtained; do not claim definitive video root cause or guaranteed reproduction. Direct signup/support policy from1.5 remains unchanged. New Figma theme still preview only.
+
 # Latest delivery: 1.5.0-test / direct signup
 
 Source f5fe0bc2819b7b7545369e3b96e033219b9cfb21. CI40888179488 all SIX jobs SUCCESS (backend, APK, API23/29/33/35). Live Edge v13 direct signup/login, duplicate rejection, bad password, invite5/repeat0, logout and disabled mail endpoints passed using two disposable identities; both cleaned. Detailed report: DIRECT_SIGNUP_AND_THEME_PREVIEW.md. User superseded confirmation requirement as documented below. Figma theme PDF is preview ONLY, await user decision before adding its styling. All older real Google/device/audio/rights/release-signing limitations still apply.
