@@ -21,6 +21,8 @@ export async function verifyCallback(raw,allowedUnits,provider=googleKeys){
  if(!valid&&decodeURIComponent(m[1].replace(/\+/g,' '))!==m[1])valid=await crypto.subtle.verify({name:'ECDSA',hash:'SHA-256'},publicKey,signature,encoder.encode(decodeURIComponent(m[1].replace(/\+/g,' '))));
  if(!valid)throw new Fault(403,'Invalid signature');
  if(p.ad_unit==='1234567890')return {...p,verificationProbe:true};
- if(!allowedUnits.includes(p.ad_unit)||!p.transaction_id||p.transaction_id.length>256||!/^[-\w]{36}$/.test(p.custom_data||'')||!/^[-\w]{36}$/.test(p.user_id||'')||!Number.isFinite(Number(p.reward_amount))||Number(p.reward_amount)<=0)throw new Fault(400,'Unapproved reward');
+ // Google documents numeric ad_unit values; accept only the exact suffix of an approved full unit.
+ const approvedUnit=allowedUnits.some(unit=>unit.trim()===p.ad_unit||(/^ca-app-pub-\d{16}\/\d{10}$/.test(unit.trim())&&unit.trim().split('/')[1]===p.ad_unit));
+ if(!approvedUnit||!p.transaction_id||p.transaction_id.length>256||!/^[-\w]{36}$/.test(p.custom_data||'')||!/^[-\w]{36}$/.test(p.user_id||'')||!Number.isFinite(Number(p.reward_amount))||Number(p.reward_amount)<=0)throw new Fault(400,'Unapproved reward');
  return p;
 }

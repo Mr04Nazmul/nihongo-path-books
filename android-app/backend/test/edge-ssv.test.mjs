@@ -7,6 +7,14 @@ test('Edge WebCrypto validates DER Google-style signatures and rejects malformed
   const captured=JSON.parse(await readFile(new URL('./fixtures/google-console-ssv.json',import.meta.url),'utf8'));assert.equal((await verifyCallback(captured.query,[],async()=>[captured.key])).verificationProbe,true);
   const raw='ad_unit=test%2Funit&custom_data='+randomUUID()+'&reward_amount=1&reward_item=JLPT%20credit&timestamp='+Date.now()+'&transaction_id=test&user_id='+randomUUID();
   for(const data of [raw,decodeURIComponent(raw)]){const q=raw+'&signature='+sign('sha256',Buffer.from(data),privateKey).toString('base64url')+'&key_id=42';assert.equal((await verifyCallback(q,['test/unit'],keys)).transaction_id,'test');await assert.rejects(verifyCallback(q.replace('reward_amount=1','reward_amount=2'),['test/unit'],keys))}
+  const owner='ca-app-pub-3728341118830943/5055001578';
+  for(const unit of [owner,'5055001578']){
+   const data=raw.replace('test%2Funit',encodeURIComponent(unit));
+   const q=data+'&signature='+sign('sha256',Buffer.from(data),privateKey).toString('base64url')+'&key_id=42';
+   assert.equal((await verifyCallback(q,[owner],keys)).ad_unit,unit);
+  }
+  const foreign=raw.replace('test%2Funit','9999999999');
+  await assert.rejects(verifyCallback(foreign+'&signature='+sign('sha256',Buffer.from(foreign),privateKey).toString('base64url')+'&key_id=42',[owner],keys));
   await assert.rejects(verifyCallback(raw+'&signature=Zm9yZ2Vk&key_id=42',['test/unit'],keys));assert.throws(()=>derToP1363(Uint8Array.of(48,3,2,1,0)));
  }finally{await rm(dir,{recursive:true,force:true})}
 });

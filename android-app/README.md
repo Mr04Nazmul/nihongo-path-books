@@ -1,6 +1,6 @@
 # Nihongo Path Books Android — 1.3.0 test edition
 
-Native Kotlin Android app with restricted WebView book reader, official Google Mobile Ads rewarded test ads, UMP consent and Supabase backend. The existing website and older repository are preserved.
+Native Kotlin Android app with restricted WebView book reader, official Google Mobile Ads rewarded ads, UMP consent and Supabase backend. The existing website and older repository are preserved.
 
 ## Live test backend
 
@@ -28,7 +28,7 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 ./gradlew connectedDebugAndroidTest
 ```
 
-GitHub workflow `.github/workflows/android.yml` runs PostgreSQL/backend tests, Android unit/lint/build/signature/alignment checks and emulator tests on API23/29/33/35. It generates a debug APK and unsigned AAB. Signed AAB requires ANDROID_KEYSTORE_BASE64, ANDROID_STORE_PASSWORD, ANDROID_KEY_ALIAS and ANDROID_KEY_PASSWORD secrets. No publishing is automated. Protected lesson data is fetched with server authorization rather than bundled in the APK. Google sample IDs remain enabled; production ads are not activated.
+GitHub workflow `.github/workflows/android.yml` runs PostgreSQL/backend tests, Android unit/lint/build/signature/alignment checks and emulator tests on API23/29/33/35. It generates a debug APK and unsigned AAB. Signed AAB requires ANDROID_KEYSTORE_BASE64, ANDROID_STORE_PASSWORD, ANDROID_KEY_ALIAS and ANDROID_KEY_PASSWORD secrets. No publishing is automated. Protected lesson data is fetched with server authorization rather than bundled in the APK. Default development builds retain Google sample IDs. The separately generated owner APK uses the actual Nihongo Path Books IDs when BOOKS_LIVE_ADS=true; see reports/OWNER_ADMOB_1_5_2.md.
 
 ## Rewards and secure access
 
@@ -44,7 +44,7 @@ Each signed and verified Google reward adds one non-transferable credit for its 
 
 Redemption uses a user row lock, server DB time and a persisted request UUID. **While a level is active, redemption is rejected without deduction**. After expiry a new period starts from server time; existing time is never replaced. Each protected file fetch rechecks entitlement, level availability and expiry. The reader closes at server-derived expiry and revalidates on resume. This is not DRM: content still public on the preserved website can be accessed outside the app.
 
-Google SSV validates ECDSA signatures, allowed units, session/user/timestamp association, transaction and session uniqueness, then credits atomically. Shared Google sample ad units cannot be configured with your own SSV callback: sample-ad completion does **not** automatically credit. The registered rewarded unit callback was saved and verified in Google AdMob against the Supabase endpoint. A real Google-signed console probe returned credited=0 as intended. This verifies callback delivery/signatures, not earned-ad credit. End-to-end testing requires your own AdMob unit configured in test-device mode and callback `/ssv`; production ads remain disabled pending explicit approval and consent/policy checks.
+Google SSV validates ECDSA signatures, allowed units, session/user/timestamp association, transaction and session uniqueness, then credits atomically. Shared Google sample ad units cannot be configured with your own SSV callback: sample-ad completion does **not** automatically credit. The registered rewarded unit callback was saved and verified in Google AdMob against the Supabase endpoint. A real Google-signed console probe returned credited=0 as intended. This verifies callback delivery/signatures, not earned-ad credit. End-to-end testing requires your own AdMob unit configured in test-device mode and callback `/ssv`; The user authorized the owner-AdMob build on30 October2026; actual earned-ad delivery remains unverified and the app is currently subject to limited ad serving.
 
 ## Content and listening
 
@@ -56,6 +56,6 @@ N5 metadata has 100 lessons; current local checkout contains 99 final MP3s. App-
 
 See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. API23/29/33/35 instrumentation checks the window flag and that captured center pixels do not expose the app; physical screenshot/recording tests remain required. Modified OS/devices and external cameras cannot be fully prevented.
 
-Before Play submission: recheck Supabase security advisors; email recovery redirect/device validation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; native admin device validation; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
+Before Play submission: recheck Supabase security advisors; email recovery redirect/device validation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; native admin device validation; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. The owner-AdMob APK is authorized. Public Play publishing and charges still require explicit approval.
 
 Current Play target requirement: API 36, verified 2026-10-29 at https://support.google.com/googleplay/android-developer/answer/11926878. This edition targets 36; the physical compatibility matrix and release review remain required.

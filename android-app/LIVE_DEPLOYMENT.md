@@ -1,3 +1,7 @@
+# Current deployment note — 30 October2026 JST
+
+The active Android API is Supabase nihongo-books-v1 version14, not the historical Neon backend described below. User authorized the owner AdMob APK1.5.2; see reports/OWNER_ADMOB_1_5_2.md for actual IDs, SSV checks, limited-ad-serving status and unverified physical earned-ad test. Default development APK still uses demo IDs; the separate owner artifact uses BOOKS_LIVE_ADS=true. Public Play publishing and charges remain unauthorized.
+
 # Live Android backend — 29 October 2026
 
 The educational source is **https://devnazu.online/**. The Android build downloads a verified reader-shell snapshot from that website. The backend also retrieves protected JSON/PDF/audio from that website after authenticating the user and checking the database expiry. It never changes the live website, and there is no public-site fallback inside the Android reader when access fails.
