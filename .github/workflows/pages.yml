@@ -2,6 +2,7 @@ name: Verify and deploy Nihongo Path Books
 on:
   push:
     branches: [main]
+    paths-ignore: ['android-app/**', '.github/workflows/android.yml']
   workflow_dispatch:
 permissions:
   contents: read
