@@ -40,4 +40,24 @@ class ProtectionTest {
    }finally{shot.recycle()}
   }
  }
+ @Test fun signedInAccountCanRenderAndNavigate(){
+  val context=androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().targetContext
+  TokenVault(context).clear()
+  ActivityScenario.launch(MainActivity::class.java).use{scenario->
+   scenario.onActivity{a->
+    TokenVault(a).save("a".repeat(43))
+    val data=MainActivity::class.java.getDeclaredField("data").apply{isAccessible=true}
+    data.set(a,org.json.JSONObject("""{"user":{"id":"00000000-0000-4000-8000-000000000001","name":"Test student","email":"student@example.invalid","role":"student"},"balances":[],"unlocks":[],"tiers":[],"rewards":[],"redemptions":[],"studyState":{}}"""))
+    fun views(v:android.view.View):List<android.view.View> = listOf(v)+(if(v is android.view.ViewGroup)(0 until v.childCount).flatMap{views(v.getChildAt(it))}else emptyList())
+    fun tap(names:List<String>){views(a.findViewById(android.R.id.content)).filterIsInstance<android.widget.Button>().first{it.text.toString() in names}.performClick()}
+    repeat(3){
+     tap(listOf("Account","অ্যাকাউন্ট"))
+     val labels=views(a.findViewById(android.R.id.content)).filterIsInstance<android.widget.TextView>().map{it.text.toString()}
+     assertTrue(labels.contains("student@example.invalid"));assertTrue(labels.any{it in listOf("Sign out","লগআউট")})
+     tap(listOf("Library","বইঘর"))
+    }
+    TokenVault(a).clear()
+   }
+  }
+ }
 }
