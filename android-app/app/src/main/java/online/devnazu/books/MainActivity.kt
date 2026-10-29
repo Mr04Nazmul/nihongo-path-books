@@ -95,6 +95,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    private val audioPicker=registerForActivityResult(androidx.activity.result.contract.ActivityResultContracts.OpenDocument()){uri->
+        if(uri!=null)async({contentResolver.openInputStream(uri)?.use{api.uploadAudio(it)}?:throw IllegalStateException("Audio could not be opened")}){result->
+            message(tr("Private audio uploaded as a draft","Private audio draft upload হয়েছে"))
+            editAdminJson("Review uploaded N5 audio","/admin/review-audio",JSONObject().put("id",result.getString("id")).put("lessonId","mlc-n5-l1-01").put("published",false).put("rights",JSONObject().put("appDistribution",false).put("audioHosting",false).put("advertising",false)).put("review",JSONObject().put("status","pending").put("reviewer","").put("notes","")),"POST")
+        }
+    }
     private fun editAdminJson(title:String,path:String,initial:JSONObject,method:String="PUT"){
         val input=EditText(this).apply{setText(initial.toString(2));textSize=12f;typeface=android.graphics.Typeface.MONOSPACE;inputType=android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_FLAG_MULTI_LINE;setHorizontallyScrolling(false);minLines=8;maxLines=18}
         AlertDialog.Builder(this).setTitle(title).setView(input).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Save","সংরক্ষণ")){_,_->
