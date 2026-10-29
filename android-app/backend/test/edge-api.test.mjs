@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {PGlite} from '@electric-sql/pglite';import {readFile} from 'node:fs/promises';import {randomUUID} from 'node:crypto';
 const sql=await readFile(new URL('../../supabase/sql/edge-backend.sql',import.meta.url),'utf8');
 test('Supabase RPC: deny public callers, app-scoped sessions, content access, rewards, expiry and admin',async()=>{
- const db=new PGlite();await db.exec('create role anon;create role authenticated;create role service_role;');for(const n of ['001_initial.sql','002_android_release.sql'])await db.exec(await readFile(new URL('../migrations/'+n,import.meta.url),'utf8'));await db.exec(sql);
+ const db=new PGlite();await db.exec('create role anon;create role authenticated;create role service_role;');await db.exec(await readFile(new URL('../../supabase/sql/edge-schema.sql',import.meta.url),'utf8'));await db.exec(sql);
  const call=async(action,payload={})=>(await db.query('select public.nihongo_books_api($1,$2) as result',[action,JSON.stringify(payload)])).rows[0].result;
  try{
   for(const role of ['anon','authenticated']){await db.exec('set role '+role);await assert.rejects(call('health'));await db.exec('reset role')}

@@ -69,6 +69,38 @@ class MainActivity : ComponentActivity() {
         }.show()
         incoming.data=null
     }
+    private val audioPicker=registerForActivityResult(androidx.activity.result.contract.ActivityResultContracts.OpenDocument()){uri->
+        if(uri!=null)async({contentResolver.openInputStream(uri)?.use{api.uploadAudio(it)}?:throw IllegalStateException("Audio could not be opened")}){result->
+            message(tr("Private audio uploaded as a draft","Private audio draft upload হয়েছে"))
+            editAdminJson("Review uploaded N5 audio","/admin/review-audio",JSONObject().put("id",result.getString("id")).put("lessonId","mlc-n5-l1-01").put("published",false).put("rights",JSONObject().put("appDistribution",false).put("audioHosting",false).put("advertising",false)).put("review",JSONObject().put("status","pending").put("reviewer","").put("notes","")),"POST")
+        }
+    }
+    private fun editAdminJson(title:String,path:String,initial:JSONObject,method:String="PUT"){
+        val input=EditText(this).apply{setText(initial.toString(2));textSize=12f;typeface=android.graphics.Typeface.MONOSPACE;inputType=android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_FLAG_MULTI_LINE;setHorizontallyScrolling(false);minLines=8;maxLines=18}
+        AlertDialog.Builder(this).setTitle(title).setView(input).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Save","সংরক্ষণ")){_,_->
+            val payload=runCatching{JSONObject(input.text.toString())}.getOrNull();if(payload==null){message("Invalid JSON");return@setPositiveButton}
+            async({api.request(path,method,payload)}){message(tr("Saved","সংরক্ষিত হয়েছে"));if(tab=="Admin")draw()}
+        }.show()
+    }
+    private fun administration(){
+        add(tr("Administration","অ্যাডমিন ড্যাশবোর্ড"),28f)
+        if(data.optJSONObject("user")?.optString("role")!="admin"){add("Administrator sign-in required");return}
+        area.addView(button(tr("Upload N5 MP3 · private draft","N5 MP3 upload · private draft")){audioPicker.launch(arrayOf("audio/mpeg"))})
+        area.addView(button(tr("New chapter draft","নতুন chapter draft")){editAdminJson("Chapter draft","/admin/chapter",JSONObject().put("id","n5-vocab-chapter-1").put("level","N5").put("kind","vocab").put("title","Lesson 1").put("position",1).put("entries",JSONArray()).put("published",false))})
+        async({api.request("/admin/overview")}){overview->if(tab=="Admin"){
+            add(overview.optJSONObject("counts")?.toString(2)?:"",14f)
+            val levels=overview.optJSONArray("levels")?:JSONArray();for(i in 0 until levels.length()){val level=levels.getJSONObject(i);area.addView(button(level.getString("level")+" · "+if(level.optBoolean("enabled"))"Active" else "Coming soon / disabled"){async({api.request("/admin/level","PATCH",JSONObject().put("level",level.getString("level")).put("enabled",!level.optBoolean("enabled")))}){draw()}}.apply{isEnabled=level.getString("level")!="N1"})}
+            add(tr("Reward thresholds and durations","Reward threshold ও সময়"),21f);val tiers=overview.optJSONArray("tiers")?:JSONArray();for(i in 0 until tiers.length()){val tier=tiers.getJSONObject(i);if(tier.getString("level")=="N1")continue;area.addView(button(tier.getString("id")+" · "+tier.getInt("credits")+" credits"){editAdminJson("Reward tier","/admin/tier",tier,"PATCH")})}
+            add(tr("Chapter drafts","Chapter drafts"),21f);val chapters=overview.optJSONArray("chapters")?:JSONArray();for(i in 0 until chapters.length()){val chapter=chapters.getJSONObject(i);card{
+                addView(text(chapter.optString("title")+" · "+chapter.getString("id")))
+                addView(button(tr("Edit draft","Draft edit")){editAdminJson("Chapter draft","/admin/chapter",JSONObject(chapter.toString()).put("published",false))})
+                addView(button(tr("Review & publish snapshot","Review করে snapshot publish")){editAdminJson("Manual lexical and rights review","/admin/publish-chapter",JSONObject().put("id",chapter.getString("id")).put("review",JSONObject().put("status","pending").put("reviewer","").put("notes","").put("japaneseChecked",false).put("bengaliChecked",false).put("appDistributionRights",false)),"POST")})
+                addView(button(tr("Unpublish snapshot","Snapshot unpublish")){async({api.request("/admin/unpublish-chapter","POST",JSONObject().put("id",chapter.getString("id")))}){draw()}})
+            }}
+            add(tr("Uploaded audio","Uploaded audio"),21f);val audios=overview.optJSONArray("audio")?:JSONArray();for(i in 0 until audios.length()){val a=audios.getJSONObject(i);area.addView(button(a.getString("id")+" · "+if(a.optBoolean("published"))"Published" else "Draft"){editAdminJson("Audio rights review","/admin/review-audio",JSONObject().put("id",a.getString("id")).put("lessonId",a.optString("lesson_id")).put("published",a.optBoolean("published")).put("rights",a.optJSONObject("rights")?:JSONObject()).put("review",a.optJSONObject("review")?:JSONObject().put("status","pending")),"POST")})}
+            for(key in listOf("balances","unlocks","redemptions","revisionHistory","events")){add(key,20f);add(overview.optJSONArray(key)?.toString(2)?:"[]",12f)}
+        }}
+    }
     private fun tr(en:String,be:String)=if(bn)be else en
     private fun dp(n:Int)=(n*resources.displayMetrics.density).toInt()
     private fun text(value:String,size:Float=16f):TextView=TextView(this).apply{text=value;textSize=size;setTextColor(ink);setPadding(0,dp(6),0,dp(6))}
@@ -88,7 +120,7 @@ class MainActivity : ComponentActivity() {
         val head=LinearLayout(this);head.addView(text("日  Nihongo Path Books",20f),LinearLayout.LayoutParams(0,-2,1f));head.addView(button(if(bn)"EN" else "বাংলা"){bn=!bn;draw()});root.addView(head)
         val scroll=ScrollView(this);area=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL};scroll.addView(area);root.addView(scroll,LinearLayout.LayoutParams(-1,0,1f))
         val nav=LinearLayout(this);listOf("Home","Rewards","Account").forEach { page->nav.addView(button(when(page){"Home"->tr("Library","বইঘর");"Rewards"->tr("Rewards","ক্রেডিট");else->tr("Account","অ্যাকাউন্ট")}){tab=page;draw()},LinearLayout.LayoutParams(0,-2,1f)) };root.addView(nav);setContentView(root)
-        when(tab){"Rewards"->rewards();"Account"->account();else->home()}
+        when(tab){"Admin"->administration();"Rewards"->rewards();"Account"->account();else->home()}
         status=text("");area.addView(status)
     }
     private fun home(){
@@ -149,6 +181,7 @@ class MainActivity : ComponentActivity() {
             area.addView(button(tr("Forgot password?","পাসওয়ার্ড ভুলে গেছেন?")){async({api.request("/auth/recover","POST",JSONObject().put("email",email.text.toString()))}){message(tr("Check your recovery email and open the link on this Android device.","Recovery email দেখুন এবং এই Android ডিভাইসে লিংকটি খুলুন।"))}})
         }else{add(data.optJSONObject("user")?.optString("email")?:tr("Signed in","লগইন করা আছে"));val name=field(tr("Display name","আপনার নাম"));name.setText(data.optJSONObject("user")?.optString("name")?:"");area.addView(button(tr("Save profile","নাম সংরক্ষণ")){async({api.request("/profile","PATCH",JSONObject().put("name",name.text.toString()))}){refresh()}});area.addView(button(tr("Sync devices","সিঙ্ক করুন")){refresh()});area.addView(button(tr("Sign out","লগআউট")){async({api.request("/auth/logout","POST")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}})
             area.addView(button(tr("Delete Nihongo app data & access","Nihongo app-এর data ও পড়ার অনুমতি মুছুন")){AlertDialog.Builder(this).setTitle(tr("Permanently delete Nihongo app data?","Nihongo app-এর data স্থায়ীভাবে মুছবেন? ")).setMessage(tr("Nihongo credits, access and app history will be deleted. Your shared Supabase sign-in identity remains available for other apps.","Nihongo-এর ক্রেডিট, পড়ার অনুমতি ও ইতিহাস মুছে যাবে। অন্য app-এর জন্য shared Supabase login পরিচয় বহাল থাকবে।")).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Delete","মুছুন")){_,_->async({api.request("/account","DELETE")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}}.show()})}
+        if(data.optJSONObject("user")?.optString("role")=="admin")area.addView(button(tr("Admin Dashboard","অ্যাডমিন ড্যাশবোর্ড")){tab="Admin";draw()})
         if(vault.read().isNotEmpty()){
             area.addView(button(tr("Bookmarks & reading progress","বুকমার্ক ও পড়ার অগ্রগতি")){openReader("progress.html",null)})
             area.addView(button(tr("Reader settings","রিডারের সেটিংস")){openReader("settings.html",null)})

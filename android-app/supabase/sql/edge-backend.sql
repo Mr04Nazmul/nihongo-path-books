@@ -1,8 +1,10 @@
--- Apply after backend/migrations/001_initial.sql and 002_android_release.sql.
+-- Apply after supabase/sql/edge-schema.sql.
 -- Only service_role can call this API. No arbitrary SQL execution is provided.
 create table if not exists books.api_rate (key text primary key, started_at timestamptz not null default now(), hits integer not null default 1);
 alter table books.api_rate enable row level security;
 revoke all on books.api_rate from public,anon,authenticated;
+drop policy if exists edge_clients_denied on books.api_rate;
+create policy edge_clients_denied on books.api_rate for all to anon,authenticated using(false) with check(false);
 
 create or replace function books.edge_api(action text, payload jsonb default '{}')
 returns jsonb language plpgsql security definer set search_path='' as $$
@@ -23,6 +25,9 @@ begin
   insert into books.users(id,email,password_hash,name) values((payload->>'id')::uuid,payload->>'email','supabase-auth',left(coalesce(payload->>'name',''),100)) on conflict(id) do update set email=excluded.email returning * into u;
   insert into books.sessions(token_hash,user_id,expires_at) values(payload->>'sessionHash',u.id,now()+interval '30 days');
   return jsonb_build_object('user',jsonb_build_object('id',u.id,'email',u.email,'name',u.name,'role',u.role));
+ end if;
+ if action='cleanup_auth_fixture' then
+  delete from books.users where id=(payload->>'verifiedUserId')::uuid and email like 'nihongo-ci-%@example.invalid';return '{"ok":true}';
  end if;
  if action='revoke_identity' then
   delete from books.sessions where user_id=(payload->>'verifiedUserId')::uuid;return '{"ok":true}';

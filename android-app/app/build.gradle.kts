@@ -7,9 +7,9 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 23
         targetSdk = 36
-        versionCode = 5
-        versionName = "1.2.0-test"
-        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL")}\"")
+        versionCode = 6
+        versionName = "1.3.0-test"
+        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL", "https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1")}\"")
         buildConfigField("String", "REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
         manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

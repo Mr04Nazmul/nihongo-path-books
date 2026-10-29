@@ -21,6 +21,13 @@ class BooksApi(private val token: () -> String) {
             return json
         }
     }
+    fun uploadAudio(stream:java.io.InputStream):JSONObject {
+        check(configured) { "Server setup pending" }
+        val output=java.io.ByteArrayOutputStream();val buffer=ByteArray(8192)
+        while(true){val count=stream.read(buffer);if(count<0)break;check(output.size()+count<=20000000){"Audio exceeds 20 MB"};output.write(buffer,0,count)}
+        val request=Request.Builder().url(BuildConfig.API_BASE.trimEnd('/')+"/admin/audio-upload").header("Authorization","Bearer "+token()).post(output.toByteArray().toRequestBody("audio/mpeg".toMediaType())).build()
+        client.newCall(request).execute().use { response ->val result=JSONObject(response.body?.string()?:"{}");if(!response.isSuccessful)throw ApiError(response.code,result.optString("error","Audio upload failed"));return result}
+    }
     fun content(path: String): Pair<String,ByteArray> {
         check(configured) { "Server setup pending" }
         val encoded=path.split('/').joinToString("/") { java.net.URLEncoder.encode(it,"UTF-8").replace("+","%20") }
