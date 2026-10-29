@@ -1,3 +1,12 @@
+# Latest verified delivery — 2026-10-29
+
+- APK 1.4.1-test/code8 source a6717d9e7771730b0959d93a3b18a963c869ac5c.
+- Run40882737134: backend, APK and all API23/29/33/35 emulator jobs completed SUCCESS.
+- Actual PNGs now valid; API23 login/signup and API35 signup inspected at320x640. Lower form scroll and IME-open interaction remain unverified; adjustResize policy assertion passed.
+- Same Supabase Edge function now version12. Live health200, missing-session401, malformed-PKCE400, corrected privacy confirmed.
+- Dashboard confirmed Google enabled, Confirm email true; saved app callback?flow=*, recovery, confirmed redirects. Shared Site URL preserved.
+- Detailed honest result matrix: LOGIN_REFERRALS_CONTINUATION.md. Do not upgrade configuration/mock tests to real account/device/earned-ad proof.
+
 # Continuation update — 2026-10-29
 
 - Read the original checkpoint below in full. Prior 1.4 run 40880227534 finished all six jobs successfully.
