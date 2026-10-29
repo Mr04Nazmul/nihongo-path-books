@@ -82,4 +82,7 @@ def build():
  for p in [ROOT/'translations/review-progress.json',ROOT/'dist/data/review-progress.json']:p.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps(result,ensure_ascii=False))
  if stale:raise ValueError('Stale or invalid ledger fields: '+str(stale[:10]))
-if __name__=='__main__':build()
+if __name__=='__main__':
+ build()
+ from apply_owner_book_edits import apply
+ apply()
