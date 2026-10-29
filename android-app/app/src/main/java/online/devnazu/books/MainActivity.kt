@@ -52,6 +52,22 @@ class MainActivity : ComponentActivity() {
         onBackPressedDispatcher.addCallback(this,object:OnBackPressedCallback(true){override fun handleOnBackPressed(){if(web!=null)closeReader() else if(tab!="Home"){tab="Home";draw()}else finish()}})
         draw();ads.updateConsent {};handler.post(ticker)
         if(vault.read().isNotEmpty())refresh()
+        handleRecoveryIntent(intent)
+    }
+    override fun onNewIntent(next:android.content.Intent){super.onNewIntent(next);setIntent(next);handleRecoveryIntent(next)}
+    private fun handleRecoveryIntent(incoming:android.content.Intent?){
+        val uri=incoming?.data?:return
+        if(uri.scheme!="nihongopathbooks"||uri.host!="auth"||uri.path!="/recovery")return
+        val params=android.net.Uri.parse("https://recovery.invalid/?"+(uri.encodedFragment?:""))
+        val recovery=params.getQueryParameter("access_token")?:return
+        val email=EditText(this).apply{hint=tr("Account email","অ্যাকাউন্টের ইমেইল");inputType=33}
+        val password=EditText(this).apply{hint=tr("New password · at least 10 characters","নতুন পাসওয়ার্ড · অন্তত ১০ অক্ষর");inputType=129}
+        val fields=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(dp(20),dp(10),dp(20),0);addView(email);addView(password)}
+        AlertDialog.Builder(this).setTitle(tr("Reset account password","অ্যাকাউন্টের পাসওয়ার্ড বদলান")).setMessage(tr("This changes your shared Supabase sign-in password. Nihongo sessions on all devices will be signed out.","এটি shared Supabase login-এর পাসওয়ার্ড বদলাবে। সব ডিভাইসের Nihongo session বন্ধ হবে।")).setView(fields).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Save password","পাসওয়ার্ড সংরক্ষণ")){_,_->
+            val payload=JSONObject().put("email",email.text.toString()).put("password",password.text.toString()).put("accessToken",recovery)
+            password.text.clear();async({api.request("/auth/reset-password","POST",payload)}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();tab="Account";draw();message(tr("Password changed. Sign in again.","পাসওয়ার্ড বদলানো হয়েছে। আবার লগইন করুন।"))}
+        }.show()
+        incoming.data=null
     }
     private fun tr(en:String,be:String)=if(bn)be else en
     private fun dp(n:Int)=(n*resources.displayMetrics.density).toInt()
@@ -130,12 +146,14 @@ class MainActivity : ComponentActivity() {
             val email=field(tr("Email","ইমেইল"));email.inputType=33;val password=field(tr("Password · at least 10 characters","পাসওয়ার্ড · অন্তত ১০ অক্ষর"),true);val name=field(tr("Name (new account)","নাম (নতুন অ্যাকাউন্ট)"))
             fun submit(register:Boolean){val b=JSONObject().put("email",email.text.toString()).put("password",password.text.toString()).put("name",name.text.toString());async({api.request(if(register)"/auth/register" else "/auth/login","POST",b)}){vault.save(it.getString("token"));data=JSONObject();password.text.clear();refresh()}}
             area.addView(button(tr("Sign in","লগইন")){submit(false)});area.addView(button(tr("Create account","অ্যাকাউন্ট খুলুন")){submit(true)})
+            area.addView(button(tr("Forgot password?","পাসওয়ার্ড ভুলে গেছেন?")){async({api.request("/auth/recover","POST",JSONObject().put("email",email.text.toString()))}){message(tr("Check your recovery email and open the link on this Android device.","Recovery email দেখুন এবং এই Android ডিভাইসে লিংকটি খুলুন।"))}})
         }else{add(data.optJSONObject("user")?.optString("email")?:tr("Signed in","লগইন করা আছে"));val name=field(tr("Display name","আপনার নাম"));name.setText(data.optJSONObject("user")?.optString("name")?:"");area.addView(button(tr("Save profile","নাম সংরক্ষণ")){async({api.request("/profile","PATCH",JSONObject().put("name",name.text.toString()))}){refresh()}});area.addView(button(tr("Sync devices","সিঙ্ক করুন")){refresh()});area.addView(button(tr("Sign out","লগআউট")){async({api.request("/auth/logout","POST")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}})
-            area.addView(button(tr("Delete account & study access","অ্যাকাউন্ট ও পড়ার অনুমতি মুছুন")){AlertDialog.Builder(this).setTitle(tr("Permanently delete account?","অ্যাকাউন্ট স্থায়ীভাবে মুছবেন? ")).setMessage(tr("Credits, access and account history will be deleted.","ক্রেডিট, পড়ার অনুমতি ও অ্যাকাউন্টের ইতিহাস মুছে যাবে।")).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Delete","মুছুন")){_,_->async({api.request("/account","DELETE")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}}.show()})}
+            area.addView(button(tr("Delete Nihongo app data & access","Nihongo app-এর data ও পড়ার অনুমতি মুছুন")){AlertDialog.Builder(this).setTitle(tr("Permanently delete Nihongo app data?","Nihongo app-এর data স্থায়ীভাবে মুছবেন? ")).setMessage(tr("Nihongo credits, access and app history will be deleted. Your shared Supabase sign-in identity remains available for other apps.","Nihongo-এর ক্রেডিট, পড়ার অনুমতি ও ইতিহাস মুছে যাবে। অন্য app-এর জন্য shared Supabase login পরিচয় বহাল থাকবে।")).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Delete","মুছুন")){_,_->async({api.request("/account","DELETE")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}}.show()})}
         if(vault.read().isNotEmpty()){
             area.addView(button(tr("Bookmarks & reading progress","বুকমার্ক ও পড়ার অগ্রগতি")){openReader("progress.html",null)})
             area.addView(button(tr("Reader settings","রিডারের সেটিংস")){openReader("settings.html",null)})
         }
+        if(vault.read().isNotEmpty())area.addView(button(tr("Sign out all Nihongo devices","সব ডিভাইস থেকে Nihongo logout")){async({api.request("/auth/logout-all","POST")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}})
         area.addView(button(tr("Ad privacy choices","বিজ্ঞাপনের গোপনীয়তা")){ads.privacy {}})
         area.addView(button(tr("Privacy policy","গোপনীয়তার নীতি")){AlertDialog.Builder(this).setTitle(tr("Privacy & protected study","গোপনীয়তা ও সুরক্ষিত পড়া")).setMessage(tr("We store your email, salted password hash, profile, verified ad transactions, credits, access expiry and basic access/security events on the study server. Session tokens are encrypted with Android Keystore. Google AdMob processes advertising/device information under your privacy choices. Credits are granted only after server verification. Screenshots and ordinary screen recording are blocked where Android supports it; external cameras and modified devices cannot be fully blocked. Delete your account in this screen or contact support.","স্টাডি সার্ভারে ইমেইল, পাসওয়ার্ডের সুরক্ষিত হ্যাশ, নাম, যাচাইকৃত বিজ্ঞাপন, ক্রেডিট, পড়ার সময় ও নিরাপত্তার তথ্য থাকে। লগইন টোকেন Android Keystore দিয়ে এনক্রিপ্ট করা হয়। Google AdMob আপনার গোপনীয়তার পছন্দ অনুযায়ী বিজ্ঞাপনের তথ্য প্রক্রিয়া করে। সার্ভার যাচাই করলেই ক্রেডিট পাওয়া যায়। Android সমর্থন করলে স্ক্রিনশট ও সাধারণ রেকর্ডিং বন্ধ থাকে। বাইরের ক্যামেরা বা পরিবর্তিত ডিভাইস পুরোপুরি আটকানো যায় না। এই পৃষ্ঠা থেকে অ্যাকাউন্ট মুছতে পারবেন।")).setPositiveButton("OK",null).show()})
         area.addView(button(tr("Support","সহায়তা")){AlertDialog.Builder(this).setTitle("Hossain Najmul").setMessage("WhatsApp: +81 70-9036-6509\nhttps://devnazu.online/").setPositiveButton("OK",null).show()})

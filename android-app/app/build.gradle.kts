@@ -7,8 +7,8 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 23
         targetSdk = 36
-        versionCode = 4
-        versionName = "1.1.0-test"
+        versionCode = 5
+        versionName = "1.2.0-test"
         buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL")}\"")
         buildConfigField("String", "REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
         manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"

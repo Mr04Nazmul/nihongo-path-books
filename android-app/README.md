@@ -1,3 +1,19 @@
+# Nihongo Path Books — 1.2.0 Edge backend preparation
+
+The Supabase-only HTTPS backend now has source under `supabase/functions/nihongo-books-v1` and explicit service-only RPC SQL in `supabase/sql/edge-backend.sql`. This avoids a separate Node hosting account or database password. **No live migration or Edge Function has been deployed.** Automatic approval review rejected the migration against the shared project because the target-selection question was unanswered; explicit target approval is required before retrying.
+
+Target proposed for approval: `weenlife00@gmail.com's Project`, ref `vjygltfnrmyghlwyjtwu`, organization `Nazu testnet`. Proposed changes create the private `books` schema and a `service_role`-only public RPC wrapper; all existing application tables and global Auth users remain outside deletion operations. App account deletion deletes Nihongo data/sessions only. Auth is shared with the other applications in this project.
+
+After approval, apply the existing backend migrations 001 and 002 followed by `supabase/sql/edge-backend.sql` as migration `nihongo_books_edge_v1`, deploy the fresh function `nihongo-books-v1` with `verify_jwt=false` because it validates opaque app sessions internally and verifies signed Google SSV itself. Sign-in uses Supabase Auth `/token` and `/user`; the RPC is callable only by the function's server-side service role, never anon/authenticated clients. No arbitrary SQL operation is exposed. Check advisors and live unauthenticated/fixture authorization behavior before connecting Android. Do not activate production ads.
+
+For recovery, add only `nihongopathbooks://auth/recovery` to the project's Auth redirect allowlist (preserve existing URLs). The Android reset dialog accepts a verified recovery access token, the backend confirms matching account email through Supabase Auth, changes the password, then revokes all Nihongo app sessions. A password change affects the shared Supabase identity. Android has a sign-out-all-devices action; user credits and access remain in the database. Recovery email/redirect delivery and native reset UI remain unverified until live configuration and device tests.
+
+Build/API settings remain explicit: set `SUPABASE_BOOKS_API_URL` in CI or `BOOKS_API_URL` locally only after deployment succeeds. APKs continue to default to no backend; no old Neon origin is reused. The CI workflow also produces an unsigned AAB when signing secrets are absent; it must be signed before Play submission.
+
+Local tests cover service-only RPC permissions, cross-account isolation, Google reward deduplication, expiry and redemption, shared-auth-safe app deletion, recovery email mismatch rejection and session revocation after password change. Auth transport is mocked in local tests; no live sign-in/recovery/Google callback result is claimed.
+
+---
+
 # Nihongo Path Books Android — 1.1.0 test edition
 
 Native Kotlin Android application with a restricted WebView book reader, Google Mobile Ads rewarded test ads and UMP consent. The website is preserved. Android-only commits do not trigger the Pages workflow. The old `nihongo-path` repository is not used.
