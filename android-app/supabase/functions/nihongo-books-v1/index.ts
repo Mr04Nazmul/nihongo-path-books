@@ -25,7 +25,7 @@ export async function handle(req:Request):Promise<Response>{
    const file=route==='/admin'?'admin.html':route.slice(1)+(route.includes('.')?'':'.html');return new Response(assets[file],{headers:{...headers,'Content-Type':file.endsWith('.js')?'application/javascript':file.endsWith('.css')?'text/css':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-ancestors 'none'"}});
   }
   if(route==='/ssv'&&req.method==='GET'){
-   let p;try{p=await verifyCallback(url.search.slice(1),(Deno.env.get('ADMOB_ALLOWED_UNITS')||'ca-app-pub-3940256099942544/5224354917').split(','));}catch(e){const q=url.searchParams;console.warn('SSV_DIAGNOSTIC',JSON.stringify({unit:q.get('ad_unit'),userLength:q.get('user_id')?.length,customLength:q.get('custom_data')?.length,key:q.get('key_id'),reason:e instanceof Error?e.message:'unknown'}));throw e}
+   let p;try{p=await verifyCallback(url.search.slice(1),(Deno.env.get('ADMOB_ALLOWED_UNITS')||'ca-app-pub-3940256099942544/5224354917,ca-app-pub-3728341118830943/5055001578').split(','));}catch(e){const q=url.searchParams;console.warn('SSV_DIAGNOSTIC',JSON.stringify({unit:q.get('ad_unit'),userLength:q.get('user_id')?.length,customLength:q.get('custom_data')?.length,key:q.get('key_id'),reason:e instanceof Error?e.message:'unknown'}));throw e}
    if(p.verificationProbe)return json({verified:true,test:true,credited:0});return json(await rpc('reward',p));
   }
   if(['/auth/register','/auth/login','/auth/recover','/auth/reset-password'].includes(route)&&req.method==='POST'){

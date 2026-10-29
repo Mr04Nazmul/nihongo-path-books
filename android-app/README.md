@@ -4,7 +4,7 @@ Native Kotlin Android app with restricted WebView book reader, official Google M
 
 ## Live test backend
 
-Approved shared Supabase project: `vjygltfnrmyghlwyjtwu`. API: `https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1` (Edge version 6). Android defaults to this HTTPS API; `BOOKS_API_URL` or CI variable `SUPABASE_BOOKS_API_URL` can override it. No service key is in the app.
+Approved shared Supabase project: `vjygltfnrmyghlwyjtwu`. API: `https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1` (Edge version 8). Android defaults to this HTTPS API; `BOOKS_API_URL` or CI variable `SUPABASE_BOOKS_API_URL` can override it. No service key is in the app.
 
 Private `books` schema, RLS and service-only explicit RPCs isolate this application. Other application tables remain unchanged. Supabase email/password sign-in is validated through Auth, then a random opaque 30-day application session is stored hashed on the server and encrypted with Android Keystore. App account deletion removes Nihongo data only, preserving the shared Auth identity. Owner administrator permissions are stored in books.users, never user-editable metadata.
 
@@ -54,7 +54,7 @@ N5 metadata has 100 lessons; current local checkout contains 99 final MP3s. App-
 
 ## Verification and Play release
 
-See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. Emulator instrumentation checks the window flag; a physical screenshot/recording test is still required. Modified OS/devices and external cameras cannot be fully prevented.
+See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. API23/29/33/35 instrumentation checks the window flag and that captured center pixels do not expose the app; physical screenshot/recording tests remain required. Modified OS/devices and external cameras cannot be fully prevented.
 
 Before Play submission: recheck Supabase security advisors; email recovery redirect/device validation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; native admin device validation; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
 
