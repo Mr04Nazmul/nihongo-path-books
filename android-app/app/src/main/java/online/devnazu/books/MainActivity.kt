@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
     private val syncWorker=Executors.newSingleThreadExecutor()
     private val handler=Handler(Looper.getMainLooper())
     private var authMode="login"
-    private var confirmationEmail=""
+    private var signInEmail=""
     private var authBusy=false
     private val invitationPrefs by lazy {getSharedPreferences("invitation",MODE_PRIVATE)}
     private val oauthVault by lazy {TokenVault(this,"oauth_pending")}
@@ -62,9 +62,8 @@ class MainActivity : ComponentActivity() {
     override fun onNewIntent(next:android.content.Intent){super.onNewIntent(next);setIntent(next);handleAppIntent(next)}
     private fun handleAppIntent(incoming:android.content.Intent?){
         val uri=incoming?.data?:return
-        if(uri.scheme=="nihongopathbooks"&&uri.host=="auth"&&uri.path=="/confirmed"){
-            incoming.data=null;authMode="login";tab="Account";draw()
-            message(tr("Return to sign in. The server will check email confirmation.","এখন লগইন করুন। সার্ভার ইমেইল নিশ্চিতকরণ যাচাই করবে।"));return
+        if(uri.scheme=="nihongopathbooks"&&uri.host=="auth"&&uri.path in listOf("/confirmed","/recovery")){
+            incoming.data=null;tab="Account";draw();passwordSupport();return
         }
         if(uri.scheme=="nihongopathbooks"&&uri.host=="join"){
             val code=uri.getQueryParameter("ref")?:""
@@ -76,14 +75,14 @@ class MainActivity : ComponentActivity() {
             val code=uri.getQueryParameter("code");if(code.isNullOrBlank()){oauthVault.clear();message(tr("Google sign-in was cancelled. Try again.","Google লগইন শেষ হয়নি। আবার চেষ্টা করুন।"));return}
             runAuth({api.request("/auth/exchange","POST",JSONObject().put("code",code).put("verifier",pending.getString("verifier")).put("referralCode",pending.optString("ref")))}){oauthVault.clear();acceptSession(it)};return
         }
-        handleRecoveryIntent(incoming)
+
     }
     private fun runAuth(action:()->JSONObject,done:(JSONObject)->Unit){
         if(authBusy)return;authBusy=true;message(tr("Connecting securely…","নিরাপদ সংযোগ হচ্ছে…"))
         worker.execute{try{val result=action();runOnUiThread{authBusy=false;if(!isDestroyed)done(result)}}catch(e:Exception){runOnUiThread{authBusy=false;if(!isDestroyed)message(e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।"))}}}
     }
     private fun acceptSession(result:JSONObject){
-        vault.save(result.getString("token"));confirmationEmail="";invitationPrefs.edit().remove("ref").apply();data=JSONObject();tab="Account";refresh {if(result.optJSONObject("bonus")?.optInt("credited")==5)message(tr("Welcome! 5 N5 invitation credits added.","স্বাগতম! আমন্ত্রণের ৫ N5 ক্রেডিট যোগ হয়েছে।"))}
+        vault.save(result.getString("token"));signInEmail="";invitationPrefs.edit().remove("ref").apply();data=JSONObject();tab="Account";refresh {if(result.optJSONObject("bonus")?.optInt("credited")==5)message(tr("Welcome! 5 N5 invitation credits added.","স্বাগতম! আমন্ত্রণের ৫ N5 ক্রেডিট যোগ হয়েছে।"))}
     }
     private fun googleSignIn(referral:String){
         val random=ByteArray(32);java.security.SecureRandom().nextBytes(random)
@@ -95,26 +94,7 @@ class MainActivity : ComponentActivity() {
             try{startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW,uri));message(tr("Choose your Google account, then return here.","Google অ্যাকাউন্ট বেছে নিন, তারপর অ্যাপে ফিরুন।"))}catch(_:android.content.ActivityNotFoundException){message(tr("A browser is needed for secure Google sign-in.","নিরাপদ Google লগইনের জন্য একটি browser লাগবে।"))}
         }
     }
-    private fun handleRecoveryIntent(incoming:android.content.Intent?){
-        val uri=incoming?.data?:return
-        if(uri.scheme!="nihongopathbooks"||uri.host!="auth"||uri.path!="/recovery")return
-        val params=android.net.Uri.parse("https://recovery.invalid/?"+(uri.encodedFragment?:""))
-        val recovery=params.getQueryParameter("access_token")?:return
-        val email=EditText(this).apply{hint=tr("Account email","অ্যাকাউন্টের ইমেইল");inputType=33}
-        val password=EditText(this).apply{hint=tr("New password · at least 10 characters","নতুন পাসওয়ার্ড · অন্তত ১০ অক্ষর");inputType=129}
-        val fields=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(dp(20),dp(10),dp(20),0);addView(email);addView(password)}
-        AlertDialog.Builder(this).setTitle(tr("Reset account password","অ্যাকাউন্টের পাসওয়ার্ড বদলান")).setMessage(tr("This changes your shared Supabase sign-in password. Nihongo sessions on all devices will be signed out.","এটি shared Supabase login-এর পাসওয়ার্ড বদলাবে। সব ডিভাইসের Nihongo session বন্ধ হবে।")).setView(fields).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Save password","পাসওয়ার্ড সংরক্ষণ")){_,_->
-            val payload=JSONObject().put("email",email.text.toString()).put("password",password.text.toString()).put("accessToken",recovery)
-            password.text.clear();async({api.request("/auth/reset-password","POST",payload)}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();tab="Account";draw();message(tr("Password changed. Sign in again.","পাসওয়ার্ড বদলানো হয়েছে। আবার লগইন করুন।"))}
-        }.show()
-        incoming.data=null
-    }
-    private val audioPicker=registerForActivityResult(androidx.activity.result.contract.ActivityResultContracts.OpenDocument()){uri->
-        if(uri!=null)async({contentResolver.openInputStream(uri)?.use{api.uploadAudio(it)}?:throw IllegalStateException("Audio could not be opened")}){result->
-            message(tr("Private audio uploaded as a draft","Private audio draft upload হয়েছে"))
-            editAdminJson("Review uploaded N5 audio","/admin/review-audio",JSONObject().put("id",result.getString("id")).put("lessonId","mlc-n5-l1-01").put("published",false).put("rights",JSONObject().put("appDistribution",false).put("audioHosting",false).put("advertising",false)).put("review",JSONObject().put("status","pending").put("reviewer","").put("notes","")),"POST")
-        }
-    }
+
     private fun editAdminJson(title:String,path:String,initial:JSONObject,method:String="PUT"){
         val input=EditText(this).apply{setText(initial.toString(2));textSize=12f;typeface=android.graphics.Typeface.MONOSPACE;inputType=android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_FLAG_MULTI_LINE;setHorizontallyScrolling(false);minLines=8;maxLines=18}
         AlertDialog.Builder(this).setTitle(title).setView(input).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Save","সংরক্ষণ")){_,_->
@@ -171,7 +151,6 @@ class MainActivity : ComponentActivity() {
         if(!api.configured)add(tr("Test build: study server not connected. Free basics work offline; secure levels need server configuration.","পরীক্ষামূলক অ্যাপ: স্টাডি সার্ভার যুক্ত হয়নি। প্রাথমিক পাঠ অফলাইনে পড়তে পারবেন; লেভেল খুলতে সার্ভার লাগবে।"))
         Access.levels.forEach {level->card {addView(text(level,30f));addView(text(accessText(level)));addView(text(if(level=="N5")tr("Vocabulary · Grammar · Kanji · Listening","শব্দভান্ডার · ব্যাকরণ · কানজি · লিসেনিং") else tr("Vocabulary · Grammar · Kanji","শব্দভান্ডার · ব্যাকরণ · কানজি")));addView(button(tr("Explore book →","বই খুলুন →")){chooseSubject(level)})}}
         card {addView(text("N1 · Coming Soon",30f));addView(text(tr("Locked in this release. No ad unlock.","এই সংস্করণে বন্ধ। বিজ্ঞাপন দিয়ে খোলা যাবে না।")))}
-        add(tr("Only existing material is included. Listening is currently supplied for N5; other listening books are not yet present in the repository.","বর্তমান বইয়ের পাঠই রাখা হয়েছে। Repository-তে এখন N5 লিসেনিং আছে; অন্য লেভেলের লিসেনিং বই এখনো নেই।"),13f)
     }
     private fun chooseSubject(level:String){if(level !in Access.levels){message("N1 · Coming Soon");return};selected=level
         if(vault.read().isEmpty()){tab="Account";draw();message(tr("Sign in to sync access and credits","ক্রেডিট ও পড়ার সময় সংরক্ষণ করতে লগইন করুন"));return}
@@ -216,6 +195,9 @@ class MainActivity : ComponentActivity() {
     private fun authInput(parent:LinearLayout,label:String,secret:Boolean=false):EditText{
         parent.addView(text(label,13f));return EditText(this).apply{hint=label;setSingleLine();inputType=if(secret)129 else 1;setTextColor(ink);textSize=16f;setPadding(dp(14),dp(10),dp(14),dp(10));background=android.graphics.drawable.GradientDrawable().apply{setColor(paper);cornerRadius=dp(12).toFloat();setStroke(dp(1),Color.rgb(208,218,211))};layoutParams=LinearLayout.LayoutParams(-1,dp(54)).apply{setMargins(0,0,0,dp(8))};parent.addView(this)}
     }
+    private fun passwordSupport(){
+        AlertDialog.Builder(this).setTitle(tr("Password help","পাসওয়ার্ডের সহায়তা")).setMessage(tr("Contact support for account recovery. We will check account ownership before changing access. Never send your Gmail password.\n\nHossain Najmul\nWhatsApp: +81 70-9036-6509","অ্যাকাউন্ট ফিরে পেতে Support-এ যোগাযোগ করুন। মালিকানা যাচাই করে সহায়তা করা হবে। Gmail-এর পাসওয়ার্ড পাঠাবেন না।\n\nHossain Najmul\nWhatsApp: +81 70-9036-6509")).setPositiveButton(tr("Close","বন্ধ"),null).show()
+    }
     private fun about(){
         add(tr("About Nihongo Path Books","Nihongo Path Books সম্পর্কে"),27f)
         card{addView(text(tr("Your Japanese study companion","আপনার জাপানি শেখার সঙ্গী"),22f));addView(text("N5–N2 · বাংলা + English"));addView(text("Version "+BuildConfig.VERSION_NAME,13f))}
@@ -229,12 +211,12 @@ class MainActivity : ComponentActivity() {
             add(tr("Keep your books, progress and credits together.","বই, পড়ার অগ্রগতি ও ক্রেডিট একসঙ্গে রাখুন।"),15f)
             card{
                 addView(text(if(register)tr("Create your account","আপনার অ্যাকাউন্ট খুলুন") else tr("Welcome back","আবার স্বাগতম"),25f))
-                status=text(if(confirmationEmail.isNotEmpty())tr("Confirmation sent to ","নিশ্চিতকরণ ইমেইল পাঠানো হয়েছে: ")+confirmationEmail else tr("Google is the quickest way to begin.","Google দিয়ে সহজেই শুরু করুন।"),14f);addView(status)
+                status=text(tr("Create an account and start reading.","অ্যাকাউন্ট খুলে সরাসরি পড়া শুরু করুন।"),14f);addView(status)
                 val form=this
                 var invitationInput:EditText?=null
                 addView(button(tr("Continue with Google","Google দিয়ে চালিয়ে যান")){googleSignIn(invitationInput?.text?.toString()?.trim()?:"")}.apply{setTextColor(ink);backgroundTintList=null;background=android.graphics.drawable.GradientDrawable().apply{setColor(Color.WHITE);cornerRadius=dp(12).toFloat();setStroke(dp(1),ink)}})
                 addView(text(tr("or use your email","অথবা ইমেইল ব্যবহার করুন"),13f).apply{gravity=Gravity.CENTER})
-                val email=authInput(form,tr("Email address","ইমেইল ঠিকানা")).apply{inputType=33;setText(confirmationEmail);if(Build.VERSION.SDK_INT>=26)setAutofillHints("emailAddress")}
+                val email=authInput(form,tr("Email address","ইমেইল ঠিকানা")).apply{inputType=33;setText(signInEmail);if(Build.VERSION.SDK_INT>=26)setAutofillHints("emailAddress")}
                 val password=authInput(form,tr("Password","পাসওয়ার্ড"),true).apply{transformationMethod=android.text.method.PasswordTransformationMethod.getInstance();if(Build.VERSION.SDK_INT>=26)setAutofillHints(if(register)"newPassword" else "password")}
                 val show=CheckBox(this@MainActivity).apply{text=tr("Show password","পাসওয়ার্ড দেখুন");setTextColor(ink);setOnCheckedChangeListener{_,checked->password.transformationMethod=if(checked)null else android.text.method.PasswordTransformationMethod.getInstance();password.setSelection(password.text.length)}};addView(show)
                 val name=if(register)authInput(form,tr("Your name","আপনার নাম"))else null
@@ -247,12 +229,11 @@ class MainActivity : ComponentActivity() {
                     if(pass.isEmpty()||(register&&pass.length<10)){message(tr("New accounts need at least 10 password characters.","নতুন অ্যাকাউন্টের পাসওয়ার্ডে অন্তত ১০ অক্ষর দিন।"));return@button}
                     invitationPrefs.edit().putString("ref",code).apply()
                     runAuth({api.request(if(register)"/auth/register"else "/auth/login","POST",JSONObject().put("email",mail).put("password",pass).put("name",name?.text?.toString()?:"").put("referralCode",code))}){result->
-                        password.text.clear();if(result.optBoolean("confirmationRequired")){confirmationEmail=mail;authMode="login";draw();message(tr("Open the confirmation email, then sign in. Google sign-in also works without this step.","ইমেইলের confirmation link খুলে তারপর লগইন করুন। চাইলে Google দিয়েও ঢুকতে পারবেন।"))}else acceptSession(result)
+                        password.text.clear();signInEmail=mail;acceptSession(result)
                     }
                 })
                 addView(button(if(register)tr("Already registered? Sign in","অ্যাকাউন্ট আছে? লগইন করুন")else tr("New here? Create an account","নতুন? অ্যাকাউন্ট খুলুন")){authMode=if(register)"login"else "register";draw()})
-                if(confirmationEmail.isNotEmpty())addView(button(tr("Resend confirmation email","আবার confirmation ইমেইল পাঠান")){runAuth({api.request("/auth/resend","POST",JSONObject().put("email",email.text.toString().trim()))}){message(tr("Check your inbox and spam folder.","Inbox ও Spam folder দেখুন।"))}})
-                if(!register)addView(button(tr("Forgot password?","পাসওয়ার্ড ভুলে গেছেন?")){runAuth({api.request("/auth/recover","POST",JSONObject().put("email",email.text.toString().trim()))}){message(tr("Check your recovery email.","পাসওয়ার্ড বদলানোর ইমেইল দেখুন।"))}})
+                if(!register)addView(button(tr("Forgot password? Contact support","পাসওয়ার্ড ভুলে গেছেন? সহায়তা নিন")){passwordSupport()})
             }
         }else{
             add(tr("Your study account","আপনার স্টাডি অ্যাকাউন্ট"),28f)

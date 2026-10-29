@@ -1,3 +1,9 @@
+# Current user policy change — 2026-10-29
+
+The user explicitly replaced the earlier email-confirmation requirement: new accounts must be usable immediately without links/codes, and forgotten-password UI must direct users to support. Implemented narrow server-only Supabase admin createUser(email_confirm=true), followed by password login and opaque app session. It only creates NEW identities; duplicate email is rejected, never auto-confirms/overwrites an existing identity. Shared global Auth confirmation settings remain unchanged. App recover/resend/reset endpoints now reject with410 and send nothing. Passwords stay hashed in Supabase Auth, never readable in app/GitHub/admin lists. This is auto-confirmation policy, not proof of mailbox ownership. Google PKCE remains.
+
+Removed exactly the repository/listening availability paragraph shown by the user, Android only. Version1.5.0-test/code9. New theme is PREVIEW ONLY: user wants a PDF before approving app integration. Do not merge Figma prototype styling into the app yet. Previous reports below describe older behavior.
+
 # Latest verified delivery — 2026-10-29
 
 - APK 1.4.1-test/code8 source a6717d9e7771730b0959d93a3b18a963c869ac5c.
