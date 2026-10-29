@@ -12,7 +12,7 @@ Native Kotlin Android application with a restricted WebView book reader, Google 
 
 ## Build and install
 
-JDK 17, Android SDK 35, Python 3, Node 22, Gradle wrapper and network dependency access are required.
+JDK 17, Android SDK 36, Python 3, Node 22, Gradle wrapper and network dependency access are required.
 
 ```sh
 cd android-app
@@ -65,3 +65,5 @@ N5 metadata has 100 lessons; current local checkout contains 99 final MP3s. App-
 See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. Emulator instrumentation checks the window flag; a physical screenshot/recording test is still required. Modified OS/devices and external cameras cannot be fully prevented.
 
 Before Play submission: dedicated Supabase/backend deployment and role/security advisors; account verification/recovery and compromised-session revocation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; admin publishing/upload pipeline; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
+
+Current Play target requirement: API 36, verified 2026-10-29 at https://support.google.com/googleplay/android-developer/answer/11926878. This edition targets 36; the physical compatibility matrix and release review remain required.

@@ -4,11 +4,12 @@ This is an incremental implementation on the existing real Android project, not 
 
 ## Local verification
 
-- 13 backend tests passed, zero failures, one HTTP test skipped (no standalone PostgreSQL here). Includes PostgreSQL-compatible PGlite migrations, authentication/session revocation, cross-user RLS, concurrent SSV duplicate handling, replay rejection, balances, redemption idempotency, expiry, active-period protection, N1 prohibition and cloud study-state isolation.
+- 14 backend tests passed, zero failures, one legacy HTTP test skipped (no standalone PostgreSQL here); an additional in-process HTTP/PGlite integration test passed. Includes PostgreSQL-compatible PGlite migrations, authentication/session revocation, cross-user RLS, concurrent SSV duplicate handling, replay rejection, balances, redemption idempotency, expiry, active-period protection, N1 prohibition and cloud study-state isolation.
 - Supabase adapter tests use a mocked Auth transport: confirmed identity enforced, unconfirmed signup handled, user metadata role ignored, app session hashed. **Not a live Supabase sign-in test.**
 - Structural inventory found no missing/duplicate entry IDs in the 12 active category arrays. Full lexical accuracy, readings, spellings, duplicates with different IDs and lesson order remain unverified.
+- Four listening source/metadata tests passed; this does not verify physical-device audio output.
 - Reader asset preparation against local source passed; generated JavaScript syntax passed; protected JSON/PDF/audio excluded. Animation rendering and actual cloud progress in WebView require emulator/device testing.
-- Original website files were not modified. Existing website functional tests will be reported separately if run.
+- Original website files were not modified. 13 existing website/book-reader regression tests passed (books.test.cjs and reader.test.cjs).
 - Local Android build blocked before configuration: Gradle distribution connection returned `Network is unreachable`; Android SDK/emulator unavailable. GitHub Actions is the build route.
 
 ## Not yet verified / incomplete

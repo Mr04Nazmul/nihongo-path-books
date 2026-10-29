@@ -24,6 +24,7 @@ class MainActivity : ComponentActivity() {
     private lateinit var root: LinearLayout
     private lateinit var area: LinearLayout
     private val worker=Executors.newFixedThreadPool(3)
+    private val syncWorker=Executors.newSingleThreadExecutor()
     private val handler=Handler(Looper.getMainLooper())
     private var data=JSONObject()
     private var bn=true
@@ -152,7 +153,12 @@ class MainActivity : ComponentActivity() {
         WebView.setWebContentsDebuggingEnabled(false)
         view.addJavascriptInterface(object{
             @JavascriptInterface fun saveProgress(value:String){
-                if(vault.read().isNotEmpty() && value.length<160000)worker.execute{runCatching{api.request("/study-state","PUT",JSONObject().put("state",JSONObject(value)))}}
+                if(vault.read().isNotEmpty() && value.length<150000){
+                    val owner=data.optJSONObject("user")?.optString("id")
+                    runOnUiThread { if(data.optJSONObject("user")?.optString("id")==owner)data.put("studyState",JSONObject(value)) }
+                    val credential=vault.read()
+                    syncWorker.execute{if(credential==vault.read())runCatching{api.request("/study-state","PUT",JSONObject().put("state",JSONObject(value)))}}
+                }
             }
             @JavascriptInterface fun speak(text:String){runOnUiThread{tts?.speak(text.take(2000),TextToSpeech.QUEUE_FLUSH,null,"study")}}
             @JavascriptInterface fun stopSpeech(){tts?.stop()}
@@ -185,5 +191,5 @@ class MainActivity : ComponentActivity() {
     private fun closeReader(){web?.apply{stopLoading();loadUrl("about:blank");removeJavascriptInterface("StudyNative");clearCache(true);destroy()};web=null;readerLevel=null;tts?.stop();draw()}
     override fun onPause(){web?.onPause();tts?.stop();super.onPause()}
     override fun onResume(){super.onResume();web?.onResume();if(web!=null&&readerLevel!=null)refresh{if(expiry(readerLevel!!)<=now())closeReader()}}
-    override fun onDestroy(){handler.removeCallbacksAndMessages(null);web?.destroy();tts?.shutdown();worker.shutdownNow();super.onDestroy()}
+    override fun onDestroy(){handler.removeCallbacksAndMessages(null);web?.destroy();tts?.shutdown();worker.shutdownNow();syncWorker.shutdownNow();super.onDestroy()}
 }

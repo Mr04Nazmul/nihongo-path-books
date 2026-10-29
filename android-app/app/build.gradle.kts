@@ -2,11 +2,11 @@ plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
 fun setting(key: String, fallback: String = "") = providers.environmentVariable(key).orNull?.takeIf { it.isNotBlank() } ?: fallback
 android {
     namespace = "online.devnazu.books"
-    compileSdk = 35
+    compileSdk = 36
     defaultConfig {
         applicationId = "online.devnazu.books"
         minSdk = 23
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 4
         versionName = "1.1.0-test"
         buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL")}\"")
