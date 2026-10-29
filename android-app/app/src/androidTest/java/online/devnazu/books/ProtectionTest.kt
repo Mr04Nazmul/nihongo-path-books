@@ -28,6 +28,29 @@ class ProtectionTest {
    val bitmap=android.graphics.Bitmap.createBitmap(decor.width,decor.height,android.graphics.Bitmap.Config.ARGB_8888);decor.draw(android.graphics.Canvas(bitmap));java.io.File(a.filesDir,"signup-preview.png").outputStream().use{bitmap.compress(android.graphics.Bitmap.CompressFormat.PNG,100,it)};bitmap.recycle()
   }}
  }
+ @Test fun storeListingScreensAreActualAppViews(){
+  val context=androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().targetContext
+  TokenVault(context).clear()
+  ActivityScenario.launch(MainActivity::class.java).use{scenario->
+   fun capture(file:String){
+    androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync()
+    scenario.onActivity{a->
+     assertTrue(a.window.attributes.flags and WindowManager.LayoutParams.FLAG_SECURE != 0)
+     val decor=a.window.decorView
+     val bitmap=android.graphics.Bitmap.createBitmap(decor.width,decor.height,android.graphics.Bitmap.Config.ARGB_8888)
+     decor.draw(android.graphics.Canvas(bitmap))
+     java.io.File(a.filesDir,file).outputStream().use{bitmap.compress(android.graphics.Bitmap.CompressFormat.PNG,100,it)}
+     bitmap.recycle()
+    }
+   }
+   capture("library-preview.png")
+   scenario.onActivity{a->
+    fun views(v:android.view.View):List<android.view.View> = listOf(v)+(if(v is android.view.ViewGroup)(0 until v.childCount).flatMap{views(v.getChildAt(it))}else emptyList())
+    views(a.window.decorView).filterIsInstance<android.widget.Button>().first{it.text.toString() in listOf("Rewards","ক্রেডিট")}.performClick()
+   }
+   capture("rewards-preview.png")
+  }
+ }
  @Test fun secureContentNotVisibleInScreenCapture(){
   ActivityScenario.launch(MainActivity::class.java).use { scenario ->
    scenario.onActivity { a -> assertTrue(a.window.attributes.flags and WindowManager.LayoutParams.FLAG_SECURE != 0) }
