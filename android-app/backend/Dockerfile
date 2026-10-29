@@ -5,8 +5,7 @@ RUN npm ci --omit=dev
 COPY android-app/backend/src ./src
 COPY android-app/backend/public ./public
 COPY android-app/backend/migrations ./migrations
-COPY dist /srv/content
-ENV CONTENT_ROOT=/srv/content PORT=8080 NODE_ENV=production
+ENV CONTENT_ROOT=https://devnazu.online/ PORT=8080 NODE_ENV=production
 USER node
 EXPOSE 8080
 CMD ["node","src/server.mjs"]

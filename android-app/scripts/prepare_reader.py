@@ -1,7 +1,9 @@
 """Build an Android-only reader shell. Never edits dist or bundles paid curriculum."""
-import json,re,shutil,hashlib
+import json,re,shutil,hashlib,subprocess,sys,os
 from pathlib import Path
-root=Path(__file__).resolve().parents[2];source=root/'dist';out=root/'android-app/app/build/generated/study-assets/reader'
+root=Path(__file__).resolve().parents[2]
+if not os.environ.get('BOOKS_SNAPSHOT_DIR'):subprocess.run([sys.executable,str(root/'android-app/scripts/sync_website.py')],check=True)
+source=Path(os.environ.get('BOOKS_SNAPSHOT_DIR',str(root/'android-app/build/website-snapshot')));out=root/'android-app/app/build/generated/study-assets/reader'
 if out.exists():shutil.rmtree(out)
 out.mkdir(parents=True)
 allowed_html=['index.html','lessons.html','n5.html','n4.html','n3.html','n2.html','n1.html','extra.html','review.html','progress.html','settings.html','sources.html','listening.html']

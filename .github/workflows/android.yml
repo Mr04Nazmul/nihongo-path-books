@@ -31,7 +31,7 @@ jobs:
         with: {node-version: '22', cache: npm, cache-dependency-path: android-app/backend/package-lock.json}
       - run: npm ci
         working-directory: android-app/backend
-      - run: npm run migrate && npm test
+      - run: npm run migrate && npm test && npm run build:neon
         working-directory: android-app/backend
   apk:
     runs-on: ubuntu-24.04
@@ -58,6 +58,7 @@ jobs:
         with:
           name: android-test-reports
           path: |
+            android-app/build/website-snapshot/website-source-manifest.json
             android-app/app/build/reports
             android-app/app/build/outputs/androidTest-results
       - name: Decode signing key

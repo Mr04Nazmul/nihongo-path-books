@@ -1,5 +1,5 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
-fun setting(key: String, fallback: String = "") = providers.environmentVariable(key).orElse(fallback).get()
+fun setting(key: String, fallback: String = "") = providers.environmentVariable(key).orNull?.takeIf { it.isNotBlank() } ?: fallback
 android {
     namespace = "online.devnazu.books"
     compileSdk = 35
@@ -7,9 +7,9 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0-test"
-        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL")}\"")
+        versionCode = 2
+        versionName = "1.0.1-test"
+        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL", "https://br-royal-poetry-ao0544wq-booksapi.compute.c-2.ap-southeast-1.aws.neon.tech")}\"")
         buildConfigField("String", "REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
         manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -36,7 +36,8 @@ android {
 val prepareReader by tasks.registering(Exec::class) {
     workingDir(rootDir.parentFile)
     commandLine("python3", "android-app/scripts/prepare_reader.py")
-    inputs.dir(rootDir.parentFile.resolve("dist"))
+    inputs.dir(rootDir.resolve("scripts"))
+    outputs.upToDateWhen { false }
     outputs.dir(layout.buildDirectory.dir("generated/study-assets"))
 }
 tasks.named("preBuild").configure { dependsOn(prepareReader) }

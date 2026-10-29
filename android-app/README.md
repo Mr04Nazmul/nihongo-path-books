@@ -1,21 +1,21 @@
 # Nihongo Path Books — native Android application
 
-Independent Android project; `dist/` and the live website are not edited by the app build. Kotlin native dashboard, login/profile, rewards, histories and settings surround the existing book animation/reader in a restricted Android WebView. Free basics are bundled offline. Protected lessons, PDFs and audio are **not in the APK** and are fetched by the native HTTP client after server authorization. Native Japanese TTS replaces browser speech for vocabulary.
+Independent Android project; the live website is not edited by the app build. Its reader shell is downloaded directly from https://devnazu.online/ by `scripts/sync_website.py`, with an origin and SHA-256 manifest; repository curriculum files are not used as the content source. Kotlin native dashboard, login/profile, rewards, histories and settings surround the existing book animation/reader in a restricted Android WebView. Free basics are bundled offline. Protected lessons, PDFs and audio are **not in the APK** and are fetched by the native HTTP client after server authorization. Native Japanese TTS replaces browser speech for vocabulary.
 
 ## Current delivery boundaries
 
-The repository contains the real Android project, backend, SQL migration, tests and CI workflow. No hosted database/API, AdMob publisher callback configuration or release signing is invented. A build without `BOOKS_API_URL` launches, reads free basics and clearly reports server setup pending; it cannot log in, earn credits or open protected levels. This is fail-closed, not an offline paid-content bypass.
+The Neon PostgreSQL database and Neon Function API are now deployed and connected to the Android build. See [LIVE_DEPLOYMENT.md](LIVE_DEPLOYMENT.md) for the public endpoints and actual verification. Login, profile, credits, access and protected website retrieval use the live service. No database credential is in the APK. Google sample advertisements remain the development default; a sample ad's client callback alone never grants credits.
 
 Existing content snapshot: N5–N2 owner text lessons and original PDF editions; N1 existing legacy text; free hiragana/katakana/numbers; original animations, practice, search and reader progress. The Android-only build removes the website's hardcoded N1 lock and lets the new server policy decide access. Website remains unchanged. Only N5 listening exists in the source. N4–N1 listening shows the existing unavailable state; no lessons are fabricated. Listening rights metadata has `commercialUse: false`; resolve permission for advertising-supported use before production monetization. Attribution/license files are retained.
 
 ## Local build
 
-Requires JDK 17, Android SDK 35, Python 3, Node 22 and Internet for first dependency download.
+Requires JDK 17, Android SDK 35, Python 3, Node 22 and Internet for dependencies and the website snapshot. Set BOOKS_SNAPSHOT_DIR only to explicitly use a previously downloaded website snapshot for an offline rebuild.
 
 ```sh
 cd android-app
 # Public HTTPS API origin, never a database URL or credential:
-export BOOKS_API_URL=https://YOUR-BOOKS-API-HOST
+export BOOKS_API_URL=https://br-royal-poetry-ao0544wq-booksapi.compute.c-2.ap-southeast-1.aws.neon.tech
 ./gradlew testDebugUnitTest lintDebug assembleDebug
 # APK: app/build/outputs/apk/debug/app-debug.apk
 ./gradlew connectedDebugAndroidTest  # attached Android device/emulator

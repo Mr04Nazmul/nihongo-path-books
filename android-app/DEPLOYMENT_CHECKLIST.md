@@ -8,14 +8,16 @@
 - [x] Google test rewarded SDK and UMP integrated; production ad IDs disabled.
 - [x] FLAG_SECURE and restrictive WebView origin allowlist.
 - [x] PostgreSQL migrations, RLS, atomic credits/redemption, SSV signature validation and duplicate protection.
-- [ ] Confirm final Android workflow run succeeds; retrieve the APK artifact for that commit.
+- [x] Initial build/Android emulator workflow succeeded. Rebuild after the connected live-website update; retrieve that APK artifact.
 
-## Neon and API (external connection required)
+## Neon and API (provisioned and connected)
+
+The live database/API are deployed; see LIVE_DEPLOYMENT.md. The numbered steps below are reproducible setup instructions, not a current connection blocker.
 1. Create/select a dedicated Neon project at https://console.neon.tech/. Choose a region near users/API. Do not reuse another app's production schema.
 2. Place the migration connection string in the API host's **private** `MIGRATION_DATABASE_URL`; runtime string in **private** `DATABASE_URL`. Never paste passwords in GitHub source, public variables or chat.
 3. Run `npm ci` and `npm run migrate` in `android-app/backend/`. Migration requires creating NOLOGIN roles. Grant both generated roles to your runtime login when it differs from the migration login.
-4. Deploy `android-app/backend/Dockerfile` from the repository root to a Node/Docker host with public HTTPS. It copies existing `dist` privately into `/srv/content`; do not serve that folder as a static directory.
-5. Set `CONTENT_ROOT=/srv/content`, allowed rewarded unit IDs, `REWARDS_ENABLED`, and the server-only DB environment. Verify `/health`.
+4. The Neon Function hosts the API directly. For an alternate Docker host, build `android-app/backend/Dockerfile` from the repository root. CONTENT_ROOT=https://devnazu.online/ enables protected retrieval from the actual website.
+5. Set `CONTENT_ROOT=https://devnazu.online/`, allowed rewarded unit IDs, `REWARDS_ENABLED`, and the server-only DB environment. Verify `/health`.
 6. Set repository variable `BOOKS_API_URL=https://YOUR-API` at https://github.com/Mr04Nazmul/nihongo-path-books/settings/variables/actions and rebuild Android. Empty API URL intentionally leaves secure features unavailable.
 7. Create the owner account in-app; promote only that verified account with privileged SQL as documented. Open `https://YOUR-API/admin` to configure tiers and inspect events.
 8. Test two users/devices: sign-in, isolation, refresh/restart, earned credits, redemption retries, expiry, offline errors, logout and deletion.
