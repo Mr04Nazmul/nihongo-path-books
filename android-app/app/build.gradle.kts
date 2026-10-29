@@ -29,7 +29,7 @@ android {
         }
     }
     buildFeatures { buildConfig = true }
-    compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
+    compileOptions { isCoreLibraryDesugaringEnabled = true; sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
     sourceSets["main"].assets.srcDir(layout.buildDirectory.dir("generated/study-assets"))
 }
@@ -41,6 +41,7 @@ val prepareReader by tasks.registering(Exec::class) {
 }
 tasks.named("preBuild").configure { dependsOn(prepareReader) }
 dependencies {
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
     implementation("androidx.activity:activity-ktx:1.10.1")
     implementation("androidx.webkit:webkit:1.13.0")
     implementation("com.google.android.gms:play-services-ads:24.5.0")

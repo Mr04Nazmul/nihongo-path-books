@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
     private val paper=Color.rgb(246,242,233)
     private val ticker=object:Runnable { override fun run(){
         if(web!=null && readerLevel!=null && now()>=readerExpiry){closeReader();message(tr("Access expired. Unused credits are safe.","সময় শেষ হয়েছে। অব্যবহৃত ক্রেডিট রাখা হয়েছে।"));refresh()}
-        findViewById<TextView>(9001)?.text=accessText(selected)
+        findViewById<TextView>(R.id.access_countdown)?.text=accessText(selected)
         handler.postDelayed(this,1000)
     }}
     override fun onCreate(savedInstanceState:Bundle?){
@@ -95,7 +95,7 @@ class MainActivity : ComponentActivity() {
     private fun rewards(){
         add(tr("Reward Center","ক্রেডিট সেন্টার"),30f);add(tr("Choose a level. Finish an optional ad to earn one verified credit for that level. Redeem only when you choose.","লেভেল বেছে নিন। ইচ্ছামতো একটি বিজ্ঞাপন সম্পূর্ণ দেখে সেই লেভেলের একটি যাচাইকৃত ক্রেডিট পান। নিজের পছন্দে সময় কিনুন।"))
         val picker=Spinner(this);picker.adapter=ArrayAdapter(this,android.R.layout.simple_spinner_dropdown_item,Access.levels);picker.setSelection(Access.levels.indexOf(selected));area.addView(picker);picker.onItemSelectedListener=object:AdapterView.OnItemSelectedListener{override fun onNothingSelected(p:AdapterView<*>?){};override fun onItemSelected(p:AdapterView<*>?,v:View?,pos:Int,id:Long){val n=Access.levels[pos];if(n!=selected){selected=n;draw()}}}
-        area.addView(text(accessText(selected),20f).apply{id=9001})
+        area.addView(text(accessText(selected),20f).apply{id=R.id.access_countdown})
         area.addView(button(tr("Watch one ad · earn 1 $selected credit","একটি বিজ্ঞাপন দেখুন · $selected-এর ১ ক্রেডিট পান")){watchAd()})
         val tiers=data.optJSONArray("tiers")?:JSONArray()
         if(tiers.length()==0){add(tr("Sign in and sync to load available unlock durations.","উপলব্ধ সময় দেখতে লগইন করে সিঙ্ক করুন।"));val costs=Access.thresholds.getValue(selected);listOf("5h","24h","3d","7d").forEachIndexed{i,s->add("$s · ${costs[i]} "+tr("credits","ক্রেডিট"))}}
