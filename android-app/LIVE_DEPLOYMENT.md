@@ -24,3 +24,13 @@ AdMob account configuration:
 These publisher IDs are configuration records, **not activated in the shipped development app**. The development APK/AAB continue to use Google's sample App ID and rewarded unit. A shared sample unit cannot be assigned your publisher SSV callback; sample completions therefore do not mint unverified credits. Test the publisher unit only on registered test devices, then review production activation after app approval, consent and content rights checks.
 
 The signed release AAB and private signing backup are delivered privately to the owner. No keystore, signing password, session token or database password is in Git. For future CI-signed bundles, place the backup's values in GitHub Actions secrets using the names in README. Current GitHub CI always produces the installable debug APK; it only produces a signed release AAB when those secrets are set.
+
+## Completed verification
+
+- GitHub Actions run `40833019485`, code commit `2509624abf0884b2d4a6cacdc54874ab32438182`: success (backend, APK/lint/unit tests, Android emulator/FLAG_SECURE).
+- Google AdMob publisher-console callback verification: **Success**, saved on the rewarded unit. The console's fixed synthetic ad unit `1234567890` is accepted only after Google signature verification and always returns zero credits. It is not a watched-ad reward.
+- Live expiry blocks educational requests while retaining unused credits. Administrator overview returns 403 for students and 200 after an explicit server-side admin role assignment.
+- Disposable test accounts, fixture balances and their histories were removed after validation. Production starts with no fabricated ad rewards.
+- Signed release AAB: `Nihongo-Path-Books-v1.0.1-test.aab`, signature verified; signing key/password backup delivered privately. The AAB retains Google's sample ads.
+
+The shared Google test ad unit does not send publisher-configured SSV to this API. A physical-device test using the publisher unit on a registered test device, and subsequent production activation after approval, remain separate release gates. Do not count a sample-ad completion as a server-verified credit.

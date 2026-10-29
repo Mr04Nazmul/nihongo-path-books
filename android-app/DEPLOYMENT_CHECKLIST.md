@@ -8,7 +8,7 @@
 - [x] Google test rewarded SDK and UMP integrated; production ad IDs disabled.
 - [x] FLAG_SECURE and restrictive WebView origin allowlist.
 - [x] PostgreSQL migrations, RLS, atomic credits/redemption, SSV signature validation and duplicate protection.
-- [x] Initial build/Android emulator workflow succeeded. Rebuild after the connected live-website update; retrieve that APK artifact.
+- [x] Connected live-website build and Android emulator workflow succeeded: run 40833019485. APK artifact is available.
 
 ## Neon and API (provisioned and connected)
 
@@ -23,8 +23,8 @@ The live database/API are deployed; see LIVE_DEPLOYMENT.md. The numbered steps b
 8. Test two users/devices: sign-in, isolation, refresh/restart, earned credits, redemption retries, expiry, offline errors, logout and deletion.
 
 ## AdMob verification (external publisher setup required)
-- [ ] Register app `online.devnazu.books` and rewarded unit in your publisher account.
-- [ ] Configure public HTTPS `/ssv` callback and server unit allowlist in a separate staging environment.
+- [x] Registered Nihongo Path Books Android app and its rewarded unit in the publisher account.
+- [x] Configured public HTTPS `/ssv` callback and server unit allowlist. Google publisher-console verification succeeded; its synthetic probe grants zero credits.
 - [ ] Register a test device. Shared Google sample IDs cannot be configured with your personal callback; do not issue credits merely because a sample ad finished.
 - [ ] Run AdMob's callback test and real device test-mode SSV end to end. Confirm exactly one credit after callback and zero for unfinished/no-fill/failed/tampered ads.
 - [ ] Resolve the existing listening collection's `commercialUse: false` before advertising-supported release. Do not change rights flags as a substitute for permission.
@@ -35,6 +35,6 @@ The live database/API are deployed; see LIVE_DEPLOYMENT.md. The numbered steps b
 - [ ] Add account email verification/recovery and production abuse monitoring.
 - [ ] Publish app-specific privacy policy and account-deletion webpage; finish Play Data Safety/ads/target audience declarations.
 - [ ] Supply four Android signing secrets listed in README; preserve the keystore backup privately.
-- [ ] Generate signed AAB in CI. Debug APK is for testing, not Play submission.
+- [x] Generated and signature-verified a signed test AAB locally; private signing backup delivered. Future CI-signed AABs require the repository signing secrets. Debug APK is for testing, not Play submission.
 - [ ] Test physical Android devices: install, native TTS Japanese voice, PDF page animation, listening audio, ad consent/no-fill, capture protection, background/resume/expiry and low-memory recovery.
 - [ ] Import remaining N4–N1 listening collections when actually supplied; no complete listening coverage is currently claimed.

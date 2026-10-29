@@ -52,7 +52,7 @@ Open `https://YOUR-API/admin`, sign in. Tokens stay in memory, no CDN scripts or
 
 1. User selects a JLPT level and taps Watch Ad. Authenticated server creates a single-use UUID ad session tied to that user/level, with a two-hour signed-event window.
 2. Native AdMob receives `user_id` and `custom_data=ad-session-UUID` via ServerSideVerificationOptions.
-3. Google calls `/ssv`. API verifies the ECDSA-SHA256 signature over the unmodified raw query, obtains Google's rotating public keys, checks allowed unit and signed time/session/user association.
+3. Google calls `/ssv`. API verifies the ECDSA-SHA256 signature over the URI-decoded query in its original parameter order, obtains Google's rotating public keys, checks allowed unit and signed time/session/user association.
 4. In one DB transaction, insert the unique Google transaction ID and unique ad-session ID, consume the session, and add exactly one credit. Retries are idempotent; another transaction cannot reuse the session. No client credit grant endpoint exists.
 5. User chooses a duration and confirms redeem. The server serializes per user, re-reads enabled tier, atomically deducts credits and creates expiry with DB time. A persisted request UUID makes uncertain network retries safe. Active access cannot be replaced/restarted. Expiry only closes access; unused credits remain.
 6. Each protected data/PDF/audio fetch checks session and expiry. Reader countdown uses server time plus monotonic device elapsed time, closes/destroys the WebView at expiry and revalidates on resume. Client clocks cannot authorize content.
