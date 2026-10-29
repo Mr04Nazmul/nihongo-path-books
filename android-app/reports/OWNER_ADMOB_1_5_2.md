@@ -30,4 +30,8 @@ CI debug certificate differs from the earlier1.5.1-test APK. Android cannot inst
 
 After Edge14 deploy: live health200; captured Google-signed console probe200 with credited0; tampered signature403. This verifies the deployed signature path, not earned-ad completion.
 
-CI APK/unit/lint/signature job and backend job passed. API29 emulator passed at this checkpoint; API23/33/35 still running. These emulator tests use the demo configuration/shared native code and do not request production ads.
+Backend numeric-unit compatibility source: acfb1f75f418a1e92b9ca62e0e92f66710de03ac. Native APK source remains f7d9ccc68fd8d9957f289420e062905ced904f34.
+
+## Final CI result
+
+Run40969528844 completed all SIX jobs successfully: backend, APK/unit/lint/signature/alignment, API23, API29, API33 and API35. Emulator tests exercise the shared native code with demo ad configuration; the separate owner APK compiled and signature verification passed. Actual live advertising/earned SSV roundtrip remains UNVERIFIED. Backend numeric-unit follow-up was locally tested with22 tests (20pass,2external-Postgres skips) and deployed asEdge14; this backend follow-up does not change the native APK.
