@@ -25,7 +25,7 @@ class RewardAds(private val activity: Activity) {
         if(busy||!active())return
         busy=true
         val unavailable={busy=false;if(active())status("Ads are unavailable now. No credits were deducted.")}
-        status("Preparing a Google test advertisement…")
+        status(if(BuildConfig.LIVE_ADS) "বিজ্ঞাপন প্রস্তুত হচ্ছে…" else "Preparing a Google test advertisement…")
         // Consent and the advertising SDK start only after the user requests an ad.
         updateConsent({
             if(!active()||!consent.canRequestAds()){unavailable();return@updateConsent}
@@ -42,7 +42,7 @@ class RewardAds(private val activity: Activity) {
                                     override fun onAdDismissedFullScreenContent(){busy=false;if(active())finished()}
                                     override fun onAdFailedToShowFullScreenContent(error:AdError){unavailable()}
                                 }
-                                ad.show(activity) {if(active())status("Ad completed. Waiting for secure server verification…")}
+                                ad.show(activity) {if(active())status("বিজ্ঞাপন সম্পূর্ণ হয়েছে। সার্ভার যাচাইয়ের পর ১ ক্রেডিট যোগ হবে…")}
                                 // Only a verified server callback can issue credits.
                             }catch(_:Exception){unavailable()}
                         }

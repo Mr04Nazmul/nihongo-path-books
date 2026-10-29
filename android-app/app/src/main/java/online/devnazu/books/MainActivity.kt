@@ -213,7 +213,20 @@ class MainActivity : ComponentActivity() {
         if(vault.read().isEmpty()){tab="Account";draw();return}
         val level=selected
         async({api.request("/ads/session","POST",JSONObject().put("level",level))}){s->ads.show(s.getString("id"),s.getString("userId"),{message(it)}){
-            refresh();listOf(3000L,10000L,30000L).forEach{delay->handler.postDelayed({if(!isDestroyed)refresh()},delay)}
+            var verified=false
+            val account=s.getString("userId")
+            fun checkReward(){
+                if(verified||isDestroyed||vault.read().isEmpty()||data.optJSONObject("user")?.optString("id")!=account)return
+                refresh {
+                    val history=data.optJSONArray("rewards")?:JSONArray()
+                    if((0 until history.length()).any{history.getJSONObject(it).optString("ad_session")==s.getString("id")}){
+                        verified=true
+                        message(tr("Verified · 1 $level credit added","যাচাই সম্পূর্ণ · $level-এর ১ ক্রেডিট যোগ হয়েছে"))
+                    }
+                }
+            }
+            checkReward()
+            listOf(3000L,10000L,30000L,60000L,120000L).forEach{delay->handler.postDelayed({checkReward()},delay)}
         }}
     }
     private fun field(hint:String,password:Boolean=false)=EditText(this).apply{this.hint=hint;setSingleLine();inputType=if(password)129 else 1;area.addView(this)}

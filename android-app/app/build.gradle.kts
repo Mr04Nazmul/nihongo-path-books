@@ -1,5 +1,6 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android") }
 fun setting(key: String, fallback: String = "") = providers.environmentVariable(key).orNull?.takeIf { it.isNotBlank() } ?: fallback
+val liveAds = setting("BOOKS_LIVE_ADS", "false").toBooleanStrict()
 android {
     namespace = "online.devnazu.books"
     compileSdk = 36
@@ -7,11 +8,12 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 23
         targetSdk = 36
-        versionCode = 10
-        versionName = "1.5.1-test"
+        versionCode = 11
+        versionName = if (liveAds) "1.5.2" else "1.5.2-test"
         buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL", "https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1")}\"")
-        buildConfigField("String", "REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
-        manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
+        buildConfigField("boolean", "LIVE_ADS", liveAds.toString())
+        buildConfigField("String", "REWARDED_ID", "\"${if (liveAds) "ca-app-pub-3728341118830943/5055001578" else "ca-app-pub-3940256099942544/5224354917"}\"")
+        manifestPlaceholders["admobAppId"] = if (liveAds) "ca-app-pub-3728341118830943~7145978290" else "ca-app-pub-3940256099942544~3347511713"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     signingConfigs {
