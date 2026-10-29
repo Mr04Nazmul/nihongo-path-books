@@ -24,6 +24,7 @@ test('Edge HTTP: Supabase identity, opaque sessions, payload tampering, protecte
   assert.equal((await call('/auth/register','POST',{email:'a@example.test',password:'long-test-password'})).body.confirmationRequired,true);
   assert.equal((await call('/auth/google/start','POST',{challenge:'a'.repeat(43),flow:randomUUID()})).status,200);
   assert.equal((await call('/auth/exchange','POST',{code:'bad',verifier:'x'})).status,400);
+  const oauth=await call('/auth/exchange','POST',{code:'valid-pkce-code-123',verifier:'a'.repeat(43)});assert.equal(oauth.status,200);assert.equal(oauth.body.user.role,'student');assert.equal(oauth.body.bonus.credited,0);
   const sign=await call('/auth/login','POST',{email:'a@example.test',password:'long-test-password'});assert.equal(sign.status,200);assert.equal(sign.body.user.role,'student');let token=sign.body.token;
   assert.equal((await call('/referrals','GET',null,token)).body.bonusCredits,5);
   assert.equal((await call('/admin/overview','GET',null,token)).status,403);

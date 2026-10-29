@@ -37,11 +37,13 @@ export async function handle(req:Request):Promise<Response>{
    if(p.verificationProbe)return json({verified:true,test:true,credited:0});return json(await rpc('reward',p));
   }
   if(route==='/auth/google/start'&&req.method==='POST'){
+   await rpc('rate',{key:await hash(req.headers.get('x-forwarded-for')||'unknown')});
    const b=await body(req),challenge=String(b.challenge||''),flow=String(b.flow||'');if(!/^[\w-]{43}$/.test(challenge)||!/^[a-f0-9-]{36}$/.test(flow))throw new Fault(400,'Invalid sign-in request');
    const redirect='nihongopathbooks://auth/callback?flow='+flow;
    return json({url:project+'/auth/v1/authorize?provider=google&code_challenge_method=s256&code_challenge='+encodeURIComponent(challenge)+'&redirect_to='+encodeURIComponent(redirect)});
   }
   if(route==='/auth/exchange'&&req.method==='POST'){
+   await rpc('rate',{key:await hash(req.headers.get('x-forwarded-for')||'unknown')});
    const b=await body(req);if(!/^[\w.-]{10,2048}$/.test(String(b.code||''))||!/^[\w~-]{43,128}$/.test(String(b.verifier||'')))throw new Fault(400,'Invalid sign-in callback');
    const d=await auth('/token?grant_type=pkce','POST',{auth_code:b.code,code_verifier:b.verifier});return json(await appSession(d.access_token,String(b.referralCode||'')));
   }
