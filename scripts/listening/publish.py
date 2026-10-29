@@ -7,6 +7,7 @@ rows=json.loads(a.collection.read_text());rights=json.loads(a.permission.read_te
 with tempfile.TemporaryDirectory() as d:
  stage=Path(d)
  for e in rows:
+  if e.get('availability')=='audio-unavailable':continue
   rel=e.get('audio','')
   if not rel.startswith('audio/listening/n5/') or '..' in Path(rel).parts:raise SystemExit('Unsafe path')
   src=a.audio_root/f"level-{e['series']}"/f"{e['number']:02}.mp3"
@@ -15,6 +16,7 @@ with tempfile.TemporaryDirectory() as d:
  errors=validate(data,stage)
  if errors:raise SystemExit('\n'.join(errors))
  for e in rows:
+  if e.get('availability')=='audio-unavailable':continue
   target=a.dist/e['audio'];target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(stage/e['audio'],target)
  dest=a.dist/'data/listening-n5.json';tmp=dest.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2));tmp.replace(dest)
 print('Published to local dist:',len(rows),'lessons. Run all checks before deploying.')

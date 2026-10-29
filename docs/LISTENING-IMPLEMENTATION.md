@@ -1,3 +1,13 @@
+# Listening publication update — 2026-10-29
+
+The owner explicitly reconfirmed phone permission to add all material directly and waive visible source credit in favor of the site publisher identity. This is recorded as owner-attested permission, not independently verified permission. The site retains its established publisher, Hossain Najmul; no original authorship claim is made. Technical provenance is retained in lesson metadata.
+
+100 source entries are included; 99 have locally hosted playable audio. Level 2 lesson 30 remains unavailable and has no player URL. Audio playback, hashing, source association, file presence, quiz structure and duplicate validation remain required. The owner requested immediate source-practice publication: semantic review flags remain false and the UI displays review status. Ten bilingual translations are drafts; the other 90 show explicit pending states. No claim of a completed translation or fully verified curriculum is made.
+
+CI accepts either independently verified permission or the documented owner attestation, runs all checks and deploys source-practice lessons only with explicit status labels. Reviewed-mode publication still requires complete semantic and translation checks. The remainder below documents original intake and the first, held deployment. Its original counts/status are historical.
+
+---
+
 # Books and Listening rebuild
 
 Base and rollback: `2848604e8f654bf7bf84d79c536ecb3142ceea32`, also retained on `backup/pre-listening-20261029`.

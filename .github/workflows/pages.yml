@@ -33,9 +33,11 @@ jobs:
         id: readiness
         run: |
           python - <<'PY' >> "$GITHUB_OUTPUT"
-          import json
+          import json,sys
+          sys.path.insert(0,'scripts/listening')
+          from validate import permission_accepted
           d=json.load(open('dist/data/listening-n5.json'))
-          ready=d.get('rights',{}).get('verified') is True and len(d.get('lessons',[]))>0
+          ready=permission_accepted(d.get('rights',{})) and len(d.get('lessons',[]))>0
           print('ready='+str(ready).lower())
           PY
       - uses: actions/upload-artifact@v4
