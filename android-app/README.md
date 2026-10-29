@@ -1,58 +1,34 @@
-# Nihongo Path Books — 1.2.0 Edge backend preparation
+# Nihongo Path Books Android — 1.3.0 test edition
 
-The Supabase-only HTTPS backend now has source under `supabase/functions/nihongo-books-v1` and explicit service-only RPC SQL in `supabase/sql/edge-backend.sql`. This avoids a separate Node hosting account or database password. **No live migration or Edge Function has been deployed.** Automatic approval review rejected the migration against the shared project because the target-selection question was unanswered; explicit target approval is required before retrying.
+Native Kotlin Android app with restricted WebView book reader, official Google Mobile Ads rewarded test ads, UMP consent and Supabase backend. The existing website and older repository are preserved.
 
-Target proposed for approval: `weenlife00@gmail.com's Project`, ref `vjygltfnrmyghlwyjtwu`, organization `Nazu testnet`. Proposed changes create the private `books` schema and a `service_role`-only public RPC wrapper; all existing application tables and global Auth users remain outside deletion operations. App account deletion deletes Nihongo data/sessions only. Auth is shared with the other applications in this project.
+## Live test backend
 
-After approval, apply the existing backend migrations 001 and 002 followed by `supabase/sql/edge-backend.sql` as migration `nihongo_books_edge_v1`, deploy the fresh function `nihongo-books-v1` with `verify_jwt=false` because it validates opaque app sessions internally and verifies signed Google SSV itself. Sign-in uses Supabase Auth `/token` and `/user`; the RPC is callable only by the function's server-side service role, never anon/authenticated clients. No arbitrary SQL operation is exposed. Check advisors and live unauthenticated/fixture authorization behavior before connecting Android. Do not activate production ads.
+Approved shared Supabase project: `vjygltfnrmyghlwyjtwu`. API: `https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1` (Edge version 6). Android defaults to this HTTPS API; `BOOKS_API_URL` or CI variable `SUPABASE_BOOKS_API_URL` can override it. No service key is in the app.
 
-For recovery, add only `nihongopathbooks://auth/recovery` to the project's Auth redirect allowlist (preserve existing URLs). The Android reset dialog accepts a verified recovery access token, the backend confirms matching account email through Supabase Auth, changes the password, then revokes all Nihongo app sessions. A password change affects the shared Supabase identity. Android has a sign-out-all-devices action; user credits and access remain in the database. Recovery email/redirect delivery and native reset UI remain unverified until live configuration and device tests.
+Private `books` schema, RLS and service-only explicit RPCs isolate this application. Other application tables remain unchanged. Supabase email/password sign-in is validated through Auth, then a random opaque 30-day application session is stored hashed on the server and encrypted with Android Keystore. App account deletion removes Nihongo data only, preserving the shared Auth identity. Owner administrator permissions are stored in books.users, never user-editable metadata.
 
-Build/API settings remain explicit: set `SUPABASE_BOOKS_API_URL` in CI or `BOOKS_API_URL` locally only after deployment succeeds. APKs continue to default to no backend; no old Neon origin is reused. The CI workflow also produces an unsigned AAB when signing secrets are absent; it must be signed before Play submission.
+Live checks passed: anonymous denial, student/admin separation, cross-user progress isolation, stripping client balance fields, N1 denial, 12 protected N5–N2 text categories, N5 MP3 response, expired access denial and revoked sessions. A disposable confirmed Auth identity successfully completed actual Supabase password login and app-session verification; its Auth and app records were removed afterward (zero remaining diagnostic Auth users). No owner password was changed.
 
-Local tests cover service-only RPC permissions, cross-account isolation, Google reward deduplication, expiry and redemption, shared-auth-safe app deletion, recovery email mismatch rejection and session revocation after password change. Auth transport is mocked in local tests; no live sign-in/recovery/Google callback result is claimed.
+Deployment on a fresh project: apply `supabase/sql/edge-schema.sql`, then `edge-backend.sql`, `admin-assets.sql`, `storage-bootstrap.sql`; deploy the function directory with verify_jwt=false because opaque app authentication and signed SSV are checked internally. Automatic Supabase server environment provides URL/service/anon keys. Keep the books schema private. The legacy Node backend/migrations are a separate alternative, not the deployed architecture.
 
----
+For email recovery, preserve existing shared-project settings and add only `nihongopathbooks://auth/recovery` to Auth redirect allowlists. Delivery/native recovery remains unverified. Password changes affect the shared Supabase identity; all Nihongo sessions are revoked before changing the password.
 
-# Nihongo Path Books Android — 1.1.0 test edition
+## Application features
 
-Native Kotlin Android application with a restricted WebView book reader, Google Mobile Ads rewarded test ads and UMP consent. The website is preserved. Android-only commits do not trigger the Pages workflow. The old `nihongo-path` repository is not used.
-
-## What this release changes
-
-- Active N5–N2 vocabulary, grammar and kanji; N5 listening only. Free basics.
-- N1 Coming Soon in native library. N1 is denied by the server even if a stale database entitlement exists. No N1 reward sessions or redemption; legacy data retained. Enabling N1 requires a future reviewed app/backend release, as well as the administrator level setting.
-- Supabase Auth sign-up/sign-in adapter and Supabase PostgreSQL configuration. Previous Neon deployment is historical, **not the backend for this edition**. No API origin is built in by default: set `BOOKS_API_URL` locally (or repository variable `SUPABASE_BOOKS_API_URL` in CI) to the new HTTPS API after deployment. An unconfigured APK provides free basics and a clear setup message; secure books/rewards cannot operate until backend configuration.
-- Cloud study-state storage for bookmarks, learned entries, settings and next/previous page positions. Latest save replaces the prior snapshot; simultaneous device edits are last-write-wins. Automatic sync failures currently require another save/retry; there is no offline queue.
-- Admin level controls, reward thresholds, durations, balances, unlock/redemption views, events, chapter/audio JSON draft editing. Draft publication and audio uploading are **not complete**; editor saves drafts and refuses publication until a reviewed publishing pipeline is implemented.
+N5–N2 vocabulary/grammar/kanji, N5 listening only, free basics and permanently denied N1 in this release. Cloud bookmarks/progress/settings are per-user; simultaneous device edits use last-write-wins and failed sync requires retry. Native administrator dashboard includes level settings, exact reward tiers, drafts, manually reviewed immutable publication snapshots/history, private MP3 uploads with rights review, balances/unlocks/redemptions and events. Unreviewed uploads are not served. N1 enabling requires a future reviewed app/backend release, preserving source data.
 
 ## Build and install
 
-JDK 17, Android SDK 36, Python 3, Node 22, Gradle wrapper and network dependency access are required.
+Use JDK17, SDK36, Node22 and the Gradle wrapper. In android-app run:
 
 ```sh
-cd android-app
-export BOOKS_API_URL=https://YOUR-BOOKS-API
 ./gradlew testDebugUnitTest lintDebug assembleDebug assembleDebugAndroidTest
 adb install app/build/outputs/apk/debug/app-debug.apk
 ./gradlew connectedDebugAndroidTest
 ```
 
-`BOOKS_SNAPSHOT_DIR=/absolute/path/to/dist` explicitly uses a previously reviewed local website snapshot; default build downloads the reader shell from devnazu.online and records hashes. Protected lesson JSON/PDF/audio is excluded from APK assets. Google test IDs are compiled in; no production ad switch is provided.
-
-GitHub Actions `.github/workflows/android.yml` runs PostgreSQL integration tests, Android unit tests/lint, APK signature/alignment checks and API 23/29/33/35 emulator checks. Debug APK artifact: `Nihongo-Path-Books-debug-APK`. Signed release bundle requires repository secrets `ANDROID_KEYSTORE_BASE64`, `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`; the workflow builds but does not publish it. Keep the same release signing identity for updates.
-
-## Supabase deployment — not applied to connected projects
-
-Discovered projects were a general project and NAZU Cloud Staging, neither established as this app's project. No remote schemas, users, data, advertisements or services were changed. Select a dedicated Supabase project and provide backend hosting credentials before deployment. Do not copy existing users or overwrite production data.
-
-1. Configure Supabase Auth email/password, confirmation, SMTP and password recovery policy. Keep email confirmation enabled.
-2. Set backend-only environment from `backend/.env.example`: `AUTH_PROVIDER=supabase`, `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (account deletion only), `DATABASE_URL` and `MIGRATION_DATABASE_URL` from the **same** Supabase project's Postgres connection/pooler. Use the provider's verified TLS setup. Never put these database/secret credentials in Android, repository variables or browser scripts.
-3. Run `npm ci` in `backend`, then `npm run migrate` against a fresh dedicated database. Migrations create private `books` schema, roles, RLS and seed exact thresholds; they need a migration identity allowed to grant roles. They have been tested in PostgreSQL-compatible PGlite; verify role grants on the chosen Supabase project before launch. Do not expose `books` through the public Data API. Android uses the authenticated HTTPS API, not raw table writes.
-4. Deploy `backend/Dockerfile` to a Node 22 HTTPS host; `CONTENT_ROOT=https://devnazu.online/`. Hosting selection and any paid provisioning require approval. The API uses Supabase PostgreSQL for all persistent state.
-5. Supabase Auth validates email/password and `/auth/v1/user`; backend then issues a random opaque 30-day app session, stores only its SHA-256 hash, and encrypts the token on Android with Keystore. This is an API session bridge, **not native Supabase JWT refresh on Android**. App logout revokes the app session. Revoke all `books.sessions` for an account when handling compromised accounts; Supabase logout alone does not revoke these app sessions. Password recovery and cross-provider revocation are release blockers.
-6. Assign administrator role using a privileged DB connection only: `update books.users set role='admin' where email='YOUR_CONFIRMED_OWNER_EMAIL';`. Role never comes from user-editable metadata. Open `/admin` on the API host. The Android client does not yet embed the admin editor.
-7. Set repository variable `SUPABASE_BOOKS_API_URL`, build again, and run real device tests. Existing old deployment URLs in historical `LIVE_DEPLOYMENT.md` do not prove this edition deployed.
+GitHub workflow `.github/workflows/android.yml` runs PostgreSQL/backend tests, Android unit/lint/build/signature/alignment checks and emulator tests on API23/29/33/35. It generates a debug APK and unsigned AAB. Signed AAB requires ANDROID_KEYSTORE_BASE64, ANDROID_STORE_PASSWORD, ANDROID_KEY_ALIAS and ANDROID_KEY_PASSWORD secrets. No publishing is automated. Protected lesson data is fetched with server authorization rather than bundled in the APK. Google sample IDs remain enabled; production ads are not activated.
 
 ## Rewards and secure access
 
@@ -68,7 +44,7 @@ Each signed and verified Google reward adds one non-transferable credit for its 
 
 Redemption uses a user row lock, server DB time and a persisted request UUID. **While a level is active, redemption is rejected without deduction**. After expiry a new period starts from server time; existing time is never replaced. Each protected file fetch rechecks entitlement, level availability and expiry. The reader closes at server-derived expiry and revalidates on resume. This is not DRM: content still public on the preserved website can be accessed outside the app.
 
-Google SSV validates ECDSA signatures, allowed units, session/user/timestamp association, transaction and session uniqueness, then credits atomically. Shared Google sample ad units cannot be configured with your own SSV callback: sample-ad completion does **not** automatically credit. Cryptographic fixture tests prove local verification, not real Google delivery. End-to-end testing requires your own AdMob unit configured in test-device mode and callback `/ssv`; production ads remain disabled pending explicit approval and consent/policy checks.
+Google SSV validates ECDSA signatures, allowed units, session/user/timestamp association, transaction and session uniqueness, then credits atomically. Shared Google sample ad units cannot be configured with your own SSV callback: sample-ad completion does **not** automatically credit. The registered rewarded unit callback was saved and verified in Google AdMob against the Supabase endpoint. A real Google-signed console probe returned credited=0 as intended. This verifies callback delivery/signatures, not earned-ad credit. End-to-end testing requires your own AdMob unit configured in test-device mode and callback `/ssv`; production ads remain disabled pending explicit approval and consent/policy checks.
 
 ## Content and listening
 
@@ -80,6 +56,6 @@ N5 metadata has 100 lessons; current local checkout contains 99 final MP3s. App-
 
 See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. Emulator instrumentation checks the window flag; a physical screenshot/recording test is still required. Modified OS/devices and external cameras cannot be fully prevented.
 
-Before Play submission: dedicated Supabase/backend deployment and role/security advisors; account verification/recovery and compromised-session revocation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; admin publishing/upload pipeline; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
+Before Play submission: recheck Supabase security advisors; email recovery redirect/device validation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; native admin device validation; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
 
 Current Play target requirement: API 36, verified 2026-10-29 at https://support.google.com/googleplay/android-developer/answer/11926878. This edition targets 36; the physical compatibility matrix and release review remain required.

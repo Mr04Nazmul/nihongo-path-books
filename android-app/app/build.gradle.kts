@@ -44,6 +44,7 @@ tasks.named("preBuild").configure { dependsOn(prepareReader) }
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
     implementation("androidx.activity:activity-ktx:1.10.1")
+    implementation("androidx.fragment:fragment-ktx:1.8.9")
     implementation("androidx.webkit:webkit:1.13.0")
     implementation("com.google.android.gms:play-services-ads:24.5.0")
     implementation("com.google.android.ump:user-messaging-platform:3.2.0")
