@@ -1,0 +1,23 @@
+{
+  "sourcePages": 10,
+  "discoveredExercises": 100,
+  "downloadedAudio": 99,
+  "fullyDecodedAudio": 99,
+  "duplicateAudio": 0,
+  "scriptsCollected": 100,
+  "answerSetsPrepared": 100,
+  "quizSetsDrafted": 100,
+  "bilingualTranslationDrafts": 10,
+  "translationReviewComplete": 0,
+  "semanticAudioMatchesVerified": 0,
+  "uploadedPublicLessons": 0,
+  "publishedLessons": 0,
+  "missingAudio": [
+    {
+      "id": "mlc-n5-l2-30",
+      "url": "https://www.mlcjapanese.co.jp/Download/50SD/BP1-12/MTR30.mp3",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "nativeBrowserPlayableAudio": 99
+}

@@ -1,0 +1,19 @@
+{
+  "verified": false,
+  "audioRedistribution": false,
+  "transcriptRedistribution": false,
+  "translations": false,
+  "publicWebsite": false,
+  "publicRepository": false,
+  "advertisingEnabled": false,
+  "commercialUse": false,
+  "attribution": "MLC Japanese Language School, Tokyo",
+  "evidence": {
+    "reference": "",
+    "grantor": "",
+    "grantee": "",
+    "verifiedBy": "",
+    "verifiedAt": "",
+    "scope": ""
+  }
+}

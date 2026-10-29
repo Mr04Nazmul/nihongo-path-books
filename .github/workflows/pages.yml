@@ -11,11 +11,10 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  verify:
     runs-on: ubuntu-latest
+    outputs:
+      publication_ready: ${{ steps.readiness.outputs.ready }}
     steps:
       - uses: actions/checkout@v4
       - name: Rebuild and test
@@ -23,11 +22,38 @@ jobs:
           python scripts/build_data.py
           python scripts/audit_review.py --check
           python build-pages.py
+          python scripts/listening/validate.py
           python -m unittest discover -s tests
           node --test tests/*.test.cjs
           node --check dist/app.js
           node --check dist/speech.js
+          node --check dist/listening.js
           git diff --exit-code -- dist
+      - name: Verify publication permission and lesson readiness
+        id: readiness
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          d=json.load(open('dist/data/listening-n5.json'))
+          ready=d.get('rights',{}).get('verified') is True and len(d.get('lessons',[]))>0
+          print('ready='+str(ready).lower())
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-site
+          path: dist
+  deploy:
+    needs: verify
+    if: needs.verify.outputs.publication_ready == 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: verified-site
+          path: dist
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
