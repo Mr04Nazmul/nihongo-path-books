@@ -183,7 +183,7 @@ class MainActivity : ComponentActivity() {
             override fun onPageFinished(v:WebView,url:String){
                 val synced=data.optJSONObject("studyState")
                 val initial=if(synced!=null&&synced.length()>0)synced.toString() else "{}"
-                v.evaluateJavascript("if(typeof state!=='undefined'){Object.assign(state,JSON.parse(${JSONObject.quote(initial)}));if(state.positions&&typeof readerIndex!=='undefined')readerIndex=state.positions[state.level+':'+kind]||0;}",null)
+                v.evaluateJavascript("if(typeof state!=='undefined'){const requestedLevel=state.level;Object.assign(state,JSON.parse(${JSONObject.quote(initial)}));state.level=requestedLevel;if(state.positions&&typeof readerIndex!=='undefined')readerIndex=state.positions[state.level+':'+kind]||0;}",null)
                 v.evaluateJavascript("localStorage.setItem('nihongo-path',JSON.stringify({...state,lang:'${if(bn)"bn" else "en"}'}));if(typeof state!=='undefined'){state.lang='${if(bn)"bn" else "en"}';persist();render();}",null)}
         }
         container.addView(view,LinearLayout.LayoutParams(-1,0,1f));setContentView(container);view.loadUrl("https://appassets.androidplatform.net/assets/reader/$route")
