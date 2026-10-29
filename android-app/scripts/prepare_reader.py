@@ -29,12 +29,15 @@ manifest={str(p.relative_to(source)):hashlib.sha256(p.read_bytes()).hexdigest() 
 (out.parent/'source-manifest.json').write_text(json.dumps(manifest,indent=2))
 print(f'Reader shell prepared: {len(list(out.rglob("*")))} paths; protected JSON, PDF and audio excluded')
 
+# Keep the source N1 lock; server independently denies every N1 asset in this release.
 p=out/'app.js'
+s=p.read_text().replace("data/${['N5','N4','N3','N2'].includes(n)?'lessons-':''}${n.toLowerCase()}.json", "data/${['N5','N4','N3','N2'].includes(n)?(new URLSearchParams(location.search).get('edition')==='pdf'?'owner-':'lessons-'):''}${n.toLowerCase()}.json")
+s=s.replace("persist=()=>localStorage.setItem('nihongo-path',JSON.stringify(state))", "persist=()=>{localStorage.setItem('nihongo-path',JSON.stringify(state));if(window.StudyNative)StudyNative.saveProgress(JSON.stringify(state))}")
+p.write_text(s)
+
+# Track per-book page positions through the same authenticated sync as bookmarks.
 s=p.read_text()
-s=s.replace("if(n==='N1'){db[n]={vocab:[],grammar:[],kanji:[]};return}","")
-s=s.replace("if(state.level==='N1'){lockedN1();return}","")
-s=s.replace("const locked=n==='N1'", "const locked=false")
-s=s.replace("if(state.level==='N1'&&page!=='level')state.level='N2';", "")
-s=s.replace("LEVELS.filter(n=>n!=='N1')", "LEVELS")
-s=s.replace("data/${['N5','N4','N3','N2'].includes(n)?'lessons-':''}${n.toLowerCase()}.json", "data/${['N5','N4','N3','N2'].includes(n)?(new URLSearchParams(location.search).get('edition')==='pdf'?'owner-':'lessons-'):''}${n.toLowerCase()}.json")
+s=s.replace("readerIndex=next;renderTextReader()", "readerIndex=next;state.positions={...state.positions,[state.level+':'+kind]:readerIndex};persist();renderTextReader()")
+s=s.replace("readerIndex=next;renderReader()", "readerIndex=next;state.positions={...state.positions,[state.level+':'+kind]:readerIndex};persist();renderReader()")
+s=s.replace("function qualityText(){", "function qualityText(){return readerLabel('Lexical review pending. Report uncertain Japanese readings or Bengali meanings.','শব্দ ও অর্থের যাচাই বাকি। সন্দেহজনক উচ্চারণ বা বাংলা অর্থ রিপোর্ট করুন।');")
 p.write_text(s)

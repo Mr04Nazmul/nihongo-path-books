@@ -7,9 +7,9 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 23
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.0.2-test"
-        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL", "https://br-royal-poetry-ao0544wq-booksapi.compute.c-2.ap-southeast-1.aws.neon.tech")}\"")
+        versionCode = 4
+        versionName = "1.1.0-test"
+        buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL")}\"")
         buildConfigField("String", "REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
         manifestPlaceholders["admobAppId"] = "ca-app-pub-3940256099942544~3347511713"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

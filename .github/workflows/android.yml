@@ -23,6 +23,7 @@ jobs:
         options: >-
           --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
     env:
+      AUTH_PROVIDER: legacy
       DATABASE_URL: postgresql://books:ci-only-password@localhost:5432/books_test
       TEST_DATABASE_URL: postgresql://books:ci-only-password@localhost:5432/books_test
     steps:

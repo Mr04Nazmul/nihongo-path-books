@@ -79,13 +79,14 @@ class MainActivity : ComponentActivity() {
         add(tr("Read Japanese with Bengali meanings. One page at a time.","বাংলা অর্থসহ জাপানি পড়ুন। প্রতিদিন একটু করে এগিয়ে যান।"))
         card {addView(text(tr("Start here · Always free","শুরু এখানেই · সবসময় ফ্রি"),22f));addView(text(tr("Hiragana · Katakana · Japanese numbers","হিরাগানা · কাতাকানা · জাপানি সংখ্যা")));addView(button(tr("Open basics →","প্রাথমিক পাঠ খুলুন →")){openReader("basics/index.html",null)})}
         if(!api.configured)add(tr("Test build: study server not connected. Free basics work offline; secure levels need server configuration.","পরীক্ষামূলক অ্যাপ: স্টাডি সার্ভার যুক্ত হয়নি। প্রাথমিক পাঠ অফলাইনে পড়তে পারবেন; লেভেল খুলতে সার্ভার লাগবে।"))
-        Access.levels.forEach {level->card {addView(text(level,30f));addView(text(accessText(level)));addView(text(tr("Vocabulary · Grammar · Kanji · Listening","শব্দভান্ডার · ব্যাকরণ · কানজি · লিসেনিং")));addView(button(tr("Explore book →","বই খুলুন →")){chooseSubject(level)})}}
+        Access.levels.forEach {level->card {addView(text(level,30f));addView(text(accessText(level)));addView(text(if(level=="N5")tr("Vocabulary · Grammar · Kanji · Listening","শব্দভান্ডার · ব্যাকরণ · কানজি · লিসেনিং") else tr("Vocabulary · Grammar · Kanji","শব্দভান্ডার · ব্যাকরণ · কানজি")));addView(button(tr("Explore book →","বই খুলুন →")){chooseSubject(level)})}}
+        card {addView(text("N1 · Coming Soon",30f));addView(text(tr("Locked in this release. No ad unlock.","এই সংস্করণে বন্ধ। বিজ্ঞাপন দিয়ে খোলা যাবে না।")))}
         add(tr("Only existing material is included. Listening is currently supplied for N5; other listening books are not yet present in the repository.","বর্তমান বইয়ের পাঠই রাখা হয়েছে। Repository-তে এখন N5 লিসেনিং আছে; অন্য লেভেলের লিসেনিং বই এখনো নেই।"),13f)
     }
-    private fun chooseSubject(level:String){selected=level
+    private fun chooseSubject(level:String){if(level !in Access.levels){message("N1 · Coming Soon");return};selected=level
         if(vault.read().isEmpty()){tab="Account";draw();message(tr("Sign in to sync access and credits","ক্রেডিট ও পড়ার সময় সংরক্ষণ করতে লগইন করুন"));return}
-        refresh {if(expiry(level)<=now()){tab="Rewards";draw()}else AlertDialog.Builder(this).setTitle(level).setItems(arrayOf(tr("Vocabulary","শব্দভান্ডার"),tr("Grammar","ব্যাকরণ"),tr("Kanji","কানজি"),tr("Listening","লিসেনিং"),tr("Original PDF book","মূল PDF বই"))){_,i->
-            if(i==3)openReader("listening.html?level=$level",level) else if(i==4)openPdfBook(level) else openReader("${level.lowercase()}.html?section=${listOf("vocab","grammar","kanji")[i]}",level)
+        refresh {if(expiry(level)<=now()){tab="Rewards";draw()}else AlertDialog.Builder(this).setTitle(level).setItems((listOf(tr("Vocabulary","শব্দভান্ডার"),tr("Grammar","ব্যাকরণ"),tr("Kanji","কানজি")) + (if(level=="N5")listOf(tr("Listening","লিসেনিং")) else emptyList()) + tr("Original PDF book","মূল PDF বই")).toTypedArray()){_,i->
+            if(level=="N5"&&i==3)openReader("listening.html?level=N5",level) else if(i>=3)openPdfBook(level) else openReader("${level.lowercase()}.html?section=${listOf("vocab","grammar","kanji")[i]}",level)
         }.show()}
     }
     private fun openPdfBook(level:String){
@@ -126,16 +127,21 @@ class MainActivity : ComponentActivity() {
         add(tr("Your study account","আপনার স্টাডি অ্যাকাউন্ট"),30f)
         if(vault.read().isEmpty()){
             val email=field(tr("Email","ইমেইল"));email.inputType=33;val password=field(tr("Password · at least 10 characters","পাসওয়ার্ড · অন্তত ১০ অক্ষর"),true);val name=field(tr("Name (new account)","নাম (নতুন অ্যাকাউন্ট)"))
-            fun submit(register:Boolean){val b=JSONObject().put("email",email.text.toString()).put("password",password.text.toString()).put("name",name.text.toString());async({api.request(if(register)"/auth/register" else "/auth/login","POST",b)}){vault.save(it.getString("token"));password.text.clear();refresh()}}
+            fun submit(register:Boolean){val b=JSONObject().put("email",email.text.toString()).put("password",password.text.toString()).put("name",name.text.toString());async({api.request(if(register)"/auth/register" else "/auth/login","POST",b)}){vault.save(it.getString("token"));data=JSONObject();password.text.clear();refresh()}}
             area.addView(button(tr("Sign in","লগইন")){submit(false)});area.addView(button(tr("Create account","অ্যাকাউন্ট খুলুন")){submit(true)})
-        }else{add(data.optJSONObject("user")?.optString("email")?:tr("Signed in","লগইন করা আছে"));val name=field(tr("Display name","আপনার নাম"));name.setText(data.optJSONObject("user")?.optString("name")?:"");area.addView(button(tr("Save profile","নাম সংরক্ষণ")){async({api.request("/profile","PATCH",JSONObject().put("name",name.text.toString()))}){refresh()}});area.addView(button(tr("Sync devices","সিঙ্ক করুন")){refresh()});area.addView(button(tr("Sign out","লগআউট")){async({api.request("/auth/logout","POST")}){vault.clear();data=JSONObject();draw()}})
-            area.addView(button(tr("Delete account & study access","অ্যাকাউন্ট ও পড়ার অনুমতি মুছুন")){AlertDialog.Builder(this).setTitle(tr("Permanently delete account?","অ্যাকাউন্ট স্থায়ীভাবে মুছবেন? ")).setMessage(tr("Credits, access and account history will be deleted.","ক্রেডিট, পড়ার অনুমতি ও অ্যাকাউন্টের ইতিহাস মুছে যাবে।")).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Delete","মুছুন")){_,_->async({api.request("/account","DELETE")}){vault.clear();data=JSONObject();draw()}}.show()})}
+        }else{add(data.optJSONObject("user")?.optString("email")?:tr("Signed in","লগইন করা আছে"));val name=field(tr("Display name","আপনার নাম"));name.setText(data.optJSONObject("user")?.optString("name")?:"");area.addView(button(tr("Save profile","নাম সংরক্ষণ")){async({api.request("/profile","PATCH",JSONObject().put("name",name.text.toString()))}){refresh()}});area.addView(button(tr("Sync devices","সিঙ্ক করুন")){refresh()});area.addView(button(tr("Sign out","লগআউট")){async({api.request("/auth/logout","POST")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}})
+            area.addView(button(tr("Delete account & study access","অ্যাকাউন্ট ও পড়ার অনুমতি মুছুন")){AlertDialog.Builder(this).setTitle(tr("Permanently delete account?","অ্যাকাউন্ট স্থায়ীভাবে মুছবেন? ")).setMessage(tr("Credits, access and account history will be deleted.","ক্রেডিট, পড়ার অনুমতি ও অ্যাকাউন্টের ইতিহাস মুছে যাবে।")).setNegativeButton(tr("Cancel","বাতিল"),null).setPositiveButton(tr("Delete","মুছুন")){_,_->async({api.request("/account","DELETE")}){vault.clear();WebStorage.getInstance().deleteAllData();data=JSONObject();draw()}}.show()})}
+        if(vault.read().isNotEmpty()){
+            area.addView(button(tr("Bookmarks & reading progress","বুকমার্ক ও পড়ার অগ্রগতি")){openReader("progress.html",null)})
+            area.addView(button(tr("Reader settings","রিডারের সেটিংস")){openReader("settings.html",null)})
+        }
         area.addView(button(tr("Ad privacy choices","বিজ্ঞাপনের গোপনীয়তা")){ads.privacy {}})
         area.addView(button(tr("Privacy policy","গোপনীয়তার নীতি")){AlertDialog.Builder(this).setTitle(tr("Privacy & protected study","গোপনীয়তা ও সুরক্ষিত পড়া")).setMessage(tr("We store your email, salted password hash, profile, verified ad transactions, credits, access expiry and basic access/security events on the study server. Session tokens are encrypted with Android Keystore. Google AdMob processes advertising/device information under your privacy choices. Credits are granted only after server verification. Screenshots and ordinary screen recording are blocked where Android supports it; external cameras and modified devices cannot be fully blocked. Delete your account in this screen or contact support.","স্টাডি সার্ভারে ইমেইল, পাসওয়ার্ডের সুরক্ষিত হ্যাশ, নাম, যাচাইকৃত বিজ্ঞাপন, ক্রেডিট, পড়ার সময় ও নিরাপত্তার তথ্য থাকে। লগইন টোকেন Android Keystore দিয়ে এনক্রিপ্ট করা হয়। Google AdMob আপনার গোপনীয়তার পছন্দ অনুযায়ী বিজ্ঞাপনের তথ্য প্রক্রিয়া করে। সার্ভার যাচাই করলেই ক্রেডিট পাওয়া যায়। Android সমর্থন করলে স্ক্রিনশট ও সাধারণ রেকর্ডিং বন্ধ থাকে। বাইরের ক্যামেরা বা পরিবর্তিত ডিভাইস পুরোপুরি আটকানো যায় না। এই পৃষ্ঠা থেকে অ্যাকাউন্ট মুছতে পারবেন।")).setPositiveButton("OK",null).show()})
         area.addView(button(tr("Support","সহায়তা")){AlertDialog.Builder(this).setTitle("Hossain Najmul").setMessage("WhatsApp: +81 70-9036-6509\nhttps://devnazu.online/").setPositiveButton("OK",null).show()})
     }
     @Suppress("SetJavaScriptEnabled")
     private fun openReader(route:String,level:String?){
+        if(level=="N1"||(route.startsWith("listening")&&level!="N5")){message("Unavailable in this release");return}
         if(level!=null&&expiry(level)<=now()){tab="Rewards";draw();return}
         readerLevel=level;readerExpiry=level?.let{expiry(it)}?:Long.MAX_VALUE
         val container=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(0,dp(28),0,0);setBackgroundColor(paper)}
@@ -145,6 +151,9 @@ class MainActivity : ComponentActivity() {
         view.settings.apply{javaScriptEnabled=true;domStorageEnabled=true;allowFileAccess=false;allowContentAccess=false;cacheMode=WebSettings.LOAD_NO_CACHE;setSupportMultipleWindows(false);mixedContentMode=WebSettings.MIXED_CONTENT_NEVER_ALLOW;mediaPlaybackRequiresUserGesture=true}
         WebView.setWebContentsDebuggingEnabled(false)
         view.addJavascriptInterface(object{
+            @JavascriptInterface fun saveProgress(value:String){
+                if(vault.read().isNotEmpty() && value.length<160000)worker.execute{runCatching{api.request("/study-state","PUT",JSONObject().put("state",JSONObject(value)))}}
+            }
             @JavascriptInterface fun speak(text:String){runOnUiThread{tts?.speak(text.take(2000),TextToSpeech.QUEUE_FLUSH,null,"study")}}
             @JavascriptInterface fun stopSpeech(){tts?.stop()}
         },"StudyNative")
@@ -165,7 +174,11 @@ class MainActivity : ComponentActivity() {
                 if(protected){return try{val (type,bytes)=api.content(path);WebResourceResponse(type.substringBefore(';'),null,200,"OK",mapOf("Cache-Control" to "no-store"),ByteArrayInputStream(bytes))}catch(_:Exception){denied(503)}}
                 return loader.shouldInterceptRequest(r.url)?:denied()
             }
-            override fun onPageFinished(v:WebView,url:String){v.evaluateJavascript("localStorage.setItem('nihongo-path',JSON.stringify({...JSON.parse(localStorage.getItem('nihongo-path')||'{}'),lang:'${if(bn)"bn" else "en"}'}));if(typeof state!=='undefined'){state.lang='${if(bn)"bn" else "en"}';persist();render();}",null)}
+            override fun onPageFinished(v:WebView,url:String){
+                val synced=data.optJSONObject("studyState")
+                val initial=if(synced!=null&&synced.length()>0)synced.toString() else "{}"
+                v.evaluateJavascript("if(typeof state!=='undefined'){Object.assign(state,JSON.parse(${JSONObject.quote(initial)}));if(state.positions&&typeof readerIndex!=='undefined')readerIndex=state.positions[state.level+':'+kind]||0;}",null)
+                v.evaluateJavascript("localStorage.setItem('nihongo-path',JSON.stringify({...state,lang:'${if(bn)"bn" else "en"}'}));if(typeof state!=='undefined'){state.lang='${if(bn)"bn" else "en"}';persist();render();}",null)}
         }
         container.addView(view,LinearLayout.LayoutParams(-1,0,1f));setContentView(container);view.loadUrl("https://appassets.androidplatform.net/assets/reader/$route")
     }

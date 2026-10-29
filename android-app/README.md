@@ -1,63 +1,44 @@
-# Nihongo Path Books — native Android application
+# Nihongo Path Books Android — 1.1.0 test edition
 
-Independent Android project; the live website is not edited by the app build. Its reader shell is downloaded directly from https://devnazu.online/ by `scripts/sync_website.py`, with an origin and SHA-256 manifest; repository curriculum files are not used as the content source. Kotlin native dashboard, login/profile, rewards, histories and settings surround the existing book animation/reader in a restricted Android WebView. Free basics are bundled offline. Protected lessons, PDFs and audio are **not in the APK** and are fetched by the native HTTP client after server authorization. Native Japanese TTS replaces browser speech for vocabulary.
+Native Kotlin Android application with a restricted WebView book reader, Google Mobile Ads rewarded test ads and UMP consent. The website is preserved. Android-only commits do not trigger the Pages workflow. The old `nihongo-path` repository is not used.
 
-## Current delivery boundaries
+## What this release changes
 
-The Neon PostgreSQL database and Neon Function API are now deployed and connected to the Android build. See [LIVE_DEPLOYMENT.md](LIVE_DEPLOYMENT.md) for the public endpoints and actual verification. Login, profile, credits, access and protected website retrieval use the live service. No database credential is in the APK. Google sample advertisements remain the development default; a sample ad's client callback alone never grants credits.
+- Active N5–N2 vocabulary, grammar and kanji; N5 listening only. Free basics.
+- N1 Coming Soon in native library. N1 is denied by the server even if a stale database entitlement exists. No N1 reward sessions or redemption; legacy data retained. Enabling N1 requires a future reviewed app/backend release, as well as the administrator level setting.
+- Supabase Auth sign-up/sign-in adapter and Supabase PostgreSQL configuration. Previous Neon deployment is historical, **not the backend for this edition**. No API origin is built in by default: set `BOOKS_API_URL` to the new HTTPS API after deployment. An unconfigured APK provides free basics and a clear setup message; secure books/rewards cannot operate until backend configuration.
+- Cloud study-state storage for bookmarks, learned entries, settings and next/previous page positions. Latest save replaces the prior snapshot; simultaneous device edits are last-write-wins. Automatic sync failures currently require another save/retry; there is no offline queue.
+- Admin level controls, reward thresholds, durations, balances, unlock/redemption views, events, chapter/audio JSON draft editing. Draft publication and audio uploading are **not complete**; editor saves drafts and refuses publication until a reviewed publishing pipeline is implemented.
 
-Existing content snapshot: N5–N2 owner text lessons and original PDF editions; N1 existing legacy text; free hiragana/katakana/numbers; original animations, practice, search and reader progress. The Android-only build removes the website's hardcoded N1 lock and lets the new server policy decide access. Website remains unchanged. Only N5 listening exists in the source. N4–N1 listening shows the existing unavailable state; no lessons are fabricated. Listening rights metadata has `commercialUse: false`; resolve permission for advertising-supported use before production monetization. Attribution/license files are retained.
+## Build and install
 
-## Local build
-
-Requires JDK 17, Android SDK 35, Python 3, Node 22 and Internet for dependencies and the website snapshot. Set BOOKS_SNAPSHOT_DIR only to explicitly use a previously downloaded website snapshot for an offline rebuild.
+JDK 17, Android SDK 35, Python 3, Node 22, Gradle wrapper and network dependency access are required.
 
 ```sh
 cd android-app
-# Public HTTPS API origin, never a database URL or credential:
-export BOOKS_API_URL=https://br-royal-poetry-ao0544wq-booksapi.compute.c-2.ap-southeast-1.aws.neon.tech
-./gradlew testDebugUnitTest lintDebug assembleDebug
-# APK: app/build/outputs/apk/debug/app-debug.apk
-./gradlew connectedDebugAndroidTest  # attached Android device/emulator
+export BOOKS_API_URL=https://YOUR-BOOKS-API
+./gradlew testDebugUnitTest lintDebug assembleDebug assembleDebugAndroidTest
+adb install app/build/outputs/apk/debug/app-debug.apk
+./gradlew connectedDebugAndroidTest
 ```
 
-All builds currently use Google's official test App ID and rewarded unit ID. There is intentionally no production-ad switch in this initial version. Google UMP is queried at launch and must permit ad requests. Ads are requested only on a user tap; unfinished/no-fill/failed ads grant nothing and deduct nothing. The device reward callback never writes a credit.
+`BOOKS_SNAPSHOT_DIR=/absolute/path/to/dist` explicitly uses a previously reviewed local website snapshot; default build downloads the reader shell from devnazu.online and records hashes. Protected lesson JSON/PDF/audio is excluded from APK assets. Google test IDs are compiled in; no production ad switch is provided.
 
-## Neon backend
+GitHub Actions `.github/workflows/android.yml` runs PostgreSQL integration tests, Android unit tests/lint, APK signature/alignment checks and API 23/29/33/35 emulator checks. Debug APK artifact: `Nihongo-Path-Books-debug-APK`. Signed release bundle requires repository secrets `ANDROID_KEYSTORE_BASE64`, `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`; the workflow builds but does not publish it. Keep the same release signing identity for updates.
 
-Neon PostgreSQL is supported through `pg`; application SQL is portable PostgreSQL (also suitable for a dedicated Supabase PostgreSQL database). This edition uses server-side email/password authentication with salted scrypt hashes and opaque 30-day sessions, not Supabase Auth. That avoids requiring two database providers when Neon is selected. Tokens are hashed on the server and encrypted with Android Keystore on-device; backups and WebView debugging are disabled. Neon does not make AdMob verification automatic: a public HTTPS API is still needed.
+## Supabase deployment — not applied to connected projects
 
-```sh
-cd android-app/backend
-cp .env.example .env  # fill privately; Node can read it with --env-file
-npm ci
-node --env-file=.env src/migrate.mjs
-node --env-file=.env src/server.mjs
-# From repository root, build self-contained API image:
-docker build -f android-app/backend/Dockerfile -t nihongo-books-api .
-# Supply private env to hosting provider. Do not publish dist on this API host.
-```
+Discovered projects were a general project and NAZU Cloud Staging, neither established as this app's project. No remote schemas, users, data, advertisements or services were changed. Select a dedicated Supabase project and provide backend hosting credentials before deployment. Do not copy existing users or overwrite production data.
 
-Use a dedicated Neon project/branch. Migration requires permission to create roles. It grants restricted `books_app` and `books_service` roles to the migration identity; if the runtime login differs, grant these roles to that runtime login with a privileged SQL connection. Never put `DATABASE_URL` in Gradle, repository variables, APK, JavaScript or public admin page. Keep the DB connection encrypted and validate host certificates according to the hosting provider. Runtime SQL enters restricted roles per transaction. RLS is enabled and forced on all tables; student policies only expose their own balances/unlocks/reward/redemption history. API always derives user ID from a valid session. Admin role is read from the DB, never client claims.
+1. Configure Supabase Auth email/password, confirmation, SMTP and password recovery policy. Keep email confirmation enabled.
+2. Set backend-only environment from `backend/.env.example`: `AUTH_PROVIDER=supabase`, `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (account deletion only), `DATABASE_URL` and `MIGRATION_DATABASE_URL` from the **same** Supabase project's Postgres connection/pooler. Use the provider's verified TLS setup. Never put these database/secret credentials in Android, repository variables or browser scripts.
+3. Run `npm ci` in `backend`, then `npm run migrate` against a fresh dedicated database. Migrations create private `books` schema, roles, RLS and seed exact thresholds; they need a migration identity allowed to grant roles. They have been tested in PostgreSQL-compatible PGlite; verify role grants on the chosen Supabase project before launch. Do not expose `books` through the public Data API. Android uses the authenticated HTTPS API, not raw table writes.
+4. Deploy `backend/Dockerfile` to a Node 22 HTTPS host; `CONTENT_ROOT=https://devnazu.online/`. Hosting selection and any paid provisioning require approval. The API uses Supabase PostgreSQL for all persistent state.
+5. Supabase Auth validates email/password and `/auth/v1/user`; backend then issues a random opaque 30-day app session, stores only its SHA-256 hash, and encrypts the token on Android with Keystore. This is an API session bridge, **not native Supabase JWT refresh on Android**. App logout revokes the app session. Revoke all `books.sessions` for an account when handling compromised accounts; Supabase logout alone does not revoke these app sessions. Password recovery and cross-provider revocation are release blockers.
+6. Assign administrator role using a privileged DB connection only: `update books.users set role='admin' where email='YOUR_CONFIRMED_OWNER_EMAIL';`. Role never comes from user-editable metadata. Open `/admin` on the API host. The Android client does not yet embed the admin editor.
+7. Set repository variable `BOOKS_API_URL`, build again, and run real device tests. Existing old deployment URLs in historical `LIVE_DEPLOYMENT.md` do not prove this edition deployed.
 
-Promote your own account using a privileged migration connection, once:
-
-```sql
-update books.users set role='admin' where email='YOUR-VERIFIED-OWNER-EMAIL';
-```
-
-Open `https://YOUR-API/admin`, sign in. Tokens stay in memory, no CDN scripts or public admin data. Dashboard edits credit thresholds, duration seconds and tier availability, pauses rewards, and shows verified ad count, credits issued/redeemed, active access and access/security events. Ad unit allowlists are server environment configuration so a client/admin UI cannot turn on arbitrary publisher ads. No admin can manufacture verified impressions through an endpoint.
-
-## Reward protocol
-
-1. User selects a JLPT level and taps Watch Ad. Authenticated server creates a single-use UUID ad session tied to that user/level, with a two-hour signed-event window.
-2. Native AdMob receives `user_id` and `custom_data=ad-session-UUID` via ServerSideVerificationOptions.
-3. Google calls `/ssv`. API verifies the ECDSA-SHA256 signature over the URI-decoded query in its original parameter order, obtains Google's rotating public keys, checks allowed unit and signed time/session/user association.
-4. In one DB transaction, insert the unique Google transaction ID and unique ad-session ID, consume the session, and add exactly one credit. Retries are idempotent; another transaction cannot reuse the session. No client credit grant endpoint exists.
-5. User chooses a duration and confirms redeem. The server serializes per user, re-reads enabled tier, atomically deducts credits and creates expiry with DB time. A persisted request UUID makes uncertain network retries safe. Active access cannot be replaced/restarted. Expiry only closes access; unused credits remain.
-6. Each protected data/PDF/audio fetch checks session and expiry. Reader countdown uses server time plus monotonic device elapsed time, closes/destroys the WebView at expiry and revalidates on resume. Client clocks cannot authorize content.
-
-Initial costs are seeded exactly:
+## Rewards and secure access
 
 | Level | 5 hours | 24 hours | 3 days | 7 days |
 |---|---:|---:|---:|---:|
@@ -65,43 +46,22 @@ Initial costs are seeded exactly:
 | N4 | 3 | 8 | 12 | 24 |
 | N3 | 4 | 10 | 16 | 30 |
 | N2 | 5 | 12 | 20 | 36 |
-| N1 | 6 | 15 | 25 | 45 |
+| N1 | Disabled | Disabled | Disabled | Disabled |
 
-## SSV testing and production setup
+Each signed and verified Google reward adds one non-transferable credit for its server-created ad session's level. Credits persist until redeemed/account deleted. No cash value, transfers or client grant endpoint. Every ad is optional; disclosure precedes the user action. Users can close an ad without losing credits. Ads may be unavailable.
 
-Google's shared test ad unit cannot be configured in your publisher console with your own callback. It demonstrates native test-ad loading/display; it does **not** justify fabricating server credits. Cryptographically signed test fixtures exercise the callback and the DB integration test exercises duplicate rewards/redemption. For an end-to-end device/Google callback test, register your own rewarded unit, configure its public HTTPS SSV URL `/ssv`, register the test device in AdMob, and use test mode. Only after that passes and production policy/consent review is complete should a reviewed code change select real production IDs. Shared test-ad completions may remain pending rather than minting unverified credits.
+Redemption uses a user row lock, server DB time and a persisted request UUID. **While a level is active, redemption is rejected without deduction**. After expiry a new period starts from server time; existing time is never replaced. Each protected file fetch rechecks entitlement, level availability and expiry. The reader closes at server-derived expiry and revalidates on resume. This is not DRM: content still public on the preserved website can be accessed outside the app.
 
-## GitHub Actions and release signing
+Google SSV validates ECDSA signatures, allowed units, session/user/timestamp association, transaction and session uniqueness, then credits atomically. Shared Google sample ad units cannot be configured with your own SSV callback: sample-ad completion does **not** automatically credit. Cryptographic fixture tests prove local verification, not real Google delivery. End-to-end testing requires your own AdMob unit configured in test-device mode and callback `/ssv`; production ads remain disabled pending explicit approval and consent/policy checks.
 
-Workflow `Android app · build and verify` runs only on Android changes. Existing Pages workflow ignores Android-only commits, preventing a site deployment from app work. Jobs:
+## Content and listening
 
-- PostgreSQL 16 migration and integration/security tests.
-- JDK 17 + Android SDK build, unit tests/lint, debug APK and test APK.
-- Emulator launch/FLAG_SECURE instrumentation test.
-- Signed release AAB only when keystore secrets exist.
+`reports/content-audit.json` gives reproducible structural inventory, no dictionary/teacher certification. N5: 1052 vocabulary, 110 grammar, 110 kanji. N4: 1128/113/200. N3: 1260/144/336. N2: 1197/208/400. Counts are source entries, not an assertion of exhaustive JLPT coverage. Readings, Bengali spelling/meaning and lesson order still require full review; uncertain content has a review-pending notice. Verified source translations were not replaced.
 
-Download `Nihongo-Path-Books-debug-APK` from the successful workflow run's Artifacts area. GitHub requires login to download artifacts. APK is debug signed and targets Android 6.0+ (API 23+); use the AAB for Play after signing setup.
+N5 metadata has 100 lessons; current local checkout contains 99 final MP3s. App-distribution/audio-hosting/advertising rights are not independently verified; owner phone attestation exists but `commercialUse=false` and `verified=false`. Do not publicly publish or monetize listening until scope and attribution are resolved. Original attribution/license files remain. N4–N2 listening is neither offered in native library nor served by backend. N1 source retained.
 
-Repository variable: `BOOKS_API_URL` (public HTTPS API origin).
-Repository secrets: `ANDROID_KEYSTORE_BASE64`, `ANDROID_STORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`. Protect/backup the keystore outside Git. Never send secret values in chat. AAB is only generated with signing configured.
+## Verification and Play release
 
-## Tests and limits
+See `reports/IMPLEMENTATION_REPORT.md` for current results and limits. FLAG_SECURE is set on the activity, including protected screens. Emulator instrumentation checks the window flag; a physical screenshot/recording test is still required. Modified OS/devices and external cameras cannot be fully prevented.
 
-```sh
-cd android-app/backend
-npm ci
-TEST_DATABASE_URL=postgresql://... npm test   # disposable migrated PostgreSQL database
-TEST_DATABASE_URL=pglite npm test           # embedded PostgreSQL WASM; same SQL/logic
-```
-
-Tests cover authentication, invalid sessions/passwords, cross-user RLS, unfinished sessions, concurrent duplicate grants, session reuse, signed timestamp rejection, insufficient credits, idempotent redeem, active unlock preservation, expiry, unused credits and persistence across server connections. Crypto tests reject tampered signatures, duplicated callback parameters and wrong ad units. Android unit tests cover origin restrictions and time arithmetic; instrumentation asserts FLAG_SECURE at launch. An emulator flag test is not a claim that every vendor's recording implementation was tested.
-
-FLAG_SECURE blocks ordinary screenshots/recording where Android supports it. External cameras, modified devices and extraction of material that is already public on the existing website cannot be fully prevented. This project does not alter or privatize the live site. Content held in reader memory after a valid request is cleared when the reader is destroyed, but Android app security is not DRM against a hostile OS.
-
-Before public launch: deploy API/DB; run Google SSV device test; verify listening commercial rights and any target-audience requirements; publish an app-specific privacy URL and support/account-deletion webpage; add account recovery/email verification and production auth abuse monitoring; complete Play Data Safety/ads declarations; test Japanese TTS, PDF workers, real login/ad no-fill/offline/resume/expiry and capture behavior on physical Android devices. Review a production release separately. No successful external setup or physical-device result is claimed by source code alone.
-
-## Device compatibility
-
-Version 1.0.2 lowers the OS floor to API 23, the minimum supported by the selected Google Mobile Ads v24 SDK. No CPU ABI or screen-size filter is configured. The app uses native Kotlin/JVM code; packaging checks verify APK signatures and alignment. CI installs and launches the app on API 23 (32-bit x86), API 29 and API 35 (64-bit x86_64), including FLAG_SECURE assertions. These emulators do not prove compatibility with every physical device or ARM chipset.
-
-Keep Android System WebView/Chrome updated for the book reader. Google ad availability depends on Google services, consent, region and fill; missing ads must not block free study or remove credits. Android versions below 6.0 are unsupported. Installation failure must be diagnosed from Package Installer/ADB output, rather than assumed to be an OS or CPU problem. Debug, local release and Play-signed packages may have different signing certificates; they cannot replace each other without matching signatures. Preserve the same release signing key for updates. Uninstalling an app clears its local data, so do not recommend uninstall as a silent repair.
+Before Play submission: dedicated Supabase/backend deployment and role/security advisors; account verification/recovery and compromised-session revocation; Google test-device SSV round trip; physical device login/no-fill/expiry/resume/playback/capture tests; full content review and missing audio; rights/attribution confirmation; admin publishing/upload pipeline; privacy/support/account-deletion public URLs; Play developer account; signing backup/Play App Signing; store graphics, audience/content rating, Ads declaration and accurate Data Safety form. Public publishing, production ads and charges require explicit approval.
