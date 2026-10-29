@@ -60,4 +60,31 @@ class ProtectionTest {
    }
   }
  }
+ @Test fun postgresSnapshotAndResponseErrorsKeepActivityAlive(){
+  val context=androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().targetContext
+  TokenVault(context).clear()
+  try{ActivityScenario.launch(MainActivity::class.java).use{scenario->scenario.onActivity{a->
+   TokenVault(a).save("a".repeat(43))
+   val postgresTime="2026-10-29T14:29:09.25706+00:00"
+   android.util.Log.i("BooksClockTest","legacyNumericOffsetSupported="+runCatching{java.time.Instant.parse(postgresTime)}.isSuccess)
+   assertEquals(1793284149257L,ServerTime.millis(postgresTime))
+   val snapshot=org.json.JSONObject("""{"serverTime":"2026-10-29T14:29:09.25706+00:00","user":{"id":"00000000-0000-4000-8000-000000000001","name":"","email":"student@example.invalid","role":"student"},"balances":[{"level":"N5","credits":5}],"unlocks":[{"level":"N5","expires_at":"2099-01-01T00:00:00.000001+00:00"}],"tiers":[],"rewards":[],"redemptions":[],"studyState":{}}""")
+   val applySnapshot=MainActivity::class.java.getDeclaredMethod("applySnapshot",org.json.JSONObject::class.java).apply{isAccessible=true}
+   applySnapshot.invoke(a,snapshot)
+   fun views(v:android.view.View):List<android.view.View> = listOf(v)+(if(v is android.view.ViewGroup)(0 until v.childCount).flatMap{views(v.getChildAt(it))}else emptyList())
+   fun tap(names:List<String>){views(a.findViewById(android.R.id.content)).filterIsInstance<android.widget.Button>().first{it.text.toString() in names}.performClick()}
+   tap(listOf("Account","অ্যাকাউন্ট"))
+   val data=MainActivity::class.java.getDeclaredField("data").apply{isAccessible=true}
+   val serverAt=MainActivity::class.java.getDeclaredField("serverAt").apply{isAccessible=true}
+   val previous=data.get(a);val clock=serverAt.getLong(a)
+   val deliver=MainActivity::class.java.getDeclaredMethod("deliver",org.json.JSONObject::class.java,kotlin.jvm.functions.Function1::class.java).apply{isAccessible=true}
+   val brokenResponse:(org.json.JSONObject)->Unit={applySnapshot.invoke(a,it)}
+   deliver.invoke(a,org.json.JSONObject().put("serverTime","bad-clock"),brokenResponse)
+   assertSame(previous,data.get(a));assertEquals(clock,serverAt.getLong(a));assertFalse(a.isFinishing);assertFalse(a.isDestroyed)
+   val brokenView:(org.json.JSONObject)->Unit={throw org.json.JSONException("Synthetic response format error")}
+   deliver.invoke(a,org.json.JSONObject(),brokenView)
+   assertFalse(a.isFinishing)
+   tap(listOf("Library","বইঘর"));tap(listOf("Account","অ্যাকাউন্ট"))
+  }}}finally{TokenVault(context).clear()}
+ }
 }

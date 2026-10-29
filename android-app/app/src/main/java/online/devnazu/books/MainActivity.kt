@@ -12,7 +12,6 @@ import androidx.activity.OnBackPressedCallback
 import androidx.webkit.WebViewAssetLoader
 import org.json.*
 import java.io.ByteArrayInputStream
-import java.time.Instant
 import java.util.Locale
 import java.util.UUID
 import java.util.concurrent.Executors
@@ -51,11 +50,12 @@ class MainActivity : ComponentActivity() {
     }}
     override fun onCreate(savedInstanceState:Bundle?){
         super.onCreate(savedInstanceState)
+        CrashDiagnostics.install(this)
         window.addFlags(WindowManager.LayoutParams.FLAG_SECURE)
         vault=TokenVault(this);api=BooksApi {vault.read()};ads=RewardAds(this)
         tts=TextToSpeech(this) { result -> if(result==TextToSpeech.SUCCESS)tts?.language=Locale.JAPANESE }
         onBackPressedDispatcher.addCallback(this,object:OnBackPressedCallback(true){override fun handleOnBackPressed(){if(web!=null)closeReader() else if(tab!="Home"){tab="Home";draw()}else finish()}})
-        draw();ads.updateConsent {};handler.post(ticker)
+        draw();handler.post(ticker)
         if(vault.read().isNotEmpty())refresh()
         handleAppIntent(intent)
     }
@@ -77,9 +77,19 @@ class MainActivity : ComponentActivity() {
         }
 
     }
+    private fun deliver(value:JSONObject,done:(JSONObject)->Unit){
+        if(isDestroyed||isFinishing)return
+        try{done(value)}catch(e:Exception){handleFailure(e)}
+    }
+    private fun handleFailure(e:Exception){
+        if(isDestroyed||isFinishing)return
+        if(e is ApiError&&e.code==401){vault.clear();data=JSONObject();if(web!=null)closeReader();tab="Account";draw()}
+        val details=if(e is java.time.DateTimeException||e is org.json.JSONException)tr("Account sync could not finish. Your credits are safe. Please try again.","অ্যাকাউন্ট সিঙ্ক হয়নি। আপনার ক্রেডিট নিরাপদ আছে। আবার চেষ্টা করুন।")else e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।")
+        message(details)
+    }
     private fun runAuth(action:()->JSONObject,done:(JSONObject)->Unit){
-        if(authBusy)return;authBusy=true;message(tr("Connecting securely…","নিরাপদ সংযোগ হচ্ছে…"))
-        worker.execute{try{val result=action();runOnUiThread{authBusy=false;if(!isDestroyed)done(result)}}catch(e:Exception){runOnUiThread{authBusy=false;if(!isDestroyed)message(e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।"))}}}
+        if(authBusy||isDestroyed||isFinishing)return;authBusy=true;message(tr("Connecting securely…","নিরাপদ সংযোগ হচ্ছে…"))
+        worker.execute{try{val result=action();runOnUiThread{authBusy=false;deliver(result,done)}}catch(e:Exception){runOnUiThread{authBusy=false;handleFailure(e)}}}
     }
     private fun acceptSession(result:JSONObject){
         vault.save(result.getString("token"));signInEmail="";invitationPrefs.edit().remove("ref").apply();data=JSONObject();tab="Account";refresh {if(result.optJSONObject("bonus")?.optInt("credited")==5)message(tr("Welcome! 5 N5 invitation credits added.","স্বাগতম! আমন্ত্রণের ৫ N5 ক্রেডিট যোগ হয়েছে।"))}
@@ -134,12 +144,21 @@ class MainActivity : ComponentActivity() {
     private fun add(label:String,size:Float=16f){area.addView(text(label,size))}
     private fun card(action:LinearLayout.()->Unit){area.addView(LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setPadding(dp(18),dp(14),dp(18),dp(14));background=android.graphics.drawable.GradientDrawable().apply{setColor(Color.WHITE);cornerRadius=dp(20).toFloat()};layoutParams=LinearLayout.LayoutParams(-1,-2).apply{setMargins(0,dp(8),0,dp(8))};action()})}
     private fun now()=if(serverAt==0L)System.currentTimeMillis() else serverAt+(SystemClock.elapsedRealtime()-elapsedAt)
-    private fun expiry(level:String):Long {val rows=data.optJSONArray("unlocks")?:JSONArray();for(i in 0 until rows.length()){val r=rows.getJSONObject(i);if(r.optString("level")==level)return runCatching{Instant.parse(r.getString("expires_at")).toEpochMilli()}.getOrDefault(0)};return 0}
+    private fun expiry(level:String):Long {val rows=data.optJSONArray("unlocks")?:JSONArray();for(i in 0 until rows.length()){val r=rows.getJSONObject(i);if(r.optString("level")==level)return runCatching{ServerTime.millis(r.getString("expires_at"))}.getOrDefault(0)};return 0}
     private fun balance(level:String):Int {val rows=data.optJSONArray("balances")?:JSONArray();for(i in 0 until rows.length()){val r=rows.getJSONObject(i);if(r.optString("level")==level)return r.optInt("credits")};return 0}
     private fun accessText(level:String):String {val left=Access.remaining(expiry(level),now())/1000;return if(left<=0)tr("Locked · ${balance(level)} credits","লক করা · ${balance(level)} ক্রেডিট") else tr("Open · %dh %02dm %02ds remaining","খোলা · বাকি %d ঘণ্টা %02d মিনিট %02d সেকেন্ড").format(left/3600,left/60%60,left%60)}
     private fun message(s:String){status?.text=s;Toast.makeText(this,s,Toast.LENGTH_LONG).show()}
-    private fun async(action:()->JSONObject,done:(JSONObject)->Unit){worker.execute{try{val value=action();runOnUiThread{if(!isDestroyed)done(value)}}catch(e:Exception){runOnUiThread{if(!isDestroyed){if(e is ApiError && e.code==401){vault.clear();data=JSONObject();if(web!=null)closeReader();tab="Account";draw()};message(e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।"))}}}}}
-    private fun refresh(after:(()->Unit)?=null){if(vault.read().isEmpty())return;async({api.request("/me")}){data=it;serverAt=Instant.parse(it.getString("serverTime")).toEpochMilli();elapsedAt=SystemClock.elapsedRealtime();if(web==null)draw();after?.invoke()}}
+    private fun async(action:()->JSONObject,done:(JSONObject)->Unit){
+        if(isDestroyed||isFinishing)return
+        worker.execute{try{val value=action();runOnUiThread{deliver(value,done)}}catch(e:Exception){runOnUiThread{handleFailure(e)}}}
+    }
+    private fun applySnapshot(snapshot:JSONObject){
+        val stamp=ServerTime.millis(snapshot.getString("serverTime"))
+        require(snapshot.optJSONObject("user")!=null){"Account response unavailable"}
+        data=snapshot;serverAt=stamp;elapsedAt=SystemClock.elapsedRealtime()
+        if(web==null)draw()
+    }
+    private fun refresh(after:(()->Unit)?=null){if(vault.read().isEmpty())return;async({api.request("/me")}){applySnapshot(it);after?.invoke()}}
     private fun draw(){
         if(web!=null)return
         root=LinearLayout(this).apply{orientation=LinearLayout.VERTICAL;setBackgroundColor(paper);setPadding(dp(18),dp(30),dp(18),dp(12))}
@@ -209,6 +228,11 @@ class MainActivity : ComponentActivity() {
         card{addView(text(tr("Your Japanese study companion","আপনার জাপানি শেখার সঙ্গী"),22f));addView(text("N5–N2 · বাংলা + English"));addView(text("Version "+BuildConfig.VERSION_NAME,13f))}
         card{addView(text(tr("Support","সহায়তা"),22f));addView(text("Hossain Najmul\nWhatsApp: +81 70-9036-6509"));addView(text(tr("For login, access or lesson problems, include your app version and level. Never send a password.","লগইন, পড়ার অনুমতি বা পাঠের সমস্যায় অ্যাপের version ও level জানান। পাসওয়ার্ড পাঠাবেন না।")))}
         area.addView(button(tr("Ad privacy choices","বিজ্ঞাপনের গোপনীয়তার পছন্দ")){ads.privacy {}})
+        val diagnostic=CrashDiagnostics.summary(this)
+        if(diagnostic.isNotEmpty())area.addView(button(tr("Copy crash details for support","সহায়তার জন্য crash তথ্য কপি করুন")){
+            (getSystemService(CLIPBOARD_SERVICE) as android.content.ClipboardManager).setPrimaryClip(android.content.ClipData.newPlainText("Nihongo crash details",diagnostic))
+            message(tr("Diagnostic details copied. You can share them with support.","সমস্যার তথ্য কপি হয়েছে। চাইলে Support-এ পাঠাতে পারবেন।"))
+        })
     }
     private fun account(){
         if(vault.read().isEmpty()){
