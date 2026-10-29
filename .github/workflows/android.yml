@@ -124,7 +124,7 @@ jobs:
           working-directory: android-app
           script: |
             chmod +x gradlew && ./gradlew connectedDebugAndroidTest
-            adb uninstall online.devnazu.books
+            if adb shell pm path online.devnazu.books | grep -q '^package:'; then adb uninstall online.devnazu.books; fi
             adb install ../delivered-apk/app-debug.apk
             adb logcat -c
             adb shell am start -W -n online.devnazu.books/.MainActivity
