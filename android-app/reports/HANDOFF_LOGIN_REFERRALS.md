@@ -1,3 +1,7 @@
+# Latest delivery: 1.5.0-test / direct signup
+
+Source f5fe0bc2819b7b7545369e3b96e033219b9cfb21. CI40888179488 all SIX jobs SUCCESS (backend, APK, API23/29/33/35). Live Edge v13 direct signup/login, duplicate rejection, bad password, invite5/repeat0, logout and disabled mail endpoints passed using two disposable identities; both cleaned. Detailed report: DIRECT_SIGNUP_AND_THEME_PREVIEW.md. User superseded confirmation requirement as documented below. Figma theme PDF is preview ONLY, await user decision before adding its styling. All older real Google/device/audio/rights/release-signing limitations still apply.
+
 # Current user policy change — 2026-10-29
 
 The user explicitly replaced the earlier email-confirmation requirement: new accounts must be usable immediately without links/codes, and forgotten-password UI must direct users to support. Implemented narrow server-only Supabase admin createUser(email_confirm=true), followed by password login and opaque app session. It only creates NEW identities; duplicate email is rejected, never auto-confirms/overwrites an existing identity. Shared global Auth confirmation settings remain unchanged. App recover/resend/reset endpoints now reject with410 and send nothing. Passwords stay hashed in Supabase Auth, never readable in app/GitHub/admin lists. This is auto-confirmation policy, not proof of mailbox ownership. Google PKCE remains.
