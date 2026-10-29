@@ -90,6 +90,7 @@ jobs:
           name: Nihongo-Path-Books-signed-AAB
           path: android-app/app/build/outputs/bundle/release/*.aab
   device:
+    needs: apk
     name: Install and launch · API ${{ matrix.api }} · ${{ matrix.arch }}
     strategy:
       fail-fast: false
@@ -97,6 +98,7 @@ jobs:
         include:
           - {api: 23, arch: x86, target: default}
           - {api: 29, arch: x86_64, target: google_apis}
+          - {api: 33, arch: x86_64, target: google_apis}
           - {api: 35, arch: x86_64, target: google_apis}
     runs-on: ubuntu-24.04
     steps:
@@ -104,6 +106,10 @@ jobs:
       - uses: actions/setup-java@v4
         with: {distribution: temurin, java-version: '17'}
       - uses: gradle/actions/setup-gradle@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: Nihongo-Path-Books-debug-APK
+          path: delivered-apk
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -116,7 +122,16 @@ jobs:
           target: ${{ matrix.target }}
           disable-animations: true
           working-directory: android-app
-          script: chmod +x gradlew && ./gradlew connectedDebugAndroidTest
+          script: |
+            chmod +x gradlew && ./gradlew connectedDebugAndroidTest
+            adb uninstall online.devnazu.books
+            adb install ../delivered-apk/app-debug.apk
+            adb logcat -c
+            adb shell am start -W -n online.devnazu.books/.MainActivity
+            sleep 5
+            adb shell pidof online.devnazu.books
+            adb logcat -d -b crash
+
       - uses: actions/upload-artifact@v4
         if: always()
         with:
