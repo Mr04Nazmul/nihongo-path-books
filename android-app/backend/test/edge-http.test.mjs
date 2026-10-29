@@ -11,7 +11,7 @@ test('Edge HTTP: Supabase identity, opaque sessions, payload tampering, protecte
    assert.equal(opts.headers.apikey,'server-test-secret');const args=JSON.parse(opts.body);let release;const wait=previous;previous=new Promise(r=>release=r);await wait;try{const fn=url.endsWith('/nihongo_books_assets_api')?'nihongo_books_assets_api':url.endsWith('/nihongo_books_referral_api')?'nihongo_books_referral_api':'nihongo_books_api';const result=await db.query('select public.'+fn+'($1,$2) as data',[args.action,args.payload]);return Response.json(result.rows[0].data)}finally{release()}
   }
   if(url.includes('/admin/users/')){authDeletes++;throw Error('Shared auth deletion must never happen')}
-  if(url.includes('/auth/v1/signup?'))return Response.json({user:{id:identity}});
+  if(url.includes('/auth/v1/signup?')){assert.equal(new URL(url).searchParams.get('redirect_to'),'nihongopathbooks://auth/confirmed');return Response.json({user:{id:identity}})}
   if(url.includes('/auth/v1/token?'))return Response.json({access_token:'auth-verified-token'});
   if(url.includes('/auth/v1/recover?'))return Response.json({});
   if(url.endsWith('/auth/v1/user')){assert(['Bearer auth-verified-token','Bearer '+recovery].includes(opts.headers.Authorization));if(opts.method==='PUT'){passwordUpdates++;assert.equal(JSON.parse(opts.body).password,'new-long-password-123')};return Response.json({id:identity,email:identity+'@example.test',created_at:new Date().toISOString(),email_confirmed_at:'2026-10-29',user_metadata:{name:'Test',role:'admin'}})}

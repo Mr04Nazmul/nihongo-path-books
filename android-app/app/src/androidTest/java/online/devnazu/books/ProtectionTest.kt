@@ -18,6 +18,12 @@ class ProtectionTest {
    val password=all.filterIsInstance<android.widget.EditText>().first{it.inputType and android.text.InputType.TYPE_MASK_VARIATION==android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD};assertTrue(password.transformationMethod is android.text.method.PasswordTransformationMethod)
   };androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync();scenario.onActivity{a->
    val decor=a.window.decorView;val bitmap=android.graphics.Bitmap.createBitmap(decor.width,decor.height,android.graphics.Bitmap.Config.ARGB_8888);decor.draw(android.graphics.Canvas(bitmap));java.io.File(a.filesDir,"auth-preview.png").outputStream().use{bitmap.compress(android.graphics.Bitmap.CompressFormat.PNG,100,it)};bitmap.recycle()
+   fun descendants(v:android.view.View):List<android.view.View> = listOf(v)+(if(v is android.view.ViewGroup)(0 until v.childCount).flatMap{descendants(v.getChildAt(it))}else emptyList())
+   descendants(decor).filterIsInstance<android.widget.Button>().first{it.text.toString() in listOf("New here? Create an account","নতুন? অ্যাকাউন্ট খুলুন")}.performClick()
+  };androidx.test.platform.app.InstrumentationRegistry.getInstrumentation().waitForIdleSync();scenario.onActivity{a->
+   val decor=a.window.decorView
+   assertEquals(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE,a.window.attributes.softInputMode and WindowManager.LayoutParams.SOFT_INPUT_MASK_ADJUST)
+   val bitmap=android.graphics.Bitmap.createBitmap(decor.width,decor.height,android.graphics.Bitmap.Config.ARGB_8888);decor.draw(android.graphics.Canvas(bitmap));java.io.File(a.filesDir,"signup-preview.png").outputStream().use{bitmap.compress(android.graphics.Bitmap.CompressFormat.PNG,100,it)};bitmap.recycle()
   }}
  }
  @Test fun secureContentNotVisibleInScreenCapture(){

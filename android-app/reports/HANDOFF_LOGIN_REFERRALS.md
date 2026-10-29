@@ -1,3 +1,18 @@
+# Continuation update — 2026-10-29
+
+- Read the original checkpoint below in full. Prior 1.4 run 40880227534 finished all six jobs successfully.
+- IMPORTANT: its auth-preview.png was NOT an image: 46 bytes containing `run-as: unknown package: online.devnazu.books`. Gradle removed the package before capture. Do not claim visual UI verification from that run.
+- Fixed CI: explicitly reinstall app and instrumentation APK, rerun account UI test, capture before uninstall, validate PNG signature. Added signup preview and explicit keyboard adjustResize assertion; FLAG_SECURE remains on.
+- Android version 1.4.1-test / code 8: confirmation callback only opens login, never trusts callback as proof of verified identity. Signup/resend explicitly request app confirmation redirect; verification still enforced by Supabase /user.
+- Supabase dashboard became signed in. Original redirect list was empty, shared Site URL http://localhost:3000. Added only callback?flow=*, recovery and confirmed app URLs; preserved Site URL. Verify final persisted list in browser. Google OAuth actual account round trip is still UNVERIFIED.
+- Checkpoint rate-limit/privacy files deployed as Edge v10, then email redirect fix as v11. Same function/project. No migrations reapplied. Final privacy correction deployment is tracked in continuation report.
+- Fresh local suite: 20 passed, 2 PostgreSQL-dependent skips. CI on source 469424ab1bd130358d3c1b43fc2735e7633619c5 started as run 40882461436; subsequent capture test commit supersedes it.
+- Live referral table RLS true on both tables; referral RPC ACL postgres/service_role only. Advisors' other-app warnings left untouched.
+- Prior 1.4 APK downloaded from artifact12900181694, source8daf5f2f8a6c388c5d5ca0f3b738a8f88fea8aa6, SHA2564075eb93be767f1c6c4c78fb34e07912656d062cc39091aa621fa7f4274bfb86. This APK does NOT contain the new1.4.1 fixes.
+- Remaining real tests must not be marked complete: Google/account callback on installed Android, inbox confirmation/resend, actual referral onboarding, earned test-ad/SSV, physical device playback/keyboard/animations, full lexical review, missing mlc-n5-l2-30 audio/rights, release signing. No production ads, fees or public release authorized.
+
+---
+
 # Continue account / Google login / referral work — 2026-10-29
 
 The user requested a checkpoint and continuation prompt, so implementation was paused. Do not restart the Android project or redo completed work.
