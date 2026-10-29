@@ -14,9 +14,17 @@ async function rpc(action:string,payload:Record<string,unknown>={},api='nihongo_
 }
 const assetRpc=(action:string,payload:Record<string,unknown>)=>rpc(action,payload,'nihongo_books_assets_api');
 async function body(req:Request){const b=await req.text();if(new TextEncoder().encode(b).length>200000)throw new Fault(413,'Request too large');try{const d=JSON.parse(b||'{}');if(!d||typeof d!=='object'||Array.isArray(d))throw Error();return d}catch{throw new Fault(400,'Invalid JSON')}}
-async function auth(path:string,method:string,b:unknown){const r=await fetch(project+'/auth/v1'+path,{method,headers:{apikey:publicKey,'Content-Type':'application/json'},body:JSON.stringify(b),redirect:'error',signal:AbortSignal.timeout(15000)});const d=await r.json();if(!r.ok)throw new Fault(r.status>=500?503:400,'Authentication failed. Check email confirmation and sign-in details.');return d}
+async function auth(path:string,method:string,b:unknown){const r=await fetch(project+'/auth/v1'+path,{method,headers:{apikey:publicKey,'Content-Type':'application/json'},body:JSON.stringify(b),redirect:'error',signal:AbortSignal.timeout(15000)});const d=await r.json();if(!r.ok){const messages:Record<string,string>={email_not_confirmed:'Confirm your email first, or continue with Google.',invalid_credentials:'Email or password did not match. If you used Google before, continue with Google.',over_email_send_rate_limit:'Please wait before requesting another email.'};throw new Fault(r.status>=500?503:400,messages[d.error_code||d.code]||'Sign-in could not finish. Check your details or continue with Google.');}return d}
 function cleanState(s:any){if(!s||typeof s!=='object'||Array.isArray(s))throw new Fault(400,'Invalid study state');const c:any={positions:{}};for(const k of ['saved','learned']){if(s[k]&&!Array.isArray(s[k]))throw new Fault(400,'Invalid bookmarks');c[k]=(s[k]||[]).filter((v:unknown)=>typeof v==='string'&&v.length<200);if(c[k].length>2000)throw new Fault(400,'Bookmark limit reached; export your progress before clearing entries')};for(const k of ['lang','level','dark','bookMotion','readingSize'])if(['string','boolean'].includes(typeof s[k]))c[k]=s[k];for(const[k,v]of Object.entries(s.positions||{}))if(/^N[2-5]:(vocab|grammar|kanji)$/.test(k)&&Number.isInteger(v)&&Number(v)>=0&&Number(v)<100000)c.positions[k]=v;return c}
 function levelOf(path:string){const m=/^(?:data\/(?:lessons-|owner-|listening-)?|pdfs\/(?:jlpt-)?|audio\/(?:listening\/)?)(n[1-5])(?:[./-])/i.exec(path);return m?.[1].toUpperCase()}
+const referralRpc=(action:string,payload:Record<string,unknown>)=>rpc(action,payload,'nihongo_books_referral_api');
+async function appSession(accessToken:string,referralCode=''){
+ const check=await fetch(project+'/auth/v1/user',{headers:{apikey:publicKey,Authorization:'Bearer '+accessToken},signal:AbortSignal.timeout(15000)});
+ if(!check.ok)throw new Fault(401,'Sign in again');const u=await check.json();if(!u.id||!u.email_confirmed_at)throw new Fault(403,'Confirm your email first, or continue with Google');
+ const bytes=crypto.getRandomValues(new Uint8Array(32)),token=btoa(String.fromCharCode(...bytes)).replaceAll('+','-').replaceAll('/','_').replaceAll('=',''),tokenHash=await hash(token);
+ const result=await rpc('login',{id:u.id,email:u.email,name:u.user_metadata?.name||u.user_metadata?.full_name||'',confirmed:true,sessionHash:tokenHash});
+ const bonus=await referralRpc('claim',{tokenHash,code:referralCode,authCreatedAt:u.created_at});return {...result,token,bonus};
+}
 export async function handle(req:Request):Promise<Response>{
  try{
   const url=new URL(req.url),marker='/nihongo-books-v1',start=url.pathname.indexOf(marker),route=start>=0?url.pathname.slice(start+marker.length)||'/':url.pathname;
@@ -28,7 +36,16 @@ export async function handle(req:Request):Promise<Response>{
    let p;try{p=await verifyCallback(url.search.slice(1),(Deno.env.get('ADMOB_ALLOWED_UNITS')||'ca-app-pub-3940256099942544/5224354917,ca-app-pub-3728341118830943/5055001578').split(','));}catch(e){const q=url.searchParams;console.warn('SSV_DIAGNOSTIC',JSON.stringify({unit:q.get('ad_unit'),userLength:q.get('user_id')?.length,customLength:q.get('custom_data')?.length,key:q.get('key_id'),reason:e instanceof Error?e.message:'unknown'}));throw e}
    if(p.verificationProbe)return json({verified:true,test:true,credited:0});return json(await rpc('reward',p));
   }
-  if(['/auth/register','/auth/login','/auth/recover','/auth/reset-password'].includes(route)&&req.method==='POST'){
+  if(route==='/auth/google/start'&&req.method==='POST'){
+   const b=await body(req),challenge=String(b.challenge||''),flow=String(b.flow||'');if(!/^[\w-]{43}$/.test(challenge)||!/^[a-f0-9-]{36}$/.test(flow))throw new Fault(400,'Invalid sign-in request');
+   const redirect='nihongopathbooks://auth/callback?flow='+flow;
+   return json({url:project+'/auth/v1/authorize?provider=google&code_challenge_method=s256&code_challenge='+encodeURIComponent(challenge)+'&redirect_to='+encodeURIComponent(redirect)});
+  }
+  if(route==='/auth/exchange'&&req.method==='POST'){
+   const b=await body(req);if(!/^[\w.-]{10,2048}$/.test(String(b.code||''))||!/^[\w~-]{43,128}$/.test(String(b.verifier||'')))throw new Fault(400,'Invalid sign-in callback');
+   const d=await auth('/token?grant_type=pkce','POST',{auth_code:b.code,code_verifier:b.verifier});return json(await appSession(d.access_token,String(b.referralCode||'')));
+  }
+  if(['/auth/register','/auth/login','/auth/recover','/auth/reset-password','/auth/resend'].includes(route)&&req.method==='POST'){
    const ip=req.headers.get('x-forwarded-for')||'unknown';await rpc('rate',{key:await hash(ip)});const b=await body(req),email=String(b.email||'').trim().toLowerCase();
    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)||email.length>254)throw new Fault(400,'Use a valid email');
    if(route==='/auth/reset-password'){
@@ -39,12 +56,11 @@ export async function handle(req:Request):Promise<Response>{
     return json({ok:true,message:'Password changed. Sign in again on your Nihongo devices.'});
    }
    if(route==='/auth/recover'){await auth('/recover?redirect_to='+encodeURIComponent('nihongopathbooks://auth/recovery'),'POST',{email});return json({ok:true,message:'If this account exists, check the recovery email. Recovery uses the Supabase project account.'})}
-   const password=String(b.password||'');if(password.length<10||password.length>128)throw new Fault(400,'Use a 10–128 character password');
+   if(route==='/auth/resend'){await auth('/resend','POST',{type:'signup',email});return json({ok:true,message:'Check your inbox and spam folder, or use Google sign-in.'})}
+   const password=String(b.password||'');if(password.length<(route.endsWith('register')?10:1)||password.length>128)throw new Fault(400,'New accounts need a 10–128 character password');
    const d=await auth(route.endsWith('register')?'/signup':'/token?grant_type=password','POST',{email,password,...(route.endsWith('register')?{data:{name:String(b.name||'').slice(0,100)}}:{})});
-   if(!d.access_token)throw new Fault(409,'Check your email to confirm your account, then sign in.');
-   const verification=await fetch(project+'/auth/v1/user',{headers:{apikey:publicKey,Authorization:'Bearer '+d.access_token},signal:AbortSignal.timeout(15000)});if(!verification.ok)throw new Fault(401,'Sign in again');const u=await verification.json();if(!u.id||!u.email_confirmed_at)throw new Fault(403,'Confirm your email first');
-   const bytes=crypto.getRandomValues(new Uint8Array(32)),token=btoa(String.fromCharCode(...bytes)).replaceAll('+','-').replaceAll('/','_').replaceAll('=','');
-   const result=await rpc('login',{id:u.id,email:u.email,name:u.user_metadata?.name||'',confirmed:true,sessionHash:await hash(token)});return json({...result,token});
+   if(!d.access_token)return json({confirmationRequired:true,email,message:'Confirm your email, then sign in. You can also continue with Google.'});
+   return json(await appSession(d.access_token,String(b.referralCode||'')));
   }
   const token=req.headers.get('Authorization')?.replace(/^Bearer /,'')||'';if(!/^[\w-]{43}$/.test(token))throw new Fault(401,'Please sign in');const tokenHash=await hash(token);
   const me=await rpc('authenticate',{tokenHash});
@@ -64,6 +80,7 @@ export async function handle(req:Request):Promise<Response>{
    }
    await rpc('event',{tokenHash,kind:'admin_auth_self_test',detail:{passed}});return json({ok:passed,supabasePasswordLogin:passed,appSession:passed,fixtureCleanup:true});
   }
+  if(route==='/referrals'&&req.method==='GET')return json(await referralRpc('info',{tokenHash}));
   if(route==='/me'&&req.method==='GET')return json(await rpc('snapshot',{tokenHash}));
   if(route==='/admin/overview'&&req.method==='GET')return json({...await rpc('admin_overview',{tokenHash}),...await assetRpc('admin_inventory',{tokenHash})});
   const assetRoutes:Record<string,string>={'/admin/publish-chapter':'publish_chapter','/admin/unpublish-chapter':'unpublish_chapter','/admin/review-audio':'review_audio'};

@@ -139,6 +139,7 @@ jobs:
           working-directory: android-app
           script: |
             chmod +x gradlew && ./gradlew connectedDebugAndroidTest
+            adb exec-out run-as online.devnazu.books cat files/auth-preview.png > app/build/reports/androidTests/auth-preview.png
             if adb shell pm path online.devnazu.books | grep -q '^package:'; then adb uninstall online.devnazu.books; fi
             adb install ../delivered-apk/app-debug.apk
             adb logcat -c
