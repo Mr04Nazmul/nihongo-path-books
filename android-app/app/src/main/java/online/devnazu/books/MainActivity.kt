@@ -63,7 +63,7 @@ class MainActivity : ComponentActivity() {
     private fun balance(level:String):Int {val rows=data.optJSONArray("balances")?:JSONArray();for(i in 0 until rows.length()){val r=rows.getJSONObject(i);if(r.optString("level")==level)return r.optInt("credits")};return 0}
     private fun accessText(level:String):String {val left=Access.remaining(expiry(level),now())/1000;return if(left<=0)tr("Locked · ${balance(level)} credits","লক করা · ${balance(level)} ক্রেডিট") else tr("Open · %dh %02dm %02ds remaining","খোলা · বাকি %d ঘণ্টা %02d মিনিট %02d সেকেন্ড").format(left/3600,left/60%60,left%60)}
     private fun message(s:String){status?.text=s;Toast.makeText(this,s,Toast.LENGTH_LONG).show()}
-    private fun async(action:()->JSONObject,done:(JSONObject)->Unit){worker.execute{try{val value=action();runOnUiThread{if(!isDestroyed)done(value)}}catch(e:Exception){runOnUiThread{if(!isDestroyed)message(e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।"))}}}}
+    private fun async(action:()->JSONObject,done:(JSONObject)->Unit){worker.execute{try{val value=action();runOnUiThread{if(!isDestroyed)done(value)}}catch(e:Exception){runOnUiThread{if(!isDestroyed){if(e is ApiError && e.code==401){vault.clear();data=JSONObject();if(web!=null)closeReader();tab="Account";draw()};message(e.message?:tr("Connection failed. Try again.","সংযোগ হয়নি। আবার চেষ্টা করুন।"))}}}}}
     private fun refresh(after:(()->Unit)?=null){if(vault.read().isEmpty())return;async({api.request("/me")}){data=it;serverAt=Instant.parse(it.getString("serverTime")).toEpochMilli();elapsedAt=SystemClock.elapsedRealtime();if(web==null)draw();after?.invoke()}}
     private fun draw(){
         if(web!=null)return
@@ -165,7 +165,7 @@ class MainActivity : ComponentActivity() {
                 if(protected){return try{val (type,bytes)=api.content(path);WebResourceResponse(type.substringBefore(';'),null,200,"OK",mapOf("Cache-Control" to "no-store"),ByteArrayInputStream(bytes))}catch(_:Exception){denied(503)}}
                 return loader.shouldInterceptRequest(r.url)?:denied()
             }
-            override fun onPageFinished(v:WebView,url:String){v.evaluateJavascript("localStorage.setItem('nihongo-path',JSON.stringify({...JSON.parse(localStorage.getItem('nihongo-path')||'{}'),lang:'${if(bn)"bn" else "en"}'}));",null)}
+            override fun onPageFinished(v:WebView,url:String){v.evaluateJavascript("localStorage.setItem('nihongo-path',JSON.stringify({...JSON.parse(localStorage.getItem('nihongo-path')||'{}'),lang:'${if(bn)"bn" else "en"}'}));if(typeof state!=='undefined'){state.lang='${if(bn)"bn" else "en"}';persist();render();}",null)}
         }
         container.addView(view,LinearLayout.LayoutParams(-1,0,1f));setContentView(container);view.loadUrl("https://appassets.androidplatform.net/assets/reader/$route")
     }

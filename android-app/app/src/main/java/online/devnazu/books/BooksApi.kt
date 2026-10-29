@@ -6,6 +6,8 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import org.json.JSONObject
 import java.util.concurrent.TimeUnit
 
+class ApiError(val code: Int, message: String): IllegalStateException(message)
+
 class BooksApi(private val token: () -> String) {
     private val client=OkHttpClient.Builder().connectTimeout(15,TimeUnit.SECONDS).readTimeout(45,TimeUnit.SECONDS).followRedirects(false).build()
     val configured get()=BuildConfig.API_BASE.startsWith("https://")
@@ -15,7 +17,7 @@ class BooksApi(private val token: () -> String) {
         if(method!="GET")b.method(method,(data?:JSONObject()).toString().toRequestBody("application/json".toMediaType()))
         client.newCall(b.build()).execute().use { r ->
             val json=JSONObject(r.body?.string()?:"{}")
-            if(!r.isSuccessful)throw IllegalStateException(json.optString("error","Please try again later"))
+            if(!r.isSuccessful)throw ApiError(r.code,json.optString("error","Please try again later"))
             return json
         }
     }
