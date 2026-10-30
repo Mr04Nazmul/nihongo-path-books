@@ -1,0 +1,522 @@
+{
+  "total": 100,
+  "flagged": 5,
+  "unreviewed": 100,
+  "flags": {
+    "possible_negation_loss": 1,
+    "possible_digit_mismatch": 4
+  },
+  "items": [
+    {
+      "key": "N5:vocab:a123a147d7:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:a123a147d7:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9dd0572f05:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9dd0572f05:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:20a1278928:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:20a1278928:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:b55dd305d1:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:b55dd305d1:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:eec0f93991:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:eec0f93991:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:c34fdb6092:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:c34fdb6092:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:01a0587b49:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:01a0587b49:bn:examples.1",
+      "flags": [
+        "possible_negation_loss"
+      ],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:72c04ce067:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:72c04ce067:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:5538df2bce:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:5538df2bce:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2e2abd26ca:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2e2abd26ca:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d6b85573f3:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d6b85573f3:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:3c32cfb08a:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:3c32cfb08a:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:5e5300cf62:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:5e5300cf62:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e1634cb3e9:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e1634cb3e9:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9c1d724a61:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9c1d724a61:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:19f270c68f:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:19f270c68f:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:dd34250740:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:dd34250740:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2eb252da72:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2eb252da72:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:04e80a2ba1:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:04e80a2ba1:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2e1642b248:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:2e1642b248:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:442c4aa1ca:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:442c4aa1ca:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:47c1fdbe2f:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:47c1fdbe2f:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:05cf590971:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:05cf590971:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:8699b8bec2:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:8699b8bec2:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:1288e600be:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:1288e600be:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:402eb0d21f:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:402eb0d21f:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d890e45616:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d890e45616:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:c552e79d34:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:67126059f1:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:67126059f1:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9a7c962266:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:9a7c962266:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:f114f6f499:bn:examples.0",
+      "flags": [
+        "possible_digit_mismatch"
+      ],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:f114f6f499:bn:examples.1",
+      "flags": [
+        "possible_digit_mismatch"
+      ],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:cff3c57405:bn:examples.0",
+      "flags": [
+        "possible_digit_mismatch"
+      ],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:cff3c57405:bn:examples.1",
+      "flags": [
+        "possible_digit_mismatch"
+      ],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:c92dbe626a:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:c92dbe626a:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d5d8c608aa:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:d5d8c608aa:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:a9191729e3:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:a9191729e3:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e9e492c68a:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e9e492c68a:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:be9b8bcb5e:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:be9b8bcb5e:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:0020b9ee4e:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:0020b9ee4e:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:491cfa69be:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:491cfa69be:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:1f4bb6e503:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:1f4bb6e503:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:bd3a2ad2ad:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:bd3a2ad2ad:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:a2694d259e:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:a2694d259e:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:f586d7d023:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:f586d7d023:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:61994485cb:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:61994485cb:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:4a11eb5fb4:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:4a11eb5fb4:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:6313cc9cb5:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:6313cc9cb5:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:3793173687:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:3793173687:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:7a27eadef1:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:7a27eadef1:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e1978f90df:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:e1978f90df:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:0a65b39cf7:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:0a65b39cf7:bn:examples.1",
+      "flags": [],
+      "status": "unreviewed"
+    },
+    {
+      "key": "N5:vocab:eb1c9a5df9:bn:examples.0",
+      "flags": [],
+      "status": "unreviewed"
+    }
+  ],
+  "note": "No flags does not establish semantic accuracy."
+}
