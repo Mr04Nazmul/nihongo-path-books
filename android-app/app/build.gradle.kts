@@ -8,8 +8,8 @@ android {
         applicationId = "online.devnazu.books"
         minSdk = 23
         targetSdk = 36
-        versionCode = 11
-        versionName = if (liveAds) "1.5.2" else "1.5.2-test"
+        versionCode = 12
+        versionName = if (liveAds) "1.5.3" else "1.5.3-test"
         buildConfigField("String", "API_BASE", "\"${setting("BOOKS_API_URL", "https://vjygltfnrmyghlwyjtwu.supabase.co/functions/v1/nihongo-books-v1")}\"")
         buildConfigField("boolean", "LIVE_ADS", liveAds.toString())
         buildConfigField("String", "REWARDED_ID", "\"${if (liveAds) "ca-app-pub-3728341118830943/5055001578" else "ca-app-pub-3940256099942544/5224354917"}\"")

@@ -74,12 +74,14 @@ jobs:
         if: ${{ env.RELEASE_SIGNING_KEY == '' }}
         env:
           RELEASE_SIGNING_KEY: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          BOOKS_LIVE_ADS: 'true'
         run: ./gradlew bundleRelease
         working-directory: android-app
       - uses: actions/upload-artifact@v4
         if: ${{ env.RELEASE_SIGNING_KEY == '' }}
         env:
           RELEASE_SIGNING_KEY: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          BOOKS_LIVE_ADS: 'true'
         with:
           name: Nihongo-Path-Books-unsigned-AAB
           path: android-app/app/build/outputs/bundle/release/*.aab
@@ -94,6 +96,7 @@ jobs:
       - name: Build signed release bundle
         if: ${{ env.ANDROID_KEYSTORE_PATH != '' }}
         env:
+          BOOKS_LIVE_ADS: 'true'
           ANDROID_STORE_PASSWORD: ${{ secrets.ANDROID_STORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
@@ -110,9 +113,9 @@ jobs:
         run: |
           ./gradlew assembleDebug
           mkdir -p build/live-delivery
-          cp app/build/outputs/apk/debug/app-debug.apk build/live-delivery/Nihongo-Path-Books-1.5.2.apk
-          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify build/live-delivery/Nihongo-Path-Books-1.5.2.apk
-          "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging build/live-delivery/Nihongo-Path-Books-1.5.2.apk | head -1
+          cp app/build/outputs/apk/debug/app-debug.apk build/live-delivery/Nihongo-Path-Books-1.5.3.apk
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify build/live-delivery/Nihongo-Path-Books-1.5.3.apk
+          "$ANDROID_HOME/build-tools/35.0.0/aapt" dump badging build/live-delivery/Nihongo-Path-Books-1.5.3.apk | head -1
         working-directory: android-app
       - uses: actions/upload-artifact@v4
         with:
