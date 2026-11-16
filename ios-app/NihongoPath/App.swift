@@ -51,11 +51,11 @@ struct LibraryView: View {
                     else {
                         ForEach(["vocab", "grammar", "kanji"], id: \.self) { subject in
                             NavigationLink {
-                                ReaderView(level: level, subject: subject, token: session.token, full: session.unlocked(level), studyState: session.studyState)
+                                ReaderView(level: level, subject: subject, token: session.token, full: session.unlocked(level), studyState: session.studyState, onProgress: { session.saveLocalProgress($0) })
                                     .navigationTitle(title(subject)).navigationBarTitleDisplayMode(.inline)
                             } label: {
                                 Label(title(subject), systemImage: subject == "kanji" ? "pencil.tip" : "book")
-                            }
+                            }.accessibilityIdentifier("reader-\(level)-\(subject)")
                         }
                         Text(session.unlocked(level) ? "পুরো বই খোলা আছে" : "বিনামূল্যের পাঠ • পূর্ণ বইয়ের জন্য অ্যাকাউন্টের access প্রয়োজন")
                             .font(.caption).foregroundStyle(.secondary)

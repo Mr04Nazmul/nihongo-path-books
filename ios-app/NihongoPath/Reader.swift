@@ -9,8 +9,9 @@ struct ReaderView: UIViewControllerRepresentable {
     let token: String
     let full: Bool
     let studyState: [String: Any]
+    let onProgress: ([String: Any]) -> Void
     func makeUIViewController(context: Context) -> ReaderController {
-        ReaderController(level: level, subject: subject, token: token, full: full, studyState: studyState)
+        ReaderController(level: level, subject: subject, token: token, full: full, studyState: studyState, onProgress: onProgress)
     }
     func updateUIViewController(_ controller: ReaderController, context: Context) {}
     static func dismantleUIViewController(_ controller: ReaderController, coordinator: ()) { controller.close() }
@@ -45,11 +46,13 @@ final class ReaderController: UIViewController, WKScriptMessageHandlerWithReply,
     let level: String, subject: String, token: String
     let full: Bool
     let studyState: [String: Any]
+    let onProgress: ([String: Any]) -> Void
     private let root = Bundle.main.resourceURL!.appendingPathComponent("reader", isDirectory: true)
     private var web: WKWebView!
     private let speech = AVSpeechSynthesizer()
     private var work: [UUID: Task<Void, Never>] = [:]
-    init(level: String, subject: String, token: String, full: Bool, studyState: [String: Any]) {
+    init(level: String, subject: String, token: String, full: Bool, studyState: [String: Any], onProgress: @escaping ([String: Any]) -> Void) {
+        self.onProgress = onProgress
         self.studyState = studyState
         self.level = level; self.subject = subject; self.token = token; self.full = full && !token.isEmpty && level != "N1"
         super.init(nibName: nil, bundle: nil)
@@ -132,13 +135,14 @@ final class ReaderController: UIViewController, WKScriptMessageHandlerWithReply,
             }
         case "stopSpeech": speech.stopSpeaking(at: .immediate)
         case "saveProgress":
-            if !token.isEmpty, let raw = args.first, raw.utf8.count < 180000,
+            if let raw = args.first, raw.utf8.count < 180000,
                let data = raw.data(using: .utf8), let state = try? JSONSerialization.jsonObject(with: data) as? [String: Any] {
-                Task { @MainActor [weak self] in
+                onProgress(state)
+                if !token.isEmpty { Task { @MainActor [weak self] in
                     guard let self else { return }
                     do { _ = try await API.request("study-state", method: "PUT", token: self.token, body: ["state": state]) }
                     catch { self.show("অগ্রগতি সেভ হয়নি। সংযোগ পরীক্ষা করুন।") }
-                }
+                } }
             }
         case "unlock": show("iOS rewarded বিজ্ঞাপন এখনো সক্রিয় হয়নি। বৈধ unlock থাকলে অ্যাকাউন্ট ট্যাব থেকে access রিফ্রেশ করুন।")
         case "level": show("অন্য লেভেল খুলতে বইয়ের মূল তালিকায় ফিরে যান।")

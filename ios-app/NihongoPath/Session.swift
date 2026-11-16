@@ -44,11 +44,20 @@ enum Vault {
 @MainActor final class Session: ObservableObject {
     @Published var token = Vault.read()
     @Published var name = ""
-    @Published var studyState: [String: Any] = [:]
+    @Published var studyState: [String: Any] = {
+        guard Vault.read().isEmpty, let data = UserDefaults.standard.data(forKey: "guestStudyState") else { return [:] }
+        return (try? JSONSerialization.jsonObject(with: data)) as? [String: Any] ?? [:]
+    }()
     @Published var message = ""
     private let google = GoogleSignIn()
     @Published private var expiries: [String: Date] = [:]
     func unlocked(_ level: String) -> Bool { (expiries[level] ?? .distantPast) > Date() }
+    func saveLocalProgress(_ state: [String: Any]) {
+        studyState = state
+        if token.isEmpty, let data = try? JSONSerialization.data(withJSONObject: state) {
+            UserDefaults.standard.set(data, forKey: "guestStudyState")
+        }
+    }
     func apply(_ object: [String: Any]) {
         name = (object["user"] as? [String: Any])?["name"] as? String ?? "Nihongo Path"
         studyState = object["studyState"] as? [String: Any] ?? [:]

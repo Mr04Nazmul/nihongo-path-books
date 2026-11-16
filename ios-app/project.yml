@@ -36,8 +36,20 @@ targets:
         buildPhase: resources
       - path: NihongoPath/Resources/Assets.xcassets
         buildPhase: resources
+  NihongoPathUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [NihongoPathUITests]
+    dependencies:
+      - target: NihongoPath
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
 schemes:
   NihongoPath:
     build:
       targets:
         NihongoPath: all
+    test:
+      targets:
+        - NihongoPathUITests
