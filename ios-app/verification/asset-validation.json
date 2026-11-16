@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "level": "N2",
+      "vocab_preview": 5,
+      "grammar_preview": 5,
+      "kanji_animations": 10
+    },
+    {
+      "level": "N3",
+      "vocab_preview": 5,
+      "grammar_preview": 5,
+      "kanji_animations": 10
+    },
+    {
+      "level": "N4",
+      "vocab_preview": 5,
+      "grammar_preview": 5,
+      "kanji_animations": 10
+    },
+    {
+      "level": "N5",
+      "vocab_preview": 5,
+      "grammar_preview": 5,
+      "kanji_animations": 10
+    }
+  ],
+  "native_compile": "not_run_no_macos",
+  "browser_smoke": "blocked_browser_process_socket_restriction"
+}

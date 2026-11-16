@@ -1,0 +1,43 @@
+name: NihongoPath
+options:
+  bundleIdPrefix: online.devnazu.books
+  deploymentTarget:
+    iOS: '16.0'
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+    TARGETED_DEVICE_FAMILY: '1,2'
+    MARKETING_VERSION: '1.0.0'
+    CURRENT_PROJECT_VERSION: '1'
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: Nihongo Path Books
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+    INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+targets:
+  NihongoPath:
+    type: application
+    platform: iOS
+    info:
+      path: NihongoPath/Info.plist
+      properties:
+        CFBundleDisplayName: Nihongo Path Books
+        UILaunchScreen: {}
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleURLTypes:
+          - CFBundleURLName: online.devnazu.books.ios.auth
+            CFBundleURLSchemes: [nihongopathbooks]
+    sources:
+      - path: NihongoPath
+        excludes: [Resources]
+      - path: NihongoPath/Resources/reader
+        type: folder
+        buildPhase: resources
+      - path: NihongoPath/Resources/Assets.xcassets
+        buildPhase: resources
+schemes:
+  NihongoPath:
+    build:
+      targets:
+        NihongoPath: all
