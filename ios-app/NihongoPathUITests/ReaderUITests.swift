@@ -8,8 +8,10 @@ final class ReaderUITests: XCTestCase {
         XCTAssertTrue(link.waitForExistence(timeout: 15), app.debugDescription)
         link.tap()
         XCTAssertTrue(app.webViews.firstMatch.waitForExistence(timeout: 15))
-        let word = app.webViews.staticTexts["私"].firstMatch
+        let word = app.webViews.buttons["私 বিস্তারিত"].firstMatch
         XCTAssertTrue(word.waitForExistence(timeout: 20), app.debugDescription)
+        word.tap()
+        XCTAssertTrue(app.webViews.staticTexts["আমি"].firstMatch.waitForExistence(timeout: 10), app.debugDescription)
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = "N5-Vocabulary-iPhone"; attachment.lifetime = .keepAlways; add(attachment)
     }
