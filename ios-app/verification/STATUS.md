@@ -1,11 +1,16 @@
 # Verification status — 2026-11-16
 
-- Passed: 10 JavaScript syntax checks covering standalone and inline reader scripts.
-- Passed: all bundled JSON parses, privacy manifest XML/plist parse and project YAML parse.
-- Passed: N2–N5 lesson previews contain vocabulary, grammar and kanji; each level's first ten kanji has a bundled parseable stroke JSON (40 total).
-- Not run: Swift/iOS compilation. Xcode/macOS is unavailable locally. GitHub upload required to run the added macOS workflow was rejected by automatic approval review because the payload includes Drive-derived source going to a public repository.
-- Not run: native iPhone/simulator runtime, login/Google sign-in, protected server content, unlock expiry, voice and progress synchronization.
-- Browser smoke attempted but did not run: Chromium launch blocked by process socket restrictions. No successful browser or screenshot claim is made.
-- No IPA, Apple signing, Apple submission, Uptodown submission or publication completed.
+Native validation runs on GitHub macOS, using Xcode 26 or later.
 
-The source is an initial port. Rewarded ads, listening/mock tests, referral UI, streak and notifications remain outside this implemented version. Release gates are in README.md.
+- Passed: iPhone simulator compilation.
+- Passed: native UI test opens N5 vocabulary through the real WKWebView/native resource bridge and opens its Bengali detail.
+- Passed: native UI test opens N5 kanji and handwriting board through the real native bridge.
+- Passed previously: 10 JavaScript syntax checks, all preview JSON parses, project YAML/privacy manifest parses, 40 bundled stroke JSON checks across N2–N5.
+- The unsigned iPhone archive is built by the same workflow after the UI tests pass.
+
+Validated source commit: 99401e7f747c6c485cc0611f43b59aba953d23fd.
+Build/test run: https://github.com/Mr04Nazmul/nihongo-path-books/actions/runs/43885381856
+
+Not validated: physical iPhone installation, email/Google sign-in against a live user account, server unlock expiry and cloud progress synchronization. Apple signing access has not been supplied. No signed IPA, Apple submission, Uptodown submission or app publication is completed.
+
+Rewarded ads, listening/mock tests, referral UI, streak and notifications are not implemented in this initial iOS port. These remain release scope, not completed features.

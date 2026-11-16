@@ -11,13 +11,17 @@ Native SwiftUI iPhone/iPad client, iOS 16+. Reader UI and licensed previews are 
 - Existing server unlocks and protected content, free offline previews, progress upload/restoration, logout and app-data deletion.
 - Native resource bridge keeps bearer tokens out of JavaScript, blocks other levels/external fetches, confines local reads to the reader bundle.
 
+## Verified native build
+
+Simulator compilation and both native reader UI smoke tests passed on macOS with Xcode 26+. The workflow produces an unsigned iPhone archive after tests pass. See [verification/STATUS.md](verification/STATUS.md) for the exact validated source commit and limits. Signing and publication are not complete.
+
 ## Build
 
 On macOS with Xcode: install XcodeGen (`brew install xcodegen`), run `xcodegen generate`, open `NihongoPath.xcodeproj`, select the NihongoPath scheme. Choose an Apple development team before installing to a phone. The repository workflow compiles simulator and unsigned iPhone archive. An unsigned archive is not an installable IPA.
 
 ## Remaining release gates
 
-1. Compile and run the iOS build in simulator and on an iPhone. Verify login, Google callback, server unlock expiry, reading, stroke playback, drawing, speech, settings and account data deletion against the live service. Linux checks do not certify these flows.
+1. Native compilation and N5 reader UI smoke tests passed. Run on a physical iPhone and verify login, Google callback, server unlock expiry, drawing interactions, speech, settings and account data deletion against the live service before distribution.
 2. Apple Developer account, signing certificate/profile and distribution method. Never commit signing secrets. No membership purchase is authorized by this implementation.
 3. Production iOS AdMob app/unit and approved server-side verification allowlist. No Android ad unit is reused, no simulated ad earns credits. The current iOS app explicitly shows that rewarded ads are pending.
 4. For App Store submission with Google sign-in, review Apple's equivalent-login requirements and implement Sign in with Apple unless a documented exception applies. App-data deletion currently preserves the shared Supabase identity, matching Android backend behavior; review account-deletion compliance before App Store submission.
