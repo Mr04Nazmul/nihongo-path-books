@@ -1,0 +1,6 @@
+build/
+*.xcuserstate
+xcuserdata/
+NihongoPath.xcodeproj/
+*.p12
+*.mobileprovision

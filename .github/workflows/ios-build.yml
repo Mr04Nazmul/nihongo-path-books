@@ -1,0 +1,62 @@
+name: iOS build
+on:
+  pull_request:
+    paths: ['ios-app/**', '.github/workflows/ios-build.yml']
+  workflow_dispatch:
+concurrency:
+  group: ios-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select supported Xcode
+        run: |
+          python3 - <<'PYCODE' >> "$GITHUB_ENV"
+          import glob, re
+          candidates = []
+          for app in glob.glob('/Applications/Xcode_*.app'):
+              match = re.fullmatch(r'/Applications/Xcode_([0-9]+(?:\.[0-9]+)*)\.app', app)
+              if match and int(match.group(1).split('.')[0]) >= 26:
+                  candidates.append((tuple(map(int, match.group(1).split('.'))), app))
+          assert candidates, 'Xcode 26+ required for current Apple submission SDK requirements'
+          print('DEVELOPER_DIR=' + max(candidates)[1] + '/Contents/Developer')
+          PYCODE
+      - name: Install project generator
+        run: brew install xcodegen
+      - name: Generate project
+        working-directory: ios-app
+        run: xcodegen generate
+      - name: Build iPhone simulator app
+        working-directory: ios-app
+        run: xcodebuild -project NihongoPath.xcodeproj -scheme NihongoPath -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
+      - name: Select iPhone simulator
+        run: |
+          xcrun simctl list devices available -j > /tmp/devices.json
+          python3 - <<'PYCODE' >> "$GITHUB_ENV"
+          import json
+          data = json.load(open('/tmp/devices.json'))
+          phones = [d for runtime, devices in data['devices'].items() if 'iOS' in runtime for d in devices if 'iPhone' in d['name']]
+          assert phones, 'No available iPhone simulator'
+          print('IOS_SIMULATOR_ID=' + phones[0]['udid'])
+          PYCODE
+      - name: Run native iPhone reader tests
+        timeout-minutes: 12
+        working-directory: ios-app
+        run: xcodebuild -project NihongoPath.xcodeproj -scheme NihongoPath -configuration Debug -destination "platform=iOS Simulator,id=$IOS_SIMULATOR_ID" -derivedDataPath build -resultBundlePath build/ReaderTests.xcresult CODE_SIGNING_ALLOWED=NO test
+      - name: Build unsigned iPhone archive
+        working-directory: ios-app
+        run: xcodebuild -project NihongoPath.xcodeproj -scheme NihongoPath -configuration Release -destination 'generic/platform=iOS' -archivePath build/NihongoPath.xcarchive CODE_SIGNING_ALLOWED=NO archive
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NihongoPath-iOS-unsigned
+          path: ios-app/build/NihongoPath.xcarchive
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: NihongoPath-iOS-test-results
+          path: ios-app/build/ReaderTests.xcresult

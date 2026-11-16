@@ -1,0 +1,161 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kanji Animation · Nihongo Path</title><style>
+@font-face{font-family:book;src:url(fonts/NotoSansBengali.woff2)}:root{--bg:#070d14;--surface:#131c26;--ink:#f8efe7;--muted:#aeb9c6;--line:#3c4a5a;--accent:#ad3c58}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px book,system-ui,sans-serif}main{max-width:680px;margin:auto;padding:18px 18px 94px}h1{font:700 29px Georgia,serif;margin:14px 0 5px}p{line-height:1.6}.brand{font:700 16px Georgia,serif}.muted{color:var(--muted);font-size:13px}input,button,select{font:inherit;color:inherit}input{width:100%;padding:14px;border:1px solid var(--line);border-radius:13px;background:var(--surface)}button{cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px}.levels{display:flex;gap:7px;margin:15px 0}.levels button{flex:1;padding:11px 0}.levels .active,.primary{background:var(--accent)!important;color:white!important}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}.tile{min-height:87px;padding:10px 3px}.tile strong{display:block;font:36px serif}.tile small{font-size:11px;display:block;overflow-wrap:anywhere;margin-top:7px}.tile.selected{border:2px solid var(--accent);box-shadow:0 0 0 1px var(--accent)}.panel{padding:16px;border:1px solid var(--line);border-radius:16px;margin:14px 0;background:var(--surface)}.character{font:60px serif;margin:0}.readings{font-size:13px;line-height:1.9}.animation svg{background:var(--surface)!important;border-color:var(--line)!important}.animation h3{font-size:15px}.animation button{font-size:12px!important;background:var(--surface);color:var(--ink)}.animation select{background:var(--surface);padding:9px;border:1px solid var(--line);border-radius:10px}.unlock{background:var(--accent);color:white;width:100%;border:0}.bottom{position:fixed;bottom:0;left:0;right:0;display:flex;gap:2px;border-top:1px solid var(--line);background:var(--bg);padding:10px 4px max(10px,env(safe-area-inset-bottom));z-index:2}.bottom button{flex:1;background:transparent;border:0;padding:8px 0;font-size:11px}.bottom .active{color:#ffa8be}.empty{padding:28px 10px;color:var(--muted);text-align:center}#error{color:#ffa8be}button:focus-visible,input:focus-visible{outline:2px solid #ffa8be;outline-offset:3px}
+
+#detail:not([hidden]){display:grid;grid-template-columns:minmax(85px,.8fr) minmax(0,1.6fr);gap:12px;align-items:start;padding:13px}.definition{min-width:0}.definition p{margin:8px 0;font-size:14px}.character{font-size:54px}.readings{font-size:11px;overflow-wrap:anywhere;white-space:pre-line}.animation{min-width:0}.animation h3{font-size:11px;margin:0 0 8px}.animation p{font-size:11px;margin:7px 0}.animation button{padding:7px!important;font-size:10px!important}.animation select{font-size:11px;padding:6px}.animation>div{gap:5px!important}.tile{min-height:73px}.tile strong{font-size:31px}.panel{border-radius:13px}#speak{font-size:10px;padding:7px;margin-top:10px}.grid{gap:7px}.brand{padding:4px 0 8px;border-bottom:1px solid var(--line)}
+main{padding:8px 10px 20px}.subject-heading{display:flex;align-items:center;gap:12px}.subject-heading .subject-art{width:55px;height:65px}.subject-heading h1{font-size:22px;margin:0}.subject-heading p{font-size:11px;margin:5px 0}#search{padding:10px 12px;font-size:12px}.panel p{font-size:12px}#access{font-size:11px;margin:7px 0}</style><link rel="stylesheet" href="sakura.css"><script>window.readerErrors=[];window.onerror=function(message,source,line){window.readerErrors.push(String(message)+" @"+line);};</script><script src="compat.js"></script><script src="appearance.js"></script><script src="bangla-clean.js"></script><link rel="stylesheet" href="practice.css"></head><body><main><header class="subject-heading"><span class="subject-art kanji-art" aria-hidden="true"></span><div><h1>কানজি অ্যানিমেশন</h1><p class="muted">লেখার ক্রম ও উচ্চারণ শিখুন</p></div></header><input id="search" type="search" placeholder="যেমন: 山, やま, পাহাড়" autocomplete="off"><div id="levels" class="levels" aria-label="JLPT level"></div><p id="access" class="muted"></p><p id="error" role="alert"></p><div id="list" class="grid"></div><div id="empty" class="empty" hidden>কোনো কানজি পাওয়া যায়নি।</div><div id="detail" class="panel" hidden><div class="definition"><h2 id="character" class="character" lang="ja"></h2><p id="meaning"></p><div id="readings" class="readings"></div><button id="speak" aria-label="উচ্চারণ শুনুন">♬ উচ্চারণ শুনুন</button></div><div id="animation" class="animation"></div></div><div id="locked" class="panel" hidden><p>প্রতি লেভেলের প্রথম ১০টি কানজি ফ্রি। বাকি কানজি দেখতে রিওয়ার্ড সেন্টার থেকে এই লেভেল আনলক করুন।</p><button id="unlock" class="unlock">রিওয়ার্ড দিয়ে খুলুন →</button></div></main><nav class="bottom" aria-label="Navigation"><button data-nav="Home">⌂<br>Home</button><button data-nav="Books">▣<br>Books</button><button class="active" aria-current="page">字<br>Kanji</button><button data-nav="Account">♙<br>Profile</button></nav><script src="strokes.js"></script><script>'use strict';
+
+function _toConsumableArray(r) { return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread(); }
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _iterableToArray(r) { if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r); }
+function _arrayWithoutHoles(r) { if (Array.isArray(r)) return _arrayLikeToArray(r); }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+var params = new URLSearchParams(location.search),
+  level = params.get('level') || 'N5';
+var preview = true,
+  entries = [],
+  selected = null,
+  dispose = function dispose() {},
+  expired = false;
+var $ = function $(s) {
+    return document.querySelector(s);
+  },
+  allowed = ['N5', 'N4', 'N3', 'N2', 'N1'];
+try {
+  var _window$StudyNative;
+  var info = JSON.parse(((_window$StudyNative = window.StudyNative) === null || _window$StudyNative === void 0 ? void 0 : _window$StudyNative.readerAccess()) || '{}');
+  preview = info.preview !== false;
+  if (!preview) {
+    var remaining = Number(info.remainingMs);
+    if (!Number.isFinite(remaining) || remaining <= 0) expired = true;else setTimeout(expire, Math.min(remaining, 2147483647));
+  }
+} catch (_unused) {
+  preview = true;
+}
+function clearSelection() {
+  dispose();
+  dispose = function dispose() {};
+  selected = null;
+  $('#animation').textContent = '';
+  $('#character').textContent = '';
+  $('#meaning').textContent = '';
+  $('#readings').textContent = '';
+  $('#detail').hidden = true;
+}
+function expire() {
+  expired = true;
+  entries = [];
+  clearSelection();
+  $('#list').textContent = '';
+  $('#empty').hidden = true;
+  $('#access').textContent = 'পড়ার সময় শেষ হয়েছে। আবার রিওয়ার্ড দিয়ে খুলুন।';
+  $('#locked').hidden = false;
+}
+function show(entry) {
+  if (expired || !entries.includes(entry)) return;
+  clearSelection();
+  selected = entry;
+  $('#character').textContent = entry.character;
+  $('#meaning').textContent = entry.meaning;
+  $('#readings').textContent = '音読み  ' + (entry.onyomi || []).join('・') + '　訓読み  ' + (entry.kunyomi || []).join('・');
+  $('#detail').hidden = false;
+  dispose = NPStrokes.mount($('#animation'), entry.character, level);
+  document.querySelectorAll('[data-character]').forEach(function (b) {
+    return b.classList.toggle('selected', b.dataset.character === entry.character);
+  });
+}
+function render() {
+  var _selected;
+  if (expired) return;
+  var query = $('#search').value.trim().toLowerCase(),
+    rows = entries.filter(function (e) {
+      return [e.character, e.meaning].concat(_toConsumableArray(e.onyomi || []), _toConsumableArray(e.kunyomi || [])).join(' ').toLowerCase().includes(query);
+    });
+  var previous = (_selected = selected) === null || _selected === void 0 ? void 0 : _selected.character;
+  clearSelection();
+  $('#list').textContent = '';
+  $('#empty').hidden = rows.length !== 0;
+  rows.forEach(function (entry) {
+    var _entry$kunyomi, _entry$onyomi;
+    var b = document.createElement('button');
+    b.className = 'tile';
+    b.dataset.character = entry.character;
+    var c = document.createElement('strong');
+    c.lang = 'ja';
+    c.textContent = entry.character;
+    var r = document.createElement('small');
+    r.lang = 'ja';
+    r.textContent = ((_entry$kunyomi = entry.kunyomi) === null || _entry$kunyomi === void 0 ? void 0 : _entry$kunyomi[0]) || ((_entry$onyomi = entry.onyomi) === null || _entry$onyomi === void 0 ? void 0 : _entry$onyomi[0]) || '';
+    b.appendChild(c);
+    b.appendChild(r);
+    b.onclick = function () {
+      return show(entry);
+    };
+    $('#list').appendChild(b);
+  });
+  if (rows.length) show(rows.find(function (e) {
+    return e.character === previous;
+  }) || rows[0]);
+}
+allowed.forEach(function (n) {
+  var b = document.createElement('button');
+  b.textContent = n;
+  b.classList.toggle('active', n === level);
+  b.setAttribute('aria-pressed', String(n === level));
+  b.onclick = function () {
+    if (n !== level) {
+      var _window$StudyNative2;
+      clearSelection();
+      entries = [];
+      $('#list').textContent = '';
+      (_window$StudyNative2 = window.StudyNative) === null || _window$StudyNative2 === void 0 || _window$StudyNative2.selectKanjiLevel(n);
+    }
+  };
+  $('#levels').appendChild(b);
+});
+$('#search').oninput = render;
+$('#speak').onclick = function () {
+  var _window$StudyNative3, _selected$kunyomi, _selected$onyomi;
+  if (selected && !expired) (_window$StudyNative3 = window.StudyNative) === null || _window$StudyNative3 === void 0 || _window$StudyNative3.speak(((_selected$kunyomi = selected.kunyomi) === null || _selected$kunyomi === void 0 ? void 0 : _selected$kunyomi[0]) || ((_selected$onyomi = selected.onyomi) === null || _selected$onyomi === void 0 ? void 0 : _selected$onyomi[0]) || selected.character);
+};
+$('#unlock').onclick = function () {
+  var _window$StudyNative4;
+  return (_window$StudyNative4 = window.StudyNative) === null || _window$StudyNative4 === void 0 ? void 0 : _window$StudyNative4.unlock();
+};
+document.querySelectorAll('[data-nav]').forEach(function (b) {
+  return b.onclick = function () {
+    var _window$StudyNative5;
+    clearSelection();
+    (_window$StudyNative5 = window.StudyNative) === null || _window$StudyNative5 === void 0 || _window$StudyNative5.navigate(b.dataset.nav);
+  };
+});
+window.addEventListener('pagehide', clearSelection);
+document.addEventListener('visibilitychange', function () {
+  if (document.hidden) clearSelection();else render();
+});
+if (!allowed.includes(level)) {
+  $('#error').textContent = 'এই লেভেল পাওয়া যায়নি।';
+} else if (expired) {
+  expire();
+} else {
+  fetch('kanji/' + level.toLowerCase() + '.json', {
+    cache: 'no-store'
+  }).then(function (r) {
+    if (!r.ok) throw Error('কানজি খোলা যায়নি। রিওয়ার্ডের মেয়াদ ও ইন্টারনেট সংযোগ পরীক্ষা করুন।');
+    return r.json();
+  }).then(function (data) {
+    if (expired) return;
+    if (data.level !== level || !Array.isArray(data.entries)) throw Error('কানজির তথ্য সঠিক নয়।');
+    entries = preview ? data.entries.slice(0, 10) : data.entries;
+    $('#access').textContent = preview ? 'প্রথম ১০টি ফ্রি · ' + level : 'রিওয়ার্ডে আনলক করা · ' + level;
+    $('#locked').hidden = !preview;
+    render();
+    if (window.StudyNative && window.StudyNative.recordReading) window.StudyNative.recordReading();
+  }).catch(function (e) {
+    entries = [];
+    clearSelection();
+    $('#list').textContent = '';
+    $('#error').textContent = e.message;
+    $('#locked').hidden = false;
+  });
+}</script><script src="practice.js"></script></body></html>
