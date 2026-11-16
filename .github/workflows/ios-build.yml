@@ -1,11 +1,10 @@
 name: iOS build
 on:
-  push:
-    branches: ['ios/**']
+  pull_request:
     paths: ['ios-app/**', '.github/workflows/ios-build.yml']
   workflow_dispatch:
 concurrency:
-  group: ios-${{ github.ref }}
+  group: ios-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 permissions:
   contents: read
